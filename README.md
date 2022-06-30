@@ -31,7 +31,7 @@ Pentru această etapă vei folosi programul `"dataset.py"`. Pentru a compila sta
 
 Spre exemplu:
 
-`python dataset.py data/2019 data/2019.txt meta/meta-edu-initial.txt`
+`python dataset.py data/bac/2019 data/bac/2019.txt meta/meta-edu-initial.txt`
 
 # Actualizare site (doar pentru admin)
 
