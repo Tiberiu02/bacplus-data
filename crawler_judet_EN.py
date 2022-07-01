@@ -165,8 +165,15 @@ def main(argv):
 
   for i in range(1, num_pages + 1):
     data = extract_data( i )
-    judet = coduri_judete[data[:2]]
     output.write( data )
+
+    if data[:2] in coduri_judete.keys():
+      judet = coduri_judete[data[:2]]
+    elif data[0] in coduri_judete.keys()
+      judet = coduri_judete[data[0]]
+    else:
+      judet = '??'
+
     print("Loaded page %d/%d (%s)   " % (i, num_pages, judet), end = ("\n" if verbose else "\r"))
     if i < num_pages:
       next_page()
