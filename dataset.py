@@ -199,7 +199,7 @@ def calc_top(crit, top_output, info_output, data):
 		if "limba_materna" in e:
 			adauga_nota(t, e["limba_materna"], nota(e, "lm_final"))
 			note.append(nota(e, "lm_final"))
-		adauga_nota(t, "GENERAL", sum(note) / len(note) if e["rezultat_final"].upper() in ["REUSIT", "PROMOVAT", "RESPINS"] else 0, e["rezultat_final"].upper() in ["REUSIT", "PROMOVAT"])
+		adauga_nota(t, "GENERAL", sum(note) / len(note) if e["rezultat_final"].upper() in ["REUSIT", "RESPINS", "PROMOVAT", "NEPROMOVAT"] else 0, e["rezultat_final"].upper() in ["REUSIT", "PROMOVAT"])
 
 		adauga_candidat(t, e, "specializari", "specializare")
 		adauga_candidat(t, e, "limba_moderna", "limba_straina")
