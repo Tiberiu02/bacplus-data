@@ -16,6 +16,12 @@ js_script_next = open("js/next.js", "r").read()
 js_script_last = open("js/last.js", "r").read()
 js_script_first = open("js/first.js", "r").read()
 
+coduri_judete = {}
+for line in open("meta/coduri-judete.txt", "r").read().split('\n'):
+  v = line.split(',')
+  if len(v) == 2:
+    coduri_judete[v[0]] = v[1]
+
 def init_browser():
   global browser
   browser = webdriver.Firefox()
@@ -119,7 +125,7 @@ def get_num_pages():
   return retval
 
 def usage():
-  print("Usage: python %s [-h|--help] [-v] [--judet <judet>] -o|--output <output_file> <download_url>" % (sys.argv[0]))
+  print("Usage: python %s [-h|--help] [-v] -o|--output <output_file> <download_url>" % (sys.argv[0]))
   if 'browser' in globals():
     global browser
     browser.close()
@@ -133,7 +139,7 @@ def main(argv):
   verbose = False
 
   try:
-    opts, args = getopt.getopt( argv[1:], "hvo:", ["help", "output=", "judet="] )
+    opts, args = getopt.getopt( argv[1:], "hvo:", ["help", "output="] )
   except getopt.GetoptError:
     usage()
 
@@ -148,8 +154,6 @@ def main(argv):
       verbose = True
     elif opt in ('-o', '--output'):
       fout = arg
-    elif opt == '--judet':
-      extra = ' (' + arg + ')'
 
   init_browser()
   browser.get( url )
@@ -160,8 +164,10 @@ def main(argv):
   output = open(fout, "a", encoding="utf-8")
 
   for i in range(1, num_pages + 1):
-    output.write(extract_data(i))
-    print("Loaded page %d/%d%s" % (i, num_pages, extra + 10 * " "), end = ("\n" if verbose else "\r"))
+    data = extract_data( i )
+    judet = coduri_judete[data[:2]]
+    output.write( data )
+    print("Loaded page %d/%d (%s)   " % (i, num_pages, judet), end = ("\n" if verbose else "\r"))
     if i < num_pages:
       next_page()
       adjust_page(i + 1)
