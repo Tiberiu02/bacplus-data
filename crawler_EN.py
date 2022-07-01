@@ -1,11 +1,16 @@
 from math import inf
 import sys
+import os
 from selenium import webdriver
 import time
 
+NUM_ROWS = 20
+
 num_pages, output = None, None
 
-js_script_extract = open("js/extract.js", "r").read()
+os.environ['PATH'] = os.environ['PATH'] + ":."
+
+js_script_extract = open("js/extract_EN.js", "r").read()
 js_script_next = open("js/next.js", "r").read()
 
 browser = webdriver.Firefox()
@@ -60,7 +65,7 @@ def extract_data(pid):
   while fails == 5:
     data = browser.execute_script(js_script_extract)
     fails = 0
-    while fails < 5 and pid < num_pages and data != None and data.count('\n') != 10:
+    while fails < 5 and pid < num_pages and data != None and data.count('\n') < NUM_ROWS:
       print('Data not fetched correctly, waiting and retrying')
       print(data)
       fails += 1
@@ -78,7 +83,7 @@ def page_id():
   pid = None
   attempts = 0
   while attempts < 10 and type(pid) != int:
-    pid = browser.execute_script("let x = Array.from(document.getElementsByClassName('td2')).concat(Array.from(document.getElementsByClassName('tdBac')))[0]; if (x) return Math.floor(parseInt(x.innerHTML.replace(/\D+/g,'')) / 10) + 1")
+    pid = browser.execute_script("let x = Array.from(document.getElementsByClassName('tdnr'))[0]; if(x) return Math.floor(parseInt(x.innerHTML.replace(/\D+/g,'')) / " + str(NUM_ROWS) + ") + 1")
     attempts += 1
     time.sleep(0.2)
   
