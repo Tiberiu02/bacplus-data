@@ -12,7 +12,7 @@ output = sys.argv[1]
 
 open(output, 'w').close() # clear output file
 
-for jud in range( 1 ):
+for jud in range( 42 ):
   subprocess.run([
     'python', 'crawler_judet_EN.py',
     '-o', output,
