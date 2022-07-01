@@ -169,7 +169,7 @@ def main(argv):
 
     if data[:2] in coduri_judete.keys():
       judet = coduri_judete[data[:2]]
-    elif data[0] in coduri_judete.keys()
+    elif data[0] in coduri_judete.keys():
       judet = coduri_judete[data[0]]
     else:
       judet = '??'
