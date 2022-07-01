@@ -166,7 +166,8 @@ def main(argv):
       next_page()
       adjust_page(i + 1)
 
-  print("Job done!" if verbose else "\n")
+  print("Job done!" if verbose else "")
+  output.close()
   browser.close()
 
 if __name__ == "__main__":
