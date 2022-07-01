@@ -16,7 +16,6 @@ for (code, j) in jcode.items():
 	jdecode[unidecode.unidecode(j)] = code
 	jdecode[j.upper()] = code
 	jdecode[j] = code
-print(jdecode)
 
 class Dataset:
 	data = []
@@ -242,9 +241,13 @@ def calc_top(crit, top_output, info_output, data):
 		
 
 def main(argv):
-	if len(argv) != 4:
-		print("Usage: python %s dataset_name input_file meta_file" % (argv[0]))
+	if len(argv) < 4 or (len(argv) >= 5 and argv[4] != '--data-dot-gov'):
+		print("Usage: python %s dataset_name input_file meta_file [--data-dot-gov]" % (argv[0]))
 		return
+
+	if len(argv) >= 5 and argv[4] == '--data-dot-gov':
+		global data_dot_gov
+		data_dot_gov = True
 
 	bac = Dataset()
 	bac.read(argv[2], argv[3])
