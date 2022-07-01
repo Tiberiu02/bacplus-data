@@ -85,16 +85,21 @@ def page_id():
 	return pid if type(pid) == int else 1e9
 
 def main(argv):
-	if len(argv) != 4:
-		print("Usage: python %s download_url num_pages output_file" % (argv[0]))
+	if len(argv) < 4:
+		print("Usage: python %s download_url num_pages output_file (start_page=1)" % (argv[0]))
 		return
 
 	browser.get(argv[1])
 	global num_pages, output
 	num_pages = int(argv[2])
-	output = open(argv[3], "a", encoding="utf-8")
+	start = 1 if len(argv) == 4 else int(argv[4])
+	output = open(argv[3], "a" if start > 1 else "w", encoding="utf-8")
 
-	for i in range(1, num_pages + 1):
+	# Wait for the user to select desired page
+	while start != 1 and page_id() != start:
+		time.sleep(1)
+
+	for i in range(start, num_pages + 1):
 		output.write(extract_data(i))
 		print("Loaded page %d/%d" % (i, num_pages))
 		if i < num_pages:
