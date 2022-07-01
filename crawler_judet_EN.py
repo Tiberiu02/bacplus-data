@@ -5,6 +5,7 @@ from selenium import webdriver
 import time
 
 NUM_ROWS = 20
+MIN_PAGES_IN_REAL_WORLD = 10
 
 num_pages, output = None, None
 verbose = False
@@ -106,7 +107,7 @@ def page_id():
   return pid if type(pid) == int else 1e9
 
 # automatic page number detection
-def get_num_pages():
+def _get_num_pages():
   #wait for page to load
   time.sleep(0.2)
   while browser.execute_script("return document.readyState") != 'complete':
@@ -121,6 +122,13 @@ def get_num_pages():
   retval = page_id()
 
   browser.execute_script(js_script_first)
+
+  return retval
+
+def get_num_pages():
+  retval = _get_num_pages()
+  while retval < MIN_PAGES_IN_REAL_WORLD:
+    retval = _get_num_pages()
 
   return retval
 
