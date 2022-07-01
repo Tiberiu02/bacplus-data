@@ -248,6 +248,9 @@ def main(argv):
 	if len(argv) >= 5 and argv[4] == '--data-dot-gov':
 		global data_dot_gov
 		data_dot_gov = True
+	
+	global an
+	an = int(argv[1].split('/')[-1])
 
 	bac = Dataset()
 	bac.read(argv[2], argv[3])
