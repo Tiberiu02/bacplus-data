@@ -12,6 +12,8 @@ os.environ['PATH'] = os.environ['PATH'] + ":."
 
 js_script_extract = open("js/extract_EN.js", "r").read()
 js_script_next = open("js/next.js", "r").read()
+js_script_last = open("js/last.js", "r").read()
+js_script_first = open("js/first.js", "r").read()
 
 browser = webdriver.Firefox()
 browser.install_addon('web-extensions/ublock_origin-1.43.0.xpi', temporary=True)
@@ -89,15 +91,36 @@ def page_id():
   
   return pid if type(pid) == int else 1e9
 
+# automatic page number detection
+def get_num_pages():
+  #wait for page to load
+  time.sleep(0.2)
+  while browser.execute_script("return document.readyState") != 'complete':
+    time.sleep(0.1)
+
+  browser.execute_script(js_script_last)
+
+  time.sleep(0.2)
+  while browser.execute_script("return document.readyState") != 'complete':
+    time.sleep(0.1)
+
+  retval = page_id()
+
+  browser.execute_script(js_script_first)
+
+  return retval
+
 def main(argv):
-  if len(argv) != 4:
-    print("Usage: python %s download_url num_pages output_file" % (argv[0]))
+  if len(argv) != 3:
+    print("Usage: python %s download_url output_file" % (argv[0]))
     return
 
   browser.get(argv[1])
   global num_pages, output
-  num_pages = int(argv[2])
-  output = open(argv[3], "a", encoding="utf-8")
+
+  num_pages = get_num_pages()
+
+  output = open(argv[2], "a", encoding="utf-8")
 
   for i in range(1, num_pages + 1):
     output.write(extract_data(i))
