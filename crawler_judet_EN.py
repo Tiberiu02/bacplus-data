@@ -25,8 +25,14 @@ for line in open("meta/coduri-judete.txt", "r").read().split('\n'):
 
 def init_browser():
   global browser
-  browser = webdriver.Firefox()
-  browser.install_addon('web-extensions/ublock_origin-1.43.0.xpi', temporary=True)
+  if 'browser' not in globals():
+    browser = webdriver.Firefox()
+    browser.install_addon('web-extensions/ublock_origin-1.43.0.xpi', temporary=True)
+
+def del_browser():
+  global browser
+  if 'browser' in globals():
+    browser.close()
 
 def prev_page():
   browser.execute_script("history.back()")
@@ -132,12 +138,18 @@ def get_num_pages():
 
   return retval
 
-def usage():
-  print("Usage: python %s [-h|--help] [-v] -o|--output <output_file> <download_url>" % (sys.argv[0]))
+def usage( argv0 ):
+  print("Usage: python %s [-h|--help] [-v] -o|--output <output_file> <download_url>" % (argv0))
   if 'browser' in globals():
     global browser
     browser.close()
   sys.exit( 1 )
+
+def test_browser( url1, url2 ):
+  init_browser()
+  browser.get( url1 )
+  time.sleep( 1 )
+  browser.get( url2 )
 
 def main(argv):
   fout = 'out.csv'
@@ -149,15 +161,15 @@ def main(argv):
   try:
     opts, args = getopt.getopt( argv[1:], "hvo:", ["help", "output="] )
   except getopt.GetoptError:
-    usage()
+    usage( argv[0] )
 
   if len( args ) == 0:
-    usage()
+    usage( argv[0] )
 
   url = args[0]
   for opt, arg in opts:
     if opt in ('-h', '--help'):
-      usage()
+      usage( argv[0] )
     elif opt == '-v':
       verbose = True
     elif opt in ('-o', '--output'):
@@ -189,7 +201,7 @@ def main(argv):
 
   print("Job done!" if verbose else "")
   output.close()
-  browser.close()
 
 if __name__ == "__main__":
    main(sys.argv)
+   del_browser()
