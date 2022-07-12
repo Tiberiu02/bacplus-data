@@ -1,33 +1,54 @@
-import sys
-import crawler_judet_EN
+import sys, os
+#from subprocess import Popen, PIPE
+import subprocess
+
+NUM_JUD = 42
 
 def usage():
-  print( "Usage: python %s <output_file> <mod> <r>" % (sys.argv[0]) )
-  print( " puts data from regions mod * n + r in <output_file>" )
+  print( "Usage: python %s <year> <number of browser windows> <output file>" % (sys.argv[0]) )
+  print( "  crawls year <year> and puts output <output file> using the specified number of windows" )
   sys.exit( 1 )
 
 def main( argv ):
   if( len(argv) < 4 ):
     usage()
 
-  output = argv[1]
-  mod = int( argv[2] )
-  r = int( argv[3] )
+  year = argv[1]
+  nwin = int( argv[2] )
+  fout = argv[3]
 
-  open(output, 'w').close() # clear output file
+  fjud = open( "meta/coduri-judete.txt", "r" )
+  coduri = [line.split(',')[0] for line in fjud.read().split('\n')]
+  fjud.close()
 
-  jud = r
-  while jud < 42:
-    crawler_judet_EN.main([
-      'crawler_judet_EN.py',
-      '-o', output,
-      'http://evaluare.edu.ro/Evaluare/CandFromJudAlfa.aspx?Jud=%s&PageN=1' % (str( 1 + jud ))
-    ])
+  os.system( 'rm -rf tmp' ) # to not interfere with previous runs
+  os.system( 'mkdir tmp' )
+  crawl_proc = [ subprocess.Popen( ['python', 'crawler_base.py'], stdin=subprocess.PIPE, stdout=subprocess.DEVNULL ) for i in range( nwin ) ]
 
-    jud += mod
-  print('')
+  # send queries
+  win = 0
+  for cod in coduri:
+    crawl_proc[win].stdin.write(
+      ("http://evaluare.edu.ro/%s/rezultate/%s/;tmp/%s.csv\n" % (year, cod, win)).encode()
+    )
+    win = (win + 1) % nwin
 
-  crawler_judet_EN.del_browser()
+  for proc in crawl_proc:
+    proc.stdin.write( b"END\n" )
+    proc.stdin.flush()
+
+  # wait for crawlers to finish
+  for proc in crawl_proc:
+    proc.wait()
+
+  os.system( 'cat %s > %s' % (
+    ' '.join(['tmp/%d.csv' % (i,) for i in range( nwin )]),
+    fout
+  ))
+  
+  #for i in range( nwin ):
+  #  os.system( 'rm tmp/%d.csv' % (i,) )
+  #os.system( 'rmdir tmp' )
 
 if __name__ == '__main__':
   main( sys.argv )

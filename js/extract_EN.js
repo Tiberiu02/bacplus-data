@@ -28,11 +28,9 @@ function extract_entries(list) {
     var s = "";
     Array.from(list).forEach( ( rowElem ) => {
       let row = rowElem.querySelectorAll( 'td' );
-      s += extract_entry( row, 1, 100000, '\n' );
+      s += extract_entry( row, 0, 100000, '\n' );
     } );
     return s;
 }
 
-data = extract_entries(document.getElementsByClassName("tr1"));
-data += extract_entries(document.getElementsByClassName("tr2"));
-return data;
+return extract_entries( document.querySelectorAll( '#candidate-list > tbody > tr' ) );

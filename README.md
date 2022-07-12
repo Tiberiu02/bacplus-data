@@ -1,4 +1,4 @@
-# Instalare
+# Instalare (BAC+EN)
 
 Asigură-te că ai Python 3 instalat. Deschide CMD în acest folder (sau teminalul pe Linux/Mac) și instalează dependințele python folosind comanda:
 
@@ -6,7 +6,7 @@ Asigură-te că ai Python 3 instalat. Deschide CMD în acest folder (sau teminal
 
 Asigură-te că ai Firefox instalat. Descărcă ultima versiune de [gecko driver](https://github.com/mozilla/geckodriver/releases) și adăugă fișierul executabil (`"geckodriver.exe"` pe Windows) în acest folder.
 
-# Descărcare date
+# Descărcare date (BAC)
 
 Pentru această etapă vei folosi programul `"crawler.py"`. Acest program permite descărcarea automată a rezultatelor tuturor candidaților de pe site-ul http://static.bacalaureat.edu.ro/. Înainte de a putea rula programul vei avea nevoie de 2 lucruri:
 
@@ -23,7 +23,7 @@ De exemplu:
 
 Ar trebui să se deschidă o fereastră Firefox. Ai răbdare, va dura câteva ore. Poți urmări progresul în consolă.
 
-# Compilare statistici 
+# Compilare statistici (BAC)
 
 Pentru această etapă vei folosi programul `"dataset.py"`. Pentru a compila statisticile, va trebui să rulezi o comandă de genul:
 
@@ -49,7 +49,31 @@ Spre exemplu, acestea sunt comenzile cu care poți prelucra toate datele din fol
 | 2021   | bacalaureat.edu.ro          | `python dataset.py data/bac/2021 data/bac/2021.csv meta/meta-edu-initial.txt`         |
 | 2022   | bacalaureat.edu.ro          | `python dataset.py data/bac/2022 data/bac/2022.csv meta/meta-edu-initial.txt`         |
 
-# Actualizare site (doar pentru admin)
+
+# Descărcare date (EN)
+
+Pentru această etapă vei folosi programul `"crawler_EN.py"`. Acest program permite descărcarea automată a rezultatelor tuturor candidaților de pe site-ul http://evaluare.edu.ro/. 
+
+Pentru a rula programul, vei folosi o comandă de genul:
+
+```bash
+Usage: python crawler_EN.py <year> <number of browser windows> <output file>
+  crawls year <year> and puts output <output file> using the specified number of windows
+```
+
+De exemplu:
+
+```bash
+Usage: python crawler_EN.py 2022 2 data/en/2022.csv
+```
+
+Ar trebui să se deschidă una sau mai multe ferestre Firefox. Ai răbdare, va ceva timp 1-2h.
+
+# Compilare statistici (EN)
+
+Work in progress....
+
+# Actualizare site (doar pentru admin) (BAC+EN)
 
 Copiaza directorul rezultat la pasul precedent pe site în folderul `"assets/data/"`. Va fi nevoie să îl compresezi pentru a îl încărca.
 

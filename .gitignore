@@ -1,6 +1,13 @@
+# geckodriver files
 geckodriver.exe
 geckodriver.log
 geckodriver
+
+# python cache
 __pycache__
 
+# paralel crawler temporary folder
+tmp
+
+# for local testing
 test.csv
