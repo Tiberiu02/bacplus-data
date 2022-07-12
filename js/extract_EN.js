@@ -33,6 +33,4 @@ function extract_entries(list) {
     return s;
 }
 
-data = extract_entries(document.querySelectorAll('#candidate-list > tbody > tr'));
-
-return data;
+return extract_entries( document.querySelectorAll( '#candidate-list > tbody > tr' ) );

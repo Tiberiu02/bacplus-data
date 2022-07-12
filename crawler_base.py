@@ -1,4 +1,4 @@
-from math import inf
+from math import inf, ceil
 import sys, getopt
 import os
 from selenium import webdriver
@@ -6,6 +6,7 @@ import time
 
 NUM_ROWS_PAGE = 25
 MIN_PAGES_IN_REAL_WORLD = 10
+BUFSIZE = 32 * 1024 # 32Kb output buffer
 
 num_pages, output = None, None
 verbose = False
@@ -14,8 +15,6 @@ os.environ['PATH'] = os.environ['PATH'] + ":."
 
 js_script_extract = open("js/extract_EN.js", "r").read()
 js_script_next = open("js/next.js", "r").read()
-js_script_last = open("js/last.js", "r").read()
-js_script_first = open("js/first.js", "r").read()
 
 coduri_judete = {}
 for line in open("meta/coduri-judete.txt", "r").read().split('\n'):
@@ -36,18 +35,26 @@ def del_browser():
 
 def wait4load():
   while browser.execute_script("return document.readyState") != 'complete':
-    time.sleep(0.1)
+    time.sleep( 0.1 )
+  time.sleep( 0.1 )
 
-def extract_data():
+def extract_data( url=None ):
+  if url != None:
+    browser.get( url )
+
   wait4load()
-  return browser.execute_script(js_script_extract)
+
+  while browser.execute_script( "return document.querySelectorAll( '#candidate-list > tbody > tr' ).lenght" ) == 0:
+    time.sleep( 0.1 )
+
+  return browser.execute_script( js_script_extract )
 
 # automatic page number detection
 def _get_num_pages():
   wait4load()
 
   num_rows = int( browser.execute_script( "return document.getElementById('dynatable-record-count-candidate-list').innerText.split('/ ')[1]" ) )
-  num_pages = int( num_rows / NUM_ROWS_PAGE )
+  num_pages = ceil( num_rows / NUM_ROWS_PAGE )
 
   return num_pages
 
@@ -58,70 +65,37 @@ def get_num_pages():
 
   return retval
 
-def usage( argv0 ):
-  print("Usage: python %s [-h|--help] [-v] -o|--output <output_file> <download_url>" % (argv0))
-  if 'browser' in globals():
-    global browser
-    browser.close()
+def crawl_judet( url, fout_name ):
+  fout = open( fout_name, "a", buffering = BUFSIZE )
+
+  init_browser()
+
+  browser.get( url )
+  num_pages = get_num_pages()
+  for page in range( num_pages ):
+    fout.write( extract_data( "%s?page=%d" % (url, 1 + page) ) )
+
+  fout.close()
+
+# ui
+
+def usage():
+  print( "Usage: python %s\n  The script listens to stdin\n  each query (line) must be of the format:\n    <url>;<output file>\n" % sys.argv[0] )
   sys.exit( 1 )
 
-def test_browser( url1, url2 ):
-  init_browser()
-  browser.get( url1 )
-  time.sleep( 1 )
-  browser.get( url2 )
-
-def main(argv):
-  fout = 'out.csv'
-  url = ''
-  extra = ''
-  global verbose
-  verbose = False
-
-  try:
-    opts, args = getopt.getopt( argv[1:], "hvo:", ["help", "output="] )
-  except getopt.GetoptError:
-    usage( argv[0] )
-
-  if len( args ) == 0:
-    usage( argv[0] )
-
-  url = args[0]
-  for opt, arg in opts:
-    if opt in ('-h', '--help'):
-      usage( argv[0] )
-    elif opt == '-v':
-      verbose = True
-    elif opt in ('-o', '--output'):
-      fout = arg
-
-  init_browser()
-  browser.get( url )
-  global num_pages, output
-
-  num_pages = get_num_pages()
-
-  output = open(fout, "a", encoding="utf-8")
-
-  for i in range(1, num_pages + 1):
-    data = extract_data( i )
-    output.write( data )
-
-    if data[:2] in coduri_judete.keys():
-      judet = coduri_judete[data[:2]]
-    elif data[0] in coduri_judete.keys():
-      judet = coduri_judete[data[0]]
-    else:
-      judet = '??'
-
-    print("Loaded page %d/%d (%s)   " % (i, num_pages, judet), end = ("\n" if verbose else "\r"))
-    if i < num_pages:
-      next_page()
-      adjust_page(i + 1)
-
-  print("Job done!" if verbose else "")
-  output.close()
+def main():
+  running = True
+  while running:
+    try:
+      line = input()
+      args = line.split( ';' )
+      crawl_judet( args[0], args[1] )
+    except EOFError:
+      running = False
 
 if __name__ == "__main__":
-   main(sys.argv)
-   del_browser()
+  if len( sys.argv ) > 1:
+    usage()
+
+  main()
+  del_browser()
