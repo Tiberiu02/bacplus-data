@@ -4,7 +4,7 @@ import os
 from selenium import webdriver
 import time
 
-NUM_ROWS = 20
+NUM_ROWS_PAGE = 25
 MIN_PAGES_IN_REAL_WORLD = 10
 
 num_pages, output = None, None
@@ -34,102 +34,22 @@ def del_browser():
   if 'browser' in globals():
     browser.close()
 
-def prev_page():
-  browser.execute_script("history.back()")
+def wait4load():
   while browser.execute_script("return document.readyState") != 'complete':
     time.sleep(0.1)
-  time.sleep(0.5)
 
-
-def next_page():
-  success = False
-  fails = 0
-
-  while not success:
-    browser.execute_script(js_script_next)
-    time.sleep(0.2)
-    while browser.execute_script("return document.readyState") != 'complete':
-      time.sleep(0.1)
-
-    # Page not found?
-    tr = None
-    while tr == None:
-      tr = browser.execute_script("return document.getElementsByClassName('tr1').length")
-
-    if tr == 0:
-      if verbose:
-        print('failed to load next page, going back')
-      fails += 1
-      prev_page()
-
-      if fails == 10:
-        fails = 0
-        prev_page()
-        next_page()
-    else:
-      time.sleep(0.1)
-      success = True
-  
-def adjust_page(id):
-  while page_id() != id:
-    while page_id() < id:
-      next_page()
-      if verbose:
-        print('Next page')
-    while page_id() > id:
-      prev_page()
-      if verbose:
-        print('Prev page')
-
-def extract_data(pid):
-  fails = 5
-  while fails == 5:
-    data = browser.execute_script(js_script_extract)
-    fails = 0
-    while fails < 5 and pid < num_pages and data != None and data.count('\n') < NUM_ROWS:
-      if verbose:
-        print('Data not fetched correctly, waiting and retrying')
-        print(data)
-      fails += 1
-      time.sleep(1)
-      data = browser.execute_script(js_script_extract)
-    if fails == 5:
-      if verbose:
-        print('Failed too much, realoading page...')
-      if pid != 1:
-        prev_page()
-      next_page()
-      adjust_page(pid)
-  return data
-
-def page_id():
-  pid = None
-  attempts = 0
-  while attempts < 10 and type(pid) != int:
-    pid = browser.execute_script("let x = Array.from(document.getElementsByClassName('tdnr'))[0]; if(x) return Math.floor(parseInt(x.innerHTML.replace(/\D+/g,'')) / " + str(NUM_ROWS) + ") + 1")
-    attempts += 1
-    time.sleep(0.2)
-  
-  return pid if type(pid) == int else 1e9
+def extract_data():
+  wait4load()
+  return browser.execute_script(js_script_extract)
 
 # automatic page number detection
 def _get_num_pages():
-  #wait for page to load
-  time.sleep(0.2)
-  while browser.execute_script("return document.readyState") != 'complete':
-    time.sleep(0.1)
+  wait4load()
 
-  browser.execute_script(js_script_last)
+  num_rows = int( browser.execute_script( "return document.getElementById('dynatable-record-count-candidate-list').innerText.split('/ ')[1]" ) )
+  num_pages = int( num_rows / NUM_ROWS_PAGE )
 
-  time.sleep(0.2)
-  while browser.execute_script("return document.readyState") != 'complete':
-    time.sleep(0.1)
-
-  retval = page_id()
-
-  browser.execute_script(js_script_first)
-
-  return retval
+  return num_pages
 
 def get_num_pages():
   retval = _get_num_pages()
