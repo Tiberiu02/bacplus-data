@@ -13,8 +13,9 @@ verbose = False
 
 os.environ['PATH'] = os.environ['PATH'] + ":."
 
-js_script_extract = open("js/extract_EN.js", "r").read()
-js_script_next = open("js/next.js", "r").read()
+js_script_extract = open( "js/extract_EN.js", "r" ).read()
+js_script_next = open( "js/next.js", "r" ).read()
+js_script_num_pages = open( "js/get_num_pages.js", "r" ).read()
 
 coduri_judete = {}
 for line in open("meta/coduri-judete.txt", "r").read().split('\n'):
@@ -54,7 +55,7 @@ def extract_data( url=None ):
 def _get_num_pages():
   wait4load()
 
-  num_rows = int( browser.execute_script( "return document.getElementById('dynatable-record-count-candidate-list').innerText.split('/ ')[1]" ) )
+  num_rows = int( browser.execute_script( js_script_num_pages ) )
   num_pages = ceil( num_rows / NUM_ROWS_PAGE )
 
   return num_pages

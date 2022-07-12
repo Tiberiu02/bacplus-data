@@ -21,8 +21,9 @@ def main( argv ):
   coduri = [line.split(',')[0] for line in fjud.read().split('\n')]
   fjud.close()
 
+  os.system( 'rm -rf tmp' ) # to not interfere with previous runs
   os.system( 'mkdir tmp' )
-  crawl_proc = [ subprocess.Popen( ['python', 'crawler_base.py'], stdin=subprocess.PIPE, stdout=subprocess.PIPE ) for i in range( nwin ) ]
+  crawl_proc = [ subprocess.Popen( ['python', 'crawler_base.py'], stdin=subprocess.PIPE, stdout=subprocess.DEVNULL ) for i in range( nwin ) ]
 
   # send queries
   win = 0
@@ -34,10 +35,11 @@ def main( argv ):
 
   for proc in crawl_proc:
     proc.stdin.write( b"END\n" )
+    proc.stdin.flush()
 
   # wait for crawlers to finish
   for proc in crawl_proc:
-    proc.communicate()
+    proc.wait()
 
   os.system( 'cat %s > %s' % (
     ' '.join(['tmp/%d.csv' % (i,) for i in range( nwin )]),
