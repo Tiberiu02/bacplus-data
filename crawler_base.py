@@ -88,8 +88,11 @@ def main():
   while running:
     try:
       line = input()
-      args = line.split( ';' )
-      crawl_judet( args[0], args[1] )
+      if line == 'END':
+        running = False
+      else:
+        args = line.split( ';' )
+        crawl_judet( args[0], args[1] )
     except EOFError:
       running = False
 
