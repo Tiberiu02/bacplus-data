@@ -43,11 +43,12 @@ def extract_data( url=None ):
     browser.get( url )
 
   wait4load()
+  
+  retval = browser.execute_script( js_script_extract )
+  while retval == '' or retval.isspace():
+    retval = browser.execute_script( js_script_extract )
 
-  while browser.execute_script( "return document.querySelectorAll( '#candidate-list > tbody > tr' ).lenght" ) == 0:
-    time.sleep( 0.1 )
-
-  return browser.execute_script( js_script_extract )
+  return retval
 
 # automatic page number detection
 def _get_num_pages():
@@ -77,7 +78,7 @@ def crawl_judet( url, fout_name ):
 
   fout.close()
 
-# ui
+# user interface
 
 def usage():
   print( "Usage: python %s\n  The script listens to stdin\n  each query (line) must be of the format:\n    <url>;<output file>\n" % sys.argv[0] )

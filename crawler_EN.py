@@ -41,8 +41,9 @@ def main( argv ):
 
   os.system( 'cat %s > %s' % (
     ' '.join(['tmp/%d.csv' % (i,) for i in range( nwin )]),
-    fout)
-  )
+    fout
+  ))
+  
   #for i in range( nwin ):
   #  os.system( 'rm tmp/%d.csv' % (i,) )
   #os.system( 'rmdir tmp' )
