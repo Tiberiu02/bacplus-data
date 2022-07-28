@@ -1,54 +1,72 @@
 import sys, os
 #from subprocess import Popen, PIPE
-import subprocess
+from subprocess import run as system
+import json
 
-NUM_JUD = 42
+BUFSIZE = 32 * 1024 # 32Kb output buffer
+
+SELECTED_FIELDS = [
+  'name',   # cod
+  'school', # scoala
+
+  # romana
+  'ri',
+  'ra',
+  'rf',
+
+  # matematica
+  'mi', 
+  'ma',
+  'mf',
+
+  # limba materna
+  'lmp',
+  'lmi',
+  'lma',
+  'lmf',
+
+  'mev' # media finala
+]
 
 def usage():
-  print( "Usage: python %s <year> <number of browser windows> <output file>" % (sys.argv[0]) )
-  print( "  crawls year <year> and puts output <output file> using the specified number of windows" )
+  print( "Usage: python %s <year> <output file>" % (sys.argv[0]) )
+  print( "  crawls year <year> and puts output in <output file>" )
   sys.exit( 1 )
 
 def main( argv ):
-  if( len(argv) < 4 ):
+  if( len(argv) < 3 ):
     usage()
 
   year = argv[1]
-  nwin = int( argv[2] )
-  fout = argv[3]
+  fout_name = argv[2]
 
   fjud = open( "meta/coduri-judete.txt", "r" )
-  coduri = [line.split(',')[0] for line in fjud.read().split('\n')]
+  coduri = [line.split(',')[0] for line in fjud.readlines()]
   fjud.close()
 
-  os.system( 'rm -rf tmp' ) # to not interfere with previous runs
-  os.system( 'mkdir tmp' )
-  crawl_proc = [ subprocess.Popen( ['python', 'crawler_base.py'], stdin=subprocess.PIPE, stdout=subprocess.DEVNULL ) for i in range( nwin ) ]
+  system( ['rm', '-rf', 'tmp'] ) # to not interfere with previous runs
+  system( ['mkdir', 'tmp'] )
 
-  # send queries
-  win = 0
+  rezarr = []
   for cod in coduri:
-    crawl_proc[win].stdin.write(
-      ("http://evaluare.edu.ro/%s/rezultate/%s/;tmp/%s.csv\n" % (year, cod, win)).encode()
-    )
-    win = (win + 1) % nwin
+    system( ['wget', '-q', '--show-progress', '-O', 'tmp/%s_%s.json' % (cod, year), 'evaluare.edu.ro/%s/rezultate/%s/data/candidate.json' % (year, cod)] )
+    with open( 'tmp/%s_%s.json' % (cod, year), 'r' ) as fjson:
+      rezarr_jud = json.load( fjson )
+      rezarr += rezarr_jud
+    system( ['rm', 'tmp/%s_%s.json' % (cod, year)] )
 
-  for proc in crawl_proc:
-    proc.stdin.write( b"END\n" )
-    proc.stdin.flush()
+  system( ['rmdir', 'tmp'] )
 
-  # wait for crawlers to finish
-  for proc in crawl_proc:
-    proc.wait()
+  # now we have to turn the json array into the output CSV file
 
-  os.system( 'cat %s > %s' % (
-    ' '.join(['tmp/%d.csv' % (i,) for i in range( nwin )]),
-    fout
-  ))
-  
-  #for i in range( nwin ):
-  #  os.system( 'rm tmp/%d.csv' % (i,) )
-  #os.system( 'rmdir tmp' )
+  fout = open( fout_name, 'w', buffering = BUFSIZE )
+
+  for entry in rezarr:
+    fout.write( '\t'.join(
+      map( lambda i : ('-' if entry[i] == None else str(entry[i])), SELECTED_FIELDS )
+    ) + '\n' )
+
+  fout.close()
 
 if __name__ == '__main__':
   main( sys.argv )
