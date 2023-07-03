@@ -4,14 +4,14 @@ Asigură-te că ai Python 3 instalat. Deschide CMD în acest folder (sau teminal
 
 `pip install -r requirements.txt`
 
-Asigură-te că ai Firefox instalat. Descărcă ultima versiune de [gecko driver](https://github.com/mozilla/geckodriver/releases) și adăugă fișierul executabil (`"geckodriver.exe"` pe Windows) în acest folder.
+Asigură-te că ai Firefox instalat (dintr-un anumit motiv, Firefox este mult mai stabil decât Chrome). Descărcă ultima versiune de [gecko driver](https://github.com/mozilla/geckodriver/releases) și adăugă fișierul executabil (`"geckodriver.exe"` pe Windows) în acest folder.
 
 # Descărcare date (BAC)
 
 Pentru această etapă vei folosi programul `"crawler.py"`. Acest program permite descărcarea automată a rezultatelor tuturor candidaților de pe site-ul http://static.bacalaureat.edu.ro/. Înainte de a putea rula programul vei avea nevoie de 2 lucruri:
 
-* Linkul către prima pagină cu rezultatele tuturor candidaților (indiferent de ordine). Poți verifica că linkul este corect accesându-l într-o altă fereastră și verificând că te duce direct la prima pagină cu rezultate. Uneori site-ul încarcă rezultatele printr-o sub-fereastră (frame). În acest caz, va trebui să folosești linkul sub-ferestrei.
-* Numărul de pagini de rezultate
+- Linkul către prima pagină cu rezultatele tuturor candidaților (indiferent de ordine). Poți verifica că linkul este corect accesându-l într-o altă fereastră și verificând că te duce direct la prima pagină cu rezultate. Uneori site-ul încarcă rezultatele printr-o sub-fereastră (frame). În acest caz, va trebui să folosești linkul sub-ferestrei.
+- Numărul de pagini de rezultate
 
 Pentru a rula programul, vei folosi o comandă de genul:
 
@@ -19,7 +19,7 @@ Pentru a rula programul, vei folosi o comandă de genul:
 
 De exemplu:
 
-`python crawler.py http://static.bacalaureat.edu.ro/2021/rapoarte/rezultate/alfabetic/index.html 13367 data/2021.csv`
+`python crawler.py http://static.bacalaureat.edu.ro/2021/rapoarte/rezultate/alfabetic/index.html 13367 data/bac/2021.csv`
 
 Ar trebui să se deschidă o fereastră Firefox. Ai răbdare, va dura câteva ore. Poți urmări progresul în consolă.
 
@@ -31,14 +31,14 @@ Pentru această etapă vei folosi programul `"dataset.py"`. Pentru a compila sta
 
 Fișierul meta se referă conține informații despre structura datelor și permite lucrul cu informații din diferite surse. Mai exact, există 3 surse posibile:
 
-- Rezultate extrase de pe *bacalaureat.edu.ro* imediat după publicare
-- Rezultate extrase de pe *bacalaureat.edu.ro* la ceva timp după publicare (acestea conțin două coloane în plus)
-- Tabelele publicate pe *data.gov.ro*. Pentru această sursă va trebui să folosești flagul `"--data-dot-gov"`
+- Rezultate extrase de pe _bacalaureat.edu.ro_ imediat după publicare
+- Rezultate extrase de pe _bacalaureat.edu.ro_ la ceva timp după publicare (acestea conțin două coloane în plus)
+- Tabelele publicate pe _data.gov.ro_. Pentru această sursă va trebui să folosești flagul `"--data-dot-gov"`
 
 Spre exemplu, acestea sunt comenzile cu care poți prelucra toate datele din folderul `"data/bac/"`:
 
 | **An** | **Sursă date**              | **Commandă calculare statistici**                                                     |
-|--------|-----------------------------|---------------------------------------------------------------------------------------|
+| ------ | --------------------------- | ------------------------------------------------------------------------------------- |
 | 2014   | data.gov.ro                 | `python dataset.py data/bac/2014 data/bac/2014.csv meta/meta-dgov.txt --data-dot-gov` |
 | 2015   | data.gov.ro                 | `python dataset.py data/bac/2015 data/bac/2015.csv meta/meta-dgov.txt --data-dot-gov` |
 | 2016   | data.gov.ro                 | `python dataset.py data/bac/2016 data/bac/2016.csv meta/meta-dgov.txt --data-dot-gov` |
@@ -49,10 +49,9 @@ Spre exemplu, acestea sunt comenzile cu care poți prelucra toate datele din fol
 | 2021   | bacalaureat.edu.ro          | `python dataset.py data/bac/2021 data/bac/2021.csv meta/meta-edu-initial.txt`         |
 | 2022   | bacalaureat.edu.ro          | `python dataset.py data/bac/2022 data/bac/2022.csv meta/meta-edu-initial.txt`         |
 
-
 # Descărcare date (EN)
 
-Pentru această etapă vei folosi programul `"crawler_EN.py"`. Acest program permite descărcarea automată a rezultatelor tuturor candidaților de pe site-ul http://evaluare.edu.ro/. 
+Pentru această etapă vei folosi programul `"crawler_EN.py"`. Acest program permite descărcarea automată a rezultatelor tuturor candidaților de pe site-ul http://evaluare.edu.ro/.
 
 Pentru a rula programul, vei folosi o comandă de genul:
 
