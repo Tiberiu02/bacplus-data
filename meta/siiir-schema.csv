@@ -1,0 +1,10 @@
+nr_crt	num
+cod_siiir	str
+nume_unitate	str
+denumire	str
+oras	str
+localitate	str
+judet	str
+stare_legala	str
+tip_unitate	str
+administrare	str

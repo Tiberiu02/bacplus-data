@@ -37,17 +37,17 @@ Fișierul meta se referă conține informații despre structura datelor și perm
 
 Spre exemplu, acestea sunt comenzile cu care poți prelucra toate datele din folderul `"data/bac/"`:
 
-| **An** | **Sursă date**              | **Commandă calculare statistici**                                                     |
-| ------ | --------------------------- | ------------------------------------------------------------------------------------- |
-| 2014   | data.gov.ro                 | `python dataset.py data/bac/2014 data/bac/2014.csv meta/meta-dgov.txt --data-dot-gov` |
-| 2015   | data.gov.ro                 | `python dataset.py data/bac/2015 data/bac/2015.csv meta/meta-dgov.txt --data-dot-gov` |
-| 2016   | data.gov.ro                 | `python dataset.py data/bac/2016 data/bac/2016.csv meta/meta-dgov.txt --data-dot-gov` |
-| 2017   | data.gov.ro                 | `python dataset.py data/bac/2017 data/bac/2017.csv meta/meta-dgov.txt --data-dot-gov` |
-| 2018   | data.gov.ro                 | `python dataset.py data/bac/2018 data/bac/2018.csv meta/meta-dgov.txt --data-dot-gov` |
-| 2019   | bacalaureat.edu.ro (arhiva) | `python dataset.py data/bac/2019 data/bac/2019.csv meta/meta-edu-raport.txt`          |
-| 2020   | bacalaureat.edu.ro (arhiva) | `python dataset.py data/bac/2020 data/bac/2020.csv meta/meta-edu-raport.txt`          |
-| 2021   | bacalaureat.edu.ro          | `python dataset.py data/bac/2021 data/bac/2021.csv meta/meta-edu-initial.txt`         |
-| 2022   | bacalaureat.edu.ro          | `python dataset.py data/bac/2022 data/bac/2022.csv meta/meta-edu-initial.txt`         |
+| **An** | **Sursă date**              | **Commandă calculare statistici**                                                       |
+| ------ | --------------------------- | --------------------------------------------------------------------------------------- |
+| 2014   | data.gov.ro                 | `python dataset.py data/bac/2014 data/bac/2014.csv meta/schema-dgov.txt --data-dot-gov` |
+| 2015   | data.gov.ro                 | `python dataset.py data/bac/2015 data/bac/2015.csv meta/schema-dgov.txt --data-dot-gov` |
+| 2016   | data.gov.ro                 | `python dataset.py data/bac/2016 data/bac/2016.csv meta/schema-dgov.txt --data-dot-gov` |
+| 2017   | data.gov.ro                 | `python dataset.py data/bac/2017 data/bac/2017.csv meta/schema-dgov.txt --data-dot-gov` |
+| 2018   | data.gov.ro                 | `python dataset.py data/bac/2018 data/bac/2018.csv meta/schema-dgov.txt --data-dot-gov` |
+| 2019   | bacalaureat.edu.ro (arhiva) | `python dataset.py data/bac/2019 data/bac/2019.csv meta/schema-edu-raport.txt`          |
+| 2020   | bacalaureat.edu.ro (arhiva) | `python dataset.py data/bac/2020 data/bac/2020.csv meta/schema-edu-raport.txt`          |
+| 2021   | bacalaureat.edu.ro          | `python dataset.py data/bac/2021 data/bac/2021.csv meta/schema-edu-initial.txt`         |
+| 2022   | bacalaureat.edu.ro          | `python dataset.py data/bac/2022 data/bac/2022.csv meta/schema-edu-initial.txt`         |
 
 # Descărcare date (EN)
 
