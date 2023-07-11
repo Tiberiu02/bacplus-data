@@ -19,7 +19,7 @@ Pentru a rula programul, vei folosi o comandă de genul:
 
 De exemplu:
 
-`python crawler.py http://static.bacalaureat.edu.ro/2021/rapoarte/rezultate/alfabetic/index.html 13367 data/bac/2021.csv`
+`python crawler.py http://bacalaureat.edu.ro/Pages/TaraRezultMedie.aspx 13053 data/bac/2023.csv`
 
 Ar trebui să se deschidă o fereastră Firefox. Ai răbdare, va dura câteva ore. Poți urmări progresul în consolă.
 
@@ -81,3 +81,51 @@ Modifica vectorul `years` din `"assets/js/misc.js"`. **Ai grijă! O dată ce sal
 Intră pe câteva pagini (top licee, top județe) și adaugă un anunț privind noile date. Nu uita să îl ștergi după 2 săptămâni.
 
 Actualizează numărul de candidați de pe pagina principală.
+
+# Data modeling
+
+MAIN
+
+- year: int
+- cod_candidat: string
+- id_liceu: string
+- id_judet: string
+- promotie_anterioara: bool
+- specializare: string
+
+# Limba Romana
+
+- lr_init: float?
+- lr_cont: float?
+- lr_final: float?
+
+# Limba materna (optional)
+
+- lm_init: float?
+- lm_cont: float?
+- lm_final: float?
+- limba_moderna: string
+
+# Disciplina obligatorie
+
+- do: string
+- do_init: float?
+- do_cont: float?
+- do_final: float?
+
+# Disciplina la alegere
+
+- da: string
+- da_init: float?
+- da_cont: float?
+- da_final: float?
+
+# Rezultat
+
+- media: float?
+- rezultat: "REUSIT" | "RESPINS" | "NEPREZENTAT" | "ELIMINAT"
+
+LICEE
+
+- id: string
+- nume: string

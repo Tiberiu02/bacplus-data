@@ -1,0 +1,10 @@
+python db_insert.py 2014 data\bac\2014.csv data\bac\bac.sqlite --input_schema="meta\dgov.schema.csv" --dot_gov
+python db_insert.py 2015 data\bac\2015.csv data\bac\bac.sqlite --input_schema="meta\dgov.schema.csv" --dot_gov
+python db_insert.py 2016 data\bac\2016.csv data\bac\bac.sqlite --input_schema="meta\dgov.schema.csv" --dot_gov
+python db_insert.py 2017 data\bac\2017.csv data\bac\bac.sqlite --input_schema="meta\dgov.schema.csv" --dot_gov
+python db_insert.py 2018 data\bac\2018.csv data\bac\bac.sqlite --input_schema="meta\dgov.schema.csv" --dot_gov
+python db_insert.py 2019 data\bac\2019.csv data\bac\bac.sqlite --input_schema="meta\edu-raport.schema.csv"
+python db_insert.py 2020 data\bac\2020.csv data\bac\bac.sqlite --input_schema="meta\edu-raport.schema.csv"
+python db_insert.py 2021 data\bac\2021.csv data\bac\bac.sqlite --input_schema="meta\edu-initial.schema.csv"
+python db_insert.py 2022 data\bac\2022.csv data\bac\bac.sqlite --input_schema="meta\edu-initial.schema.csv"
+python db_insert.py 2023 data\bac\2023.csv data\bac\bac.sqlite --input_schema="meta\edu-initial.schema.csv"

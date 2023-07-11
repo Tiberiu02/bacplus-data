@@ -1,0 +1,43 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["jsonProtocol"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model elevi {
+  an                     Int
+  cod_candidat           String
+  id_judet               String?
+  id_liceu               String?
+  promotie_anterioara    String
+  specializare           String
+  lr_init                Float?
+  lr_cont                Float?
+  lr_final               Float?
+  lm_init                Float?
+  lm_cont                Float?
+  lm_final               Float?
+  limba_moderna          String
+  disciplina_obligatorie String
+  do_init                Float?
+  do_cont                Float?
+  do_final               Float?
+  disciplina_alegere     String
+  da_init                Float?
+  da_cont                Float?
+  da_final               Float?
+  medie                  Float?
+  my_medie               Float?
+  rezultat               String
+
+  @@id([an, cod_candidat])
+}
+
+model licee {
+  id_liceu   String @id
+  nume_liceu String
+}
