@@ -2,6 +2,7 @@ import re
 import sqlite3
 import argparse
 import unidecode
+import load_dotenv
 from tqdm import tqdm
 
 
@@ -10,7 +11,6 @@ def parse_args():
 
     parser.add_argument("year", type=int)
     parser.add_argument("input_path")
-    parser.add_argument("db_file")
     parser.add_argument("--input_schema", default="meta/edu-initial.schema.csv")
     parser.add_argument("--dot_gov", action="store_true")
     parser.add_argument("--siiir", default="meta/siiir.csv")
@@ -265,9 +265,10 @@ if __name__ == "__main__":
         process_dot_gov(data, args)
 
     print(f"Loaded {len(data)} entries!")
-    # print(data[0])
 
-    conn = sqlite3.connect(args.db_file)
+    load_dotenv.load_dotenv()
+
+    conn = sqlite3.connect(os.getenv("DB_FILE"))
     cur = conn.cursor()
 
     if not args.preserve_existing_db_entries:

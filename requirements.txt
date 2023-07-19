@@ -2,3 +2,10 @@ selenium>=4.3.0
 unidecode>=1.3.4
 python-dotenv
 google
+html2text
+scipy
+tenacity
+tiktoken
+termcolor 
+openai
+requests
