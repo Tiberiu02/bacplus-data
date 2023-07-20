@@ -1,3 +1,5 @@
+import unidecode
+
 judete = [
     ("AB", "ALBA", "Alba"),
     ("AG", "ARGES", "Argeș"),
@@ -47,3 +49,13 @@ judete_dupa_cod = {
     cod: {"nume": nume, "nume_complet": nume_complet}
     for cod, nume, nume_complet in judete
 }
+
+
+def get_county_code(county_name):
+    name = unidecode.unidecode(county_name).upper()
+
+    for code, county, county_name in judete:
+        if county in name:
+            return code
+
+    raise Exception(f"Unknown county {name}")
