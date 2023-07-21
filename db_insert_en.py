@@ -88,6 +88,7 @@ if __name__ == "__main__":
 
             medie_ev = parse_grade(entry["mev"])
             medie_abs = None
+            medie_adm = None
 
             repartizat_id_liceu = None
             repartizat_specializare = None
@@ -108,6 +109,7 @@ if __name__ == "__main__":
 
             medie_ev = parse_grade(entry["mev"])
             medie_abs = parse_grade(entry["mabs"])
+            medie_adm = parse_grade(entry["madm"])
 
             id_judet_admitere = entry["ja"]
             if entry["h"] != "":
@@ -142,7 +144,7 @@ if __name__ == "__main__":
                 )
 
         cur.execute(
-            f"INSERT INTO en(AN,COD_CANDIDAT,ID_JUDET,ID_SCOALA,LR_FINAL,MA_FINAL,LIMBA_MATERNA,LM_FINAL,MEDIE_EN,MEDIE_ABS,REPARTIZAT_ID_LICEU,REPARTIZAT_SPECIALIZARE) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)",
+            f"INSERT INTO en(AN,COD_CANDIDAT,ID_JUDET,ID_SCOALA,LR_FINAL,MA_FINAL,LIMBA_MATERNA,LM_FINAL,MEDIE_EN,MEDIE_ABS,MEDIE_ADM,REPARTIZAT_ID_LICEU,REPARTIZAT_SPECIALIZARE) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (
                 args.year,
                 cod_candidat,
@@ -154,6 +156,7 @@ if __name__ == "__main__":
                 lm_final,
                 medie_ev,
                 medie_abs,
+                medie_adm,
                 repartizat_id_liceu,
                 repartizat_specializare,
             ),
