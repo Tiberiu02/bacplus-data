@@ -217,12 +217,13 @@ if __name__ == "__main__":
             ) / (4 if entry["lm_final"] is not None else 3)
 
         cur.execute(
-            f"INSERT INTO bac(AN,COD_CANDIDAT,ID_JUDET,ID_LICEU,PROMOTIE_ANTERIOARA,SPECIALIZARE,LR_INIT,LR_CONT,LR_FINAL,LIMBA_MATERNA,LM_INIT,LM_CONT,LM_FINAL,LIMBA_MODERNA,DISCIPLINA_OBLIGATORIE,DO_INIT,DO_CONT,DO_FINAL,DISCIPLINA_ALEGERE,DA_INIT,DA_CONT,DA_FINAL,MEDIE,MY_MEDIE,REZULTAT) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            f"INSERT INTO bac(AN,COD_CANDIDAT,ID_JUDET,ID_LICEU,SEX,PROMOTIE_ANTERIOARA,SPECIALIZARE,LR_INIT,LR_CONT,LR_FINAL,LIMBA_MATERNA,LM_INIT,LM_CONT,LM_FINAL,LIMBA_MODERNA,DISCIPLINA_OBLIGATORIE,DO_INIT,DO_CONT,DO_FINAL,DISCIPLINA_ALEGERE,DA_INIT,DA_CONT,DA_FINAL,MEDIE,MY_MEDIE,REZULTAT) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (
                 args.year,
                 entry["cod_candidat"],
                 entry["judet"],
                 liceu,
+                entry["sex"] if "sex" in entry else None,
                 entry["promotie_anterioara"],
                 entry["specializare"],
                 entry["lr_initial"],
