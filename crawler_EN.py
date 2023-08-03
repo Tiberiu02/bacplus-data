@@ -1,72 +1,58 @@
-import sys, os
-#from subprocess import Popen, PIPE
-from subprocess import run as system
+import re
+import sqlite3
+import argparse
+import unidecode
+from dotenv import load_dotenv
+from tqdm import tqdm
+import os
+from judete import judete
+from urllib.request import urlopen
+import html
+import html2text
+import json
+import openai
+import re
+import tiktoken
+import unidecode
+from PyPDF2 import PdfReader
+import io
+import time
 import json
 
-BUFSIZE = 32 * 1024 # 32Kb output buffer
 
-SELECTED_FIELDS = [
-  'name',   # cod
-  'school', # scoala
+load_dotenv()
 
-  # romana
-  'ri',
-  'ra',
-  'rf',
+URL_REPARTIZARE = (
+    "http://static.admitere.edu.ro/%d/repartizare/%s/data/candidate.json?_=%d"
+)
+URL_REZULTATE = "http://static.evaluare.edu.ro/%d/rezultate/%s/data/candidate.json?_=%d"
 
-  # matematica
-  'mi', 
-  'ma',
-  'mf',
 
-  # limba materna
-  'lmp',
-  'lmi',
-  'lma',
-  'lmf',
+def parse_args():
+    parser = argparse.ArgumentParser()
 
-  'mev' # media finala
-]
+    parser.add_argument("year", type=int)
+    parser.add_argument("output_path")
+    parser.add_argument("--repartizare", action="store_true")
 
-def usage():
-  print( "Usage: python %s <year> <output file>" % (sys.argv[0]) )
-  print( "  crawls year <year> and puts output in <output file>" )
-  sys.exit( 1 )
+    return parser.parse_args()
 
-def main( argv ):
-  if( len(argv) < 3 ):
-    usage()
 
-  year = argv[1]
-  fout_name = argv[2]
+if __name__ == "__main__":
+    args = parse_args()
 
-  fjud = open( "meta/coduri-judete.txt", "r" )
-  coduri = [line.split(',')[0] for line in fjud.readlines()]
-  fjud.close()
+    if args.repartizare:
+        url = URL_REPARTIZARE
+    else:
+        url = URL_REZULTATE
 
-  system( ['rm', '-rf', 'tmp'] ) # to not interfere with previous runs
-  system( ['mkdir', 'tmp'] )
+    data = []
 
-  rezarr = []
-  for cod in coduri:
-    system( ['wget', '-q', '--show-progress', '-O', 'tmp/%s_%s.json' % (cod, year), 'evaluare.edu.ro/%s/rezultate/%s/data/candidate.json' % (year, cod)] )
-    with open( 'tmp/%s_%s.json' % (cod, year), 'r' ) as fjson:
-      rezarr_jud = json.load( fjson )
-      rezarr += rezarr_jud
-    system( ['rm', 'tmp/%s_%s.json' % (cod, year)] )
+    for j_id, j_name, j_fullname in tqdm(
+        judete, unit="judet", desc="Downloading judete"
+    ):
+        url_j = url % (args.year, j_id, int(time.time() * 1000))
+        j_data = json.loads(urlopen(url_j).read().decode("utf-8"))
+        data += j_data
 
-  system( ['rmdir', 'tmp'] )
-
-  # now we have to turn the json array into the output CSV file
-
-  fout = open( fout_name, 'w', buffering = BUFSIZE )
-
-  for entry in rezarr:
-    fout.write( '\t'.join(
-      map( lambda i : ('-' if entry[i] == None else str(entry[i])), SELECTED_FIELDS )
-    ) + '\n' )
-
-  fout.close()
-
-if __name__ == '__main__':
-  main( sys.argv )
+    open(args.output_path, "w", encoding="utf-8").write(json.dumps(data))

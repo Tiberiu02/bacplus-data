@@ -1,4 +1,5 @@
-# geckodriver files
+# selenium files
+chromedriver.exe
 geckodriver.exe
 geckodriver.log
 geckodriver
@@ -12,3 +13,7 @@ tmp
 # for local testing
 test.csv
 test.json
+
+data.sqlite
+.env
+.google-cookie
