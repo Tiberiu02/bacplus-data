@@ -1,21 +1,9 @@
-import re
-import sqlite3
 import argparse
-import unidecode
 from dotenv import load_dotenv
 from tqdm import tqdm
-import os
 from judete import judete
 from urllib.request import urlopen
-import html
-import html2text
 import json
-import openai
-import re
-import tiktoken
-import unidecode
-from PyPDF2 import PdfReader
-import io
 import time
 import json
 

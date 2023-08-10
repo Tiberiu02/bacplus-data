@@ -35,8 +35,8 @@ Stegulețul `--repartizare` este folosit pentru a descărca și repartizarea pe 
 
 De exemplu:
 
-- `python crawler_en 2022 data\en\2022.json --repartizare`
-- `python crawler_en 2023 data\en\2023.json`
+- `python crawler_en.py 2022 data\en\2022.json --repartizare`
+- `python crawler_en.py 2023 data\en\2023.json`
 
 # Inserare date in baza de date SQLite
 
