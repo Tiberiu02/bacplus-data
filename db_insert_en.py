@@ -121,7 +121,11 @@ if __name__ == "__main__":
                 )
                 repartizat_specializare = (
                     entry["sp"].split("<br/>")[0].replace("<b>", "").replace("</b>", "")
-                )
+                ).lstrip("() 0123456789")
+                if entry["sp"].split("<br/>")[1].count("/") > 0:
+                    repartizat_specializare += (
+                        " (" + entry["sp"].split("<br/>")[1].split("/")[-1] + ")"
+                    )
             else:
                 repartizat_id_liceu = None
                 repartizat_specializare = None
