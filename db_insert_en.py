@@ -19,6 +19,7 @@ def parse_args():
     parser.add_argument("year", type=int)
     parser.add_argument("input_path")
     parser.add_argument("--repartizare", action="store_true")
+    parser.add_argument("--insert", action="store_true")
 
     return parser.parse_args()
 
@@ -50,11 +51,17 @@ if __name__ == "__main__":
     cur = conn.cursor()
 
     # Remove existing entries
-    cnt = cur.execute(f"SELECT COUNT(*) FROM en WHERE an = {args.year}").fetchone()[0]
-    print(f"Deleting {cnt} entries from database...")
-    cur.execute(f"DELETE FROM en WHERE an = {args.year}")
+    if not args.repartizare or args.insert:
+        cnt = cur.execute(f"SELECT COUNT(*) FROM en WHERE an = {args.year}").fetchone()[
+            0
+        ]
+        print(f"Deleting {cnt} entries from database...")
+        cur.execute(f"DELETE FROM en WHERE an = {args.year}")
 
-    print(f"Inserting {len(data)} entries into database...")
+        print(f"Inserting {len(data)} entries into database...")
+    else:
+        print(f"Updating {len(data)} entries into database...")
+        not_found = 0
 
     scoli = {}
 
@@ -86,12 +93,14 @@ if __name__ == "__main__":
                 else parse_grade(entry["lmi"])
             )
 
-            medie_ev = parse_grade(entry["mev"])
+            medie_en = parse_grade(entry["mev"])
             medie_abs = None
             medie_adm = None
 
             repartizat_id_liceu = None
             repartizat_specializare = None
+
+            medie_adm = medie_en  # Aproximare pentru a putea fi inclusi in ierarhie
 
         else:
             # Example entry: {'ja': 'AB', 'n': 'AB8583021', 'jp': 'ALBA', 's': 'SEMINARUL TEOLOGIC ORTODOX SFANTUL SIMION STEFAN ALBA IULIA', 'sc': '0161102847', 'madm': '9.22', 'mev': '9.10', 'mabs': '9.74', 'nro': '8.70', 'nmate': '9.50', 'lm': '-', 'nlm': '-', 'h': '<b>COLEGIUL NATIONAL LUCIAN BLAGA SEBES</b><br/>Real/Liceal/Zi', 'sp': '<b>(119) Matematică-Informatică</b><br/>Limba română'}
@@ -107,7 +116,7 @@ if __name__ == "__main__":
             limba_materna = entry["lm"] if entry["lm"] != "-" else None
             lm_final = parse_grade(entry["nlm"])
 
-            medie_ev = parse_grade(entry["mev"])
+            medie_en = parse_grade(entry["mev"])
             medie_abs = parse_grade(entry["mabs"])
             medie_adm = parse_grade(entry["madm"])
 
@@ -147,24 +156,54 @@ if __name__ == "__main__":
                     (nume_scoala, cod_siiir, id_scoala),
                 )
 
-        cur.execute(
-            f"INSERT INTO en(AN,COD_CANDIDAT,ID_JUDET,ID_SCOALA,LR_FINAL,MA_FINAL,LIMBA_MATERNA,LM_FINAL,MEDIE_EN,MEDIE_ABS,MEDIE_ADM,REPARTIZAT_ID_LICEU,REPARTIZAT_SPECIALIZARE) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)",
-            (
-                args.year,
-                cod_candidat,
-                id_judet,
-                id_scoala,
-                lr_final,
-                ma_final,
-                limba_materna,
-                lm_final,
-                medie_ev,
-                medie_abs,
-                medie_adm,
-                repartizat_id_liceu,
-                repartizat_specializare,
-            ),
-        )
+        action = "INSERT"
+
+        if args.repartizare and not args.insert:
+            cnt = cur.execute(
+                f"SELECT COUNT(*) FROM en WHERE AN = ? AND COD_CANDIDAT = ?",
+                (args.year, cod_candidat),
+            ).fetchone()[0]
+
+            if int(cnt) == 0:
+                not_found += 1
+            else:
+                action = "UPDATE"
+
+        if action == "UPDATE":
+            cur.execute(
+                f"UPDATE en SET MEDIE_EN = ?, MEDIE_ABS = ?, MEDIE_ADM = ?, REPARTIZAT_ID_LICEU = ?, REPARTIZAT_SPECIALIZARE = ? WHERE AN = ? AND COD_CANDIDAT = ?",
+                (
+                    medie_en,
+                    medie_abs,
+                    medie_adm,
+                    repartizat_id_liceu,
+                    repartizat_specializare,
+                    args.year,
+                    cod_candidat,
+                ),
+            )
+        else:
+            cur.execute(
+                f"INSERT INTO en(AN,COD_CANDIDAT,ID_JUDET,ID_SCOALA,LR_FINAL,MA_FINAL,LIMBA_MATERNA,LM_FINAL,MEDIE_EN,MEDIE_ABS,MEDIE_ADM,REPARTIZAT_ID_LICEU,REPARTIZAT_SPECIALIZARE) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                (
+                    args.year,
+                    cod_candidat,
+                    id_judet,
+                    id_scoala,
+                    lr_final,
+                    ma_final,
+                    limba_materna,
+                    lm_final,
+                    medie_en,
+                    medie_abs,
+                    medie_adm,
+                    repartizat_id_liceu,
+                    repartizat_specializare,
+                ),
+            )
+
+    if args.repartizare:
+        print(f"{not_found} entries not found, had to insert them")
 
     conn.commit()
     conn.close()
