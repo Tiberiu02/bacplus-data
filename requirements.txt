@@ -9,3 +9,4 @@ tiktoken
 termcolor 
 openai
 requests
+favicon
