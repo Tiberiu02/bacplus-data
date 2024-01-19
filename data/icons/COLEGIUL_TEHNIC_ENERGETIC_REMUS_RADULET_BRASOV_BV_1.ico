@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#007dc0">
+<title>Acasa</title>
+<meta name="description" content=""/>
+<meta name="keywords" content="Acasa"/>
+<link rel="shortcut icon" href="https://www.ctenergeticremusradulet.ro/static/fisiere/Dotari/pictures/Noua Sigla RR (150x150).jpg">
+<link href="https://www.ctenergeticremusradulet.ro/static/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://www.ctenergeticremusradulet.ro/static/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://www.ctenergeticremusradulet.ro/static/css/icomoon.css" rel="stylesheet">
+<link href="https://www.ctenergeticremusradulet.ro/static/css/animate.css" rel="stylesheet">
+<link href="https://www.ctenergeticremusradulet.ro/static/css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&amp;subset=latin-ext" rel="stylesheet">
+<!--[if lt IE 9]>
+        <script src="https://www.ctenergeticremusradulet.ro/static/js/html5shiv.min.js"></script>
+        <script src="https://www.ctenergeticremusradulet.ro/static/js/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="container-fluid no fixed-top">
+    <div class="container-fluid no top-small">
+        <div class="container-fluid row-lg-center">
+            <div class="row py-2">
+                <div class="col-7 no topmenu">
+                    <ul>
+                                            </ul>
+                </div>
+                <div class="col-5 no to-right flags">
+
+
+                   <div class="pull-right d-none d-md-block">
+                    <div class="addthis_inline_share_toolbox_36jo" ></div>
+                   </div>
+
+
+                     <div class="pull-right just-flags">
+
+                    <a  class="active"  href="https://www.ctenergeticremusradulet.ro/ro" title="Romana"><img src="https://www.ctenergeticremusradulet.ro/static/img/ro.png" alt="Romana"></a>
+                    <a href="https://www.ctenergeticremusradulet.ro/de" title="Deutsch"><img src="https://www.ctenergeticremusradulet.ro/static/img/de.png" alt="Deutsch"></a>
+                    <a href="https://www.ctenergeticremusradulet.ro/hu" title="Magyar"><img src="https://www.ctenergeticremusradulet.ro/static/img/hu.png" alt="Magyar"></a>
+                   </div>
+             </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid no top">
+        <div class="container-fluid row-lg-center py-2">
+            <div class="row">
+            <div class="col-12 px-1">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="https://www.ctenergeticremusradulet.ro/ro"  title="Colegiul Tehnic Energetic Remus Răduleț"><img src="https://www.ctenergeticremusradulet.ro/static/fisiere/Dotari/pictures/Noua Sigla RR (150x150).jpg" alt="Colegiul Tehnic Energetic Remus Răduleț"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item  menu-danger">
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/" title="Acasa"><i class="fa fa fa-home"></i> Acasa</a>
+                        </li><li class="nav-item  dropdown  menu-success">
+                        <span class="menu-caret fa fa-plus" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/info" title="Info"><i class="fa fa fas fa-child"></i> Info</a><div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-content"><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/istoric" title="Istoric"><i class="fa fa fa-play"></i> Istoric</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/misiune" title="Misiune"><i class="fa fa fa-play"></i> Misiune</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/directorii-liceului" title="Directorii liceului"><i class="fa fa fa-play"></i> Directorii liceului</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/conducerea-liceului" title="CONDUCEREA LICEULUI"><i class="fa fa fa-play"></i> CONDUCEREA LICEULUI</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/acte-ale-consiliului-de-administratie" title="ACTE ALE CONSILIULUI DE ADMINISTRAȚIE"><i class="fa fa fa-play"></i> ACTE ALE CONSILIULUI DE ADMINISTRAȚIE</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/documente-scolare" title="Documente scolare"><i class="fa fa fa-play"></i> Documente scolare</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/ceac" title="CEAC"><i class="fa fa fa-play"></i> CEAC</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/impresii-testimoniale" title="Impresii / Testimoniale"><i class="fa fa fa-play"></i> Impresii / Testimoniale</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/perspective" title="Perspective"><i class="fa fa fa-play"></i> Perspective</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/info-trafic-de-persoane" title="INFO-TRAFIC DE PERSOANE"><i class="fa fa fa-play"></i> INFO-TRAFIC DE PERSOANE</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/info-antibullying" title="INFO-ANTIBULLYING "><i class="fa fa fa-play"></i> INFO-ANTIBULLYING </a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/info-covid-19-si-gripa" title="INFO COVID 19 ȘI GRIPĂ"><i class="fa fa fa-play"></i> INFO COVID 19 ȘI GRIPĂ</a></div></div></li><li class="nav-item  dropdown  menu-pink">
+                        <span class="menu-caret fa fa-plus" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/oferta-educationala" title="Ofertă educațională"><i class="fa fa fas fa-child"></i> Ofertă educațională</a><div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-content"><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/invatamant-prescolar-gradinita" title="ÎNVĂȚĂMÂNT PREȘCOLAR-GRĂDINIȚĂ"><i class="fa fa fa-play"></i> ÎNVĂȚĂMÂNT PREȘCOLAR-GRĂDINIȚĂ</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/inscriere-clasa-pregatitoare" title="ÎNSCRIERE CLASA PREGĂTITOARE"><i class="fa fa fa-play"></i> ÎNSCRIERE CLASA PREGĂTITOARE</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/scoala-profesionala-dual-3-ani" title="ȘCOALA PROFESIONALĂ  DUAL-3 ANI"><i class="fa fa fa-play"></i> ȘCOALA PROFESIONALĂ  DUAL-3 ANI</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/admitere-liceu" title="ADMITERE LICEU "><i class="fa fa fa-play"></i> ADMITERE LICEU </a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/liceu-seral" title="LICEU SERAL"><i class="fa fa fa-play"></i> LICEU SERAL</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/scoala-postliceala" title="ȘCOALA POSTLICEALĂ"><i class="fa fa fa-play"></i> ȘCOALA POSTLICEALĂ</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/scoala-de-maistri-2024-2025" title="ȘCOALA DE MAIȘTRI 2024-2025"><i class="fa fa fa-play"></i> ȘCOALA DE MAIȘTRI 2024-2025</a></div></div></li><li class="nav-item  menu-purple">
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/sectia-maghiara" title="SECȚIA MAGHIARĂ"><i class="fa fa fas fa-child"></i> SECȚIA MAGHIARĂ</a>
+                        </li><li class="nav-item  menu-info">
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/instruire-practica" title="INSTRUIRE PRACTICĂ"><i class="fa fa fa-bell"></i> INSTRUIRE PRACTICĂ</a>
+                        </li><li class="nav-item  dropdown  menu-success">
+                        <span class="menu-caret fa fa-plus" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/dotari" title="Dotări"><i class="fa fa fa-globe"></i> Dotări</a><div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-content"><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/laborator-de-mecatronica" title="Laborator mecatronică"><i class="fa fa fa-play"></i> Laborator mecatronică</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/laborator-automatizari" title="Laborator echipamente electrice"><i class="fa fa fa-play"></i> Laborator echipamente electrice</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/laborator-de-instalatii-electrice" title="Laborator de instalații electrice"><i class="fa fa fa-play"></i> Laborator de instalații electrice</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/laborator-de-electronica" title="Laborator de electronică"><i class="fa fa fa-play"></i> Laborator de electronică</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/laborator-de-masurari" title="Laborator de măsurări"><i class="fa fa fa-play"></i> Laborator de măsurări</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/laborator-de-informatica" title="Laborator de informatică"><i class="fa fa fa-play"></i> Laborator de informatică</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/atelier-electric" title="Atelier electric"><i class="fa fa fa-play"></i> Atelier electric</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/atelier-electromecanic" title="Atelier electromecanic"><i class="fa fa fa-play"></i> Atelier electromecanic</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/biblioteca" title="Biblioteca"><i class="fa fa fa-play"></i> Biblioteca</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/teren-si-sala-de-sport" title="Teren si sala de sport"><i class="fa fa fa-play"></i> Teren si sala de sport</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/camin-elevi" title="Camin elevi"><i class="fa fa fa-play"></i> Camin elevi</a></div></div></li><li class="nav-item  dropdown  menu-primary">
+                        <span class="menu-caret fa fa-plus" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/proiecte-activitati" title="Proiecte   Activitati"><i class="fa fa fa-bell"></i> Proiecte   Activitati</a><div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-content"><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/vizita-la-muzeul-de-istorie-bucuresti-ix-emb" title="VIZITĂ LA MUZEUL DE ISTORIE BUCUREȘTI - IX EMB"><i class="fa fa fa-check"></i> VIZITĂ LA MUZEUL DE ISTORIE BUCUREȘTI - IX EMB</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/vizita-la-biblioteca-judeteana-vii" title="VIZITĂ LA BIBLIOTECA  JUDEȚEANĂ - VII"><i class="fa fa fa-check"></i> VIZITĂ LA BIBLIOTECA  JUDEȚEANĂ - VII</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/vizita-la-uzina-de-apa-tarlung-din-sacele-ix-elb" title="VIZITĂ LA UZINA DE APĂ TĂRLUNG DIN SĂCELE- IX ELB"><i class="fa fa fa-check"></i> VIZITĂ LA UZINA DE APĂ TĂRLUNG DIN SĂCELE- IX ELB</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/vizita-la-statia-de-transformare-400-110kv-xi-emb" title="Vizită la Stația de transformare 400/110kV - XI EMB "><i class="fa fa fa-check"></i> Vizită la Stația de transformare 400/110kV - XI EMB </a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/8-martie-ziua-mamei" title="8 MARTIE - ZIUA MAMEI"><i class="fa fa fa-check"></i> 8 MARTIE - ZIUA MAMEI</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/activitate-sportiva" title="ACTIVITATE SPORTIVĂ"><i class="fa fa fa-check"></i> ACTIVITATE SPORTIVĂ</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/proiect-noark" title="Proiect NOARK"><i class="fa fa fa-check"></i> Proiect NOARK</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/targ-de-craciun-ctb" title="TÂRG DE CRĂCIUN CTB"><i class="fa fa fa-check"></i> TÂRG DE CRĂCIUN CTB</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/proiect-planeta-pamant" title="Proiect "PLANETA PĂMÂNT""><i class="fa fa fa-check"></i> Proiect "PLANETA PĂMÂNT"</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/noaptea-cercetatorilor-la-universitatea-transilvania-brasov" title="Noaptea cercetătorilor la Universitatea Transilvania Brașov"><i class="fa fa fa-check"></i> Noaptea cercetătorilor la Universitatea Transilvania Brașov</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/proiect-promovare-prin-miscare" title="Proiect "Promovare prin mișcare""><i class="fa fa fa-check"></i> Proiect "Promovare prin mișcare"</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/activitati-scoala-altfel" title="Activitati Scoala Altfel"><i class="fa fa fa-check"></i> Activitati Scoala Altfel</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/ora-de-educatie-rutiera" title="Ora de educatie rutiera "><i class="fa fa fa-check"></i> Ora de educatie rutiera </a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/expozitie-jubiliara-centenar" title="Expozitie jubiliara centenar "><i class="fa fa fa-check"></i> Expozitie jubiliara centenar </a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/electrica-drum-sigur" title="Electrica - Drum sigur"><i class="fa fa fa-check"></i> Electrica - Drum sigur</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/saptamana-legumelor-si-a-fructelor" title="Saptamana legumelor si a fructelor"><i class="fa fa fa-check"></i> Saptamana legumelor si a fructelor</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/balul-bobocilor-nov.-2017" title="Balul Bobocilor - nov. 2017"><i class="fa fa fa-check"></i> Balul Bobocilor - nov. 2017</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/si-tu-poti-fi-mos-craciun" title="Si tu poti fi Mos Craciun!"><i class="fa fa fa-check"></i> Si tu poti fi Mos Craciun!</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/colindatori" title="Colindatori "><i class="fa fa fa-check"></i> Colindatori </a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/aniversare-semicentenar-energo" title="Aniversare Semicentenar ENERGO"><i class="fa fa fa-check"></i> Aniversare Semicentenar ENERGO</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/viata-fara-violenta" title="Viata fara VIOLENTA"><i class="fa fa fa-check"></i> Viata fara VIOLENTA</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/concurs-national-de-mecatronica" title="Concurs national de mecatronica"><i class="fa fa fa-check"></i> Concurs national de mecatronica</a></div></div></li><li class="nav-item  menu-info">
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/erasmus" title="Erasmus +"><i class="fa fa fa-globe"></i> Erasmus +</a>
+                        </li><li class="nav-item  dropdown  menu-danger">
+                        <span class="menu-caret fa fa-plus" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/examene" title="Examene "><i class="fa fa fas fa-child"></i> Examene </a><div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-content"><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/evaluarea-nationala-la-clasele-ii-iv-vi" title="Evaluarea nationala la clasele II, IV, VI"><i class="fa fa fa-play"></i> Evaluarea nationala la clasele II, IV, VI</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/evaluare-nationala-la-clasa-a-viii-a" title="Evaluare nationala la clasa a VIII-a"><i class="fa fa fa-play"></i> Evaluare nationala la clasa a VIII-a</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/bacalaureat" title="Bacalaureat "><i class="fa fa fa-play"></i> Bacalaureat </a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/examen-de-atestat" title="Examen de atestat"><i class="fa fa fa-play"></i> Examen de atestat</a></div></div></li><li class="nav-item  menu-warning">
+                        <a class="nav-link" href="http://www.ctenergeticremusradulet.ro/scoala/" title="Sc. Gim. nr. 31"><i class="fa fa fa-bell"></i> Sc. Gim. nr. 31</a>
+                        </li><li class="nav-item  dropdown  menu-info">
+                        <span class="menu-caret fa fa-plus" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/rose" title="ROSE"><i class="fa fa fa-home"></i> ROSE</a><div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-content"><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/descriere-proiect" title="Descriere proiect"><i class="fa fa fa-play"></i> Descriere proiect</a><a class="dropdown-item" href="https://www.ctenergeticremusradulet.ro/ro/achizitii" title="Achizitii"><i class="fa fa fa-play"></i> Achizitii</a></div></div></li><li class="nav-item  menu-purple">
+                        <a class="nav-link" href="https://www.campustehnicbrasov.ro/noutati/" title="CTB"><i class="fa fa fa-bell"></i> CTB</a>
+                        </li><li class="nav-item  menu-success">
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/orar" title="Orar"><i class="fa fa fa-calendar"></i> Orar</a>
+                        </li><li class="nav-item  menu-danger">
+                        <a class="nav-link" href="https://www.ctenergeticremusradulet.ro/ro/contact" title="Contact"><i class="fa fa fa-bullhorn"></i> Contact</a>
+                        </li> 
+                    </ul>
+                        <form action="https://www.ctenergeticremusradulet.ro/ro/search" method="GET" class="form-inline" accept-charset="utf-8">
+                            <input class="form-control" type="text" name="search" placeholder="Cautare" aria-label="Search">
+                            <button class="btn btn-search" type="submit"><i class="fa fa-search"></i></button>
+                       </form>                </div>
+            </nav>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+            <div class="modal fade" id="homevideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Prezentare video</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+             <div class="col-12 text-center">
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item videoframe"  src="" allowfullscreen></iframe>
+                    </div>
+            </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid no slide-container top-margin">
+    <div class="row no slide-bg">
+        <div class="col-12 no">
+            <ul class="slider">
+                
+                <li>
+                <div class="row-absolute">
+                    <div class="slider-text">
+
+                        <h1 class="animated fadeIn"><a href="#" title="Colegiul Tehnic Energetic Remus Răduleț">Colegiul Tehnic Energetic Remus Răduleț</a></h1>
+                        <p class="animated fadeIn">
+                          Colegiul Tehnic Energetic Remus Răduleț este unica Unitate de învățământ care pregătește elevi în domeniul Electric prin utilizarea unor tehnologii moderne în cadrul laboratoarelor, respectiv prin asimilarea cunoștințelor  în trei limbi: română, maghiară și germană.</p>
+                         <a class="btn btn-default animated fadeInUpBig" href="" title="Înscriere">Înscriere</a>
+                         <a class="btn btn-warning animated fadeInDownBig" href="" title="Vezi detalii">Vezi detalii</a>
+                    </div>
+                </div>
+                <a href="#" title="Colegiul Tehnic Energetic Remus Răduleț"><img src="https://www.ctenergeticremusradulet.ro/static/fisiere/Slide/DSC_0032.jpg" alt="Colegiul Tehnic Energetic Remus Răduleț"/></a>
+                </li> 
+                <li>
+                <div class="row-absolute">
+                    <div class="slider-text">
+
+                        <h1 class="animated fadeIn"><a href="#" title="Inscriere la clasă">Inscriere la clasă</a></h1>
+                        <p class="animated fadeIn">
+                          Vrei să te înscrii la noi? Noi te așteptăm!</p>
+                         
+                         <a class="btn btn-warning animated fadeInDownBig" href="https://www.ctenergeticremusradulet.ro/ro/invatamant-liceal" title="Profită acum">Profită acum</a>
+                    </div>
+                </div>
+                <a href="#" title="Inscriere la clasă"><img src="https://www.ctenergeticremusradulet.ro/static/fisiere/Slide/DSC_0039-2.jpg" alt="Inscriere la clasă"/></a>
+                </li> 
+                <li>
+                <div class="row-absolute">
+                    <div class="slider-text">
+
+                        <h1 class="animated fadeIn"><a href="#" title="Laboratoarele sunt echipate!">Laboratoarele sunt echipate!</a></h1>
+                        <p class="animated fadeIn">
+                          Tu ești gata? Acceptă provocarea!</p>
+                         
+                         
+                    </div>
+                </div>
+                <a href="#" title="Laboratoarele sunt echipate!"><img src="https://www.ctenergeticremusradulet.ro/static/fisiere/Slide/Laboratoarele sunt dotate.jpg" alt="Laboratoarele sunt echipate!"/></a>
+                </li> 
+                <li>
+                <div class="row-absolute">
+                    <div class="slider-text">
+
+                        <h1 class="animated fadeIn"><a href="#" title="Și tu vrei să legi fire?">Și tu vrei să legi fire?</a></h1>
+                        <p class="animated fadeIn">
+                          </p>
+                         <a class="btn btn-default animated fadeInUpBig" href="https://www.ctenergeticremusradulet.ro/ro/laborator-de-mecatronica" title="Vino la CTERR">Vino la CTERR</a>
+                         
+                    </div>
+                </div>
+                <a href="#" title="Și tu vrei să legi fire?"><img src="https://www.ctenergeticremusradulet.ro/static/fisiere/Slide/RR 2019 - (113 of 223).jpg" alt="Și tu vrei să legi fire?"/></a>
+                </li> 
+                <li>
+                <div class="row-absolute">
+                    <div class="slider-text">
+
+                        <h1 class="animated fadeIn"><a href="#" title="Vrei să legi fire și tu?">Vrei să legi fire și tu?</a></h1>
+                        <p class="animated fadeIn">
+                          </p>
+                         <a class="btn btn-default animated fadeInUpBig" href="" title="Vino la CTERR">Vino la CTERR</a>
+                         
+                    </div>
+                </div>
+                <a href="#" title="Vrei să legi fire și tu?"><img src="https://www.ctenergeticremusradulet.ro/static/fisiere/Slide/RR 2019 - (168 of 223).jpg" alt="Vrei să legi fire și tu?"/></a>
+                </li>             </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid no bg-light">
+    <div class="container-fluid row-center">
+        <div class="row">
+            <div class="col-lg-6 col-md-5 col-12 intro-text">
+              <h2>Despre noi </h2>
+               <p style="text-align: center;">&nbsp;</p>
+<p style="text-align: justify;">Colegiul Tehnic Energetic Remus Răduleț, fondat &icirc;n anul 1967 la Brașov este o instituție de &icirc;nvățăm&acirc;nt care activează de la nivel de grădiniță p&acirc;nă la nivel de postliceală, pregătind elevii &icirc;n domeniul electric prin lecții teoretice și laboratoare de &icirc;naltă tehnologie. De asemenea, oferim posibilitatea pregătirii practice &icirc;n cadrul unor companii Brașovene de renume. CTERR oferă posibilitatea asimilării noilor cunoștințe &icirc;n trei limbi: rom&acirc;nă, maghiară, respectiv germană &icirc;n cadrul a opt specializări pentru liceu, școala profesională, maiștri sau postliceală.&nbsp; &nbsp; &nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>                                    <a class="btn btn-danger animated fadeIn" href="https://www.ctenergeticremusradulet.ro/ro/scoala-postliceala" title="Te așteptăm pentru înscrieri. Nu o să-ți pare rău că ai ales o meserie de viitor!">Te așteptăm pentru înscrieri. Nu o să-ți pare rău că ai ales o meserie de viitor!</a>
+                
+         </div>
+            <div class="col-lg-6 col-md-7 col-12 no left-intro scroll-effect">
+                <div class="intro-contact  scroll-effect">
+                    <div class="small-border mt-3"></div>
+
+                   <h2>Școla profesională duală </h2>
+                    <p><iframe src="//www.youtube.com/embed/6pxjU3LMDQg" width="350" height="350" allowfullscreen="allowfullscreen"></iframe>&nbsp; &nbsp;</p>                    
+                </div>
+                <div class="intro-orar">
+                    <h3>Orar </h3>
+                    <p><span style="font-size: 14pt;"><a href="https://www.ctenergeticremusradulet.ro/ro/orar">Orar</a></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid no pb-5">
+    <div class="row no">
+        <div class="col-md-9 col-12 home-video" style="backround-image:url(https://www.ctenergeticremusradulet.ro/static/fisiere/Dotari/pictures/DSC_0719.jpg);">
+            <div class="video-home  scroll-effect">
+
+                <h4>Prezentare video</h4>
+                <h3>Colegiul Tehnic Energetic Remus Răduleț</h3>
+                <button class="seevideo"  title="Prezentare video" data-video="_5eul3duIlI"><i class="fa fa-play-circle-o"></i></button>
+            </div>
+        </div>
+        <div class="col-md-3 home-video-bg d-none d-md-block"></div>
+    </div>
+
+    <div class="row row-center home-sections pb-3">
+        <div class="col-md-9 col-12">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 section-home section-sm animated scroll-effect"  style="backround-image:url(https://www.ctenergeticremusradulet.ro/static/fisiere/home-video.jpg);">
+                    <div class="row bg-overlay bg-info">
+                        <div class="col-12 text-center home-section-text">
+                            <i class="fa fa-graduation-cap fa-xl"></i>
+                            <h3>Oferta educationala 2023- 2024</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 home-simple-section bg-light scroll-effect">
+                    <h3>Rezultatele elevilor</h3>
+                    <p>&nbsp;</p>
+<ul>
+<li>An scolar 2021-2022</li>
+<li>An scolar 2020-2021</li>
+<li><a href="https://www.ctenergeticremusradulet.ro/static/fisiere/olimpiada%202019-2020.pdf">An&nbsp;scolar 2019-2020</a></li>
+<li><a href="https://www.ctenergeticremusradulet.ro/ro/rezultatele-elevilor-la-olimpiade-si-competetii-scolare-in-anul-scolar-2018-2019">An scolar 2018-2019</a></li>
+<li><a href="https://www.ctenergeticremusradulet.ro/ro/rezultatele-elevilor-in-anul-scolar-2017-2018">An scolar 2017-2018</a></li>
+</ul>
+<p><strong>&nbsp;&nbsp;</strong></p>                </div>
+                <div class="col-lg-4 d-none d-lg-block section-home section-sm scroll-effect" style="background-image:  url(https://www.ctenergeticremusradulet.ro/static/fisiere/pictures/IMG_9525.JPG)">
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 home-simple-section bg-primary scroll-effect">
+                    <h3><small>Proiecte</small></h3>
+                    <ul>
+<li><span style="font-size: 14pt;"><a href="https://www.ctenergeticremusradulet.ro/ro/erasmus">ERASMUS +&nbsp;</a></span></li>
+</ul>                </div>
+                <div class="col-lg-8 col-md-6 col-12 section-home section-sm scroll-effect" style="background-image:  url(https://www.ctenergeticremusradulet.ro/static/fisiere/s3.jpg)">
+                    <div class="row bg-overlay bg-danger">
+                        <div class="col-12 text-center home-section-text section-absolute">
+                            <h3>Ești interesat?</h3>
+                                                                 <a class="btn btn-section btn-block" href="https://www.ctenergeticremusradulet.ro/de/contact" title="Contacteazăne">Contacteazăne</a>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12 section-home section-lg scroll-effect"  style="background-image:  url(https://www.ctenergeticremusradulet.ro/static/fisiere/s4.jpg)">
+            <div class="row bg-overlay bg-success">
+                <div class="col-12 home-section-text section-absolute">
+                    <i class="fa fas fa-child fa-md"></i>
+                    <h3>Dotări</h3>
+                    <ul>
+<li><span style="font-size: 14pt;"><a href="https://www.ctenergeticremusradulet.ro/ro/laborator-de-mecatronica">Laborator de mecatronică</a></span></li>
+<li><span style="font-size: 14pt;"><a href="https://www.ctenergeticremusradulet.ro/ro/laborator-de-instalatii-electrice">Laborator de instalații electrice</a></span></li>
+<li><a href="https://www.ctenergeticremusradulet.ro/ro/laborator-automatizari"><span style="font-size: 14pt;">Laborator de&nbsp;echipamente electrice</span></a></li>
+<li><span style="font-size: 14pt;"><a href="https://www.ctenergeticremusradulet.ro/ro/laborator-de-electronica">Laborator de electronică</a></span></li>
+</ul>                     
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container-fluid no py-4">
+    <div class="container-fluid row-center">
+        <div class="row">
+            <div class="col-lg-6 col-12 mt-2">
+               <h2>Noutăți și evenimente </h2>
+                            </div>
+            <div class="col-lg-6 col-12 news-cat py-3 text-center text-lg-right">
+                <a href="https://www.ctenergeticremusradulet.ro/ro/noutati?type=1" title="Știri">Știri</a>
+                <a href="https://www.ctenergeticremusradulet.ro/ro/noutati?type=2" title="Evenimente">Evenimente</a>
+                <a href="https://www.ctenergeticremusradulet.ro/ro/noutati?type=3" title="Populare">Populare</a>
+            </div>
+        </div>
+        <div class="row">
+            
+                 <div class="col-md-4 col-12 news-item py-3">
+                        <figure>
+                            <div class="news-date">12 ianuarie 2024</div>
+                            <a href="https://www.ctenergeticremusradulet.ro/ro/concurs-post-administrator-financiar-si-concurs-post-paznic" title="Concurs post administrator financiar și concurs post paznic"><img src="https://www.ctenergeticremusradulet.ro/static/fisiere/sigla-cterr.png" alt="Concurs post administrator financiar și concurs post paznic"></a>
+                        </figure>
+                        <h3><a href="https://www.ctenergeticremusradulet.ro/ro/concurs-post-administrator-financiar-si-concurs-post-paznic" title="Concurs post administrator financiar și concurs post paznic">Concurs post administrator financiar și concurs post paznic</a></h3>
+                        <h5>Știri</h5>
+                        <p>Rezultat final concurs post administrator financiar
+Rezultat final concurs post paznic
+Rezultat probă interviu administrator financiar
+proba practi</p>
+                        <a class="btn-link" href="https://www.ctenergeticremusradulet.ro/ro/concurs-post-administrator-financiar-si-concurs-post-paznic" title="Mai multe detalii">Mai multe detalii</a>
+                    </div>
+                 <div class="col-md-4 col-12 news-item py-3">
+                        <figure>
+                            <div class="news-date">20 decembrie 2023</div>
+                            <a href="https://www.ctenergeticremusradulet.ro/ro/anunt-inchiriere-spatiu-si-teren-intravilan" title="Anunț închiriere spațiu și teren intravilan"><img src="https://www.ctenergeticremusradulet.ro/static/fisiere/sigla-cterr.png" alt="Anunț închiriere spațiu și teren intravilan"></a>
+                        </figure>
+                        <h3><a href="https://www.ctenergeticremusradulet.ro/ro/anunt-inchiriere-spatiu-si-teren-intravilan" title="Anunț închiriere spațiu și teren intravilan">Anunț închiriere spațiu și teren intravilan</a></h3>
+                        <h5>Știri</h5>
+                        <p>
+&nbsp;
+</p>
+                        <a class="btn-link" href="https://www.ctenergeticremusradulet.ro/ro/anunt-inchiriere-spatiu-si-teren-intravilan" title="Mai multe detalii">Mai multe detalii</a>
+                    </div>
+                 <div class="col-md-4 col-12 news-item py-3">
+                        <figure>
+                            <div class="news-date">10 decembrie 2023</div>
+                            <a href="https://www.ctenergeticremusradulet.ro/ro/anunt-selectie-spania-decembrie" title="ANUNȚ SELECȚIE SPANIA DECEMBRIE"><img src="https://www.ctenergeticremusradulet.ro/static/fisiere/Screenshot_113.jpg" alt="ANUNȚ SELECȚIE SPANIA DECEMBRIE"></a>
+                        </figure>
+                        <h3><a href="https://www.ctenergeticremusradulet.ro/ro/anunt-selectie-spania-decembrie" title="ANUNȚ SELECȚIE SPANIA DECEMBRIE">ANUNȚ SELECȚIE SPANIA DECEMBRIE</a></h3>
+                        <h5>Știri</h5>
+                        <p></p>
+                        <a class="btn-link" href="https://www.ctenergeticremusradulet.ro/ro/anunt-selectie-spania-decembrie" title="Mai multe detalii">Mai multe detalii</a>
+                    </div><script type="application/ld+json">
+        [
+                    {
+                      "@context": "http://schema.org",
+                      "@type": "NewsArticle",
+                      "mainEntityOfPage": {
+                        "@type": "WebPage",
+                        "@id": "https://www.ctenergeticremusradulet.ro/ro/concurs-post-administrator-financiar-si-concurs-post-paznic"
+                      },
+                      "headline": "Concurs post administrator financiar și concurs post paznic",
+                      "image": {
+                        "@type": "ImageObject",
+                        "url": "https://www.ctenergeticremusradulet.ro//static/img/logo.png",
+                        "height": "50",
+                        "width": "63"
+                      },
+                      "datePublished": "2024-01-12",
+                      "dateModified": "2024-01-12",
+                      "author": {
+                        "@type": "Person",
+                        "name": "Remus Radulet"
+                      },
+                       "publisher": {
+                        "@type": "Organization",
+                        "name": "Remus Radulet",
+                        "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.ctenergeticremusradulet.ro//static/img/logo.png",
+                          "width": "50",
+                          "height": "63"
+                        }
+                      },
+                      "description": "Rezultat final concurs post administrator financiar
+Rezultat final concurs post paznic
+Rezultat pr"
+                    },
+                    {
+                      "@context": "http://schema.org",
+                      "@type": "NewsArticle",
+                      "mainEntityOfPage": {
+                        "@type": "WebPage",
+                        "@id": "https://www.ctenergeticremusradulet.ro/ro/anunt-inchiriere-spatiu-si-teren-intravilan"
+                      },
+                      "headline": "Anunț închiriere spațiu și teren intravilan",
+                      "image": {
+                        "@type": "ImageObject",
+                        "url": "https://www.ctenergeticremusradulet.ro//static/img/logo.png",
+                        "height": "50",
+                        "width": "63"
+                      },
+                      "datePublished": "2023-12-20",
+                      "dateModified": "2023-12-20",
+                      "author": {
+                        "@type": "Person",
+                        "name": "Remus Radulet"
+                      },
+                       "publisher": {
+                        "@type": "Organization",
+                        "name": "Remus Radulet",
+                        "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.ctenergeticremusradulet.ro//static/img/logo.png",
+                          "width": "50",
+                          "height": "63"
+                        }
+                      },
+                      "description": "
+&nbsp;
+"
+                    },
+                    {
+                      "@context": "http://schema.org",
+                      "@type": "NewsArticle",
+                      "mainEntityOfPage": {
+                        "@type": "WebPage",
+                        "@id": "https://www.ctenergeticremusradulet.ro/ro/anunt-selectie-spania-decembrie"
+                      },
+                      "headline": "ANUNȚ SELECȚIE SPANIA DECEMBRIE",
+                      "image": {
+                        "@type": "ImageObject",
+                        "url": "https://www.ctenergeticremusradulet.ro//static/img/logo.png",
+                        "height": "50",
+                        "width": "63"
+                      },
+                      "datePublished": "2023-12-10",
+                      "dateModified": "2023-12-10",
+                      "author": {
+                        "@type": "Person",
+                        "name": "Remus Radulet"
+                      },
+                       "publisher": {
+                        "@type": "Organization",
+                        "name": "Remus Radulet",
+                        "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.ctenergeticremusradulet.ro//static/img/logo.png",
+                          "width": "50",
+                          "height": "63"
+                        }
+                      },
+                      "description": ""
+                    },]
+            </script>        </div>
+    </div>
+</div>
+<div class="container-fluid row-center">
+<img src="https://www.ctenergeticremusradulet.ro/static/fisiere/oferta 2024.jpg" alt="" width="1024" /><br/><br/>
+</div>
+
+<div class="container-fluid home-map  "  style="background-image:  url(https://www.ctenergeticremusradulet.ro/static/fisiere/map.jpg)">
+   <div class="row home-contact scroll-effect">
+       <div class="col-12 text-center ">
+           <h1>Hai să ne cunoaștem</h1>
+                                   <a class="btn btn-warning" href="https://www.ctenergeticremusradulet.ro/ro/contact" title="Contact">Contact</a>
+        
+       </div>
+   </div>
+</div>    
+<div  class="container-fluid no footer py-4">
+    <div class="container-fluid row-center">
+        <div class="row py-2">
+            <div class="col-md-3 col-sm-6 col-12 py-2 d-none d-sm-block">
+                <a href="https://www.ctenergeticremusradulet.ro/ro" title="Colegiul Tehnic Energetic Remus Răduleț"><img class="img-fluid" src="https://www.ctenergeticremusradulet.ro/static/fisiere/Dotari/pictures/Noua Sigla RR (150x150).jpg" alt="Colegiul Tehnic Energetic Remus Răduleț"></a>
+                 <div class="row mt-4">
+                     <div class="col-12">
+                       <div class="addthis_inline_share_toolbox_36jo"></div>
+                     </div>
+                 </div>
+
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 py-2">
+                <div class="table-responsive d-none d-md-block">
+                    <div class="fb-page" data-href="https://www.facebook.com/energeticremusradulet/" data-tabs="timeline" data-width="260px" data-height="260px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+                </div>
+                <a class="btn btn-primary d-block d-md-none mt-1" href="https://www.facebook.com/energeticremusradulet/" title="">Like us on facebook</a>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 py-2">
+                <h3>Meniu</h3>
+                <ul>
+                                     </ul>
+
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 py-2">
+                <h3>Date contact</h3>
+                <p>
+                    E-mail: <br>
+                    <strong>remusradulet67@gmail.com
+remusradulet@yahoo.com
+ </strong>
+                </p>
+                <p>
+                    Telefon: <br>
+                    <strong>0268330375 - fix </strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="row mini-footer">
+            <div class="col-sm-6 col-12 text-center text-sm-left">
+                <p>© Copyright 2018, remusradulet.ro</p>
+            </div>
+            <div class="col-sm-6 col-12 text-center text-sm-right">
+                <ul>
+                     <li><a class="active"  href="https://www.ctenergeticremusradulet.ro/ro/termeni-si-conditii" title="Termeni și Condiții">Termeni și Condiții</a></li><li><a class="active"  href="https://www.ctenergeticremusradulet.ro/ro/politica-de-confidentialitate" title="Politica de confidentialitate">Politica de confidentialitate</a></li>                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5947eacdccd8b1c8"></script>
+
+
+<script src="https://www.ctenergeticremusradulet.ro/static/js/jquery.min.js"></script>
+<script src="https://www.ctenergeticremusradulet.ro/static/js/tether.min.js"></script>
+<script src="https://www.ctenergeticremusradulet.ro/static/js/popper.min.js"></script>
+<script src="https://www.ctenergeticremusradulet.ro/static/js/bootstrap.min.js"></script>
+<script src="https://www.ctenergeticremusradulet.ro/static/js/jquery.bxslider.min.js"></script>
+<script src="https://www.ctenergeticremusradulet.ro/static/js/owl.carousel.min.js"></script>
+<script src="https://www.ctenergeticremusradulet.ro/static/js/lightgallery.min.js"></script>
+<script src="https://www.ctenergeticremusradulet.ro/static/js/scrollreveal.min.js"></script>
+<script src="https://www.ctenergeticremusradulet.ro/static/js/js.js"></script>
+ <script>
+$(document).ready(function() {
+
+    $(".sendcontact").click(function() {
+
+        $("html, body").animate({ scrollTop: 400 }, "slow");
+
+
+
+        $.ajax({
+            type: 'POST',
+            url: 'https://www.ctenergeticremusradulet.ro/ro/ajax/contact',
+            data: {
+                csrf_dz_name: '8dbc46587638549f3adfe70a4191d6e5',
+                email: $("#email").val(),
+                phone: $("#phone").val(),
+                message: $("#message").val(),
+                surname: $("#surname").val(),
+                name: $("#name").val(),
+                makecontact: 'makecontact'
+            },
+            beforeSend: function() {
+             $("#resp").html('<img src="https://www.ctenergeticremusradulet.ro/static/img/load.gif" width="40">');
+            },
+            success: function(response) {
+
+                $("#resp").delay(500).fadeIn(200, function () {
+                    $("#resp").html(response);
+                })
+
+
+
+            },
+            error: function() {}
+
+        });
+    })
+
+})
+
+</script>
+<script type="application/ld+json">
+    {
+    	"@context": "http://schema.org",
+    	"@type": "LocalBusiness",
+    	"url" : "https://www.ctenergeticremusradulet.ro/",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Brasov",
+            "addressRegion": "RO",
+            "postalCode":"500407",
+            "streetAddress": "Strada Zizinului, nr. 106, Brasov"
+    	},
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.ctenergeticremusradulet.ro/static/img/logo.png",
+            "width": 50,
+            "height": 63
+        },
+    	"name": "Colegiul Tehnic Remus Răduleț",
+    	"telephone": "0268330375 - fix",
+    	"sameAs" :  "https://www.facebook.com/Colegiul-Tehnic-Remus-Radulet-Brasov-285854718136568/"
+    }
+</script>
+</body>
+</html>

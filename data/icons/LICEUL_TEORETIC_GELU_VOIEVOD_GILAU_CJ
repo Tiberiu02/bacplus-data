@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" class="" lang="ro-ro" >
+<head>
+		    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
+    <base href="http://liceulgeluvoievod.ro/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Liceul Teoretic ,,Gelu Voievod'' Gilau</title>
+	<link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+	<link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/templates/gk_university/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/templates/gk_university/css/k2.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/jce/css/content.css?aa754b1f19c7df490be4b958cf085e7c" rel="stylesheet" type="text/css" />
+	<link href="/media/system/css/modal.css?21b0a3feb6bc9b7ae3a13907c3613f72" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/normalize.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/joomla.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/system/system.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/template.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/menu/menu.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/gk.stuff.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/jomsocial.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/style1.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/typography/typography.style1.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/templates/gk_university/css/jawcag.css" rel="stylesheet" type="text/css" />
+	<link href="http://liceulgeluvoievod.ro/modules/mod_image_show_gk4/styles/gk_university/style.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+.childcontent .gkcol { width: 170px; }form.pwebcontact-form div.control-group { margin-top: -120px; }
+div.pweb-field-buttons {margin-top: 35px; margin-bottom: 15px;}@media screen and (max-width: 768px) {
+    	#k2Container .itemsContainer { width: 100%!important; } 
+    	.cols-2 .column-1,
+    	.cols-2 .column-2,
+    	.cols-3 .column-1,
+    	.cols-3 .column-2,
+    	.cols-3 .column-3,
+    	.demo-typo-col2,
+    	.demo-typo-col3,
+    	.demo-typo-col4 {width: 100%; }
+    	}#gkSidebar { width: 30%; }
+#gkContent { width: 70%; }
+#gkContentWrap { width: 100%; }
+.gkPage, #gkPageContent + #gkBottom1:before, #gkPageContent + #gkBottom2:before, #gkPageContent + #gkBottom3:before, #gkPageContent + #gkBottom4:before, #gkPageContent + #gkBottom5:before { max-width: 1240px; }
+#menu435 > div,
+#menu435 > div > .childcontent-inner { width: 170px; }
+#menu436 > div,
+#menu436 > div > .childcontent-inner { width: 170px; }
+#menu426 > div,
+#menu426 > div > .childcontent-inner { width: 170px; }
+#menu413 > div,
+#menu413 > div > .childcontent-inner { width: 170px; }
+#menu444 > div,
+#menu444 > div > .childcontent-inner { width: 170px; }
+
+		#gkIs-gk-is-143.gkIsWrapper-gk_university {
+			min-height: 510px;
+		}
+		
+		#gkIs-gk-is-143.gkIsWrapper-gk_university .gkIsSlide {
+			background-size: 1720px 510px;
+			height: 510px;
+			max-width: 1720px;
+		}
+		
+		#gkIs-gk-is-143.gkIsWrapper-gk_university figure,
+		#gkIs-gk-is-143.gkIsWrapper-gk_university .gkIsPreloader {
+			max-width: 1720px;
+		}
+		
+		@media (max-width: 1040px) {
+			#gkIs-gk-is-143.gkIsWrapper-gk_university {
+				min-height: 542px;
+			}
+			
+			#gkIs-gk-is-143.gkIsWrapper-gk_university .gkIsSlide {
+				background-size: 1040px 542px;
+				height: 542px;
+				max-width: 1040px;
+			}
+			
+			#gkIs-gk-is-143.gkIsWrapper-gk_university figure,
+			#gkIs-gk-is-143.gkIsWrapper-gk_university .gkIsPreloader {
+				max-width: 1040px;
+			}
+		}
+		
+		@media (max-width: 640px) {
+			#gkIs-gk-is-143.gkIsWrapper-gk_university {
+				min-height: 334px;
+			}
+			
+			#gkIs-gk-is-143.gkIsWrapper-gk_university .gkIsSlide {
+				background-size: 640px 334px;
+				height: 334px;
+				max-width: 640px;
+			}
+			
+			#gkIs-gk-is-143.gkIsWrapper-gk_university figure,
+			#gkIs-gk-is-143.gkIsWrapper-gk_university .gkIsPreloader {
+				max-width: 640px;
+			}
+		}
+		
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"2024cff175215ab0802e5674e5cced79","system.paths":{"root":"","base":""}}</script>
+	<script src="/media/system/js/mootools-core.js?21b0a3feb6bc9b7ae3a13907c3613f72" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?21b0a3feb6bc9b7ae3a13907c3613f72" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery.min.js?21b0a3feb6bc9b7ae3a13907c3613f72" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?21b0a3feb6bc9b7ae3a13907c3613f72" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?21b0a3feb6bc9b7ae3a13907c3613f72" type="text/javascript"></script>
+	<script src="/components/com_k2/js/k2.js?v2.6.7&amp;sitepath=/" type="text/javascript"></script>
+	<script src="/media/system/js/mootools-more.js?21b0a3feb6bc9b7ae3a13907c3613f72" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js?21b0a3feb6bc9b7ae3a13907c3613f72" type="text/javascript"></script>
+	<script src="/media/system/js/modal.js?21b0a3feb6bc9b7ae3a13907c3613f72" type="text/javascript"></script>
+	<script src="http://liceulgeluvoievod.ro/templates/gk_university/js/modernizr.js" type="text/javascript"></script>
+	<script src="http://liceulgeluvoievod.ro/templates/gk_university/js/gk.scripts.js" type="text/javascript"></script>
+	<script src="http://liceulgeluvoievod.ro/templates/gk_university/js/gk.menu.js" type="text/javascript"></script>
+	<script src="http://liceulgeluvoievod.ro/templates/gk_university/js/fitvids.jquery.js" type="text/javascript"></script>
+	<script src="http://liceulgeluvoievod.ro/modules/mod_image_show_gk4/styles/gk_university/engine.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(function($) {
+			 $('.hasTip').each(function() {
+				var title = $(this).attr('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					var mtelement = document.id(this);
+					mtelement.store('tip:title', parts[0]);
+					mtelement.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($('.hasTip').get(), {"maxTitleChars": 50,"fixed": false});
+		});jQuery(function($){ initPopovers(); $("body").on("subform-row-add", initPopovers); function initPopovers (event, container) { $(container || document).find(".hasPopover").popover({"html": true,"trigger": "hover focus","container": "body"});} });
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			initSqueezeBox();
+			$(document).on('subform-row-add', initSqueezeBox);
+
+			function initSqueezeBox(event, container)
+			{
+				SqueezeBox.assign($(container || document).find('a.modal').get(), {
+					parse: 'rel'
+				});
+			}
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		
+ $GKMenu = { height:true, width:false, duration: 250 };
+$GK_TMPL_URL = "http://liceulgeluvoievod.ro/templates/gk_university";
+
+$GK_URL = "http://liceulgeluvoievod.ro/";
+try {$Gavick;}catch(e){$Gavick = {};};$Gavick["gkIs-gk-is-143"] = { "anim_speed": 500, "anim_interval": 5000, "slide_links": 1 };
+	</script>
+	<meta property="og:title" content="" />
+	<meta property="og:type" content="" />
+	<meta property="og:image" content="http://liceulgeluvoievod.ro/" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<link rel="apple-touch-icon" href="http://liceulgeluvoievod.ro/templates/gk_university/images/touch-device.png">
+	<link rel="apple-touch-icon-precomposed" href="http://liceulgeluvoievod.ro/templates/gk_university/images/touch-device.png">
+
+    <link rel="stylesheet" href="http://liceulgeluvoievod.ro/templates/gk_university/css/small.desktop.css" media="(max-width: 1240px)" />
+<link rel="stylesheet" href="http://liceulgeluvoievod.ro/templates/gk_university/css/tablet.css" media="(max-width: 1024px)" />
+<link rel="stylesheet" href="http://liceulgeluvoievod.ro/templates/gk_university/css/small.tablet.css" media="(max-width: 820px)" />
+<link rel="stylesheet" href="http://liceulgeluvoievod.ro/templates/gk_university/css/mobile.css" media="(max-width: 580px)" />
+
+<!--[if IE 9]>
+<link rel="stylesheet" href="http://liceulgeluvoievod.ro/templates/gk_university/css/ie/ie9.css" type="text/css" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link rel="stylesheet" href="http://liceulgeluvoievod.ro/templates/gk_university/css/ie/ie8.css" type="text/css" />
+<![endif]-->
+
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="http://liceulgeluvoievod.ro/templates/gk_university/css/ie/ie7.css" type="text/css" />
+<![endif]-->
+
+<!--[if lte IE 9]>
+<script type="text/javascript" src="http://liceulgeluvoievod.ro/templates/gk_university/js/ie.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="http://liceulgeluvoievod.ro/templates/gk_university/js/respond.js"></script>
+<script type="text/javascript" src="http://liceulgeluvoievod.ro/templates/gk_university/js/selectivizr.js"></script>
+<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+	 
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-20908991-17', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Universal Google Analytics Plugin by PB Web Development -->
+
+
+</head>
+<body data-tablet-width="1024" data-mobile-width="580" data-zoom-size="150" data-smoothscroll="1">
+		
+	<div id="gkUniversityPreloader"></div>
+	<div id="gkBg">
+		
+	    <header id="gkHeader">
+			<div id="gkHeaderNav">
+				<div class="gkPage">
+					
+     	 <a href="http://liceulgeluvoievod.ro/" id="gkLogo">
+        <img src="http://liceulgeluvoievod.ro/images/logo2.png" alt="Liceul Teoretic Gelu Voivod Gilau" />
+     </a>
+     
+	                 	                 <div id="gkMainMenu" class="gkMenuClassic">
+	                         <nav id="gkExtraMenu" class="gkMenu">
+<ul class="gkmenu level0"><li  class="first active"><a href="http://liceulgeluvoievod.ro/"  class=" first active" id="menu101"  >Acasa</a></li><li  class="haschild"><a href="#"  class=" haschild" id="menu435"  >Despre noi</a><div class="childcontent">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level1"><li  class="first"><a href="/despre-noi/istoric.html"  class=" first" id="menu420"  >Istoric</a></li><li ><a href="/despre-noi/personal.html"  id="menu421"  >Personal</a></li><li ><a href="/despre-noi/organigrama.html"  id="menu401"  >Organigrama</a></li><li  class="last"><a href="/despre-noi/buget-anual.html"  class=" last" id="menu402"  >Buget anual</a></li></ul></div>
+</div>
+</div></li><li  class="haschild"><a href="/proiecte.html"  class=" haschild" id="menu436"  >Proiecte</a><div class="childcontent">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level1"><li  class="first"><a href="/proiecte/scolile-fac-incluziunea-o-realitate-viabila.html"  class=" first" id="menu494"  >Școlile fac incluziunea o realitate viabilă!</a></li><li ><a href="/proiecte/scoala-din-valiza.html"  id="menu481"  >Scoala din valiza</a></li><li ><a href="/proiecte/scoala-altfel.html"  id="menu437"  >Scoala altfel</a></li><li ><a href="/proiecte/saptamana-verde.html"  id="menu495"  >Săptămâna verde</a></li><li ><a href="/proiecte/excursii.html"  id="menu438"  >Excursii</a></li><li ><a href="/proiecte/parteneriate-activitati-educative.html"  id="menu439"  >Parteneriate / Activitati educative</a></li><li ><a href="/proiecte/parteneriat-comenius.html"  id="menu440"  >Parteneriat Comenius</a></li><li ><a href="/proiecte/proiect-national-bucuriile-craciunului.html"  id="menu441"  >Proiect National Bucuriile Craciunului</a></li><li ><a href="/proiecte/concurs-interjudetean-de-creatii-artistice-speranta-si-lumina-de-pasti.html"  id="menu442"  >Concurs interjudețean de creații artistice &quot;Speranta si lumina de Pasti&quot;</a></li><li ><a href="/proiecte/proiectul-privind-invatamantul-secundar-rose.html"  id="menu443"  >Proiectul privind Învățământul Secundar (ROSE)</a></li><li ><a href="/proiecte/concursul-bucuriile-craciunului.html"  id="menu464"  >Concursul Bucuriile Craciunului</a></li><li  class="last"><a href="/proiecte/olimpiada.html"  class=" last" id="menu492"  >Olimpiade</a></li></ul></div>
+</div>
+</div></li><li  class="haschild"><a href="#"  class=" haschild" id="menu426"  >Examene</a><div class="childcontent">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level1"><li  class="first"><a href="/examene/bacalaureat.html"  class=" first" id="menu427"  >Bacalaureat</a></li><li ><a href="/examene/evaluare-nationala.html"  id="menu428"  >Evaluare nationala</a></li><li ><a href="/examene/clasa-pregatitoare.html"  id="menu429"  >Clasa pregatitoare</a></li><li ><a href="/examene/simulari-examene.html"  id="menu430"  >Simulări examene </a></li><li ><a href="/examene/examene-de-corigente-si-diferente.html"  id="menu431"  >Examene de corigente si diferente</a></li><li  class="last"><a href="/examene/admitere-in-clasa-a-ix-a.html"  class=" last" id="menu453"  >Admitere in clasa a IX-a</a></li></ul></div>
+</div>
+</div></li><li  class="haschild"><a href="/noutati.html"  class=" haschild" id="menu413"  >Noutati</a><div class="childcontent">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level1"><li  class="first"><a href="/noutati/mesajele.html"  class=" first" id="menu410"  >Mesaje institutionale</a></li><li ><a href="/noutati/pdi.html"  id="menu414"  >PDI</a></li><li ><a href="/noutati/statutul-elevului.html"  id="menu416"  >Statutul elevului</a></li><li ><a href="/noutati/regulament-cadru.html"  id="menu417"  >Regulament cadru</a></li><li ><a href="/noutati/posturi-resurse-umane.html"  id="menu419"  >POSTURI - Resurse umane</a></li><li ><a href="/noutati/repartitie-invatatori-clasa-pregatitoare-la-categoria-noutati.html"  id="menu454"  >Repartitie invatatori clasa pregatitoare la categoria Noutati</a></li><li  class="last"><a href="/noutati/rezulate-olimpiade.html"  class=" last" id="menu455"  >Rezulate Olimpiade</a></li></ul></div>
+</div>
+</div></li><li  class="haschild"><a href="#"  class=" haschild" id="menu444"  >Documente</a><div class="childcontent">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level1"><li  class="first"><a href="/documente/buget.html"  class=" first" id="menu478"  >Buget</a></li><li ><a href="/documente/executii-bugetare.html"  id="menu479"  >Executii Bugetare</a></li><li ><a href="/documente/codul-de-etica.html"  id="menu456"  >Codul de etica</a></li><li ><a href="/documente/arhiva-noutati.html"  id="menu463"  >Arhiva noutati</a></li><li ><a href="/documente/comisii-metodice.html"  id="menu452"  >Comisii metodice</a></li><li ><a href="/documente/regulamente.html"  id="menu450"  >Regulamente</a></li><li ><a href="/documente/oferta-educationala.html"  id="menu418"  >Oferta educationala</a></li><li ><a href="/documente/declaratii-de-avere-si-de-interese.html"  id="menu445"  >Declaratii de avere si de interese</a></li><li ><a href="/documente/hotarari-ca.html"  id="menu446"  >Hotarari CA</a></li><li ><a href="/documente/legislatie.html"  id="menu447"  >Legislatie</a></li><li ><a href="/documente/proceduri.html"  id="menu448"  >Proceduri</a></li><li ><a href="/documente/documente-diverse.html"  id="menu449"  >Documente diverse</a></li><li ><a href="/documente/burse.html"  id="menu482"  >Burse, Bani de liceu, Tichete sociale</a></li><li ><a href="/documente/rapoarte.html"  id="menu491"  >Rapoarte</a></li><li ><a href="/images/20230322110957698.pdf"  id="menu496"  >Plan de școlarizare 2023-2024</a></li><li  class="last"><a href="/images/Plan_managerial_2023-2024.pdf"  class=" last" id="menu497"  >Plan managerial</a></li></ul></div>
+</div>
+</div></li><li  class="last"><a href="/contact.html"  class=" last" id="menu276"  >Contact</a></li></ul>
+</nav>	                 </div>
+	                 
+	                 	                 <div id="gkMobileMenu" class="gkPage">
+	                     <span id="static-aside-menu-toggler" class="fa fa-bars"></span>
+	                 </div>
+	                 		    	</div>
+	    	</div>
+
+	    		    	<div id="gkHeaderBg">
+	    		<div 
+	id="gkIs-gk-is-143" 
+	class="gkIsWrapper-gk_university"
+	data-one-slide="true"	>
+	<div class="gkIsPreloader">
+		<div class="spinner">
+			<div class="dot1"></div>
+			<div class="dot2"></div>
+		</div>
+	</div>
+
+						<figure data-url="http://liceulgeluvoievod.ro/modules/mod_image_show_gk4/cache/bg123gk-is-143.jpg" data-link="#" data-zindex="1" data-title="Liceul Teoretic         “Gelu Voievod” Gilău">
+				
+			<figcaption class="gkPage">
+				<div>
+										<h2><a href="#">Liceul Teoretic         “Gelu Voievod” Gilău</a></h2>
+					
+					<p><a href="#">"Educația este cheia care deschide poarta de aur a libertății."</a></p>
+					
+					
+									</div>
+			</figcaption>
+					</figure>
+		</div>
+
+			</div>
+	    	
+	    		    </header>
+
+	    	    <div id="gkHeaderBottom">
+	    	<div class="gkPage">
+	    		
+
+<div class="custom ">
+
+	<p>&nbsp;</p>
+<p><a href="/general/209-liceul-gelu-voievod-gilau.html"><img src="/images/gilau.jpg" alt="c1" width="390" /></a>&nbsp; &nbsp;&nbsp;<a href="/general/210-scoala-gimnaziala-somesu-rece.html"><img src="/images/somesu.jpg" alt="LICEUL TEORETIC &quot;GELU VOIEVOD&quot; " width="390" title="LICEUL TEORETIC &quot;GELU VOIEVOD&quot; " longdesc="LICEUL TEORETIC &quot;GELU VOIEVOD&quot; " /></a>&nbsp; &nbsp;&nbsp;<a href="/general/211-gradinita-cu-program-normal-somesu-rece-uzina.html"><img src="/images/uzina.jpg" alt="c1" width="390" /></a></p>	
+</div>
+
+	    	</div>
+	    </div>
+	    
+	    
+		<div id="gkPageContent">
+	    	<div class="gkPage">
+	    		
+	    		<div data-sidebar-pos="right">
+			    	<div id="gkContent">
+						<div id="gkContentWrap">
+							
+							
+							
+							<section id="gkMainbody">
+																	<section class="category">
+		<header>
+				<h1>Noutati ...</h1>
+		
+		
+			</header>
+	
+	
+	<form action="http://liceulgeluvoievod.ro/" method="post" name="adminForm" id="adminForm">
+				<fieldset class="filters">
+				
+						<div class="display-limit">
+				Afișare #&#160;
+				<select id="limit" name="limit" class="inputbox input-mini" size="1" onchange="this.form.submit()">
+	<option value="5">5</option>
+	<option value="10" selected="selected">10</option>
+	<option value="15">15</option>
+	<option value="20">20</option>
+	<option value="25">25</option>
+	<option value="30">30</option>
+	<option value="50">50</option>
+	<option value="100">100</option>
+	<option value="0">Toate</option>
+</select>
+			</div>
+				
+			<input type="hidden" name="filter_order" value="" />
+			<input type="hidden" name="filter_order_Dir" value="" />
+			<input type="hidden" name="limitstart" value="" />
+		</fieldset>
+			
+		<table>
+											<thead>
+				<tr>
+					<th class="list-title" id="tableOrdering">
+						<a href="#" onclick="Joomla.tableOrdering('a.title','asc','');return false;" class="hasPopover" title="Titlu" data-content="Click pentru a sorta după această coloană" data-placement="top">Titlu</a>					</th>
+	
+						
+						
+										<th class="list-hits" id="tableOrdering4">
+						<a href="#" onclick="Joomla.tableOrdering('a.hits','asc','');return false;" class="hasPopover" title="Accesări" data-content="Click pentru a sorta după această coloană" data-placement="top">Accesări</a>					</th>
+									</tr>
+			</thead>
+				
+			<tbody>
+												<tr class="cat-list-row0" >
+															<td headers="categorylist_header_title" class="list-title">
+							<a href="/noutati/315-anunt-de-anulare-proceduri-de-ocupare-a-posturilor-vacante.html">  
+								Anunt de anulare proceduri de ocupare a posturilor vacante</a>
+						</td>
+	
+							
+							
+												<td headers="categorylist_header_hits" class="list-hits">
+							7						</td>
+							
+									</tr>
+												<tr class="cat-list-row1" >
+															<td headers="categorylist_header_title" class="list-title">
+							<a href="/noutati/313-festival-caritabil-de-colinde-sa-l-preamarim-pe-domnul-editia-i.html">  
+								Festival caritabil de colinde, &quot;Să-l Preamărim pe Domnul&quot;, Ediția I</a>
+						</td>
+	
+							
+							
+												<td headers="categorylist_header_hits" class="list-hits">
+							74						</td>
+							
+									</tr>
+												<tr class="cat-list-row0" >
+															<td headers="categorylist_header_title" class="list-title">
+							<a href="/noutati/312-anunt-achizitie-servicii-catering.html">  
+								ANUNT ACHIZITIE SERVICII CATERING</a>
+						</td>
+	
+							
+							
+												<td headers="categorylist_header_hits" class="list-hits">
+							87						</td>
+							
+									</tr>
+												<tr class="cat-list-row1" >
+															<td headers="categorylist_header_title" class="list-title">
+							<a href="/noutati/311-bucuriile-craciunului-2023.html">  
+								Bucuriile Craciunului 2023</a>
+						</td>
+	
+							
+							
+												<td headers="categorylist_header_hits" class="list-hits">
+							711						</td>
+							
+									</tr>
+												<tr class="cat-list-row0" >
+															<td headers="categorylist_header_title" class="list-title">
+							<a href="/noutati/310-oug-tichete-sociale.html">  
+								TICHETE SOCIALE  - Conform OUG 87, termenul de depunere a cererilor este prelungit până la data de 28 noiembrie 2023</a>
+						</td>
+	
+							
+							
+												<td headers="categorylist_header_hits" class="list-hits">
+							131						</td>
+							
+									</tr>
+												<tr class="cat-list-row1" >
+															<td headers="categorylist_header_title" class="list-title">
+							<a href="/noutati/309-cerere-tichete-sociale.html">  
+								Cerere tichete sociale</a>
+						</td>
+	
+							
+							
+												<td headers="categorylist_header_hits" class="list-hits">
+							115						</td>
+							
+									</tr>
+												<tr class="cat-list-row0" >
+															<td headers="categorylist_header_title" class="list-title">
+							<a href="/noutati/307-regulament-de-organizare-si-functionare-ltgv-2023-2024.html">  
+								Regulament de organizare și functionare LTGV 2023-2024</a>
+						</td>
+	
+							
+							
+												<td headers="categorylist_header_hits" class="list-hits">
+							153						</td>
+							
+									</tr>
+												<tr class="cat-list-row1" >
+															<td headers="categorylist_header_title" class="list-title">
+							<a href="/noutati/306-regulament-intern-an-scolar-2023-2024.html">  
+								Regulament intern an școlar 2023-2024</a>
+						</td>
+	
+							
+							
+												<td headers="categorylist_header_hits" class="list-hits">
+							142						</td>
+							
+									</tr>
+												<tr class="cat-list-row0" >
+															<td headers="categorylist_header_title" class="list-title">
+							<a href="/noutati/305-codul-de-etica-2023-2024.html">  
+								Codul de etică 2023-2024</a>
+						</td>
+	
+							
+							
+												<td headers="categorylist_header_hits" class="list-hits">
+							204						</td>
+							
+									</tr>
+												<tr class="cat-list-row1" >
+															<td headers="categorylist_header_title" class="list-title">
+							<a href="/noutati/304-metodologie-cadru-de-acordare-burse-scolare-2023-2024.html">  
+								Metodologie cadru de acordare burse școlare 2023-2024</a>
+						</td>
+	
+							
+							
+												<td headers="categorylist_header_hits" class="list-hits">
+							167						</td>
+							
+									</tr>
+						</tbody>
+		</table>
+	
+					<nav class="pagination"><ul><li class="pagination-start"><span class="pagenav">Start</span></li><li class="pagination-prev"><span class="pagenav">Prec</span></li><li><span class="pagenav">1</span></li><li><a title="2" href="/?start=10" class="pagenav">2</a></li><li><a title="3" href="/?start=20" class="pagenav">3</a></li><li><span>&hellip;</span></li><li class="pagination-next"><a title="Mai departe" href="/?start=10" class="pagenav">Mai departe</a></li><li class="pagination-end"><a title="Sfârșit" href="/?start=90" class="pagenav">Sfârșit</a></li><li class="counter">Pagina 1 din 10</li></nav>			</form>
+
+	</section>
+															</section>
+
+													</div>
+
+									    	</div>
+
+			    				    	<aside id="gkSidebar">
+			    		<div>
+			    			<div class="box "><div class="content">
+
+<div class="custom ">
+
+	<p>&nbsp;<a href="https://www.edu.ro/"><img src="/images/men.png" alt="logo MEC 2020" width="326" style="display: block; margin-left: auto; margin-right: auto;" /></a></p>
+<p><a href="https://vaccinare-covid.gov.ro/" target="_blank" rel="noopener"><img src="/images/Imagine_principala_ROVACCINARE.jpg" alt="Imagine principala ROVACCINARE" width="330" height="145" style="display: block; margin-left: auto; margin-right: auto;" /></a></p>
+<p style="text-align: center;"><a href="https://www.scoaladinvaliza.ro/"><img src="/images/scoala.jpg" alt="scoala" width="287" height="141" /></a></p>	
+</div>
+</div></div><div class="box "><div class="content">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=529106983799798";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div style="margin-left:15px;" class="fb-page"   data-href="https://www.facebook.com/liceulgeluvoievodgilau" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false" data-tabs="" >
+	<div class="fb-xfbml-parse-ignore">
+    	<blockquote cite="https://www.facebook.com/liceulgeluvoievodgilau">
+        	<a href="https://www.facebook.com/liceulgeluvoievodgilau">Facebook</a>
+		</blockquote>
+	</div>
+</div></div></div>
+			    		</div>
+			    	</aside>
+			    			    	</div>
+			</div>
+		</div>
+
+				<section id="gkBottom1" class="gkSingleModule">
+							<div class="box parallax darkbar gkmod-1" style="background-image: url(/images/pozabg.jpeg);" ><div class="content gkPage">
+
+<div class="custom parallax darkbar">
+
+	<p style="text-align: center;">&nbsp; &nbsp; &nbsp;&nbsp;<a href="/examene/bacalaureat.html"><img src="/images/1.jpg" alt="bac" width="383" height="214" /></a>&nbsp; &nbsp; &nbsp;<a href="/examene/admitere-in-clasa-a-ix-a.html"><img src="/images/2.jpg" alt="bac" width="383" height="214" /></a>&nbsp; &nbsp; &nbsp;<a href="/inscriere-in-gradinita"><img src="/images/3.jpg" alt="evaluare" width="383" height="214" /></a>&nbsp;&nbsp;&nbsp;</p>
+<p style="text-align: center;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="/examene/clasa-pregatitoare.html"><img src="/images/4.jpg" alt="inscriere" width="383" height="213" /></a>&nbsp; &nbsp;&nbsp;<a href="/noutati/posturi-resurse-umane.html"><img src="/images/5.jpg" alt="inscriere" width="383" height="211" /></a>&nbsp; &nbsp;&nbsp;<a href="/documente/oferta-educationala.html"><img src="/images/6.jpg" alt="bac" width="383" height="214" /></a>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>	
+</div>
+</div></div>
+					</section>
+		
+	    
+	    
+	    
+	    	    <section id="gkBottom5">
+	    	<div class="gkCols6 gkPage">	    		<div class="box  gkmod-3"><div class="content">
+
+<div class="custom ">
+
+	<p>&nbsp;<img src="/images/loog.jpg" alt="loog" width="198" height="198" style="display: block; margin-left: auto; margin-right: auto;" /></p>	
+</div>
+</div></div><div class="box  gkmod-3"><div class="content">
+
+<div class="custom ">
+
+	<p>&nbsp;</p>
+<p><span style="color: #000000;"><strong>LICEUL TEORETIC "GELU VOIEVOD"</strong></span></p>
+<p>Gilău, Str. Eroilor nr 5 CP:407310<br />CIF: 17996614<br />Tel/Fax: 0264 371 106<br />E-mail: <a href="mailto:liceulgilau@gmail.com">liceulgilau@gmail.com</a>&nbsp;</p>	
+</div>
+</div></div><div class="box  gkmod-3"><div class="content">
+
+<div class="custom ">
+
+	<p>&nbsp;</p>
+<p><em><span style="color: #000000;"><strong>COMPARTIMENTE:</strong></span></em></p>
+<p>Secretariat: <a href="mailto:secretariatliceulgilau@gmail.com">secretariatliceulgilau@gmail.com</a><br />Contabilitate: <a href="mailto:contabilitateliceulgilau@gmail.com">contabilitateliceulgilau@gmail.com</a><br />Administrativ: <a href="mailto:adm.liceulgilau@gmail.com">adm.liceulgilau@gmail.com</a><br />Biblioteca: <a href="mailto:bibliotecaliceulgilau@gmail.com">bibliotecaliceulgilau@gmail.com</a></p>	
+</div>
+</div></div>
+	    	</div>	    </section>
+	    
+	        </div>
+
+    
+<footer id="gkFooter">
+     <div class="gkPage">
+                    <div id="gkFooterNav">
+               
+          </div>
+                              <p id="gkCopyrights">
+               LiceulGeluVoievod.ro - copyright © 2021 - Toate drepturile Rezervate / Webdesign by <a href="https://www.softimed.ro">Softimed.ro</a>.          </p>
+                                   </div>
+</footer>
+   	
+
+<!-- +1 button -->
+
+<!-- twitter -->
+
+
+<!-- Pinterest script --> 
+   	<div id="gkPopupOverlay"></div>
+
+   	<span id="close-menu" class="fa fa-times"></span>
+   	<nav id="aside-menu">
+   		<div>
+   			<div id="gkAsideMenu">
+<ul class="gkmenu level0"><li  class="first active"><a href="http://liceulgeluvoievod.ro/"  class=" first active"   >Acasa</a></li><li  class="haschild"><a href="#"  class=" haschild"   >Despre noi</a><ul class="gkmenu level1"><li  class="first"><a href="/despre-noi/istoric.html"  class=" first"   >Istoric</a></li><li ><a href="/despre-noi/personal.html"    >Personal</a></li><li ><a href="/despre-noi/organigrama.html"    >Organigrama</a></li><li  class="last"><a href="/despre-noi/buget-anual.html"  class=" last"   >Buget anual</a></li></ul></li><li  class="haschild"><a href="/proiecte.html"  class=" haschild"   >Proiecte</a><ul class="gkmenu level1"><li  class="first"><a href="/proiecte/scolile-fac-incluziunea-o-realitate-viabila.html"  class=" first"   >Școlile fac incluziunea o realitate viabilă!</a></li><li ><a href="/proiecte/scoala-din-valiza.html"    >Scoala din valiza</a></li><li ><a href="/proiecte/scoala-altfel.html"    >Scoala altfel</a></li><li ><a href="/proiecte/saptamana-verde.html"    >Săptămâna verde</a></li><li ><a href="/proiecte/excursii.html"    >Excursii</a></li><li ><a href="/proiecte/parteneriate-activitati-educative.html"    >Parteneriate / Activitati educative</a></li><li ><a href="/proiecte/parteneriat-comenius.html"    >Parteneriat Comenius</a></li><li ><a href="/proiecte/proiect-national-bucuriile-craciunului.html"    >Proiect National Bucuriile Craciunului</a></li><li ><a href="/proiecte/concurs-interjudetean-de-creatii-artistice-speranta-si-lumina-de-pasti.html"    >Concurs interjudețean de creații artistice &quot;Speranta si lumina de Pasti&quot;</a></li><li ><a href="/proiecte/proiectul-privind-invatamantul-secundar-rose.html"    >Proiectul privind Învățământul Secundar (ROSE)</a></li><li ><a href="/proiecte/concursul-bucuriile-craciunului.html"    >Concursul Bucuriile Craciunului</a></li><li  class="last"><a href="/proiecte/olimpiada.html"  class=" last"   >Olimpiade</a></li></ul></li><li  class="haschild"><a href="#"  class=" haschild"   >Examene</a><ul class="gkmenu level1"><li  class="first"><a href="/examene/bacalaureat.html"  class=" first"   >Bacalaureat</a></li><li ><a href="/examene/evaluare-nationala.html"    >Evaluare nationala</a></li><li ><a href="/examene/clasa-pregatitoare.html"    >Clasa pregatitoare</a></li><li ><a href="/examene/simulari-examene.html"    >Simulări examene </a></li><li ><a href="/examene/examene-de-corigente-si-diferente.html"    >Examene de corigente si diferente</a></li><li  class="last"><a href="/examene/admitere-in-clasa-a-ix-a.html"  class=" last"   >Admitere in clasa a IX-a</a></li></ul></li><li  class="haschild"><a href="/noutati.html"  class=" haschild"   >Noutati</a><ul class="gkmenu level1"><li  class="first"><a href="/noutati/mesajele.html"  class=" first"   >Mesaje institutionale</a></li><li ><a href="/noutati/pdi.html"    >PDI</a></li><li ><a href="/noutati/statutul-elevului.html"    >Statutul elevului</a></li><li ><a href="/noutati/regulament-cadru.html"    >Regulament cadru</a></li><li ><a href="/noutati/posturi-resurse-umane.html"    >POSTURI - Resurse umane</a></li><li ><a href="/noutati/repartitie-invatatori-clasa-pregatitoare-la-categoria-noutati.html"    >Repartitie invatatori clasa pregatitoare la categoria Noutati</a></li><li  class="last"><a href="/noutati/rezulate-olimpiade.html"  class=" last"   >Rezulate Olimpiade</a></li></ul></li><li  class="haschild"><a href="#"  class=" haschild"   >Documente</a><ul class="gkmenu level1"><li  class="first"><a href="/documente/buget.html"  class=" first"   >Buget</a></li><li ><a href="/documente/executii-bugetare.html"    >Executii Bugetare</a></li><li ><a href="/documente/codul-de-etica.html"    >Codul de etica</a></li><li ><a href="/documente/arhiva-noutati.html"    >Arhiva noutati</a></li><li ><a href="/documente/comisii-metodice.html"    >Comisii metodice</a></li><li ><a href="/documente/regulamente.html"    >Regulamente</a></li><li ><a href="/documente/oferta-educationala.html"    >Oferta educationala</a></li><li ><a href="/documente/declaratii-de-avere-si-de-interese.html"    >Declaratii de avere si de interese</a></li><li ><a href="/documente/hotarari-ca.html"    >Hotarari CA</a></li><li ><a href="/documente/legislatie.html"    >Legislatie</a></li><li ><a href="/documente/proceduri.html"    >Proceduri</a></li><li ><a href="/documente/documente-diverse.html"    >Documente diverse</a></li><li ><a href="/documente/burse.html"    >Burse, Bani de liceu, Tichete sociale</a></li><li ><a href="/documente/rapoarte.html"    >Rapoarte</a></li><li ><a href="/images/20230322110957698.pdf"    >Plan de școlarizare 2023-2024</a></li><li  class="last"><a href="/images/Plan_managerial_2023-2024.pdf"  class=" last"   >Plan managerial</a></li></ul></li><li  class="last"><a href="/contact.html"  class=" last"   >Contact</a></li></ul>
+</div>   		</div>
+   	</nav>
+
+	
+
+	<script>
+	jQuery(document).ready(function(){
+   		// Target your .container, .wrapper, .post, etc.
+   		jQuery("body").fitVids();
+	});
+	</script>
+
+	<noscript>Your browser does not support JavaScript!</noscript>
+</body>
+</html>

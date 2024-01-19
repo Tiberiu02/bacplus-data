@@ -1,0 +1,2352 @@
+<!DOCTYPE html>
+<html lang="ro-RO"><head>
+    <meta charset="UTF-8">
+		            <meta name="title" content="">
+            <meta name="keywords" content="">
+          	<meta name="description" content="">
+                <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://www.cnpetrurares.ro/xmlrpc.php">    
+    <link rel="icon" href="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/CNPR-sigla-2014-transparenta-site.gif" sizes="32x32" />
+<link rel="icon" href="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/CNPR-sigla-2014-transparenta-site.gif" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/CNPR-sigla-2014-transparenta-site.gif" />
+<meta name="msapplication-TileImage" content="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/CNPR-sigla-2014-transparenta-site.gif" />
+            <link rel="shortcut icon" href="#">
+            <title>Colegiul National Petru Rares &#8211; Oferta educațională a Colegiului Național Petru Rareș este destinată elevilor motivați care caută excelență școlară, dezvoltare personală și succes profesional.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Colegiul National Petru Rares &raquo; Flux" href="https://www.cnpetrurares.ro/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Colegiul National Petru Rares &raquo; Flux comentarii" href="https://www.cnpetrurares.ro/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.cnpetrurares.ro\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.6"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='embed-pdf-viewer-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/embed-pdf-viewer/css/embed-pdf-viewer.css?ver=6.0.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='font_Oxygen-css'  href='//fonts.googleapis.com/css?family=Oxygen%3Aregular&#038;ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='font_Source+Sans+Pro-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A600&#038;ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.cnpetrurares.ro/wp-includes/css/dist/block-library/style.min.css?ver=6.0.6' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='buttons-css'  href='https://www.cnpetrurares.ro/wp-includes/css/buttons.min.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://www.cnpetrurares.ro/wp-includes/css/dashicons.min.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='https://www.cnpetrurares.ro/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.16' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://www.cnpetrurares.ro/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='media-views-css'  href='https://www.cnpetrurares.ro/wp-includes/css/media-views.min.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='imgareaselect-css'  href='https://www.cnpetrurares.ro/wp-includes/js/imgareaselect/imgareaselect.css?ver=0.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.3.0.2' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='sbtt-style-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/simple-back-to-top//css/sbtt-front.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='hfe-style-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.13.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.13.1' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-6142-css'  href='https://www.cnpetrurares.ro/wp-content/uploads/elementor/css/post-6142.css?ver=1675148545' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.13.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.13.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://www.cnpetrurares.ro/wp-content/uploads/elementor/css/global.css?ver=1675148545' type='text/css' media='all' />
+<link rel='stylesheet' id='iconmoon_css-css'  href='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/include/assets/icon/css/iconmoon.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap_css-css'  href='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/css/bootstrap.min.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='style_css-css'  href='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/style.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='owl_carousel-css'  href='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/css/owl.carousel.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='widget_css-css'  href='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/css/widget.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='datepicker_css-css'  href='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/css/jquery.datetimepicker.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive_css-css'  href='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/css/responsive.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-theme_css-css'  href='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/css/bootstrap-theme.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto_css-css'  href='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/css/prettyphoto.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider_css-css'  href='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/css/flexslider.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='theme_style_css-css'  href='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/include/theme_styles.php?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='recent-posts-widget-with-thumbnails-public-style-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/recent-posts-widget-with-thumbnails/public.css?ver=7.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www.cnpetrurares.ro/wp-content/plugins/tablepress/css/build/default.css?ver=2.1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;subset=latin-ext&#038;ver=6.0.6' type='text/css' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><!--n2css--><script type='text/javascript' id='utils-js-extra'>
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1705619125","secure":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/utils.min.js?ver=6.0.6' id='utils-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/enable-jquery-migrate-helper/js/jquery/jquery-1.12.4-wp.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/enable-jquery-migrate-helper/js/jquery-migrate/jquery-migrate-1.4.1-wp.js?ver=1.4.1-wp' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/plupload/moxie.min.js?ver=1.3.5' id='moxiejs-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/plupload/plupload.min.js?ver=2.1.9' id='plupload-js'></script>
+<!--[if lt IE 8]>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/json2.min.js?ver=2015-05-03' id='json2-js'></script>
+<![endif]-->
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/flowpaper-lite-pdf-flipbook/assets/lity/lity.min.js' id='lity-js-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.3.0.2' id='tp-tools-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.3.0.2' id='revmin-js'></script>
+<script type='text/javascript' id='sbtt-scripts-js-extra'>
+/* <![CDATA[ */
+var sbttback = {"sbttimg":"http:\/\/www.cnpetrurares.ro\/wp-content\/plugins\/simple-back-to-top\/images\/backtotop.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/simple-back-to-top//js/sbtt.js?ver=6.0.6' id='sbtt-scripts-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/jq-sticky-anything.min.js?ver=2.1.1' id='stickyAnythingLib-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.13.1' id='font-awesome-4-shim-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/scripts/bootstrap.min.js?ver=6.0.6' id='bootstrap.min_script-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/scripts/counter.js?ver=6.0.6' id='counter_script-js'></script>
+<link rel="https://api.w.org/" href="https://www.cnpetrurares.ro/wp-json/" /><link rel="alternate" type="application/json" href="https://www.cnpetrurares.ro/wp-json/wp/v2/pages/8392" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.cnpetrurares.ro/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.cnpetrurares.ro/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0.6" />
+<link rel="canonical" href="https://www.cnpetrurares.ro/" />
+<link rel='shortlink' href='https://www.cnpetrurares.ro/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.cnpetrurares.ro/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cnpetrurares.ro%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.cnpetrurares.ro/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cnpetrurares.ro%2F&#038;format=xml" />
+<style id="mystickymenu" type="text/css">#mysticky-nav { width:100%; position: static; }#mysticky-nav.wrapfixed { position:fixed; left: 0px; margin-top:0px;  z-index: 1000; -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s; transition: 0.3s; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; filter: alpha(opacity=90); opacity:0.9; background-color: #08387f;}#mysticky-nav.wrapfixed .myfixed{ background-color: #08387f; position: relative;top: auto;left: auto;right: auto;}.myfixed { margin:0 auto!important; float:none!important; border:0px!important; background:none!important; max-width:100%!important;}</style>			<style type="text/css">
+																															</style>
+			
+        <script type="text/javascript">
+            var jQueryMigrateHelperHasSentDowngrade = false;
+
+			window.onerror = function( msg, url, line, col, error ) {
+				// Break out early, do not processing if a downgrade reqeust was already sent.
+				if ( jQueryMigrateHelperHasSentDowngrade ) {
+					return true;
+                }
+
+				var xhr = new XMLHttpRequest();
+				var nonce = '9aacf350ec';
+				var jQueryFunctions = [
+					'andSelf',
+					'browser',
+					'live',
+					'boxModel',
+					'support.boxModel',
+					'size',
+					'swap',
+					'clean',
+					'sub',
+                ];
+				var match_pattern = /\)\.(.+?) is not a function/;
+                var erroredFunction = msg.match( match_pattern );
+
+                // If there was no matching functions, do not try to downgrade.
+                if ( null === erroredFunction || typeof erroredFunction !== 'object' || typeof erroredFunction[1] === "undefined" || -1 === jQueryFunctions.indexOf( erroredFunction[1] ) ) {
+                    return true;
+                }
+
+                // Set that we've now attempted a downgrade request.
+                jQueryMigrateHelperHasSentDowngrade = true;
+
+				xhr.open( 'POST', 'https://www.cnpetrurares.ro/wp-admin/admin-ajax.php' );
+				xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+				xhr.onload = function () {
+					var response,
+                        reload = false;
+
+					if ( 200 === xhr.status ) {
+                        try {
+                        	response = JSON.parse( xhr.response );
+
+                        	reload = response.data.reload;
+                        } catch ( e ) {
+                        	reload = false;
+                        }
+                    }
+
+					// Automatically reload the page if a deprecation caused an automatic downgrade, ensure visitors get the best possible experience.
+					if ( reload ) {
+						location.reload();
+                    }
+				};
+
+				xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce ) );
+
+				// Suppress error alerts in older browsers
+				return true;
+			}
+        </script>
+
+		<meta name="generator" content="Elementor 3.13.1; features: a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+
+		<script
+			type="text/javascript">var ajaxurl = 'https://www.cnpetrurares.ro/wp-admin/admin-ajax.php';</script>
+
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<meta name="generator" content="Powered by Slider Revolution 5.3.0.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/CNPR-sigla-2014-transparenta-site.gif" sizes="32x32" />
+<link rel="icon" href="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/CNPR-sigla-2014-transparenta-site.gif" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/CNPR-sigla-2014-transparenta-site.gif" />
+<meta name="msapplication-TileImage" content="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/CNPR-sigla-2014-transparenta-site.gif" />
+		<style type="text/css" id="wp-custom-css">
+			.cs-campunews ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+
+@media only screen and (max-width: 479px) {
+ .cs-campunews ul {
+	display: grid;
+	grid-template-columns: 1fr;
+ 
+}
+
+}
+
+@media only screen and (min-width: 480px and max-width: 991px) {
+ .cs-campunews ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+ 
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+ .cs-campunews ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 4rem;
+}
+
+}
+
+.cs-campus-info h6 {
+	font-size: 20px !important;
+	color: #12006b !important;
+	font-weight: 700 !important;
+}
+
+.cs-campus-info h6 {
+	font-size: 21px !important;
+	color: #12006b !important;
+	font-weight: 700 !important;
+}
+
+.cs-campunews a.viewall-btn.csbg-hovercolor {
+	display: none;
+}
+
+ .events-grid figure {
+  max-height: 200px;
+overflow: hidden;
+}
+
+.events-grid [class*="col-md"] {
+ 
+margin-bottom: 40px;
+}
+
+.events-grid .text .inner-box {
+ 
+background-color: rgba(0, 0, 0, 0.81);
+}
+
+.cs-events.events-grid article figure figcaption div div h6 a {
+	font-size: 21px;
+	font-weight: 800;
+}
+
+#sizeNoutati .container .row .section-fullwidth .element-size-100 .cs-section-title h2 {
+	font-size: 45px !important;
+padding-bottom: 5px;
+	border-bottom: 3px solid #c79d36;
+	margin-bottom: 20px;
+}
+
+#sizeEvenimente .container .row .section-fullwidth .element-size-100 .cs-section-title h2 {
+	font-size: 45px !important;
+padding-bottom: 5px;
+	border-bottom: 3px solid #c79d36;
+	margin-bottom: 20px;
+}
+
+.header-search input[type="text"] {
+   
+    width: 300px !important;
+   
+}
+
+@media only screen and (max-width: 1023px) {
+ .farMobilView {
+	display: none;
+}
+.header-search input[type="text"] {
+   
+    width: 320px !important;
+   
+}
+}
+
+body.page-id-8392 ul.wp-block-latest-posts__list li a {
+	color: black !important;
+	font-size: 13px;
+	line-height: 18px !important;
+}
+
+body.page-id-8392 ul.wp-block-latest-posts__list li {
+	list-style-type: none !important;
+}
+
+
+body.page-id-8392 .has-pale-cyan-blue-background-color {
+	background-color: white !important;
+}
+
+
+body.page-id-1994 ul.wp-block-latest-posts__list li a {
+	color: black !important;
+	font-size: 13px;
+	line-height: 18px !important;
+}
+
+body.page-id-1994 ul.wp-block-latest-posts__list li {
+	list-style-type: none !important;
+}
+
+
+body.page-id-1994 .has-pale-cyan-blue-background-color {
+	background-color: white !important;
+}
+
+body.page-id-1994 .wp-block-cover .has-background-dim:not([class*=-background-color]) {
+	background-color: white !important;
+}
+
+
+		</style>
+		    <style type="text/css">
+    	    </style>
+    </head>
+    <body class="home page-template page-template-elementor_theme page page-id-8392 custom-background ehf-template-uoc-theme ehf-stylesheet-uoc-theme elementor-default elementor-kit-6142">
+		        <!-- Wrapper -->
+        <div class="wrapper wrapper_full_width">
+			
+
+
+
+        <!-- Header 1 Start -->
+        <header id="main-header">
+            	
+            <script type="text/javascript">
+
+                jQuery(document).ready(function () {
+                    jQuery(window).scroll(function () {
+                        var sticky = jQuery('.sticky'),
+                                scroll = jQuery(window).scrollTop();
+
+                        if (scroll >= 2)
+                            sticky.addClass('fixed');
+                        else
+                            sticky.removeClass('fixed');
+                    });
+
+                });
+
+            </script>
+             
+
+
+
+        <div class="container">
+            <div class="row">
+                        <div class="col-md-4">
+            <a href="https://www.cnpetrurares.ro/" class="logo">
+                <img src="https://www.cnpetrurares.ro/wp-content/uploads/2023/04/sigla-site.png" alt="Colegiul National Petru Rares"></a>
+        </div>
+
+                        <div class="col-md-8">
+                    <div class="right-side">
+                        <nav class="top-nav">
+                                                    </nav>
+                        <div class="header-search">
+                            
+        <form method="get" action="https://www.cnpetrurares.ro/" >
+            <span></span>
+            <input type="text" value="" name="s" id="s"   placeholder="Introduceti cuvintele cheie pentru cautare" />
+            <label><input type="submit" value=""></label>
+        </form>
+
+                                </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12" >
+                    <div class="main-nav sticky">
+                        <nav class="navigation">
+                            <a class="cs-click-menu" href="#">
+                                <i class="icon-align-justify"></i>
+                            </a>
+                            <ul id="menu-main-menu" class=""><li id="menu-item-814" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-814"><a href="http://www.cnpetrurares.ro/" aria-current="page">Acasă</a></li>
+<li id="menu-item-837" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-sub-dropdown menu-item-837"><a href="http://www.cnpetrurares.ro/despre_noi">Despre noi</a>
+<ul class="sub-dropdown">
+	<li id="menu-item-1998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1998"><a href="https://www.cnpetrurares.ro/noutati/">Noutăți</a></li>
+	<li id="menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"><a href="https://www.cnpetrurares.ro/istoric/">Istoric</a></li>
+	<li id="menu-item-1026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1026"><a href="https://www.cnpetrurares.ro/conducere/">Conducere</a></li>
+	<li id="menu-item-8934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8934"><a href="https://www.cnpetrurares.ro/organigrama/">Organigrama</a></li>
+	<li id="menu-item-1019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1019"><a href="https://www.cnpetrurares.ro/viziune-si-misiune/">Viziune și misiune</a></li>
+	<li id="menu-item-1027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1027"><a href="https://www.cnpetrurares.ro/profesori/">Profesori</a></li>
+	<li id="menu-item-8799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8799"><a href="https://www.cnpetrurares.ro/profesori-2/consiliere-la-dispozitia-parintilor/">Consiliere la dispoziția părinților</a></li>
+	<li id="menu-item-2456" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2456"><a href="https://www.cnpetrurares.ro/personal-didactic-auxiliar/">Personal didactic auxiliar și nedidactic</a></li>
+	<li id="menu-item-2264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2264"><a href="https://www.cnpetrurares.ro/alumni/">Alumni</a></li>
+	<li id="menu-item-1028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1028"><a href="https://www.cnpetrurares.ro/services/">Resurse materiale</a></li>
+	<li id="menu-item-8332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8332"><a href="https://www.cnpetrurares.ro/despre_noi/informatii-de-interes-public/">Informații de interes public</a></li>
+	<li id="menu-item-8668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8668"><a href="https://www.cnpetrurares.ro/despre_noi/declaratii-avere-si-interese/">Declarații avere și interese</a></li>
+</ul>
+</li>
+<li id="menu-item-2461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-sub-dropdown menu-item-2461"><a href="https://www.cnpetrurares.ro/curriculum-2/">Curriculum</a>
+<ul class="sub-dropdown">
+	<li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a href="https://www.cnpetrurares.ro/plan-de-scolarizare/">Plan de școlarizare</a></li>
+	<li id="menu-item-2469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2469"><a href="https://www.cnpetrurares.ro/programe-scolare/">Programe școlare</a></li>
+	<li id="menu-item-2472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2472"><a href="https://www.cnpetrurares.ro/planurile-cadru-de-invatamant/">Planurile cadru de învăţământ</a></li>
+	<li id="menu-item-7873" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7873"><a href="https://www.cnpetrurares.ro/calitatea-invatamantului/">Calitatea învățământului</a></li>
+	<li id="menu-item-1236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1236"><a href="https://www.cnpetrurares.ro/orar/">Orar</a></li>
+</ul>
+</li>
+<li id="menu-item-842" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-sub-dropdown menu-item-842"><a href="#">Examene</a>
+<ul class="sub-dropdown">
+	<li id="menu-item-1118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-sub-dropdown menu-item-1118"><a href="https://www.cnpetrurares.ro/admitere-clasa-a-v-a/">Admitere clasa a V-a</a>
+	<ul class="sub-dropdown">
+		<li id="menu-item-5666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5666"><a href="https://www.cnpetrurares.ro/admitere-clasa-a-v-a/admitere-clasa-a-v-a-2/">Admitere clasa a V-a 2019-2020</a></li>
+		<li id="menu-item-5664" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5664"><a href="https://www.cnpetrurares.ro/admitere-clasa-a-v-a/admitere-clasa-a-v-a-2020/">Admitere clasa a V-a 2020-2021</a></li>
+		<li id="menu-item-6619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6619"><a href="https://www.cnpetrurares.ro/admitere-clasa-a-v-a/admitere-clasa-a-v-a-2021-2022/">Admitere clasa a V-a 2021-2022</a></li>
+		<li id="menu-item-7477" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7477"><a href="https://www.cnpetrurares.ro/admitere-clasa-a-v-a/admitere-clasa-a-v-a-2022-2023/">Admitere clasa a V-a, 2022-2023</a></li>
+		<li id="menu-item-8390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8390"><a href="https://www.cnpetrurares.ro/admitere-clasa-a-v-a/admitere-clasa-a-v-a-2023-2024/">Admitere clasa a V-a, 2023-2024</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5749"><a href="https://www.cnpetrurares.ro/evaluare-nationala/">Evaluare națională, clasa a VIII-a</a></li>
+	<li id="menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1861"><a href="https://www.cnpetrurares.ro/admitere/">Admitere</a></li>
+	<li id="menu-item-5794" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5794"><a href="https://www.cnpetrurares.ro/bacalaureat-2-2/">Bacalaureat</a></li>
+	<li id="menu-item-2206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2206"><a href="https://www.cnpetrurares.ro/atestate-2/">Atestate</a></li>
+	<li id="menu-item-3812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3812"><a href="https://www.cnpetrurares.ro/sim_bacalaureat2019/">Simulări examene naționale</a></li>
+</ul>
+</li>
+<li id="menu-item-7399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-sub-dropdown menu-item-7399"><a href="https://www.cnpetrurares.ro/proiecte-europene/">Proiecte europene</a>
+<ul class="sub-dropdown">
+	<li id="menu-item-7411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7411"><a href="https://www.cnpetrurares.ro/erasmus-mobilitati-elevi/">ERASMUS+: Mobilități elevi</a></li>
+	<li id="menu-item-7410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7410"><a href="https://www.cnpetrurares.ro/erasmus-mobilitati-cadre-didactice/">ERASMUS+: Mobilități cadre didactice</a></li>
+	<li id="menu-item-7409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7409"><a href="https://www.cnpetrurares.ro/erasmus-etwinning/">ERASMUS +: eTwinning</a></li>
+	<li id="menu-item-7701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7701"><a href="https://www.cnpetrurares.ro/massive-open-online-courses/">Massive open online courses</a></li>
+	<li id="menu-item-7408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7408"><a href="https://www.cnpetrurares.ro/proiect-de-infratire-romano-francez/">Proiect de înfrățire româno-francez</a></li>
+	<li id="menu-item-9080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9080"><a href="https://www.cnpetrurares.ro/candidat-in-programul-scoli-ambasador-ale-parlamentului-european-e-p-a-s/">CNPR candidat în programul Școli-ambasador ale Parlamentului European (E.P.A.S.)</a></li>
+</ul>
+</li>
+<li id="menu-item-841" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-sub-dropdown menu-item-841"><a href="http://www.cnpetrurares.ro/legislatie/">Legislație</a>
+<ul class="sub-dropdown">
+	<li id="menu-item-1160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1160"><a href="https://www.cnpetrurares.ro/legislatie-nationala/">Legislație națională</a></li>
+	<li id="menu-item-1448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1448"><a href="https://www.cnpetrurares.ro/legislatie-c-n-p-r/">Legislație C.N.P.R.</a></li>
+</ul>
+</li>
+<li id="menu-item-824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-sub-dropdown menu-item-824"><a href="https://www.cnpetrurares.ro/publicatii/">Publicații</a>
+<ul class="sub-dropdown">
+	<li id="menu-item-8814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8814"><a href="https://www.cnpetrurares.ro/publicatii/curs-optional-de-scriere-creativa/">Curs Opțional de Scriere Creativă</a></li>
+	<li id="menu-item-7671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7671"><a href="https://www.cnpetrurares.ro/biblioteca-virtuala/">Biblioteca – catalog on line</a></li>
+</ul>
+</li>
+<li id="menu-item-840" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-sub-dropdown menu-item-840"><a href="#">Activități extrașcolare</a>
+<ul class="sub-dropdown">
+	<li id="menu-item-1109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1109"><a href="https://www.cnpetrurares.ro/consiliul-elevilor/">Consiliul elevilor</a></li>
+	<li id="menu-item-1031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1031"><a href="https://www.cnpetrurares.ro/proiecte/">Proiecte</a></li>
+	<li id="menu-item-2036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-sub-dropdown menu-item-2036"><a href="https://www.cnpetrurares.ro/competitii/">Competiții</a>
+	<ul class="sub-dropdown">
+		<li id="menu-item-3067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3067"><a href="https://www.cnpetrurares.ro/competitii/olimpiade_scolare/">Rezultate Olimpiade Școlare 2022-2023</a></li>
+		<li id="menu-item-2151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2151"><a href="https://www.cnpetrurares.ro/concursuri-2/">Rezultare Concursuri Școlare 2022-2023</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-819"><a href="https://www.cnpetrurares.ro/contact/">Contact</a></li>
+</ul>                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                </header>
+                    <!-- Main Content Section -->
+            <main id="main-content">
+                <!-- Main Section -->
+                <div class="main-section"><div class="page-section">
+                        <!-- Container Start -->
+                            <div  class="container">
+                                <div class="row">
+                                    <div class="col-md-12 lightbox"><link href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C100" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+<div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.3.0.2 fullwidth mode -->
+	<div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.3.0.2">
+<ul>	<!-- SLIDE  -->
+	<li data-index="rs-12" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.cnpetrurares.ro/wp-content/uploads/2017/08/Colegiul-National-Petru-Rares.jpg"  alt="" title="Colegiul-National-Petru-Rares"  width="3008" height="2000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption   tp-resizeme fullscreenvideo tp-videolayer" 
+			 id="slide-12-layer-1" 
+			 data-x="0" 
+			 data-y="0" 
+			data-type="video" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+ data-videocontrols="controls" data-videowidth="100%" data-videoheight="100%" data-videomp4="http://www.cnpetrurares.ro/Everest/EDUCATION_IS_A_MOUNTAIN.mp4" data-videopreload="auto" data-videoloop="loopandnoslidestop" data-forceCover="1" data-aspectratio="16:9"			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+			data-autoplay="on" 
+			data-volume="mute"
+			style="z-index: 5;"> </div>
+	</li>
+</ul>
+<div style="" class="tp-static-layers">
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme tp-static-layer" 
+			 id="slider-4-layer-1" 
+			 data-x="-21" 
+			 data-y="213" 
+						data-width="['458']"
+			data-height="['144']"
+ 
+			data-type="shape" 
+			data-responsive_offset="on" 
+
+			data-startslide="-1" 
+			data-endslide="-1" 
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5;font-family:Open Sans;background-color:rgba(0, 0, 0, 0.50);border-color:rgba(0, 0, 0, 0.50);"> </div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption   tp-resizeme tp-static-layer" 
+			 id="slider-4-layer-2" 
+			 data-x="center" data-hoffset="-325" 
+			 data-y="center" data-voffset="33" 
+						data-width="['auto']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-startslide="-1" 
+			data-endslide="-1" 
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; white-space: nowrap; font-size: 25px; line-height: 22px; font-weight: 700; color: rgba(232, 221, 11, 1.00);font-family:Georgia, serif;">Colegiul Național "Petru Rareș"<br>
+<br> </div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption   tp-resizeme tp-static-layer" 
+			 id="slider-4-layer-3" 
+			 data-x="115" 
+			 data-y="294" 
+						data-width="['auto']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-startslide="-1" 
+			data-endslide="-1" 
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 7; white-space: nowrap; font-size: 25px; line-height: 22px; font-weight: 700; color: rgba(232, 221, 11, 1.00);font-family:Georgia, serif;">Piatra Neamț </div>
+</div>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+				if(htmlDiv) {
+					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+				}else{
+					var htmlDiv = document.createElement("div");
+					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+				}
+			</script>
+		<script type="text/javascript">
+						/******************************************
+				-	PREPARE PLACEHOLDER FOR SLIDER	-
+			******************************************/
+
+			var setREVStartSize=function(){
+				try{var e=new Object,i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+					e.c = jQuery('#rev_slider_4_1');
+					e.gridwidth = [1060];
+					e.gridheight = [460];
+							
+					e.sliderLayout = "fullwidth";
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
+					
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};
+			
+			setREVStartSize();
+			
+						var tpj=jQuery;
+			tpj.noConflict();
+			var revapi4;
+			tpj(document).ready(function() {
+				if(tpj("#rev_slider_4_1").revolution == undefined){
+					revslider_showDoubleJqueryError("#rev_slider_4_1");
+				}else{
+					revapi4 = tpj("#rev_slider_4_1").show().revolution({
+						sliderType:"hero",
+jsFileLocation:"//www.cnpetrurares.ro/wp-content/plugins/revslider/public/assets/js/",
+						sliderLayout:"fullwidth",
+						dottedOverlay:"none",
+						delay:5000,
+						navigation: {
+						},
+						visibilityLevels:[1240,1024,778,480],
+						gridwidth:1060,
+						gridheight:460,
+						lazyType:"none",
+						shadow:0,
+						spinner:"spinner0",
+						autoHeight:"off",
+						disableProgressBar:"on",
+						hideThumbsOnMobile:"off",
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						debugMode:false,
+						fallbacks: {
+							simplifyAll:"off",
+							disableFocusListener:false,
+						}
+					});
+				}
+			});	/*ready*/
+		</script>
+		</div><!-- END REVOLUTION SLIDER -->
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="724" src="https://www.cnpetrurares.ro/wp-content/uploads/2023/04/Afis-acreditare_2020-1-RO01-KA120-SCH-095710-1024x724.jpg" alt="" class="wp-image-8378" srcset="https://www.cnpetrurares.ro/wp-content/uploads/2023/04/Afis-acreditare_2020-1-RO01-KA120-SCH-095710-1024x724.jpg 1024w, https://www.cnpetrurares.ro/wp-content/uploads/2023/04/Afis-acreditare_2020-1-RO01-KA120-SCH-095710-300x212.jpg 300w, https://www.cnpetrurares.ro/wp-content/uploads/2023/04/Afis-acreditare_2020-1-RO01-KA120-SCH-095710-768x543.jpg 768w, https://www.cnpetrurares.ro/wp-content/uploads/2023/04/Afis-acreditare_2020-1-RO01-KA120-SCH-095710-1536x1086.jpg 1536w, https://www.cnpetrurares.ro/wp-content/uploads/2023/04/Afis-acreditare_2020-1-RO01-KA120-SCH-095710-2048x1448.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h1 class="has-text-align-center">Noutăți</h1>
+
+
+
+<div class="wp-container-8 wp-block-group has-black-color has-text-color has-aldin-font-size" style="font-style:normal;font-weight:1000"><div class="wp-block-group__inner-container">
+
+<div class="wp-container-7 wp-block-group"><div class="wp-block-group__inner-container">
+
+<div class="wp-container-6 wp-block-group has-black-color has-text-color has-aldin-font-size" style="font-style:italic;font-weight:800"><div class="wp-block-group__inner-container">
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-pale-cyan-blue-background-color has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container">
+
+<div class="wp-container-5 wp-block-group has-black-color has-text-color"><div class="wp-block-group__inner-container">
+
+<div class="wp-container-4 wp-block-group has-black-color has-text-color" style="font-style:italic;font-weight:800"><div class="wp-block-group__inner-container">
+
+<div class="wp-container-3 wp-block-group has-pale-cyan-blue-color has-text-color"><div class="wp-block-group__inner-container">
+
+<div class="wp-container-2 wp-block-group has-vivid-cyan-blue-color has-text-color"><div class="wp-block-group__inner-container">
+
+<div class="wp-container-1 wp-block-group has-text-color" style="color:#7d7d7d"><div class="wp-block-group__inner-container">
+<ul class="wp-block-latest-posts__list is-grid columns-3 has-dates wp-block-latest-posts"><li><div class="wp-block-latest-posts__featured-image alignright"><img loading="lazy" width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2023/12/antotnina-mandru-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/in-memoriam-antonina-mandru/">In memoriam, Antonina Mândru</a><time datetime="2023-12-28T11:58:46+02:00" class="wp-block-latest-posts__post-date">28 decembrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="109" height="96" src="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/icon-4.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/anunt-licitatie-inchiriere-sala-de-sport/">Anunț licitație închiriere sală de sport</a><time datetime="2023-11-27T09:47:25+02:00" class="wp-block-latest-posts__post-date">27 noiembrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="127" src="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/CNPR-sigla-2014-transparenta-site.gif" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/scoala-altfel-154-de-ani-de-atestare-documentara-a-cnpr/">”Școala Altfel”, 154 de ani de atestare documentară a CNPR</a><time datetime="2023-11-20T09:14:08+02:00" class="wp-block-latest-posts__post-date">20 noiembrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2020/05/info-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/anunt-concurs-muncitor/">Anunț concurs muncitor</a><time datetime="2023-10-26T14:36:32+02:00" class="wp-block-latest-posts__post-date">26 octombrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2021/10/Zgarciu-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/concursuri-ioanzgarciu/">Concursul Naţional Interdisciplinar Chimie şi Știinţe ”Ioan ZGÂRCIU&#8221; &#8211; Ediţia a IV-a</a><time datetime="2023-10-18T10:22:06+02:00" class="wp-block-latest-posts__post-date">18 octombrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2020/05/info-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/lista-tuturor-functiilor-din-c-n-p-r-septembrie-2023/">Lista tuturor funcțiilor din C.N.P.R. &#8211; septembrie 2023</a><time datetime="2023-09-29T11:20:52+02:00" class="wp-block-latest-posts__post-date">29 septembrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2020/05/info-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/anunt-concurs-paznic-pe-perioada-determinata/">Anunț concurs paznic pe perioadă determinată</a><time datetime="2023-09-26T10:28:38+02:00" class="wp-block-latest-posts__post-date">26 septembrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2023/09/antidrog-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/activitate-de-combatere-a-consumului-de-droguri/">Activitate de combatere a consumului de droguri</a><time datetime="2023-09-22T13:20:43+02:00" class="wp-block-latest-posts__post-date">22 septembrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2022/01/pngwing.com_-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="dosar" loading="lazy" style="max-width:75px;max-height:75px;" srcset="https://www.cnpetrurares.ro/wp-content/uploads/2022/01/pngwing.com_-150x150.png 150w, https://www.cnpetrurares.ro/wp-content/uploads/2022/01/pngwing.com_-300x300.png 300w, https://www.cnpetrurares.ro/wp-content/uploads/2022/01/pngwing.com_.png 512w" sizes="(max-width: 150px) 100vw, 150px" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/detalii-decontare-transport-an-scolar-2023-2024/">Detalii decontare transport an școlar 2023-2024</a><time datetime="2023-09-18T11:43:53+02:00" class="wp-block-latest-posts__post-date">18 septembrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2022/01/pngwing.com_-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="dosar" loading="lazy" style="max-width:75px;max-height:75px;" srcset="https://www.cnpetrurares.ro/wp-content/uploads/2022/01/pngwing.com_-150x150.png 150w, https://www.cnpetrurares.ro/wp-content/uploads/2022/01/pngwing.com_-300x300.png 300w, https://www.cnpetrurares.ro/wp-content/uploads/2022/01/pngwing.com_.png 512w" sizes="(max-width: 150px) 100vw, 150px" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/detalii-acordare-burse-pentru-elevii-din-cnpr-pentru-anul-scolar-2023-2024/">Detalii acordare burse pentru elevii din CNPR pentru anul școlar 2023-2024</a><time datetime="2023-09-18T09:45:19+02:00" class="wp-block-latest-posts__post-date">18 septembrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="127" src="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/CNPR-sigla-2014-transparenta-site.gif" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/repartizare-elevi-clasa-a-v-a-si-clasele-a-ix-a/">Repartizare elevi clasa a V-a și clasele a IX-a</a><time datetime="2023-09-08T12:16:48+02:00" class="wp-block-latest-posts__post-date">8 septembrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="127" src="https://www.cnpetrurares.ro/wp-content/uploads/2017/01/CNPR-sigla-2014-transparenta-site.gif" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/deschidere-an-scolar-2023-2024-la-c-n-petru-rares/">Deschidere an școlar 2023-2024 la C.N. Petru Rareș</a><time datetime="2023-09-08T09:59:55+02:00" class="wp-block-latest-posts__post-date">8 septembrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2020/05/info-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/examene-de-diferente-transferuri-an-scolar-2023-2024/">Examene de diferențe transferuri, an școlar 2023-2024</a><time datetime="2023-09-05T11:55:57+02:00" class="wp-block-latest-posts__post-date">5 septembrie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2021/07/ADMITERE-ICON-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/inscriere-elevi-declarati-admisi-in-clasa-a-ix-a-an-scolar-2023-2024-la-c-n-p-r/">Înscriere elevi declarați admiși în clasa a IX-a, an școlar 2023-2024, la C.N.P.R.</a><time datetime="2023-07-19T12:03:37+02:00" class="wp-block-latest-posts__post-date">19 iulie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2022/06/bac-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/bacalaureat-2023-rezultate-finale-dupa-contestatii/">BACALAUREAT 2023 &#8211; REZULTATE FINALE  DUPĂ CONTESTAȚII</a><time datetime="2023-07-07T10:12:46+02:00" class="wp-block-latest-posts__post-date">7 iulie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="87" height="87" src="https://www.cnpetrurares.ro/wp-content/uploads/2015/06/about-us-University-Icon-02.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/evaluarea-nationala-2023-ierarhia-pe-scoala/">Evaluarea Națională 2023 &#8211; Poziția elevilor CNPR în ierarhia județeană</a><time datetime="2023-07-07T08:22:05+02:00" class="wp-block-latest-posts__post-date">7 iulie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2022/06/child_taking_exam_0_by_wiseowlslearning_de58ccb-pre-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/evaluarea-nationala-2023-rezultate-finale-dupa-contestatii/">EVALUAREA NAȚIONALĂ 2023 &#8211; REZULTATE FINALE DUPĂ CONTESTAȚII</a><time datetime="2023-07-07T07:41:52+02:00" class="wp-block-latest-posts__post-date">7 iulie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2022/06/bac-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/bacalaureat-2023-detalii-depunere-contestatii/">BACALAUREAT 2023 &#8211; DETALII DEPUNERE CONTESTAȚII</a><time datetime="2023-07-03T14:19:08+02:00" class="wp-block-latest-posts__post-date">3 iulie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2022/06/bac-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/bacalaureat-2023-rezultate-inainte-de-contestatii/">BACALAUREAT 2023 &#8211; REZULTATE ÎNAINTE DE CONTESTAȚII</a><time datetime="2023-07-03T10:34:00+02:00" class="wp-block-latest-posts__post-date">3 iulie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2022/06/bac-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/bacalaureat-2023-bareme-de-corectare-proba-e-d-28-06-2023/">BACALAUREAT 2023 &#8211; BAREME DE CORECTARE PROBA E.d) &#8211; 28.06.2023</a><time datetime="2023-06-29T08:06:57+02:00" class="wp-block-latest-posts__post-date">29 iunie 2023</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignright"><img width="150" height="150" src="https://www.cnpetrurares.ro/wp-content/uploads/2022/06/child_taking_exam_0_by_wiseowlslearning_de58ccb-pre-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" style="max-width:75px;max-height:75px;" /></div><a class="wp-block-latest-posts__post-title" href="https://www.cnpetrurares.ro/evaluarea-nationala-2023-detalii-depunere-contestatii/">EVALUAREA NAȚIONALĂ 2023 &#8211; DETALII DEPUNERE CONTESTAȚII</a><time datetime="2023-06-28T14:21:20+02:00" class="wp-block-latest-posts__post-date">28 iunie 2023</time></li>
+</ul>
+</div></div>
+
+</div></div>
+
+</div></div>
+
+</div></div>
+
+</div></div>
+
+</div></div>
+
+</div></div>
+
+</div></div>
+
+</div></div>
+</div>
+                     </div>
+                    </div>
+                    </div>﻿
+	</div>
+</main>
+<div class="clear"></div>
+
+
+
+
+<!-- Footer -->
+ 	
+     <footer>
+    
+        
+         
+		 
+		         
+     
+     
+
+
+<!-- Stil propriu pentru footer -->
+  
+  
+    <div class="bottom-footer" >
+        <div class="container">
+
+        
+
+        <div class="row">
+
+           <div class="col-6 col-sm-3">
+           
+           <h3 style="color: white;">
+           Despre noi
+           </h3>
+           <img src="http://www.cnpetrurares.ro/wp-content/uploads/2017/08/Colegiul-National-Petru-Rares.jpg" class="rounded " alt="Petru Colegiul-National-Petru-Rares" width="220">
+           
+           <p style="text-align:center; margin-top:10px; margin-right: 20px; color: white; font-size: 12px;">
+
+           Noi ne definim prin verbe, fiindcă verbul dă sens și acțiune enunțului, punând mecanismele limbii în mișcare.
+
+           </p>
+
+           </div>
+
+            <div class="col-6 col-sm-3" style="color: white; font-size: 12px;">
+
+           <div class="cs-contact-info col-md-12 "><h3 style="color: white">Contact</h3><div class="liststyle"><ul><li><i class="icon-home" style="color: #B2B2B2"></i><span style=" font-size: 12px; color : white">Colegiul Național Petru Rareș<br> Strada Ștefan cel Mare, nr. 4<br> Piatra Neamț, 610121</span> </li><li><i class="icon-phone8" style="color: #fff"></i><span></span> +40 233 213 751</li><li><!--<i class="icon-fax" style="color: white"></i><span></span> +498 123 4567 89</li>--><li><i class="icon-envelope4" style="color: white"></i><span></span>cnpr.pn@gmail.com</li><li><i class="icon-attachment2" style="color: #B2B2B2"></i><span></span> www.cnpetrurares.ro</li></ul></div></div>
+
+           </div>
+
+            <div class="col-6 col-sm-3" style="color: #B2B2B2; font-size: 12px;">
+           
+           <h3 style="color: white">Postări recente</h3>
+
+           <div style="color: #B2B2B2">
+           <ul class="display-posts-listing"><li class="listing-item"><a class="title" href="https://www.cnpetrurares.ro/concursul-olimpiadele-francofoniei-editia-2022/">CONCURSUL &#8222;OLIMPIADELE FRANCOFONIEI&#8221;, editia 2022</a></li><li class="listing-item"><a class="title" href="https://www.cnpetrurares.ro/in-memoriam-antonina-mandru/">In memoriam, Antonina Mândru</a></li><li class="listing-item"><a class="title" href="https://www.cnpetrurares.ro/anunt-licitatie-inchiriere-sala-de-sport/">Anunț licitație închiriere sală de sport</a></li><li class="listing-item"><a class="title" href="https://www.cnpetrurares.ro/scoala-altfel-154-de-ani-de-atestare-documentara-a-cnpr/">”Școala Altfel”, 154 de ani de atestare documentară a CNPR</a></li><li class="listing-item"><a class="title" href="https://www.cnpetrurares.ro/anunt-concurs-muncitor/">Anunț concurs muncitor</a></li><li class="listing-item"><a class="title" href="https://www.cnpetrurares.ro/concursuri-ioanzgarciu/">Concursul Naţional Interdisciplinar Chimie şi Știinţe ”Ioan ZGÂRCIU&#8221; &#8211; Ediţia a IV-a</a></li></ul>
+           </div>
+
+
+           </div>
+
+            <div class="col-6 col-sm-3">
+           
+<!--           <h3 style="color: white">Instagram</h3>
+
+         <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/648eeb45a5e65c9cbe530daa8442fc41.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+-->
+
+
+
+           </div>
+         
+         </div>
+
+
+            <div class="row">
+            <center>
+                <div class="col">
+
+					<div class="copyright">
+
+
+        <!--                     <span id="backtop"><i class="icon-arrow-up9"></i></span>
+                  -->
+						
+						<p>©2023 Colegiul Naţional Petru Rareş 
+</p>	
+					</div>
+              
+              </div>
+              </center>
+              
+             <!--  <div class="col-md-6">
+                <div class="social-media"> 
+                          
+                    
+							  
+                    
+                 
+                </div>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+    
+    </footer> 
+    
+    
+    
+    
+
+
+<div class="clear"></div>
+</div>
+<!-- Wrapper End -->   
+
+		<script type="text/html" id="tmpl-media-frame">
+		<div class="media-frame-title" id="media-frame-title"></div>
+		<h2 class="media-frame-menu-heading">Acțiuni</h2>
+		<button type="button" class="button button-link media-frame-menu-toggle" aria-expanded="false">
+			Meniu			<span class="dashicons dashicons-arrow-down" aria-hidden="true"></span>
+		</button>
+		<div class="media-frame-menu"></div>
+		<div class="media-frame-tab-panel">
+			<div class="media-frame-router"></div>
+			<div class="media-frame-content"></div>
+		</div>
+		<h2 class="media-frame-actions-heading screen-reader-text">
+		Acțiuni media selectate		</h2>
+		<div class="media-frame-toolbar"></div>
+		<div class="media-frame-uploader"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-media-modal">
+		<div tabindex="0" class="media-modal wp-core-ui" role="dialog" aria-labelledby="media-frame-title">
+			<# if ( data.hasCloseButton ) { #>
+				<button type="button" class="media-modal-close"><span class="media-modal-icon"><span class="screen-reader-text">Închide dialogul</span></span></button>
+			<# } #>
+			<div class="media-modal-content" role="document"></div>
+		</div>
+		<div class="media-modal-backdrop"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-window">
+		<div class="uploader-window-content">
+			<div class="uploader-editor-title">Trage fișiere pentru încărcare</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-editor">
+		<div class="uploader-editor-content">
+			<div class="uploader-editor-title">Trage fișiere pentru încărcare</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-inline">
+		<# var messageClass = data.message ? 'has-upload-message' : 'no-upload-message'; #>
+		<# if ( data.canClose ) { #>
+		<button class="close dashicons dashicons-no"><span class="screen-reader-text">Închide încărcătorul</span></button>
+		<# } #>
+		<div class="uploader-inline-content {{ messageClass }}">
+		<# if ( data.message ) { #>
+			<h2 class="upload-message">{{ data.message }}</h2>
+		<# } #>
+					<div class="upload-ui">
+				<h2 class="upload-instructions drop-instructions">Trage fișiere pentru încărcare</h2>
+				<p class="upload-instructions drop-instructions">sau</p>
+				<button type="button" class="browser button button-hero" aria-labelledby="post-upload-info">Selectează fișierele</button>
+			</div>
+
+			<div class="upload-inline-status"></div>
+
+			<div class="post-upload-ui" id="post-upload-info">
+				
+				<p class="max-upload-size">
+				Dimensiune maximă pentru fișier la încărcare: 512 Mo.				</p>
+
+				<# if ( data.suggestedWidth && data.suggestedHeight ) { #>
+					<p class="suggested-dimensions">
+						Dimensiuni imagine sugerată: {{data.suggestedWidth}} x {{data.suggestedHeight}} pixeli.					</p>
+				<# } #>
+
+							</div>
+				</div>
+	</script>
+
+		<script type="text/html" id="tmpl-media-library-view-switcher">
+		<a href="https://www.cnpetrurares.ro/wp-admin/upload.php?mode=list" class="view-list">
+			<span class="screen-reader-text">Vizualizare ca listă</span>
+		</a>
+		<a href="https://www.cnpetrurares.ro/wp-admin/upload.php?mode=grid" class="view-grid current" aria-current="page">
+			<span class="screen-reader-text">Vizualizare ca grilă</span>
+		</a>
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-status">
+		<h2>Se încarcă</h2>
+
+		<div class="media-progress-bar"><div></div></div>
+		<div class="upload-details">
+			<span class="upload-count">
+				<span class="upload-index"></span> / <span class="upload-total"></span>
+			</span>
+			<span class="upload-detail-separator">&ndash;</span>
+			<span class="upload-filename"></span>
+		</div>
+		<div class="upload-errors"></div>
+		<button type="button" class="button upload-dismiss-errors">Șterge erorile</button>
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-status-error">
+		<span class="upload-error-filename">{{{ data.filename }}}</span>
+		<span class="upload-error-message">{{ data.message }}</span>
+	</script>
+
+		<script type="text/html" id="tmpl-edit-attachment-frame">
+		<div class="edit-media-header">
+			<button class="left dashicons"<# if ( ! data.hasPrevious ) { #> disabled<# } #>><span class="screen-reader-text">Editează elementul media anterior</span></button>
+			<button class="right dashicons"<# if ( ! data.hasNext ) { #> disabled<# } #>><span class="screen-reader-text">Editează următorul element media</span></button>
+			<button type="button" class="media-modal-close"><span class="media-modal-icon"><span class="screen-reader-text">Închide dialogul</span></span></button>
+		</div>
+		<div class="media-frame-title"></div>
+		<div class="media-frame-content"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-attachment-details-two-column">
+		<div class="attachment-media-view {{ data.orientation }}">
+			<h2 class="screen-reader-text">Previzualizare atașament</h2>
+			<div class="thumbnail thumbnail-{{ data.type }}">
+				<# if ( data.uploading ) { #>
+					<div class="media-progress-bar"><div></div></div>
+				<# } else if ( data.sizes && data.sizes.large ) { #>
+					<img class="details-image" src="{{ data.sizes.large.url }}" draggable="false" alt="" />
+				<# } else if ( data.sizes && data.sizes.full ) { #>
+					<img class="details-image" src="{{ data.sizes.full.url }}" draggable="false" alt="" />
+				<# } else if ( -1 === jQuery.inArray( data.type, [ 'audio', 'video' ] ) ) { #>
+					<img class="details-image icon" src="{{ data.icon }}" draggable="false" alt="" />
+				<# } #>
+
+				<# if ( 'audio' === data.type ) { #>
+				<div class="wp-media-wrapper wp-audio">
+					<audio style="visibility: hidden" controls class="wp-audio-shortcode" width="100%" preload="none">
+						<source type="{{ data.mime }}" src="{{ data.url }}" />
+					</audio>
+				</div>
+				<# } else if ( 'video' === data.type ) {
+					var w_rule = '';
+					if ( data.width ) {
+						w_rule = 'width: ' + data.width + 'px;';
+					} else if ( wp.media.view.settings.contentWidth ) {
+						w_rule = 'width: ' + wp.media.view.settings.contentWidth + 'px;';
+					}
+				#>
+				<div style="{{ w_rule }}" class="wp-media-wrapper wp-video">
+					<video controls="controls" class="wp-video-shortcode" preload="metadata"
+						<# if ( data.width ) { #>width="{{ data.width }}"<# } #>
+						<# if ( data.height ) { #>height="{{ data.height }}"<# } #>
+						<# if ( data.image && data.image.src !== data.icon ) { #>poster="{{ data.image.src }}"<# } #>>
+						<source type="{{ data.mime }}" src="{{ data.url }}" />
+					</video>
+				</div>
+				<# } #>
+
+				<div class="attachment-actions">
+					<# if ( 'image' === data.type && ! data.uploading && data.sizes && data.can.save ) { #>
+					<button type="button" class="button edit-attachment">Editează imaginea</button>
+					<# } else if ( 'pdf' === data.subtype && data.sizes ) { #>
+					<p>Previzualizează documentul</p>
+					<# } #>
+				</div>
+			</div>
+		</div>
+		<div class="attachment-info">
+			<span class="settings-save-status" role="status">
+				<span class="spinner"></span>
+				<span class="saved">Am salvat.</span>
+			</span>
+			<div class="details">
+				<h2 class="screen-reader-text">Detalii</h2>
+				<div class="uploaded"><strong>Încărcat în:</strong> {{ data.dateFormatted }}</div>
+				<div class="uploaded-by">
+					<strong>Încărcat de:</strong>
+						<# if ( data.authorLink ) { #>
+							<a href="{{ data.authorLink }}">{{ data.authorName }}</a>
+						<# } else { #>
+							{{ data.authorName }}
+						<# } #>
+				</div>
+				<# if ( data.uploadedToTitle ) { #>
+					<div class="uploaded-to">
+						<strong>Încărcat la:</strong>
+						<# if ( data.uploadedToLink ) { #>
+							<a href="{{ data.uploadedToLink }}">{{ data.uploadedToTitle }}</a>
+						<# } else { #>
+							{{ data.uploadedToTitle }}
+						<# } #>
+					</div>
+				<# } #>
+				<div class="filename"><strong>Nume fișier:</strong> {{ data.filename }}</div>
+				<div class="file-type"><strong>Tip de fișier:</strong> {{ data.mime }}</div>
+				<div class="file-size"><strong>Dimensiune fișier:</strong> {{ data.filesizeHumanReadable }}</div>
+				<# if ( 'image' === data.type && ! data.uploading ) { #>
+					<# if ( data.width && data.height ) { #>
+						<div class="dimensions"><strong>Dimensiuni:</strong>
+							{{ data.width }} cu {{ data.height }} pixeli						</div>
+					<# } #>
+
+					<# if ( data.originalImageURL && data.originalImageName ) { #>
+						Imagine originală:						<a href="{{ data.originalImageURL }}">{{data.originalImageName}}</a>
+					<# } #>
+				<# } #>
+
+				<# if ( data.fileLength && data.fileLengthHumanReadable ) { #>
+					<div class="file-length"><strong>Durată:</strong>
+						<span aria-hidden="true">{{ data.fileLength }}</span>
+						<span class="screen-reader-text">{{ data.fileLengthHumanReadable }}</span>
+					</div>
+				<# } #>
+
+				<# if ( 'audio' === data.type && data.meta.bitrate ) { #>
+					<div class="bitrate">
+						<strong>Rată de biți:</strong> {{ Math.round( data.meta.bitrate / 1000 ) }}kb/s
+						<# if ( data.meta.bitrate_mode ) { #>
+						{{ ' ' + data.meta.bitrate_mode.toUpperCase() }}
+						<# } #>
+					</div>
+				<# } #>
+
+				<# if ( data.mediaStates ) { #>
+					<div class="media-states"><strong>Folosit ca:</strong> {{ data.mediaStates }}</div>
+				<# } #>
+
+				<div class="compat-meta">
+					<# if ( data.compat && data.compat.meta ) { #>
+						{{{ data.compat.meta }}}
+					<# } #>
+				</div>
+			</div>
+
+			<div class="settings">
+				<# var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly'; #>
+				<# if ( 'image' === data.type ) { #>
+					<span class="setting has-description" data-setting="alt">
+						<label for="attachment-details-two-column-alt-text" class="name">Text alternativ</label>
+						<input type="text" id="attachment-details-two-column-alt-text" value="{{ data.alt }}" aria-describedby="alt-text-description" {{ maybeReadOnly }} />
+					</span>
+					<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener">Învață cum poți să descrii scopul imaginii<span class="screen-reader-text"> (se deschide într-o filă nouă)</span></a>. Lasă gol dacă imaginea este doar decorativă.</p>
+				<# } #>
+								<span class="setting" data-setting="title">
+					<label for="attachment-details-two-column-title" class="name">Titlu</label>
+					<input type="text" id="attachment-details-two-column-title" value="{{ data.title }}" {{ maybeReadOnly }} />
+				</span>
+								<# if ( 'audio' === data.type ) { #>
+								<span class="setting" data-setting="artist">
+					<label for="attachment-details-two-column-artist" class="name">Artist</label>
+					<input type="text" id="attachment-details-two-column-artist" value="{{ data.artist || data.meta.artist || '' }}" />
+				</span>
+								<span class="setting" data-setting="album">
+					<label for="attachment-details-two-column-album" class="name">Album</label>
+					<input type="text" id="attachment-details-two-column-album" value="{{ data.album || data.meta.album || '' }}" />
+				</span>
+								<# } #>
+				<span class="setting" data-setting="caption">
+					<label for="attachment-details-two-column-caption" class="name">Text asociat</label>
+					<textarea id="attachment-details-two-column-caption" {{ maybeReadOnly }}>{{ data.caption }}</textarea>
+				</span>
+				<span class="setting" data-setting="description">
+					<label for="attachment-details-two-column-description" class="name">Descriere</label>
+					<textarea id="attachment-details-two-column-description" {{ maybeReadOnly }}>{{ data.description }}</textarea>
+				</span>
+				<span class="setting" data-setting="url">
+					<label for="attachment-details-two-column-copy-link" class="name">URL fișier:</label>
+					<input type="text" class="attachment-details-copy-link" id="attachment-details-two-column-copy-link" value="{{ data.url }}" readonly />
+					<span class="copy-to-clipboard-container">
+						<button type="button" class="button button-small copy-attachment-url" data-clipboard-target="#attachment-details-two-column-copy-link">Copiază URL-ul în clipboard</button>
+						<span class="success hidden" aria-hidden="true">Copiată!</span>
+					</span>
+				</span>
+				<div class="attachment-compat"></div>
+			</div>
+
+			<div class="actions">
+				<# if ( data.link ) { #>
+					<a class="view-attachment" href="{{ data.link }}">Arată pagină de tip atașament</a>
+				<# } #>
+				<# if ( data.can.save ) { #>
+					<# if ( data.link ) { #>
+						<span class="links-separator">|</span>
+					<# } #>
+					<a href="{{ data.editLink }}">Editează mai multe detalii</a>
+				<# } #>
+				<# if ( ! data.uploading && data.can.remove ) { #>
+					<# if ( data.link || data.can.save ) { #>
+						<span class="links-separator">|</span>
+					<# } #>
+											<button type="button" class="button-link delete-attachment">Șterge definitiv</button>
+									<# } #>
+			</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-attachment">
+		<div class="attachment-preview js--select-attachment type-{{ data.type }} subtype-{{ data.subtype }} {{ data.orientation }}">
+			<div class="thumbnail">
+				<# if ( data.uploading ) { #>
+					<div class="media-progress-bar"><div style="width: {{ data.percent }}%"></div></div>
+				<# } else if ( 'image' === data.type && data.size && data.size.url ) { #>
+					<div class="centered">
+						<img src="{{ data.size.url }}" draggable="false" alt="" />
+					</div>
+				<# } else { #>
+					<div class="centered">
+						<# if ( data.image && data.image.src && data.image.src !== data.icon ) { #>
+							<img src="{{ data.image.src }}" class="thumbnail" draggable="false" alt="" />
+						<# } else if ( data.sizes && data.sizes.medium ) { #>
+							<img src="{{ data.sizes.medium.url }}" class="thumbnail" draggable="false" alt="" />
+						<# } else { #>
+							<img src="{{ data.icon }}" class="icon" draggable="false" alt="" />
+						<# } #>
+					</div>
+					<div class="filename">
+						<div>{{ data.filename }}</div>
+					</div>
+				<# } #>
+			</div>
+			<# if ( data.buttons.close ) { #>
+				<button type="button" class="button-link attachment-close media-modal-icon"><span class="screen-reader-text">Înlătură</span></button>
+			<# } #>
+		</div>
+		<# if ( data.buttons.check ) { #>
+			<button type="button" class="check" tabindex="-1"><span class="media-modal-icon"></span><span class="screen-reader-text">Anulează selecția</span></button>
+		<# } #>
+		<#
+		var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly';
+		if ( data.describe ) {
+			if ( 'image' === data.type ) { #>
+				<input type="text" value="{{ data.caption }}" class="describe" data-setting="caption"
+					aria-label="Text asociat"
+					placeholder="Text asociat&hellip;" {{ maybeReadOnly }} />
+			<# } else { #>
+				<input type="text" value="{{ data.title }}" class="describe" data-setting="title"
+					<# if ( 'video' === data.type ) { #>
+						aria-label="Titlu video"
+						placeholder="Titlu video&hellip;"
+					<# } else if ( 'audio' === data.type ) { #>
+						aria-label="Titlu audio"
+						placeholder="Titlu audio&hellip;"
+					<# } else { #>
+						aria-label="Titlu media"
+						placeholder="Titlu media&hellip;"
+					<# } #> {{ maybeReadOnly }} />
+			<# }
+		} #>
+	</script>
+
+		<script type="text/html" id="tmpl-attachment-details">
+		<h2>
+			Detalii atașament			<span class="settings-save-status" role="status">
+				<span class="spinner"></span>
+				<span class="saved">Am salvat.</span>
+			</span>
+		</h2>
+		<div class="attachment-info">
+
+			<# if ( 'audio' === data.type ) { #>
+				<div class="wp-media-wrapper wp-audio">
+					<audio style="visibility: hidden" controls class="wp-audio-shortcode" width="100%" preload="none">
+						<source type="{{ data.mime }}" src="{{ data.url }}" />
+					</audio>
+				</div>
+			<# } else if ( 'video' === data.type ) {
+				var w_rule = '';
+				if ( data.width ) {
+					w_rule = 'width: ' + data.width + 'px;';
+				} else if ( wp.media.view.settings.contentWidth ) {
+					w_rule = 'width: ' + wp.media.view.settings.contentWidth + 'px;';
+				}
+			#>
+				<div style="{{ w_rule }}" class="wp-media-wrapper wp-video">
+					<video controls="controls" class="wp-video-shortcode" preload="metadata"
+						<# if ( data.width ) { #>width="{{ data.width }}"<# } #>
+						<# if ( data.height ) { #>height="{{ data.height }}"<# } #>
+						<# if ( data.image && data.image.src !== data.icon ) { #>poster="{{ data.image.src }}"<# } #>>
+						<source type="{{ data.mime }}" src="{{ data.url }}" />
+					</video>
+				</div>
+			<# } else { #>
+				<div class="thumbnail thumbnail-{{ data.type }}">
+					<# if ( data.uploading ) { #>
+						<div class="media-progress-bar"><div></div></div>
+					<# } else if ( 'image' === data.type && data.size && data.size.url ) { #>
+						<img src="{{ data.size.url }}" draggable="false" alt="" />
+					<# } else { #>
+						<img src="{{ data.icon }}" class="icon" draggable="false" alt="" />
+					<# } #>
+				</div>
+			<# } #>
+
+			<div class="details">
+				<div class="filename">{{ data.filename }}</div>
+				<div class="uploaded">{{ data.dateFormatted }}</div>
+
+				<div class="file-size">{{ data.filesizeHumanReadable }}</div>
+				<# if ( 'image' === data.type && ! data.uploading ) { #>
+					<# if ( data.width && data.height ) { #>
+						<div class="dimensions">
+							{{ data.width }} cu {{ data.height }} pixeli						</div>
+					<# } #>
+
+					<# if ( data.originalImageURL && data.originalImageName ) { #>
+						Imagine originală:						<a href="{{ data.originalImageURL }}">{{data.originalImageName}}</a>
+					<# } #>
+
+					<# if ( data.can.save && data.sizes ) { #>
+						<a class="edit-attachment" href="{{ data.editLink }}&amp;image-editor" target="_blank">Editează imaginea</a>
+					<# } #>
+				<# } #>
+
+				<# if ( data.fileLength && data.fileLengthHumanReadable ) { #>
+					<div class="file-length">Durată:						<span aria-hidden="true">{{ data.fileLength }}</span>
+						<span class="screen-reader-text">{{ data.fileLengthHumanReadable }}</span>
+					</div>
+				<# } #>
+
+				<# if ( data.mediaStates ) { #>
+					<div class="media-states"><strong>Folosit ca:</strong> {{ data.mediaStates }}</div>
+				<# } #>
+
+				<# if ( ! data.uploading && data.can.remove ) { #>
+											<button type="button" class="button-link delete-attachment">Șterge definitiv</button>
+									<# } #>
+
+				<div class="compat-meta">
+					<# if ( data.compat && data.compat.meta ) { #>
+						{{{ data.compat.meta }}}
+					<# } #>
+				</div>
+			</div>
+		</div>
+		<# var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly'; #>
+		<# if ( 'image' === data.type ) { #>
+			<span class="setting has-description" data-setting="alt">
+				<label for="attachment-details-alt-text" class="name">Text alternativ</label>
+				<input type="text" id="attachment-details-alt-text" value="{{ data.alt }}" aria-describedby="alt-text-description" {{ maybeReadOnly }} />
+			</span>
+			<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener">Învață cum poți să descrii scopul imaginii<span class="screen-reader-text"> (se deschide într-o filă nouă)</span></a>. Lasă gol dacă imaginea este doar decorativă.</p>
+		<# } #>
+				<span class="setting" data-setting="title">
+			<label for="attachment-details-title" class="name">Titlu</label>
+			<input type="text" id="attachment-details-title" value="{{ data.title }}" {{ maybeReadOnly }} />
+		</span>
+				<# if ( 'audio' === data.type ) { #>
+				<span class="setting" data-setting="artist">
+			<label for="attachment-details-artist" class="name">Artist</label>
+			<input type="text" id="attachment-details-artist" value="{{ data.artist || data.meta.artist || '' }}" />
+		</span>
+				<span class="setting" data-setting="album">
+			<label for="attachment-details-album" class="name">Album</label>
+			<input type="text" id="attachment-details-album" value="{{ data.album || data.meta.album || '' }}" />
+		</span>
+				<# } #>
+		<span class="setting" data-setting="caption">
+			<label for="attachment-details-caption" class="name">Text asociat</label>
+			<textarea id="attachment-details-caption" {{ maybeReadOnly }}>{{ data.caption }}</textarea>
+		</span>
+		<span class="setting" data-setting="description">
+			<label for="attachment-details-description" class="name">Descriere</label>
+			<textarea id="attachment-details-description" {{ maybeReadOnly }}>{{ data.description }}</textarea>
+		</span>
+		<span class="setting" data-setting="url">
+			<label for="attachment-details-copy-link" class="name">URL fișier:</label>
+			<input type="text" class="attachment-details-copy-link" id="attachment-details-copy-link" value="{{ data.url }}" readonly />
+			<div class="copy-to-clipboard-container">
+				<button type="button" class="button button-small copy-attachment-url" data-clipboard-target="#attachment-details-copy-link">Copiază URL-ul în clipboard</button>
+				<span class="success hidden" aria-hidden="true">Copiată!</span>
+			</div>
+		</span>
+	</script>
+
+		<script type="text/html" id="tmpl-media-selection">
+		<div class="selection-info">
+			<span class="count"></span>
+			<# if ( data.editable ) { #>
+				<button type="button" class="button-link edit-selection">Editează selecția</button>
+			<# } #>
+			<# if ( data.clearable ) { #>
+				<button type="button" class="button-link clear-selection">Șterge</button>
+			<# } #>
+		</div>
+		<div class="selection-view"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-attachment-display-settings">
+		<h2>Setări afișare atașament</h2>
+
+		<# if ( 'image' === data.type ) { #>
+			<span class="setting align">
+				<label for="attachment-display-settings-alignment" class="name">Aliniere</label>
+				<select id="attachment-display-settings-alignment" class="alignment"
+					data-setting="align"
+					<# if ( data.userSettings ) { #>
+						data-user-setting="align"
+					<# } #>>
+
+					<option value="left">
+						Stânga					</option>
+					<option value="center">
+						Centru					</option>
+					<option value="right">
+						Dreapta					</option>
+					<option value="none" selected>
+						Nespecificat					</option>
+				</select>
+			</span>
+		<# } #>
+
+		<span class="setting">
+			<label for="attachment-display-settings-link-to" class="name">
+				<# if ( data.model.canEmbed ) { #>
+					Înglobează sau leagă				<# } else { #>
+					Legătură la				<# } #>
+			</label>
+			<select id="attachment-display-settings-link-to" class="link-to"
+				data-setting="link"
+				<# if ( data.userSettings && ! data.model.canEmbed ) { #>
+					data-user-setting="urlbutton"
+				<# } #>>
+
+			<# if ( data.model.canEmbed ) { #>
+				<option value="embed" selected>
+					Înglobare Media Player				</option>
+				<option value="file">
+			<# } else { #>
+				<option value="none" selected>
+					Nespecificat				</option>
+				<option value="file">
+			<# } #>
+				<# if ( data.model.canEmbed ) { #>
+					Legătură la fișier media				<# } else { #>
+					Fișier media				<# } #>
+				</option>
+				<option value="post">
+				<# if ( data.model.canEmbed ) { #>
+					Legătură la pagina imaginii atașate				<# } else { #>
+					Pagină atașament				<# } #>
+				</option>
+			<# if ( 'image' === data.type ) { #>
+				<option value="custom">
+					URL personalizat				</option>
+			<# } #>
+			</select>
+		</span>
+		<span class="setting">
+			<label for="attachment-display-settings-link-to-custom" class="name">URL</label>
+			<input type="text" id="attachment-display-settings-link-to-custom" class="link-to-custom" data-setting="linkUrl" />
+		</span>
+
+		<# if ( 'undefined' !== typeof data.sizes ) { #>
+			<span class="setting">
+				<label for="attachment-display-settings-size" class="name">Dimensiune</label>
+				<select id="attachment-display-settings-size" class="size" name="size"
+					data-setting="size"
+					<# if ( data.userSettings ) { #>
+						data-user-setting="imgsize"
+					<# } #>>
+											<#
+						var size = data.sizes['thumbnail'];
+						if ( size ) { #>
+							<option value="thumbnail" >
+								Miniatură &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+											<#
+						var size = data.sizes['medium'];
+						if ( size ) { #>
+							<option value="medium" >
+								Mediu &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+											<#
+						var size = data.sizes['large'];
+						if ( size ) { #>
+							<option value="large" >
+								Mare &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+											<#
+						var size = data.sizes['full'];
+						if ( size ) { #>
+							<option value="full"  selected='selected'>
+								Dimensiune completă &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+									</select>
+			</span>
+		<# } #>
+	</script>
+
+		<script type="text/html" id="tmpl-gallery-settings">
+		<h2>Setări galerie</h2>
+
+		<span class="setting">
+			<label for="gallery-settings-link-to" class="name">Legătură la</label>
+			<select id="gallery-settings-link-to" class="link-to"
+				data-setting="link"
+				<# if ( data.userSettings ) { #>
+					data-user-setting="urlbutton"
+				<# } #>>
+
+				<option value="post" <# if ( ! wp.media.galleryDefaults.link || 'post' === wp.media.galleryDefaults.link ) {
+					#>selected="selected"<# }
+				#>>
+					Pagină atașament				</option>
+				<option value="file" <# if ( 'file' === wp.media.galleryDefaults.link ) { #>selected="selected"<# } #>>
+					Fișier media				</option>
+				<option value="none" <# if ( 'none' === wp.media.galleryDefaults.link ) { #>selected="selected"<# } #>>
+					Nespecificat				</option>
+			</select>
+		</span>
+
+		<span class="setting">
+			<label for="gallery-settings-columns" class="name select-label-inline">Coloane</label>
+			<select id="gallery-settings-columns" class="columns" name="columns"
+				data-setting="columns">
+									<option value="1" <#
+						if ( 1 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						1					</option>
+									<option value="2" <#
+						if ( 2 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						2					</option>
+									<option value="3" <#
+						if ( 3 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						3					</option>
+									<option value="4" <#
+						if ( 4 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						4					</option>
+									<option value="5" <#
+						if ( 5 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						5					</option>
+									<option value="6" <#
+						if ( 6 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						6					</option>
+									<option value="7" <#
+						if ( 7 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						7					</option>
+									<option value="8" <#
+						if ( 8 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						8					</option>
+									<option value="9" <#
+						if ( 9 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						9					</option>
+							</select>
+		</span>
+
+		<span class="setting">
+			<input type="checkbox" id="gallery-settings-random-order" data-setting="_orderbyRandom" />
+			<label for="gallery-settings-random-order" class="checkbox-label-inline">Ordine aleatorie</label>
+		</span>
+
+		<span class="setting size">
+			<label for="gallery-settings-size" class="name">Dimensiune</label>
+			<select id="gallery-settings-size" class="size" name="size"
+				data-setting="size"
+				<# if ( data.userSettings ) { #>
+					data-user-setting="imgsize"
+				<# } #>
+				>
+									<option value="thumbnail">
+						Miniatură					</option>
+									<option value="medium">
+						Mediu					</option>
+									<option value="large">
+						Mare					</option>
+									<option value="full">
+						Dimensiune completă					</option>
+							</select>
+		</span>
+	</script>
+
+		<script type="text/html" id="tmpl-playlist-settings">
+		<h2>Setări listă de redare</h2>
+
+		<# var emptyModel = _.isEmpty( data.model ),
+			isVideo = 'video' === data.controller.get('library').props.get('type'); #>
+
+		<span class="setting">
+			<input type="checkbox" id="playlist-settings-show-list" data-setting="tracklist" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<label for="playlist-settings-show-list" class="checkbox-label-inline">
+				<# if ( isVideo ) { #>
+				Arată listă video				<# } else { #>
+				Arată lista de redare				<# } #>
+			</label>
+		</span>
+
+		<# if ( ! isVideo ) { #>
+		<span class="setting">
+			<input type="checkbox" id="playlist-settings-show-artist" data-setting="artists" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<label for="playlist-settings-show-artist" class="checkbox-label-inline">
+				Arată nume artist în lista de redare			</label>
+		</span>
+		<# } #>
+
+		<span class="setting">
+			<input type="checkbox" id="playlist-settings-show-images" data-setting="images" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<label for="playlist-settings-show-images" class="checkbox-label-inline">
+				Arată imagini			</label>
+		</span>
+	</script>
+
+		<script type="text/html" id="tmpl-embed-link-settings">
+		<span class="setting link-text">
+			<label for="embed-link-settings-link-text" class="name">Text legătură</label>
+			<input type="text" id="embed-link-settings-link-text" class="alignment" data-setting="linkText" />
+		</span>
+		<div class="embed-container" style="display: none;">
+			<div class="embed-preview"></div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-embed-image-settings">
+		<div class="wp-clearfix">
+			<div class="thumbnail">
+				<img src="{{ data.model.url }}" draggable="false" alt="" />
+			</div>
+		</div>
+
+		<span class="setting alt-text has-description">
+			<label for="embed-image-settings-alt-text" class="name">Text alternativ</label>
+			<input type="text" id="embed-image-settings-alt-text" data-setting="alt" aria-describedby="alt-text-description" />
+		</span>
+		<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener">Învață cum poți să descrii scopul imaginii<span class="screen-reader-text"> (se deschide într-o filă nouă)</span></a>. Lasă gol dacă imaginea este doar decorativă.</p>
+
+					<span class="setting caption">
+				<label for="embed-image-settings-caption" class="name">Text asociat</label>
+				<textarea id="embed-image-settings-caption" data-setting="caption"></textarea>
+			</span>
+		
+		<fieldset class="setting-group">
+			<legend class="name">Aliniere</legend>
+			<span class="setting align">
+				<span class="button-group button-large" data-setting="align">
+					<button class="button" value="left">
+						Stânga					</button>
+					<button class="button" value="center">
+						Centru					</button>
+					<button class="button" value="right">
+						Dreapta					</button>
+					<button class="button active" value="none">
+						Nespecificat					</button>
+				</span>
+			</span>
+		</fieldset>
+
+		<fieldset class="setting-group">
+			<legend class="name">Legătură la</legend>
+			<span class="setting link-to">
+				<span class="button-group button-large" data-setting="link">
+					<button class="button" value="file">
+						URL imagine					</button>
+					<button class="button" value="custom">
+						URL personalizat					</button>
+					<button class="button active" value="none">
+						Nespecificat					</button>
+				</span>
+			</span>
+			<span class="setting">
+				<label for="embed-image-settings-link-to-custom" class="name">URL</label>
+				<input type="text" id="embed-image-settings-link-to-custom" class="link-to-custom" data-setting="linkUrl" />
+			</span>
+		</fieldset>
+	</script>
+
+		<script type="text/html" id="tmpl-image-details">
+		<div class="media-embed">
+			<div class="embed-media-settings">
+				<div class="column-settings">
+					<span class="setting alt-text has-description">
+						<label for="image-details-alt-text" class="name">Text alternativ</label>
+						<input type="text" id="image-details-alt-text" data-setting="alt" value="{{ data.model.alt }}" aria-describedby="alt-text-description" />
+					</span>
+					<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener">Învață cum poți să descrii scopul imaginii<span class="screen-reader-text"> (se deschide într-o filă nouă)</span></a>. Lasă gol dacă imaginea este doar decorativă.</p>
+
+											<span class="setting caption">
+							<label for="image-details-caption" class="name">Text asociat</label>
+							<textarea id="image-details-caption" data-setting="caption">{{ data.model.caption }}</textarea>
+						</span>
+					
+					<h2>Setări afișare</h2>
+					<fieldset class="setting-group">
+						<legend class="legend-inline">Aliniere</legend>
+						<span class="setting align">
+							<span class="button-group button-large" data-setting="align">
+								<button class="button" value="left">
+									Stânga								</button>
+								<button class="button" value="center">
+									Centru								</button>
+								<button class="button" value="right">
+									Dreapta								</button>
+								<button class="button active" value="none">
+									Nespecificat								</button>
+							</span>
+						</span>
+					</fieldset>
+
+					<# if ( data.attachment ) { #>
+						<# if ( 'undefined' !== typeof data.attachment.sizes ) { #>
+							<span class="setting size">
+								<label for="image-details-size" class="name">Dimensiune</label>
+								<select id="image-details-size" class="size" name="size"
+									data-setting="size"
+									<# if ( data.userSettings ) { #>
+										data-user-setting="imgsize"
+									<# } #>>
+																			<#
+										var size = data.sizes['thumbnail'];
+										if ( size ) { #>
+											<option value="thumbnail">
+												Miniatură &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																			<#
+										var size = data.sizes['medium'];
+										if ( size ) { #>
+											<option value="medium">
+												Mediu &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																			<#
+										var size = data.sizes['large'];
+										if ( size ) { #>
+											<option value="large">
+												Mare &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																			<#
+										var size = data.sizes['full'];
+										if ( size ) { #>
+											<option value="full">
+												Dimensiune completă &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																		<option value="custom">
+										Dimensiune personalizată									</option>
+								</select>
+							</span>
+						<# } #>
+							<div class="custom-size wp-clearfix<# if ( data.model.size !== 'custom' ) { #> hidden<# } #>">
+								<span class="custom-size-setting">
+									<label for="image-details-size-width">Lățime</label>
+									<input type="number" id="image-details-size-width" aria-describedby="image-size-desc" data-setting="customWidth" step="1" value="{{ data.model.customWidth }}" />
+								</span>
+								<span class="sep" aria-hidden="true">&times;</span>
+								<span class="custom-size-setting">
+									<label for="image-details-size-height">Înălțime</label>
+									<input type="number" id="image-details-size-height" aria-describedby="image-size-desc" data-setting="customHeight" step="1" value="{{ data.model.customHeight }}" />
+								</span>
+								<p id="image-size-desc" class="description">Dimensiune imagine în pixeli</p>
+							</div>
+					<# } #>
+
+					<span class="setting link-to">
+						<label for="image-details-link-to" class="name">Legătură la</label>
+						<select id="image-details-link-to" data-setting="link">
+						<# if ( data.attachment ) { #>
+							<option value="file">
+								Fișier media							</option>
+							<option value="post">
+								Pagină atașament							</option>
+						<# } else { #>
+							<option value="file">
+								URL imagine							</option>
+						<# } #>
+							<option value="custom">
+								URL personalizat							</option>
+							<option value="none">
+								Nespecificat							</option>
+						</select>
+					</span>
+					<span class="setting">
+						<label for="image-details-link-to-custom" class="name">URL</label>
+						<input type="text" id="image-details-link-to-custom" class="link-to-custom" data-setting="linkUrl" />
+					</span>
+
+					<div class="advanced-section">
+						<h2><button type="button" class="button-link advanced-toggle">Opțiuni avansate</button></h2>
+						<div class="advanced-settings hidden">
+							<div class="advanced-image">
+								<span class="setting title-text">
+									<label for="image-details-title-attribute" class="name">Atribut titlu imagine</label>
+									<input type="text" id="image-details-title-attribute" data-setting="title" value="{{ data.model.title }}" />
+								</span>
+								<span class="setting extra-classes">
+									<label for="image-details-css-class" class="name">Clasă CSS imagine</label>
+									<input type="text" id="image-details-css-class" data-setting="extraClasses" value="{{ data.model.extraClasses }}" />
+								</span>
+							</div>
+							<div class="advanced-link">
+								<span class="setting link-target">
+									<input type="checkbox" id="image-details-link-target" data-setting="linkTargetBlank" value="_blank" <# if ( data.model.linkTargetBlank ) { #>checked="checked"<# } #>>
+									<label for="image-details-link-target" class="checkbox-label">Deschide legătura într-o filă nouă</label>
+								</span>
+								<span class="setting link-rel">
+									<label for="image-details-link-rel" class="name">Legătură rel</label>
+									<input type="text" id="image-details-link-rel" data-setting="linkRel" value="{{ data.model.linkRel }}" />
+								</span>
+								<span class="setting link-class-name">
+									<label for="image-details-link-css-class" class="name">Clasă CSS pentru legătură</label>
+									<input type="text" id="image-details-link-css-class" data-setting="linkClassName" value="{{ data.model.linkClassName }}" />
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column-image">
+					<div class="image">
+						<img src="{{ data.model.url }}" draggable="false" alt="" />
+						<# if ( data.attachment && window.imageEdit ) { #>
+							<div class="actions">
+								<input type="button" class="edit-attachment button" value="Editează originalul" />
+								<input type="button" class="replace-attachment button" value="Înlocuiește" />
+							</div>
+						<# } #>
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-image-editor">
+		<div id="media-head-{{ data.id }}"></div>
+		<div id="image-editor-{{ data.id }}"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-audio-details">
+		<# var ext, html5types = {
+			mp3: wp.media.view.settings.embedMimes.mp3,
+			ogg: wp.media.view.settings.embedMimes.ogg
+		}; #>
+
+				<div class="media-embed media-embed-details">
+			<div class="embed-media-settings embed-audio-settings">
+				<audio style="visibility: hidden"
+	controls
+	class="wp-audio-shortcode"
+	width="{{ _.isUndefined( data.model.width ) ? 400 : data.model.width }}"
+	preload="{{ _.isUndefined( data.model.preload ) ? 'none' : data.model.preload }}"
+	<#
+		if ( ! _.isUndefined( data.model.autoplay ) && data.model.autoplay ) {
+		#> autoplay<#
+	}
+		if ( ! _.isUndefined( data.model.loop ) && data.model.loop ) {
+		#> loop<#
+	}
+	#>
+>
+	<# if ( ! _.isEmpty( data.model.src ) ) { #>
+	<source src="{{ data.model.src }}" type="{{ wp.media.view.settings.embedMimes[ data.model.src.split('.').pop() ] }}" />
+	<# } #>
+
+		<# if ( ! _.isEmpty( data.model.mp3 ) ) { #>
+	<source src="{{ data.model.mp3 }}" type="{{ wp.media.view.settings.embedMimes[ 'mp3' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.ogg ) ) { #>
+	<source src="{{ data.model.ogg }}" type="{{ wp.media.view.settings.embedMimes[ 'ogg' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.flac ) ) { #>
+	<source src="{{ data.model.flac }}" type="{{ wp.media.view.settings.embedMimes[ 'flac' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.m4a ) ) { #>
+	<source src="{{ data.model.m4a }}" type="{{ wp.media.view.settings.embedMimes[ 'm4a' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.wav ) ) { #>
+	<source src="{{ data.model.wav }}" type="{{ wp.media.view.settings.embedMimes[ 'wav' ] }}" />
+	<# } #>
+		</audio>
+	
+				<# if ( ! _.isEmpty( data.model.src ) ) {
+					ext = data.model.src.split('.').pop();
+					if ( html5types[ ext ] ) {
+						delete html5types[ ext ];
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-source" class="name">URL</label>
+					<input type="text" id="audio-details-source" readonly data-setting="src" value="{{ data.model.src }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa audio</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.mp3 ) ) {
+					if ( ! _.isUndefined( html5types.mp3 ) ) {
+						delete html5types.mp3;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-mp3-source" class="name">MP3</label>
+					<input type="text" id="audio-details-mp3-source" readonly data-setting="mp3" value="{{ data.model.mp3 }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa audio</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.ogg ) ) {
+					if ( ! _.isUndefined( html5types.ogg ) ) {
+						delete html5types.ogg;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-ogg-source" class="name">OGG</label>
+					<input type="text" id="audio-details-ogg-source" readonly data-setting="ogg" value="{{ data.model.ogg }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa audio</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.flac ) ) {
+					if ( ! _.isUndefined( html5types.flac ) ) {
+						delete html5types.flac;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-flac-source" class="name">FLAC</label>
+					<input type="text" id="audio-details-flac-source" readonly data-setting="flac" value="{{ data.model.flac }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa audio</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.m4a ) ) {
+					if ( ! _.isUndefined( html5types.m4a ) ) {
+						delete html5types.m4a;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-m4a-source" class="name">M4A</label>
+					<input type="text" id="audio-details-m4a-source" readonly data-setting="m4a" value="{{ data.model.m4a }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa audio</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.wav ) ) {
+					if ( ! _.isUndefined( html5types.wav ) ) {
+						delete html5types.wav;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-wav-source" class="name">WAV</label>
+					<input type="text" id="audio-details-wav-source" readonly data-setting="wav" value="{{ data.model.wav }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa audio</button>
+				</span>
+				<# } #>
+				
+				<# if ( ! _.isEmpty( html5types ) ) { #>
+				<fieldset class="setting-group">
+					<legend class="name">Adaugă surse alternative pentru redare HTML5 maximală</legend>
+					<span class="setting">
+						<span class="button-large">
+						<# _.each( html5types, function (mime, type) { #>
+							<button class="button add-media-source" data-mime="{{ mime }}">{{ type }}</button>
+						<# } ) #>
+						</span>
+					</span>
+				</fieldset>
+				<# } #>
+
+				<fieldset class="setting-group">
+					<legend class="name">Pre-încarcă</legend>
+					<span class="setting preload">
+						<span class="button-group button-large" data-setting="preload">
+							<button class="button" value="auto">Automată</button>
+							<button class="button" value="metadata">Metadate</button>
+							<button class="button active" value="none">Nespecificat</button>
+						</span>
+					</span>
+				</fieldset>
+
+				<span class="setting-group">
+					<span class="setting checkbox-setting autoplay">
+						<input type="checkbox" id="audio-details-autoplay" data-setting="autoplay" />
+						<label for="audio-details-autoplay" class="checkbox-label">Redare automată</label>
+					</span>
+
+					<span class="setting checkbox-setting">
+						<input type="checkbox" id="audio-details-loop" data-setting="loop" />
+						<label for="audio-details-loop" class="checkbox-label">Buclă</label>
+					</span>
+				</span>
+			</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-video-details">
+		<# var ext, html5types = {
+			mp4: wp.media.view.settings.embedMimes.mp4,
+			ogv: wp.media.view.settings.embedMimes.ogv,
+			webm: wp.media.view.settings.embedMimes.webm
+		}; #>
+
+				<div class="media-embed media-embed-details">
+			<div class="embed-media-settings embed-video-settings">
+				<div class="wp-video-holder">
+				<#
+				var w = ! data.model.width || data.model.width > 640 ? 640 : data.model.width,
+					h = ! data.model.height ? 360 : data.model.height;
+
+				if ( data.model.width && w !== data.model.width ) {
+					h = Math.ceil( ( h * w ) / data.model.width );
+				}
+				#>
+
+				<#  var w_rule = '', classes = [],
+		w, h, settings = wp.media.view.settings,
+		isYouTube = isVimeo = false;
+
+	if ( ! _.isEmpty( data.model.src ) ) {
+		isYouTube = data.model.src.match(/youtube|youtu\.be/);
+		isVimeo = -1 !== data.model.src.indexOf('vimeo');
+	}
+
+	if ( settings.contentWidth && data.model.width >= settings.contentWidth ) {
+		w = settings.contentWidth;
+	} else {
+		w = data.model.width;
+	}
+
+	if ( w !== data.model.width ) {
+		h = Math.ceil( ( data.model.height * w ) / data.model.width );
+	} else {
+		h = data.model.height;
+	}
+
+	if ( w ) {
+		w_rule = 'width: ' + w + 'px; ';
+	}
+
+	if ( isYouTube ) {
+		classes.push( 'youtube-video' );
+	}
+
+	if ( isVimeo ) {
+		classes.push( 'vimeo-video' );
+	}
+
+#>
+<div style="{{ w_rule }}" class="wp-video">
+<video controls
+	class="wp-video-shortcode {{ classes.join( ' ' ) }}"
+	<# if ( w ) { #>width="{{ w }}"<# } #>
+	<# if ( h ) { #>height="{{ h }}"<# } #>
+			<#
+		if ( ! _.isUndefined( data.model.poster ) && data.model.poster ) {
+			#> poster="{{ data.model.poster }}"<#
+		} #>
+			preload			="{{ _.isUndefined( data.model.preload ) ? 'metadata' : data.model.preload }}"
+				<#
+		if ( ! _.isUndefined( data.model.autoplay ) && data.model.autoplay ) {
+		#> autoplay<#
+	}
+		if ( ! _.isUndefined( data.model.loop ) && data.model.loop ) {
+		#> loop<#
+	}
+	#>
+>
+	<# if ( ! _.isEmpty( data.model.src ) ) {
+		if ( isYouTube ) { #>
+		<source src="{{ data.model.src }}" type="video/youtube" />
+		<# } else if ( isVimeo ) { #>
+		<source src="{{ data.model.src }}" type="video/vimeo" />
+		<# } else { #>
+		<source src="{{ data.model.src }}" type="{{ settings.embedMimes[ data.model.src.split('.').pop() ] }}" />
+		<# }
+	} #>
+
+		<# if ( data.model.mp4 ) { #>
+	<source src="{{ data.model.mp4 }}" type="{{ settings.embedMimes[ 'mp4' ] }}" />
+	<# } #>
+		<# if ( data.model.m4v ) { #>
+	<source src="{{ data.model.m4v }}" type="{{ settings.embedMimes[ 'm4v' ] }}" />
+	<# } #>
+		<# if ( data.model.webm ) { #>
+	<source src="{{ data.model.webm }}" type="{{ settings.embedMimes[ 'webm' ] }}" />
+	<# } #>
+		<# if ( data.model.ogv ) { #>
+	<source src="{{ data.model.ogv }}" type="{{ settings.embedMimes[ 'ogv' ] }}" />
+	<# } #>
+		<# if ( data.model.flv ) { #>
+	<source src="{{ data.model.flv }}" type="{{ settings.embedMimes[ 'flv' ] }}" />
+	<# } #>
+		{{{ data.model.content }}}
+</video>
+</div>
+	
+				<# if ( ! _.isEmpty( data.model.src ) ) {
+					ext = data.model.src.split('.').pop();
+					if ( html5types[ ext ] ) {
+						delete html5types[ ext ];
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-source" class="name">URL</label>
+					<input type="text" id="video-details-source" readonly data-setting="src" value="{{ data.model.src }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa video</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.mp4 ) ) {
+					if ( ! _.isUndefined( html5types.mp4 ) ) {
+						delete html5types.mp4;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-mp4-source" class="name">MP4</label>
+					<input type="text" id="video-details-mp4-source" readonly data-setting="mp4" value="{{ data.model.mp4 }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa video</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.m4v ) ) {
+					if ( ! _.isUndefined( html5types.m4v ) ) {
+						delete html5types.m4v;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-m4v-source" class="name">M4V</label>
+					<input type="text" id="video-details-m4v-source" readonly data-setting="m4v" value="{{ data.model.m4v }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa video</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.webm ) ) {
+					if ( ! _.isUndefined( html5types.webm ) ) {
+						delete html5types.webm;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-webm-source" class="name">WEBM</label>
+					<input type="text" id="video-details-webm-source" readonly data-setting="webm" value="{{ data.model.webm }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa video</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.ogv ) ) {
+					if ( ! _.isUndefined( html5types.ogv ) ) {
+						delete html5types.ogv;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-ogv-source" class="name">OGV</label>
+					<input type="text" id="video-details-ogv-source" readonly data-setting="ogv" value="{{ data.model.ogv }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa video</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.flv ) ) {
+					if ( ! _.isUndefined( html5types.flv ) ) {
+						delete html5types.flv;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-flv-source" class="name">FLV</label>
+					<input type="text" id="video-details-flv-source" readonly data-setting="flv" value="{{ data.model.flv }}" />
+					<button type="button" class="button-link remove-setting">Înlătură sursa video</button>
+				</span>
+				<# } #>
+								</div>
+
+				<# if ( ! _.isEmpty( html5types ) ) { #>
+				<fieldset class="setting-group">
+					<legend class="name">Adaugă surse alternative pentru redare HTML5 maximală</legend>
+					<span class="setting">
+						<span class="button-large">
+						<# _.each( html5types, function (mime, type) { #>
+							<button class="button add-media-source" data-mime="{{ mime }}">{{ type }}</button>
+						<# } ) #>
+						</span>
+					</span>
+				</fieldset>
+				<# } #>
+
+				<# if ( ! _.isEmpty( data.model.poster ) ) { #>
+				<span class="setting">
+					<label for="video-details-poster-image" class="name">Imagine poster</label>
+					<input type="text" id="video-details-poster-image" readonly data-setting="poster" value="{{ data.model.poster }}" />
+					<button type="button" class="button-link remove-setting">Înlătură imaginea poster</button>
+				</span>
+				<# } #>
+
+				<fieldset class="setting-group">
+					<legend class="name">Pre-încarcă</legend>
+					<span class="setting preload">
+						<span class="button-group button-large" data-setting="preload">
+							<button class="button" value="auto">Automată</button>
+							<button class="button" value="metadata">Metadate</button>
+							<button class="button active" value="none">Nespecificat</button>
+						</span>
+					</span>
+				</fieldset>
+
+				<span class="setting-group">
+					<span class="setting checkbox-setting autoplay">
+						<input type="checkbox" id="video-details-autoplay" data-setting="autoplay" />
+						<label for="video-details-autoplay" class="checkbox-label">Redare automată</label>
+					</span>
+
+					<span class="setting checkbox-setting">
+						<input type="checkbox" id="video-details-loop" data-setting="loop" />
+						<label for="video-details-loop" class="checkbox-label">Buclă</label>
+					</span>
+				</span>
+
+				<span class="setting" data-setting="content">
+					<#
+					var content = '';
+					if ( ! _.isEmpty( data.model.content ) ) {
+						var tracks = jQuery( data.model.content ).filter( 'track' );
+						_.each( tracks.toArray(), function( track, index ) {
+							content += track.outerHTML; #>
+						<label for="video-details-track-{{ index }}" class="name">Piste (subtitrări, texte asociate, descrieri, capitole sau metadate)</label>
+						<input class="content-track" type="text" id="video-details-track-{{ index }}" aria-describedby="video-details-track-desc-{{ index }}" value="{{ track.outerHTML }}" />
+						<span class="description" id="video-details-track-desc-{{ index }}">
+						Valorile srclang, label și kind pot fi editate pentru a seta limba și tipul pistei video.						</span>
+						<button type="button" class="button-link remove-setting remove-track">Înlătură pista video</button><br/>
+						<# } ); #>
+					<# } else { #>
+					<span class="name">Piste (subtitrări, texte asociate, descrieri, capitole sau metadate)</span><br />
+					<em>Nu există subtitrări asociate.</em>
+					<# } #>
+					<textarea class="hidden content-setting">{{ content }}</textarea>
+				</span>
+			</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-editor-gallery">
+		<# if ( data.attachments.length ) { #>
+			<div class="gallery gallery-columns-{{ data.columns }}">
+				<# _.each( data.attachments, function( attachment, index ) { #>
+					<dl class="gallery-item">
+						<dt class="gallery-icon">
+							<# if ( attachment.thumbnail ) { #>
+								<img src="{{ attachment.thumbnail.url }}" width="{{ attachment.thumbnail.width }}" height="{{ attachment.thumbnail.height }}" alt="{{ attachment.alt }}" />
+							<# } else { #>
+								<img src="{{ attachment.url }}" alt="{{ attachment.alt }}" />
+							<# } #>
+						</dt>
+						<# if ( attachment.caption ) { #>
+							<dd class="wp-caption-text gallery-caption">
+								{{{ data.verifyHTML( attachment.caption ) }}}
+							</dd>
+						<# } #>
+					</dl>
+					<# if ( index % data.columns === data.columns - 1 ) { #>
+						<br style="clear: both;">
+					<# } #>
+				<# } ); #>
+			</div>
+		<# } else { #>
+			<div class="wpview-error">
+				<div class="dashicons dashicons-format-gallery"></div><p>Nu am găsit niciun element.</p>
+			</div>
+		<# } #>
+	</script>
+
+		<script type="text/html" id="tmpl-crop-content">
+		<img class="crop-image" src="{{ data.url }}" alt="Previzualizare zonă de decupare imagine. Necesită interacțiunea cu mausul." />
+		<div class="upload-errors"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-site-icon-preview">
+		<h2>Previzualizează</h2>
+		<strong aria-hidden="true">Ca icon în navigator</strong>
+		<div class="favicon-preview">
+			<img src="https://www.cnpetrurares.ro/wp-admin/images/browser.png" class="browser-preview" width="182" height="" alt="" />
+
+			<div class="favicon">
+				<img id="preview-favicon" src="{{ data.url }}" alt="Previzualizare ca icon în navigator" />
+			</div>
+			<span class="browser-title" aria-hidden="true"><# print( 'Colegiul National Petru Rares' ) #></span>
+		</div>
+
+		<strong aria-hidden="true">Ca icon de aplicație</strong>
+		<div class="app-icon-preview">
+			<img id="preview-app-icon" src="{{ data.url }}" alt="Previzualizare ca icon de aplicație" />
+		</div>
+	</script>
+
+	<style>.wp-container-1 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-1 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-1 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+<style>.wp-container-2 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-2 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-2 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+<style>.wp-container-3 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-3 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-3 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+<style>.wp-container-4 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-4 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-4 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+<style>.wp-container-5 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-5 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-5 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+<style>.wp-container-6 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-6 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-6 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+<style>.wp-container-7 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-7 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-7 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+<style>.wp-container-8 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-8 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-8 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+		<script type="text/javascript">
+			function revslider_showDoubleJqueryError(sliderID) {
+				var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+				errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+				errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+				errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+				errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+					jQuery(sliderID).show().html(errorMessage);
+			}
+		</script>
+		<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.6' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.cnpetrurares.ro\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7.6' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/underscore.min.js?ver=1.13.3' id='underscore-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/shortcode.min.js?ver=6.0.6' id='shortcode-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/backbone.min.js?ver=1.4.1' id='backbone-js'></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/wp-util.min.js?ver=6.0.6' id='wp-util-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/wp-backbone.min.js?ver=6.0.6' id='wp-backbone-js'></script>
+<script type='text/javascript' id='media-models-js-extra'>
+/* <![CDATA[ */
+var _wpMediaModelsL10n = {"settings":{"ajaxurl":"\/wp-admin\/admin-ajax.php","post":{"id":0}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/media-models.min.js?ver=6.0.6' id='media-models-js'></script>
+<script type='text/javascript' id='wp-plupload-js-extra'>
+/* <![CDATA[ */
+var pluploadL10n = {"queue_limit_exceeded":"Ai \u00eencercat s\u0103 \u00eencarci \u00een coad\u0103 prea multe fi\u0219iere.","file_exceeds_size_limit":"%s dep\u0103\u0219e\u0219te dimensiunea maxim\u0103 de \u00eenc\u0103rcare pentru acest site.","zero_byte_file":"Acest fi\u0219ier este gol. Te rog \u00eencearc\u0103 altul.","invalid_filetype":"Regret, nu ai voie s\u0103 \u00eencarci acest tip de fi\u0219ier.","not_an_image":"Acest fi\u0219ier nu este o imagine. Te rog \u00eencearc\u0103 altul.","image_memory_exceeded":"Memorie dep\u0103\u0219it\u0103. Te rog \u00eencearc\u0103 un alt fi\u0219ier mai mic.","image_dimensions_exceeded":"Acesta e mai mare dec\u00e2t dimensiunea maxim\u0103. Te rog \u00eencearc\u0103 altul.","default_error":"A ap\u0103rut o eroare la \u00eenc\u0103rcare. Te rog re\u00eencearc\u0103 mai t\u00e2rziu.","missing_upload_url":"A fost o eroare de configurare. Te rog contacteaz\u0103 administratorul serverului.","upload_limit_exceeded":"Po\u021bi \u00eenc\u0103rca numai un singur fi\u0219ier.","http_error":"R\u0103spuns nea\u0219teptat de la server. Probabil fi\u0219ierul a fost \u00eenc\u0103rcat cu succes. Verific\u0103 \u00een Biblioteca Media sau re\u00eencarc\u0103 pagina.","http_error_image":"Serverul nu poate procesa imaginea. Acest lucru se poate \u00eent\u00e2mpla dac\u0103 serverul este ocupat sau nu are suficiente resurse pentru a finaliza sarcina. \u00cenc\u0103rcarea unei imagini mai mici poate ajuta. Dimensiunea maxim\u0103 sugerat\u0103 este de 2560 de pixeli.","upload_failed":"\u00cenc\u0103rcare e\u0219uat\u0103.","big_upload_failed":"Te rog \u00eencearc\u0103 \u00eenc\u0103rcarea acestui fi\u0219ier cu %1$s\u00eenc\u0103rcarea navigatorului%2$s.","big_upload_queued":"%s dep\u0103\u0219e\u0219te dimensiunea maxim\u0103 de \u00eenc\u0103rcare pentru \u00eenc\u0103rcarea mai multor fi\u0219iere c\u00e2nd este folosit \u00een navigatorul t\u0103u.","io_error":"Eroare IO.","security_error":"Eroare de securitate.","file_cancelled":"Fi\u0219ier anulat.","upload_stopped":"\u00cenc\u0103rcare oprit\u0103.","dismiss":"Respinge","crunching":"Prelucrez datele\u2026","deleted":"este aruncat la gunoi.","error_uploading":"\u201e%s\u201d a e\u0219uat la \u00eenc\u0103rcare.","unsupported_image":"Aceast\u0103 imagine nu poate fi afi\u0219at\u0103 \u00eentr-un navigator web. Pentru a avea rezultate foarte bune, converte\u0219te-o \u00een JPEG \u00eenainte de \u00eenc\u0103rcare.","noneditable_image":"Aceast\u0103 imagine nu poate fi procesat\u0103 de serverul web. \u00cenainte de a o \u00eenc\u0103rca, trebuie convertit\u0103 \u00een JPEG sau PNG.","file_url_copied":"URL-ul fi\u0219ierului a fost copiat \u00een clipboard"};
+var _wpPluploadSettings = {"defaults":{"file_data_name":"async-upload","url":"\/wp-admin\/async-upload.php","filters":{"max_file_size":"536870912b","mime_types":[{"extensions":"jpg,jpeg,jpe,gif,png,bmp,tiff,tif,webp,ico,heic,asf,asx,wmv,wmx,wm,avi,divx,flv,mov,qt,mpeg,mpg,mpe,mp4,m4v,ogv,webm,mkv,3gp,3gpp,3g2,3gp2,txt,asc,c,cc,h,srt,csv,tsv,ics,rtx,css,vtt,dfxp,mp3,m4a,m4b,aac,ra,ram,wav,ogg,oga,flac,mid,midi,wma,wax,mka,rtf,pdf,class,tar,zip,gz,gzip,rar,7z,psd,xcf,doc,pot,pps,ppt,wri,xla,xls,xlt,xlw,mdb,mpp,docx,docm,dotx,dotm,xlsx,xlsm,xlsb,xltx,xltm,xlam,pptx,pptm,ppsx,ppsm,potx,potm,ppam,sldx,sldm,onetoc,onetoc2,onetmp,onepkg,oxps,xps,odt,odp,ods,odg,odc,odb,odf,wp,wpd,key,numbers,pages,svg,woff,ttf,eot"}]},"heic_upload_error":true,"multipart_params":{"action":"upload-attachment","_wpnonce":"1cc4792507"}},"browser":{"mobile":false,"supported":true},"limitExceeded":false};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/plupload/wp-plupload.min.js?ver=6.0.6' id='wp-plupload-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/enable-jquery-migrate-helper/js/jquery-ui/core.min.js?ver=1.11.4-wp' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/enable-jquery-migrate-helper/js/jquery-ui/widget.min.js?ver=1.11.4-wp' id='jquery-ui-widget-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/enable-jquery-migrate-helper/js/jquery-ui/mouse.min.js?ver=1.11.4-wp' id='jquery-ui-mouse-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/enable-jquery-migrate-helper/js/jquery-ui/sortable.min.js?ver=1.11.4-wp' id='jquery-ui-sortable-js'></script>
+<script type='text/javascript' id='mediaelement-core-js-before'>
+var mejsL10n = {"language":"ro","strings":{"mejs.download-file":"Descarc\u0103 fi\u0219ierul","mejs.install-flash":"Folose\u0219ti un navigator care nu are activat sau instalat Flash Player. Te rog porne\u0219te-\u021bi modulul Flash Player sau descarc\u0103 cea mai recent\u0103 versiune de la https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Ecran \u00eentreg","mejs.play":"Ruleaz\u0103","mejs.pause":"Pauz\u0103","mejs.time-slider":"Durat\u0103 carusel","mejs.time-help-text":"Folose\u0219te tastele s\u0103geat\u0103 st\u00e2nga\/dreapta pentru a \u00eenainta o secund\u0103, s\u0103geat\u0103 sus\/jos pentru a \u00eenainta zece secunde.","mejs.live-broadcast":"Transmisie \u00een direct","mejs.volume-help-text":"Folose\u0219te tastele s\u0103geat\u0103 sus\/jos pentru a m\u0103ri sau mic\u0219ora volumul.","mejs.unmute":"Porne\u0219te sonorul","mejs.mute":"Opre\u0219te sonorul","mejs.volume-slider":"Volum carusel","mejs.video-player":"Player video","mejs.audio-player":"Player audio","mejs.captions-subtitles":"Texte asociate\/subtitr\u0103ri","mejs.captions-chapters":"Capitole","mejs.none":"Nespecificat","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanez\u0103","mejs.arabic":"Arab\u0103","mejs.belarusian":"Bielorus\u0103","mejs.bulgarian":"Bulgar\u0103","mejs.catalan":"Catalan\u0103","mejs.chinese":"Chinez\u0103","mejs.chinese-simplified":"Chinez\u0103 (simplificat\u0103)","mejs.chinese-traditional":"Chinez\u0103 (tradi\u021bional\u0103)","mejs.croatian":"Croat\u0103","mejs.czech":"Ceh\u0103","mejs.danish":"Danez\u0103","mejs.dutch":"Neerlandez\u0103","mejs.english":"Englez\u0103","mejs.estonian":"Eston\u0103","mejs.filipino":"Filipinez\u0103","mejs.finnish":"Finlandez\u0103","mejs.french":"Francez\u0103","mejs.galician":"Galician\u0103","mejs.german":"German\u0103","mejs.greek":"Greac\u0103","mejs.haitian-creole":"Creol\u0103 haitian\u0103","mejs.hebrew":"Ebraic\u0103","mejs.hindi":"Hindi","mejs.hungarian":"Maghiar\u0103","mejs.icelandic":"Islandez\u0103","mejs.indonesian":"Indonezian\u0103","mejs.irish":"Irlandez\u0103","mejs.italian":"Italian\u0103","mejs.japanese":"Japonez\u0103","mejs.korean":"Coreean\u0103","mejs.latvian":"Leton\u0103","mejs.lithuanian":"Lituanian\u0103","mejs.macedonian":"Macedonean\u0103","mejs.malay":"Malaiez\u0103","mejs.maltese":"Maltez\u0103","mejs.norwegian":"Norvegian\u0103","mejs.persian":"Persan\u0103","mejs.polish":"Polonez\u0103","mejs.portuguese":"Portughez\u0103","mejs.romanian":"Rom\u00e2n\u0103","mejs.russian":"Rus\u0103","mejs.serbian":"S\u00e2rb\u0103","mejs.slovak":"Slovac\u0103","mejs.slovenian":"Sloven\u0103","mejs.spanish":"Spaniol\u0103","mejs.swahili":"Swahili","mejs.swedish":"Suedez\u0103","mejs.tagalog":"Tagalog","mejs.thai":"Thailandez\u0103","mejs.turkish":"Turc\u0103","mejs.ukrainian":"Ucrainean\u0103","mejs.vietnamese":"Vietnamez\u0103","mejs.welsh":"Galez\u0103","mejs.yiddish":"Idi\u0219"}};
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.16' id='mediaelement-core-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.0.6' id='mediaelement-migrate-js'></script>
+<script type='text/javascript' id='mediaelement-js-extra'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.0.6' id='wp-mediaelement-js'></script>
+<script type='text/javascript' id='wp-api-request-js-extra'>
+/* <![CDATA[ */
+var wpApiSettings = {"root":"https:\/\/www.cnpetrurares.ro\/wp-json\/","nonce":"720fef1db8","versionString":"wp\/v2\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/api-request.min.js?ver=6.0.6' id='wp-api-request-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/dist/dom-ready.min.js?ver=d996b53411d1533a84951212ab6ac4ff' id='wp-dom-ready-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/dist/hooks.min.js?ver=c6d64f2cb8f5c6bb49caca37f8828ce3' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/dist/i18n.min.js?ver=ebee46757c6a411e38fd079a7ac71d94' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='wp-a11y-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2024-01-16 09:31:19+0000","generator":"GlotPress\/4.0.0-alpha.11","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);","lang":"ro"},"Notifications":["Notific\u0103ri"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/dist/a11y.min.js?ver=a38319d7ba46c6e60f7f9d4c371222c5' id='wp-a11y-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/clipboard.min.js?ver=2.0.10' id='clipboard-js'></script>
+<script type='text/javascript' id='media-views-js-extra'>
+/* <![CDATA[ */
+var _wpMediaViewsL10n = {"mediaFrameDefaultTitle":"Media","url":"URL","addMedia":"Adaug\u0103 media","search":"Caut\u0103","select":"Selecteaz\u0103","cancel":"Anuleaz\u0103","update":"Actualizeaz\u0103","replace":"\u00cenlocuie\u0219te","remove":"\u00cenl\u0103tur\u0103","back":"\u00cenapoi","selected":"Selectate: %d","dragInfo":"Trage \u0219i plaseaz\u0103 pentru a reordona fi\u0219ierele media.","uploadFilesTitle":"\u00cencarc\u0103 fi\u0219iere","uploadImagesTitle":"\u00cencarc\u0103 imagini","mediaLibraryTitle":"Bibliotec\u0103 Media","insertMediaTitle":"Adaug\u0103 media","createNewGallery":"Creeaz\u0103 o galerie nou\u0103","createNewPlaylist":"Creeaz\u0103 o List\u0103 de redare nou\u0103","createNewVideoPlaylist":"Creeaz\u0103 o List\u0103 de redare video nou\u0103","returnToLibrary":"\u2190 Mergi la bibliotec\u0103","allMediaItems":"Toate elementele media","allDates":"Toate datele","noItemsFound":"Nu am g\u0103sit niciun element.","insertIntoPost":"Insereaz\u0103 \u00een articol","unattached":"Neata\u0219ate","mine":"Ale mele","trash":"Gunoi","uploadedToThisPost":"\u00cenc\u0103rcate \u00een acest articol","warnDelete":"E\u0219ti pe cale s\u0103 \u0219tergi definitiv acest element de pe site-ul t\u0103u.\nAceast\u0103 ac\u021biune nu poate fi anulat\u0103.\n\u201eAnuleaz\u0103\u201d pentru a reveni, \u201eOK\u201d pentru a \u0219terge.","warnBulkDelete":"E\u0219ti pe cale s\u0103 \u0219tergi definitiv aceste elemente de pe site-ul t\u0103u.\nAceast\u0103 ac\u021biune nu poate fi anulat\u0103.\n\u201eAnuleaz\u0103\u201d pentru a reveni, \u201eOK\u201d pentru a \u0219terge.","warnBulkTrash":"E\u0219ti pe cale s\u0103 arunci aceste elemente la gunoi.\n \u201eAnuleaz\u0103\u201d pentru a reveni, \u201eOK\u201d pentru a \u0219terge.","bulkSelect":"Selectare \u00een mas\u0103","trashSelected":"Arunc\u0103 la gunoi","restoreSelected":"Restaureaz\u0103 de la gunoi","deletePermanently":"\u0218terge definitiv","errorDeleting":"Eroare la \u0219tergerea ata\u0219amentului.","apply":"Aplic\u0103","filterByDate":"Filtreaz\u0103 dup\u0103 dat\u0103","filterByType":"Filtreaz\u0103 dup\u0103 tip","searchLabel":"Caut\u0103","searchMediaLabel":"Caut\u0103 \u00een Media","searchMediaPlaceholder":"Caut\u0103 elemente media...","mediaFound":"Num\u0103r de elemente media g\u0103site: %d","noMedia":"Nu am g\u0103sit niciun element media.","noMediaTryNewSearch":"Nu am g\u0103sit niciun element media. \u00cencearc\u0103 o alt\u0103 c\u0103utare.","attachmentDetails":"Detalii ata\u0219ament","insertFromUrlTitle":"Insereaz\u0103 din URL","setFeaturedImageTitle":"Imagine reprezentativ\u0103","setFeaturedImage":"Stabile\u0219te imaginea reprezentativ\u0103","createGalleryTitle":"Creeaz\u0103 o galerie","editGalleryTitle":"Editeaz\u0103 galeria","cancelGalleryTitle":"\u2190 Anuleaz\u0103 galeria","insertGallery":"Insereaz\u0103 galeria","updateGallery":"Actualizeaz\u0103 galeria","addToGallery":"Adaug\u0103 \u00een galerie","addToGalleryTitle":"Adaug\u0103 \u00een galerie","reverseOrder":"Inverseaz\u0103 ordinea","imageDetailsTitle":"Detalii imagine","imageReplaceTitle":"\u00cenlocuie\u0219te imaginea","imageDetailsCancel":"Anuleaz\u0103 editarea","editImage":"Editeaz\u0103 imaginea","chooseImage":"Alege o imagine","selectAndCrop":"Selecteaz\u0103 \u0219i decupeaz\u0103","skipCropping":"Sari peste decupare","cropImage":"Decupeaz\u0103 imaginea","cropYourImage":"Decupeaz\u0103 imaginea","cropping":"Decupez\u2026","suggestedDimensions":"Dimensiuni imagine sugerat\u0103: %1$s x %2$s pixeli.","cropError":"A ap\u0103rut o eroare la decuparea imaginii.","audioDetailsTitle":"Detalii audio","audioReplaceTitle":"\u00cenlocuie\u0219te audio","audioAddSourceTitle":"Adaug\u0103 surs\u0103 audio","audioDetailsCancel":"Anuleaz\u0103 editarea","videoDetailsTitle":"Detalii video","videoReplaceTitle":"\u00cenlocuie\u0219te videoul","videoAddSourceTitle":"Adaug\u0103 surs\u0103 video","videoDetailsCancel":"Anuleaz\u0103 editarea","videoSelectPosterImageTitle":"Selecteaz\u0103 imaginea pentru poster","videoAddTrackTitle":"Adaug\u0103 subtitr\u0103ri","playlistDragInfo":"Trage \u0219i plaseaz\u0103 pentru a reordona lista de redare.","createPlaylistTitle":"Creeaz\u0103 o list\u0103 de redare audio","editPlaylistTitle":"Editeaz\u0103 lista de redare audio","cancelPlaylistTitle":"\u2190 Anuleaz\u0103 Lista de redare audio","insertPlaylist":"Insereaz\u0103 List\u0103 de redare","updatePlaylist":"Actualizeaz\u0103 Lista de redare audio","addToPlaylist":"Adaug\u0103 \u00een lista de redare audio","addToPlaylistTitle":"Adaug\u0103 \u00een Lista de redare audio","videoPlaylistDragInfo":"Trage \u0219i plaseaz\u0103 pentru a reordona videourile.","createVideoPlaylistTitle":"Creeaz\u0103 o list\u0103 de redare video","editVideoPlaylistTitle":"Editeaz\u0103 Lista de redare video","cancelVideoPlaylistTitle":"\u2190 Anuleaz\u0103 Lista de redare video","insertVideoPlaylist":"Insereaz\u0103 List\u0103 de redare video","updateVideoPlaylist":"Actualizeaz\u0103 Lista de redare video","addToVideoPlaylist":"Adaug\u0103 \u00een lista de redare video","addToVideoPlaylistTitle":"Adaug\u0103 \u00een Lista de redare video","filterAttachments":"Filtreaz\u0103 elementele media","attachmentsList":"List\u0103 elemente media","settings":{"tabs":[],"tabUrl":"https:\/\/www.cnpetrurares.ro\/wp-admin\/media-upload.php?chromeless=1","mimeTypes":{"image":"Imagini","audio":"Audio","video":"Video","application\/msword,application\/vnd.openxmlformats-officedocument.wordprocessingml.document,application\/vnd.ms-word.document.macroEnabled.12,application\/vnd.ms-word.template.macroEnabled.12,application\/vnd.oasis.opendocument.text,application\/vnd.apple.pages,application\/pdf,application\/vnd.ms-xpsdocument,application\/oxps,application\/rtf,application\/wordperfect,application\/octet-stream":"Documente","application\/vnd.apple.numbers,application\/vnd.oasis.opendocument.spreadsheet,application\/vnd.ms-excel,application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application\/vnd.ms-excel.sheet.macroEnabled.12,application\/vnd.ms-excel.sheet.binary.macroEnabled.12":"Foi de calcul","application\/x-gzip,application\/rar,application\/x-tar,application\/zip,application\/x-7z-compressed":"Arhive"},"captions":true,"nonce":{"sendToEditor":"643c8ea739","setAttachmentThumbnail":"4b44cf3d9e"},"post":{"id":0},"defaultProps":{"link":"none","align":"","size":""},"attachmentCounts":{"audio":1,"video":1},"oEmbedProxyUrl":"https:\/\/www.cnpetrurares.ro\/wp-json\/oembed\/1.0\/proxy","embedExts":["mp3","ogg","flac","m4a","wav","mp4","m4v","webm","ogv","flv"],"embedMimes":{"mp3":"audio\/mpeg","ogg":"audio\/ogg","flac":"audio\/flac","m4a":"audio\/mpeg","wav":"audio\/wav","mp4":"video\/mp4","m4v":"video\/mp4","webm":"video\/webm","ogv":"video\/ogg","flv":"video\/x-flv"},"contentWidth":null,"months":[{"year":"2023","month":"12","text":"decembrie 2023"},{"year":"2023","month":"11","text":"noiembrie 2023"},{"year":"2023","month":"10","text":"octombrie 2023"},{"year":"2023","month":"9","text":"septembrie 2023"},{"year":"2023","month":"8","text":"august 2023"},{"year":"2023","month":"7","text":"iulie 2023"},{"year":"2023","month":"6","text":"iunie 2023"},{"year":"2023","month":"5","text":"mai 2023"},{"year":"2023","month":"4","text":"aprilie 2023"},{"year":"2023","month":"3","text":"martie 2023"},{"year":"2023","month":"2","text":"februarie 2023"},{"year":"2023","month":"1","text":"ianuarie 2023"},{"year":"2022","month":"12","text":"decembrie 2022"},{"year":"2022","month":"11","text":"noiembrie 2022"},{"year":"2022","month":"10","text":"octombrie 2022"},{"year":"2022","month":"9","text":"septembrie 2022"},{"year":"2022","month":"8","text":"august 2022"},{"year":"2022","month":"7","text":"iulie 2022"},{"year":"2022","month":"6","text":"iunie 2022"},{"year":"2022","month":"5","text":"mai 2022"},{"year":"2022","month":"4","text":"aprilie 2022"},{"year":"2022","month":"3","text":"martie 2022"},{"year":"2022","month":"2","text":"februarie 2022"},{"year":"2022","month":"1","text":"ianuarie 2022"},{"year":"2021","month":"11","text":"noiembrie 2021"},{"year":"2021","month":"10","text":"octombrie 2021"},{"year":"2021","month":"9","text":"septembrie 2021"},{"year":"2021","month":"7","text":"iulie 2021"},{"year":"2021","month":"6","text":"iunie 2021"},{"year":"2021","month":"5","text":"mai 2021"},{"year":"2021","month":"4","text":"aprilie 2021"},{"year":"2021","month":"3","text":"martie 2021"},{"year":"2021","month":"2","text":"februarie 2021"},{"year":"2021","month":"1","text":"ianuarie 2021"},{"year":"2020","month":"11","text":"noiembrie 2020"},{"year":"2020","month":"10","text":"octombrie 2020"},{"year":"2020","month":"9","text":"septembrie 2020"},{"year":"2020","month":"7","text":"iulie 2020"},{"year":"2020","month":"6","text":"iunie 2020"},{"year":"2020","month":"5","text":"mai 2020"},{"year":"2020","month":"4","text":"aprilie 2020"},{"year":"2020","month":"3","text":"martie 2020"},{"year":"2020","month":"2","text":"februarie 2020"},{"year":"2019","month":"12","text":"decembrie 2019"},{"year":"2019","month":"11","text":"noiembrie 2019"},{"year":"2019","month":"10","text":"octombrie 2019"},{"year":"2019","month":"6","text":"iunie 2019"},{"year":"2019","month":"5","text":"mai 2019"},{"year":"2019","month":"4","text":"aprilie 2019"},{"year":"2019","month":"3","text":"martie 2019"},{"year":"2019","month":"2","text":"februarie 2019"},{"year":"2018","month":"12","text":"decembrie 2018"},{"year":"2018","month":"11","text":"noiembrie 2018"},{"year":"2018","month":"10","text":"octombrie 2018"},{"year":"2018","month":"9","text":"septembrie 2018"},{"year":"2018","month":"7","text":"iulie 2018"},{"year":"2018","month":"6","text":"iunie 2018"},{"year":"2018","month":"5","text":"mai 2018"},{"year":"2018","month":"4","text":"aprilie 2018"},{"year":"2018","month":"3","text":"martie 2018"},{"year":"2018","month":"2","text":"februarie 2018"},{"year":"2018","month":"1","text":"ianuarie 2018"},{"year":"2017","month":"11","text":"noiembrie 2017"},{"year":"2017","month":"10","text":"octombrie 2017"},{"year":"2017","month":"9","text":"septembrie 2017"},{"year":"2017","month":"8","text":"august 2017"},{"year":"2017","month":"7","text":"iulie 2017"},{"year":"2017","month":"5","text":"mai 2017"},{"year":"2017","month":"3","text":"martie 2017"},{"year":"2017","month":"2","text":"februarie 2017"},{"year":"2017","month":"1","text":"ianuarie 2017"}],"mediaTrash":0,"infiniteScrolling":0}};
+/* ]]> */
+</script>
+<script type='text/javascript' id='media-views-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2024-01-16 09:31:19+0000","generator":"GlotPress\/4.0.0-alpha.11","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);","lang":"ro"},"%s item selected":["%s element selectat","%s elemente selectate","%s de elemente selectate"],"Showing %1$s of %2$s media items":["Afi\u0219ez %1$s din %2$s elemente media"],"Jump to first loaded item":["Sari la primul element \u00eenc\u0103rcat"],"Load more":["\u00cencarc\u0103 mai multe"],"Number of media items displayed: %d. Scroll the page for more results.":["Num\u0103rul de elemente media afi\u0219ate: %d. Deruleaz\u0103 pagina pentru mai multe rezultate."],"Number of media items displayed: %d. Click load more for more results.":["Num\u0103rul de elemente media afi\u0219ate: %d. Pentru mai multe rezultate, d\u0103 clic pe \u00cencarc\u0103 mai multe."],"The file URL has been copied to your clipboard":["URL-ul fi\u0219ierului a fost copiat \u00een clipboard"]}},"comment":{"reference":"wp-includes\/js\/media-views.js"}} );
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/media-views.min.js?ver=6.0.6' id='media-views-js'></script>
+<script type='text/javascript' id='media-editor-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2024-01-16 09:31:19+0000","generator":"GlotPress\/4.0.0-alpha.11","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);","lang":"ro"},"Could not set that as the thumbnail image. Try a different attachment.":["Nu am putut s\u0103 setez imaginea ca miniatur\u0103. \u00cencearc\u0103 cu un alt ata\u0219ament."]}},"comment":{"reference":"wp-includes\/js\/media-editor.js"}} );
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/media-editor.min.js?ver=6.0.6' id='media-editor-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-includes/js/media-audiovideo.min.js?ver=6.0.6' id='media-audiovideo-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/cs-framework/assets/js/cs_frame_functions.js?ver=6.0.6' id='cs_frame_functions_js-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/mystickymenu/js/morphext/morphext.min.js?ver=2.6.4' id='morphext-js-js'></script>
+<script type='text/javascript' id='welcomebar-frontjs-js-extra'>
+/* <![CDATA[ */
+var welcomebar_frontjs = {"ajaxurl":"https:\/\/www.cnpetrurares.ro\/wp-admin\/admin-ajax.php","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","ajax_nonce":"8651498893"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/mystickymenu/js/welcomebar-front.js?ver=2.6.4' id='welcomebar-frontjs-js'></script>
+<script type='text/javascript' id='stickThis-js-extra'>
+/* <![CDATA[ */
+var sticky_anything_engage = {"element":"","topspace":"0","minscreenwidth":"0","maxscreenwidth":"999999","zindex":"9999999999999999999","legacymode":"","dynamicmode":"","debugmode":"","pushup":"","adminbar":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/stickThis.js?ver=2.1.1' id='stickThis-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/scripts/jquery.prettyphoto.js?ver=6.0.6' id='prettyPhoto_js-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/scripts/lightbox.js?ver=6.0.6' id='lightbox_js-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/scripts/functions.js?ver=6.0.6' id='functions_js-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/assets/scripts/responsive-calendar.js?ver=6.0.6' id='responsive-calendar_js-js'></script>
+<script type='text/javascript' src='https://www.cnpetrurares.ro/wp-content/themes/uoc-theme/include/assets/scripts/cs_functions.js?ver=6.0.6' id='cs_functions_script-js'></script>
+<script>
+	jQuery( document ).ready(function() {
+    jQuery( ".right-side" ).before( "<div style='float: right; margin-left: 50px;' class='farMobilView'><img src='http://www.cnpetrurares.ro/wp-content/uploads/2021/02/Sigla-regala.gif' style='width: 60px; padding-top: 45px;'></div>" );
+ 
+		
+});
+</script>
+</body>
+</html>

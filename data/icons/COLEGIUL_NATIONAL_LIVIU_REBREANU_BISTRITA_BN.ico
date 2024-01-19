@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="ro">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Colegiul Naţional "Liviu Rebreanu" - Bistriţa, România</title>
+		<link href="/css/newStyle/style.css?9131433e859f57a62fa41f4abaa2fbbc87ffb203" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" href="/img/blazon-cnlr.png">
+		<link href="/css/classes.css" rel="stylesheet" type="text/css">
+		<link href="/css-ext/extensii.php" rel="stylesheet" type="text/css">
+				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />	
+		<style>
+			@media only screen and (min-width: 768px) {
+				.container{
+					max-width: 1000px !important;
+				}
+			}
+		</style>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+	</head>
+	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/ro_RO/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<a id="sus"></a>
+			
+		<nav class="navbar navbar-expand-lg bg-cnlr navbar-dark d-md-none">
+			<div class="container border-end border-start">
+				<a class="navbar-brand" href="/">
+					<img src="/img/blazon-cnlr.png" alt="Blazon CNLR" style="width: 48px; border-style: none !important;"> CNLR
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarMain">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+														<li class="nav-item">
+									<a href="/articol/497/prezentare" class="nav-link " id="main-navbar-link-497">
+										<span class="" title="">
+											Prezentare										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/1433/orar-scolar" class="nav-link " id="main-navbar-link-1433">
+										<span class="" title="">
+											Orar școlar										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/443/examene-olimpiade-concursuri" class="nav-link " id="main-navbar-link-443">
+										<span class="" title="">
+											Examene, olimpiade, concursuri										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/12/proiecte-programe" class="nav-link " id="main-navbar-link-12">
+										<span class="" title="">
+											Proiecte, programe										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/1002/achizitii-publice" class="nav-link " id="main-navbar-link-1002">
+										<span class="" title="">
+											Achiziții publice										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/941/educativ" class="nav-link " id="main-navbar-link-941">
+										<span class="" title="">
+											Educativ										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/541/anunturi" class="nav-link " id="main-navbar-link-541">
+										<span class="" title="">
+											Anunțuri										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/1413/scoala-increderii" class="nav-link " id="main-navbar-link-1413">
+										<span class="" title="">
+											 Școala încrederii										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/1653/erasmus-2023-it-s-time" class="nav-link " id="main-navbar-link-1653">
+										<span class="" title="">
+											ERASMUS+ 2023 IT'S TIME										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/1456/erasmus-2021-2023-c-h-l" class="nav-link " id="main-navbar-link-1456">
+										<span class="" title="">
+											ERASMUS+ 2021-2023 C.H.L.										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/1357/erasmus-2020-2022-s-m-s" class="nav-link " id="main-navbar-link-1357">
+										<span class="" title="">
+											ERASMUS+ 2020-2022 S.M.S.										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/721/biblioteca-scolara" class="nav-link " id="main-navbar-link-721">
+										<span class="" title="">
+											Biblioteca școlară										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/496/absolventi" class="nav-link " id="main-navbar-link-496">
+										<span class="" title="">
+											Absolvenți										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/1544/program-audiente" class="nav-link " id="main-navbar-link-1544">
+										<span class="" title="">
+											Program audiențe										</span>
+									</a>
+								</li>
+																<li class="nav-item">
+									<a href="/articol/45/contact" class="nav-link " id="main-navbar-link-45">
+										<span class="" title="">
+											Contact										</span>
+									</a>
+								</li>
+													</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container border-end border-start">
+			<div class="row">
+				<div class="col-md-3 d-none d-md-block" id="base_left">
+					<div id="vertical_menu">
+						<div id="vm_top"></div>
+						<div>
+							<div style="background: #eee; margin: 10px 30px; border-radius:10px;" class="text-center">
+								<a href="/">
+									<img src="/img/blazon-cnlr.png" alt="Blazon CNLR" style="max-width: 90%; border-style: none !important;">
+								</a>
+							</div>
+							<div style="background: #eee; margin: 30px 30px 30px 30px; border-radius:10px; padding:10px;">
+								<a href="/?pagina=1489">
+									<img src="/img/prof_logo.png" style="max-width: 100%;">
+								</a>
+							</div>
+							<div style="background: #f6f6f6; margin: 0 30px 30px 30px; border-radius:10px; padding:10px;">
+								<a href="#">
+									<img src="/img/cambridge.jpg" style="max-width: 100%;">
+								</a>
+							</div>
+						</div>
+						<div class="d-flex justify-content-between align-items-center mb-2">
+							<p class="fs-6 m-0">Navigare</p>
+													</div>
+						<ul>
+															<li id="vertical_menu_li_1">
+										<a href="/articol/497/prezentare" class=""  id="vertical-menu-link-497">
+											<span class="" title="">
+												Prezentare											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_2">
+										<a href="/articol/1433/orar-scolar" class=""  id="vertical-menu-link-1433">
+											<span class="" title="">
+												Orar școlar											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_3">
+										<a href="/articol/443/examene-olimpiade-concursuri" class=""  id="vertical-menu-link-443">
+											<span class="" title="">
+												Examene, olimpiade, concursuri											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_4">
+										<a href="/articol/12/proiecte-programe" class=""  id="vertical-menu-link-12">
+											<span class="" title="">
+												Proiecte, programe											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_5">
+										<a href="/articol/1002/achizitii-publice" class=""  id="vertical-menu-link-1002">
+											<span class="" title="">
+												Achiziții publice											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_6">
+										<a href="/articol/941/educativ" class=""  id="vertical-menu-link-941">
+											<span class="" title="">
+												Educativ											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_7">
+										<a href="/articol/541/anunturi" class=""  id="vertical-menu-link-541">
+											<span class="" title="">
+												Anunțuri											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_8">
+										<a href="/articol/1413/scoala-increderii" class=""  id="vertical-menu-link-1413">
+											<span class="" title="">
+												 Școala încrederii											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_9">
+										<a href="/articol/1653/erasmus-2023-it-s-time" class=""  id="vertical-menu-link-1653">
+											<span class="" title="">
+												ERASMUS+ 2023 IT'S TIME											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_10">
+										<a href="/articol/1456/erasmus-2021-2023-c-h-l" class=""  id="vertical-menu-link-1456">
+											<span class="" title="">
+												ERASMUS+ 2021-2023 C.H.L.											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_11">
+										<a href="/articol/1357/erasmus-2020-2022-s-m-s" class=""  id="vertical-menu-link-1357">
+											<span class="" title="">
+												ERASMUS+ 2020-2022 S.M.S.											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_12">
+										<a href="/articol/721/biblioteca-scolara" class=""  id="vertical-menu-link-721">
+											<span class="" title="">
+												Biblioteca școlară											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_13">
+										<a href="/articol/496/absolventi" class=""  id="vertical-menu-link-496">
+											<span class="" title="">
+												Absolvenți											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_14">
+										<a href="/articol/1544/program-audiente" class=""  id="vertical-menu-link-1544">
+											<span class="" title="">
+												Program audiențe											</span>
+										</a>
+									</li>
+																	<li id="vertical_menu_li_15">
+										<a href="/articol/45/contact" class=""  id="vertical-menu-link-45">
+											<span class="" title="">
+												Contact											</span>
+										</a>
+									</li>
+														</ul>
+					
+						<p class="mt-4 fs-6">Pagini anexe</p>
+												<ul>
+                            <li id="anexe_menu_li_1">
+                                <a href="https://educativcnlr.blogspot.com/" target="_blank" class="link-cnlr fw-normal">
+                                    EducativCNLR
+                                </a>
+                            </li>
+							<li id="anexe_menu_li_2"><a href="http://alumni.cnlr.ro" target="_blank">Alumni CNLR</a></li>
+							<li id="anexe_menu_li_3"><a href="http://dabt.cnlr.ro" target="_blank">deutsche abteilung</a></li>
+							<li id="anexe_menu_li_4"><a href="http://www.cnlr.ro/astro" target="_blank">astro club</a></li>
+							<li id="anexe_menu_li_5"><a href="./?pagina=albume&dir=img/album">Albume foto liceu</a></li>
+							<li id="anexe_menu_li_6"><a href="./?pagina=albume&dir=img/album1">Albume foto generala</a></li>
+							<li id="anexe_menu_li_7"><a href="http://www.ecorebreanu.cnlr.ro" target="_blank">IMPACT ECO REBREANU</a></li>
+							<li id="anexe_menu_li_8"><a href="http://cnlr.ro/lotinfo" target="blank">Pregatire Lot Info</a></li>
+							<li id="anexe_menu_li_9"><a href="http://www.boi2011.ro" target="blank" title="Balkan Olympiad in Informatics 2011">BOI 2011</a></li>
+							<li id="anexe_menu_li_10"><a href="http://moisil.cnlr.ro" target="blank" title="Concursul Interjudetean de matematica si Informatica Grigore Moisil">Moisil 2013</a></li>
+							<li id="anexe_menu_li_11"><a href="http://olav.cnlr.ro" target="blank" title="Lectura ca abilitate de viaţă, 2014">L.A.V. 2015</a></li>
+						</ul>
+					
+						<p class="mt-4 fs-6">Mai mult</p>
+						<ul>
+							<li id="anexe_menu_li_12"><a href="http://www.pbinfo.ro" target="_blank">www.pbinfo.ro</a></li>
+							<li id="anexe_menu_li_13"><a href="http://www.isjbn.ro" target="_blank">www.isjbn.ro</a></li>
+							<li id="anexe_menu_li_14"><a href="http://www.edu.ro" target="_blank">www.edu.ro</a></li>
+						</ul>
+						<div class="my-5"></div>
+					</div>
+				</div>
+				<div class="col-md" id="base_right">
+					<div id="header_right"></div>
+											<div class="d-flex d-md-none bg-secondary py-2 px-1 justify-content-evenly align-items-center">
+							<div style="background: #eee; border-radius:10px; padding:10px; height: 140px; width: 140px;" class="d-flex justify-content-center align-items-center">
+								<a href="/?pagina=1489">
+									<img src="/img/prof_logo.png" style="max-width: 90%;">
+								</a>
+							</div>
+							<div style="background: #f6f6f6; border-radius:10px; padding:10px; height: 140px; width: 140px;" class="d-flex justify-content-center align-items-center">
+								<a href="#">
+									<img src="/img/cambridge.jpg" style="max-width: 90%;">
+								</a>
+							</div>
+						</div>
+											<div class="mx-2">
+						<div class="row my-2">
+																	<div class="col-md my-1">
+											<div class="fb-like" data-href="http://www.cnlr.ro/favicon.ico" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
+										</div>
+																	<div id="form_cautare" class="col-md my-2 my-md-0">
+								<form class="row">
+									<input type="hidden" name="pagina" value="cautare">
+									<div class="col">
+										<input name="what" type=search value="" class="form-control" placeholder="Căutare">
+									</div>
+									<div class="col-3 d-md-none">
+										<input type="submit" value="Caută" class="btn btn-primary">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div id="lista_articole_importante">
+<h1>Important</h1>
+    <div class="articol_container">
+      <h1><a href="/articol/1666/2023-decembrie-anunt-concurs-pentru-ocuparea-postului-vacant-de-muncitor-i-g-electrician">2023, decembrie: Anunț concurs pentru ocuparea postului vacant de muncitor I G (electrician)</a></h1>
+            <div class="articol_continut p-3">
+        <p>Colegiul Național “Liviu Rebreanu”, cu sediul în localitatea Bistriţa, Bulevardul Republicii nr. 8, judeţul Bistriţa-Năsăud, organizează concurs pentru ocuparea unei post de muncitor IG, calificat în specializarea de electrician.</p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/posturi/2023_dec_muncitor_2/2023_21 dec Anunt concurs ocupare post muncitor electrician.pdf">Anunț concurs pentru ocuparea postului vacant de muncitor IG (electrician)</a></p>
+<hr>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/posturi/2023_dec_muncitor_2/2024_18ian_Rezultate selectie dosare muncitor IG.pdf">2024, 18 ianuarie: Rezultate selecție dosare</a></p>      </div>
+      <div class="articol_detalii">
+        <span> 
+          <span class="articol_detalii_data">18.1.2024</span> <span class="articol_detalii_user">Florentina Danci</span>
+        </span>
+         <span class="articol_detalii_parinte"><a href="./?pagina=541">Anunțuri</a></span>
+	  </div>
+    </div>
+    <div class="separator"></div>
+        <div class="articol_container">
+      <h1><a href="/articol/1665/lista-optionalelor-aprobate-pentru-anul-scolar-2024-2025">Lista opționalelor aprobate pentru anul școlar 2024-2025</a></h1>
+            <div class="articol_continut p-3">
+        <p><a href="https://www.cnlr.ro/resurse/2024-2025/Optionale/CDS_2024-2025.pdf">Lista opționalelor aprobate pentru anul școlar 2024-2025</a></p>      </div>
+      <div class="articol_detalii">
+        <span> 
+          <span class="articol_detalii_data">9.1.2024</span> <span class="articol_detalii_user">Florentina Danci</span>
+        </span>
+         <span class="articol_detalii_parinte"><a href="./?pagina=825">Plan școlarizare</a></span>
+	  </div>
+    </div>
+    <div class="separator"></div>
+        <div class="articol_container">
+      <h1><a href="/articol/1659/simulari-examene-nationale-2024">Simulări examene naționale 2024</a></h1>
+            <div class="articol_continut p-3">
+        <p><strong>Calendarul simulării Evaluării Naționale 2024 pentru absolvenții clasei a VIII-a</strong>:<br>5 februarie 2024: Limba şi literatura română – probă scrisă <br>6 februarie 2024: Matematică – probă scrisă <br>7 februarie 2024: Limba şi literatura maternă – probă scrisă <br><em>23 februarie 2024: Comunicarea rezultatelor</em></p>
+<p><strong>Calendarul simulării probelor scrise ale examenului național de Bacalaureat 2024:</strong><br>4 martie 2024: Proba E) a) – probă scrisă – Limba şi literatura română<br>5 martie 2024: Proba E) c) – probă scrisă – proba obligatorie a profilului<br>6 martie 2024: Proba E) d) – probă scrisă – proba la alegere a profilului şi specializării<br>7 martie 2024: Proba E) b) – probă scrisă – Limba şi literatura maternă<br><em>15 martie 2024: Comunicarea rezultatelor</em></p>
+<p>Simularea examenelor naționale din anul 2024 se desfășoară în conformitate cu <a href="https://www.cnlr.ro/resurse/2023-2024/simulare/en/MO_Ordin%20nr.6760_7dec2023_Simulare%20examene%20nationale%202024.pdf">ordinul nr. 6760 din 7 decembrie 2023</a>.</p>      </div>
+      <div class="articol_detalii">
+        <span> 
+          <span class="articol_detalii_data">14.12.2023</span> <span class="articol_detalii_user">Florentina Danci</span>
+        </span>
+         <span class="articol_detalii_parinte"><a href="./?pagina=443">Examene, olimpiade, concursuri</a></span>
+	  </div>
+    </div>
+    <div class="separator"></div>
+    </div>
+<div id="lista_articole_ultime">
+<h1>Ultimele articole</h1>
+      <div class="articol_container">
+      <h1><a href="/articol/1664/prezentarea-proiectului-erasmus-it-s-time">Prezentarea proiectului Erasmus „IT'S TIME”</a></h1>
+            <div class="articol_continut p-3">
+        <p><a href="https://www.cnlr.ro/resurse/2023 its time/Erasmus Its Time Prezentare.pdf">2023, octombrie: Prezentarea proiectului Erasmus „IT'S TIME”</a></p>      </div>
+      <div class="clear"></div>
+      <div class="articol_detalii">
+         <span class="articol_detalii_data">18.12.2023</span> <span class="articol_detalii_user">Florentina Danci</span> <span class="articol_detalii_parinte"><a href="./?pagina=1653">ERASMUS+ 2023 IT'S TIME</a></span>
+	  </div>
+    </div>
+      <div class="separator"></div>
+          <div class="articol_container">
+      <h1><a href="/articol/1658/2023-decembrie-anunt-concurs-pentru-ocuparea-postului-vacant-de-bucatar">2023, decembrie: Anunț concurs pentru ocuparea postului vacant de bucătar</a></h1>
+            <div class="articol_continut p-3">
+        <p>Colegiul Național “Liviu Rebreanu”, cu sediul în localitatea Bistriţa, Bulevardul Republicii nr. 8, judeţul Bistriţa-Năsăud, organizează concurs pentru ocuparea funcției de bucătar.</p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/posturi/2023dec_bucatar/2023dec_anunt post bucatar.pdf">Anunț concurs pentru ocuparea postului vacant de bucătar</a></p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/posturi/2023dec_bucatar/2023 dec _ Rezultate selectie dosare bucatar.pdf">2023, 22 decembrie: Rezultate selecție dosare</a></p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/posturi/2023dec_bucatar/2024_9dec Rezultate proba scrisa bucatar.pdf">2024, 9 ianuarie: Rezultate proba scrisă</a></p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/posturi/2023dec_bucatar/2024 ian _ Rezultate proba practica bucatar.pdf">2024, 9 ianuarie: Rezultate proba practică</a></p>
+<p> </p>      </div>
+      <div class="clear"></div>
+      <div class="articol_detalii">
+         <span class="articol_detalii_data">4.12.2023</span> <span class="articol_detalii_user">Florentina Danci</span> <span class="articol_detalii_parinte"><a href="./?pagina=541">Anunțuri</a></span>
+	  </div>
+    </div>
+      <div class="separator"></div>
+          <div class="articol_container">
+      <h1><a href="/articol/1656/2023-decembrie-anunt-concurs-ocupare-2-posturi-vacante-ingrijitor-curatenie">2023, decembrie: Anunț concurs ocupare 2 posturi vacante îngrijitor curățenie</a></h1>
+            <div class="articol_continut p-3">
+        <p>Colegiul Național “Liviu Rebreanu”, cu sediul în localitatea Bistriţa, Bulevardul Republicii nr. 8, judeţul Bistriţa-Năsăud, organizează concurs pentru ocuparea a două posturi vacante de îngrijitor curățenie.</p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/posturi/2023dec_ingr/2023dec_anunt ingrijitor.pdf">Anunț concurs pentru ocuparea a 2 posturi vacante de îngrijitor curățenie</a></p>
+<p> <a href="https://www.cnlr.ro/resurse/2023-2024/posturi/2023dec_ingr/2023_3ian%20_%20%20Rezultatate%20selectia%20dosare%20ingrijitor%20curatenie.pdf">Rezultate selecție dosare pentru cele 2 posturi vacante de îngrijitor curățenie</a></p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/posturi/2023dec_ingr/2024_9dec Rezultate proba scrisa ingrijitor.pdf">2024, 9 ianuarie: Rezultate proba scrisă</a></p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/posturi/2023dec_ingr/2024 ian _ Rezultate proba practica ingrijitor.pdf">2024, 12 ianuarie: Rezultate proba practică</a></p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/posturi/2023dec_ingr/2024_15 ian _ Rezultate interviu ingrijitor.pdf">2024, 15 ianuarie: Rezultate interviu</a></p>      </div>
+      <div class="clear"></div>
+      <div class="articol_detalii">
+         <span class="articol_detalii_data">4.12.2023</span> <span class="articol_detalii_user">Florentina Danci</span> <span class="articol_detalii_parinte"><a href="./?pagina=541">Anunțuri</a></span>
+	  </div>
+    </div>
+      <div class="separator"></div>
+          <div class="articol_container">
+      <h1><a href="/articol/1654/2023-24-26-noiembrie-concursul-interjudetean-matematica-de-drag">2023, 24-26 noiembrie: Concursul interjudețean MATEMATICA, DE DRAG</a></h1>
+            <div class="articol_continut p-3">
+        <p><span style="font-size: 12.0pt; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: RO; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Inspectoratul Școlar Județean Bistrița-Năsăud și Colegiul Național „Liviu Rebreanu” Bistrița, în colaborare cu Primăria Municipiului Bistrița și Societatea de Ştiinţe Matematice din România<span style="mso-spacerun: yes;">  </span>(filiala Bistrița-Năsăud), organizează în perioada <strong>24</strong><strong style="mso-bidi-font-weight: normal;">-26 noiembrie 2023</strong>, cea de-a XVI-a ediție a <strong style="mso-bidi-font-weight: normal;">Concursului Interjudeţean</strong> <strong style="mso-bidi-font-weight: normal;">de</strong> <strong style="mso-bidi-font-weight: normal;">Matematică </strong><em style="mso-bidi-font-style: normal;">„<strong style="mso-bidi-font-weight: normal;">MATEMATICA, DE DRAG</strong>”</em><span style="mso-spacerun: yes;">  </span>cu participarea elevilor din clasele V - XII, cuprins în Calendarul Concursurilor Interjudețene fără finanțare M.E.</span></p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/mate%20de%20drag/2023%20Concurs%20Matematica%20de%20drag.pdf"><span style="font-size: 12.0pt; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: RO; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Informații privind programa și calendarul concursului </span></a></p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/mate de drag/repartitieMD_2023.pdf"><span style="font-size: 12.0pt; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: RO; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Repartizare elevi în săli - 25 noiembrie 2023</span></a></p>
+<hr>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/mate%20de%20drag/Bareme%20gimnaziu%20MD%202023.pdf">Subiecte și bareme concurs „Matematica, de drag”, 2023 - gimnaziu</a></p>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/mate%20de%20drag/Bareme%20liceu%20MD2023.pdf">Subiecte și bareme concurs „Matematica, de drag”, 2023 - liceu</a></p>
+<hr>
+<p><a href="https://www.cnlr.ro/resurse/2023-2024/mate%20de%20drag/Rezultate%20finale%20MD2023.zip">Rezultate finale concurs „Matematica, de drag”, 2023</a></p>      </div>
+      <div class="clear"></div>
+      <div class="articol_detalii">
+         <span class="articol_detalii_data">13.11.2023</span> <span class="articol_detalii_user">Florentina Danci</span> <span class="articol_detalii_parinte"><a href="./?pagina=43">Concursuri școlare</a></span>
+	  </div>
+    </div>
+      <div class="separator"></div>
+          <div class="articol_container">
+      <h1><a href="/articol/1650/2023-septembrie-hai-la-olimpiada">2023, septembrie: Hai la Olimpiadă!</a></h1>
+            <div class="articol_continut p-3">
+        <p><a title="www.nouanepasa.ro/inscrieri-hlo" href="https://www.nouanepasa.ro/inscrieri-hlo" target="_blank" rel="noopener"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.cnlr.ro/resurse/2023-2024/WEB---HLO-2023_960x960.jpg" alt="" width="700" height="700"></a></p>      </div>
+      <div class="clear"></div>
+      <div class="articol_detalii">
+         <span class="articol_detalii_data">21.9.2023</span> <span class="articol_detalii_user">Florentina Danci</span> <span class="articol_detalii_parinte"><a href="./?pagina=541">Anunțuri</a></span>
+	  </div>
+    </div>
+      <div class="separator"></div>
+    </div>
+<div id="lista_articole_mai_vechi">
+    <h1>Articole mai vechi</h1>
+    <div>
+    <div id="lista_articole_mai_vechi_left">
+    <ul>
+        <li><a href="/articol/1664/prezentarea-proiectului-erasmus-it-s-time">Prezentarea proiectului Erasmus „IT'S TIME”</a></li>
+          <li><a href="/articol/1658/2023-decembrie-anunt-concurs-pentru-ocuparea-postului-vacant-de-bucatar">2023, decembrie: Anunț concurs pentru ocuparea postului vacant de bucătar</a></li>
+          <li><a href="/articol/1656/2023-decembrie-anunt-concurs-ocupare-2-posturi-vacante-ingrijitor-curatenie">2023, decembrie: Anunț concurs ocupare 2 posturi vacante îngrijitor curățenie</a></li>
+          <li><a href="/articol/1654/2023-24-26-noiembrie-concursul-interjudetean-matematica-de-drag">2023, 24-26 noiembrie: Concursul interjudețean MATEMATICA, DE DRAG</a></li>
+          <li><a href="/articol/1650/2023-septembrie-hai-la-olimpiada">2023, septembrie: Hai la Olimpiadă!</a></li>
+          <li><a href="/articol/1649/2023-19-septembrie-burse-scolare">2023, 19 septembrie - Burse școlare</a></li>
+          <li><a href="/articol/1647/2023-11-septembrie-festivitatea-de-inceput-de-an-scolar-2023-2024">2023, 11 septembrie: Festivitatea de început de an școlar 2023-2024</a></li>
+          <li><a href="/articol/1644/clasele-a-ix-a-matematica-informatica">Clasele a IX-a (matematică-informatică)</a></li>
+          <li><a href="/articol/1643/2023-septembrie-liste-elevi-audienti">2023, septembrie: Liste elevi audienți</a></li>
+          <li><a href="/articol/1637/2023-20-25-iulie-inscrierea-candidatilor-declarati-admisi-in-clasa-a-ix-a">2023,20-25 iulie: Înscrierea candidaților declarați admiși în clasa a IX-a</a></li>
+          <li><a href="/articol/1635/rezultate-finale-lista-notelor-la-evaluarea-nationala-2023">Rezultate finale - Lista notelor la Evaluarea Națională 2023 </a></li>
+          <li><a href="/articol/1633/2023-rezultate-bacalaureat-prima-sesiune">2023: Rezultate bacalaureat - prima sesiune</a></li>
+          <li><a href="/articol/1631/2023-iunie-anunt-organizare-concurs-pentru-ocuparea-postului-de-bibliotecar">2023, iunie: Anunț organizare concurs pentru ocuparea postului de bibliotecar</a></li>
+          <li><a href="/articol/1628/2023-iulie-clasa-pregatitoare-elevi-admisi-dupa-primele-doua-etape-de-inscriere">2023, iulie: Clasa pregătitoare - elevi admiși după primele două etape de înscriere</a></li>
+          <li><a href="/articol/1618/2023-admitere-liceu-probele-de-verificare-a-cunostintelor-de-limba-moderna">2023: Admitere liceu, probele de verificare a cunoștințelor de limba modernă</a></li>
+          <li><a href="/articol/1599/inscrierea-in-invatamantul-primar-an-scolar-2023-2024">Înscrierea în învățământul primar, an școlar 2023-2024</a></li>
+          <li><a href="/articol/1596/2023-admitere-liceu-sectia-germana-proba-verificare-cunostinte-limba-materna-germana">2023: Admitere liceu (secția germană) - Proba verificare cunoștințe limba maternă germană</a></li>
+          <li><a href="/articol/1590/2023-admitere-liceu-bilingv-proba-de-verificare-cunostinte-limba-engleza-franceza">2023 Admitere liceu (bilingv): Proba de verificare cunoștințe limba engleză/franceză</a></li>
+        </ul>
+    </div>
+    <div  id="lista_articole_mai_vechi_right">
+    <ul>
+      </ul>
+    </div>
+    <div class="clear"></div>
+    </div>
+</div>
+				</div>
+			</div>
+		</div>
+		<div class="d-md-none border-top border-bottom mt-4" id="pagini_anexe">
+			<p class="bg-cnlr text-light p-3" id="pagini_anexe_titlu">Pagini anexe</p>
+			<div class="p-3">
+								<ul class="list-group">
+                    <li class="list-group-item">
+                        <a href="https://educativcnlr.blogspot.com/" target="_blank" class="link-cnlr fw-normal">
+                            EducativCNLR
+                        </a>
+                    </li>
+					<li class="list-group-item"><a href="http://alumni.cnlr.ro" target="_blank" class="link-cnlr fw-normal">Alumni CNLR</a></li>
+					<li class="list-group-item"><a href="http://dabt.cnlr.ro" target="_blank" class="link-cnlr fw-normal">deutsche abteilung</a></li>
+					<li class="list-group-item"><a href="http://www.cnlr.ro/astro" target="_blank" class="link-cnlr fw-normal">astro club</a></li>
+					<li class="list-group-item"><a href="./?pagina=albume&dir=img/album" class="link-cnlr fw-normal">Albume foto liceu</a></li>
+					<li class="list-group-item"><a href="./?pagina=albume&dir=img/album1" class="link-cnlr fw-normal">Albume foto generala</a></li>
+                    <li class="list-group-item"><a href="http://www.ecorebreanu.cnlr.ro" target="_blank" class="link-cnlr fw-normal">IMPACT ECO REBREANU</a></li>
+					<li class="list-group-item"><a href="http://cnlr.ro/lotinfo" target="blank" class="link-cnlr fw-normal">Pregatire Lot Info</a></li>
+					<li class="list-group-item"><a href="http://www.boi2011.ro" target="blank" title="Balkan Olympiad in Informatics 2011" class="link-cnlr fw-normal">BOI 2011</a></li>
+					<li class="list-group-item"><a href="http://moisil.cnlr.ro" target="blank" title="Concursul Interjudetean de matematica si Informatica Grigore Moisil" class="link-cnlr fw-normal">Moisil 2013</a></li>
+					<li class="list-group-item"><a href="http://olav.cnlr.ro" target="blank" title="Lectura ca abilitate de viaţă, 2014" class="link-cnlr fw-normal">L.A.V. 2015</a></li>
+				</ul>
+			</div>
+				<p class="bg-cnlr text-light p-3" id="mai_mult_titlu">Mai mult</p>
+				<div class="p-3">
+				<ul class="list-group">
+					<li class="list-group-item"><a href="http://www.pbinfo.ro" target="_blank" class="link-cnlr fw-normal">www.pbinfo.ro</a></li>
+					<li class="list-group-item"><a href="http://www.isjbn.ro" target="_blank" class="link-cnlr fw-normal">www.isjbn.ro</a></li>
+					<li class="list-group-item"><a href="http://www.edu.ro" target="_blank" class="link-cnlr fw-normal">www.edu.ro</a></li>
+				</ul>
+
+			</div>
+		</div>
+		<div class="container border-end border-start">
+			<div class="row">
+				<div id="footer_left" class="col-md-3 d-flex justify-content-center align-items-center">
+					<p class="text-center">
+						<span>Toate drepturile rezervate.</span> <strong>CNLR&copy;2007-2024</strong>
+						<br>
+						<span>Site realizat de <em>Candale Silviu si Gyorgy Elod</em>.</span>
+												<a href="#login" class="link-light mx-3" id="linkLogin"><i class="fa-solid fa-gears"></i></a>
+											</p>
+				</div>
+				<div class="col-md d-flex flex-column justify-content-center align-items-center" id="footer_right">
+					<p>
+						<a href="/articol/1253/politica-de-prelucrare-a-datelor-cu-caracter-personal">Politica de prelucrare a datelor cu caracter personal</a>
+					</p>
+					 2537339 vizitatori
+				</div>
+				<div id="footer_bottom"></div>
+			</div>
+		</div>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$("a[rel=album]").fancybox();
+				});
+			</script>
+								<style>
+						body{
+							/*background-image: url('/css/christmas-bg-1.jpg');
+							background-position: bottom center;
+							background-size: cover;
+							background-attachment: fixed;*/
+							background-color: #eee;
+						}
+						@media screen and (max-width: 768px) 
+						{
+							/*.articol_container h1, #lista_articole_mai_vechi h1, #pagini_anexe_titlu, #mai_mult_titlu{
+								background-image: url('/css/christmas-bg-mobile-1.png') !important;
+								padding-top: 1rem !important;
+								padding-bottom: 1rem !important;
+							}
+
+							.articol_container h1{
+								color: white !important;
+							}
+
+							#pagina_articol .articol_container h1{
+								padding-top: 1em !important;
+								padding-bottom: 1em !important;
+							}
+
+
+							.articol_container h1 a, #lista_articole_mai_vechi h1{
+								background-color: transparent !important;
+							}
+							*/
+						}
+					</style>
+							</div>
+				<div class="modal" tabindex="-1" id="modalLogin">
+			<div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+				<div class="modal-content">
+				<form action="/login.php" method="POST">
+					<input type="hidden" name="in_form" value="86c84b5ef75a14d6be8a7c4a5982934be6d91db1">
+					<input type="hidden" name="linkCurent" value="http%3A%2F%2Fwww.cnlr.ro%2Ffavicon.ico">
+					<div class="modal-header">
+						<h5 class="modal-title">Autentificare</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+					<input type="hidden" name="next_url" value="">
+					<div class="mb-3">
+						<label class="form-label" for="modal-login-user">
+							Nume utilizator
+						</label>
+						<input type="text" name="user" id="modal-login-user" class="form-control">
+					</div>
+					<div class="mb-3">
+						<label class="form-label" for="modal-login-parola">
+							Parola
+						</label>
+						<input type="password" name="parola" id="modal-login-parola" class="form-control">
+					</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Închidere</button>
+						<button type="submit" class="btn btn-primary">Autentificare</button>
+					</div>
+				</form>
+				</div>
+			</div>
+		</div>
+		<script>
+			function ShowModalLogin(){
+				let modalLogin = new bootstrap.Modal(document.getElementById('modalLogin'), {})
+				modalLogin.show()
+				document.getElementById('modal-login-user').focus()
+
+			}
+
+			window.addEventListener('DOMContentLoaded', ()=> {
+				document.getElementById('linkLogin').addEventListener('click', () => {
+					ShowModalLogin()
+				})
+
+				window.addEventListener('popstate', function () {
+					let U = window.location.href
+					if(U.endsWith('#login'))
+					{
+						ShowModalLogin()
+					}
+				});
+
+				let U = window.location.href
+				if(U.endsWith('#login'))
+				{
+					ShowModalLogin()
+				}
+
+			})
+		</script>
+				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-31716686-5', 'cnlr.ro');
+			  ga('send', 'pageview');
+		</script>
+	</body>
+</html>

@@ -1,0 +1,102 @@
+<html>
+
+<head>
+	<title>KloxoNG : Error 404</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<style>
+body {
+	font-family: Tahoma, Verdana, Arial, Helvertica, sans-serif;
+	font-size: 8pt;
+	font-weight: 100;
+	background-image:url('/images/abstract.jpg');
+	background-color:#cccccc;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: 0;
+}
+
+img.logo {
+	margin: 5px;
+	padding: 0;
+}
+
+table.header {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	font-family: Tahoma, Verdana, Arial, Helvertica, sans-serif;
+	font-size: 8pt;
+	font-weight: 100;
+}
+
+table.content {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	font-family: Tahoma, Verdana, Arial, Helvertica, sans-serif;
+	font-size: 8pt;
+	font-weight: 100%;
+}
+
+table.content_body td {
+	border-collapse: collapse;
+	border: 1px dashed #cccccc;
+	font-family: Tahoma, Verdana, Arial, Helvertica, sans-serif;
+	font-size: 10pt;
+	color: #444444;
+	padding:10px;
+	spacing:0;
+}
+
+table.content_title td {
+	border-collapse: collapse;
+	border: 0;
+	font-family: Tahoma, Verdana, Arial, Helvertica, sans-serif;
+	font-size: 12pt;
+	color: #336699;
+}
+
+</style>
+
+<body>
+
+<table class="header">
+	<tr>
+		<td width="100%"><img style="margin:5px; padding:5px; height:50px" class="logo" src="/images/logo.png" alt="hosting-logo"></td>
+		<td><a href="//kloxong.org/" title="KloxoNG website"><img style="margin:5px; padding:5px; height:50px" class="logo" src="/images/kloxong.png" alt="kloxong-logo"></a></td>
+	</tr>
+</table>
+<table class="content">
+	<tr>
+		<td width="50">&nbsp;</td>
+		<td valign="middle" width="100%">
+<div align="center">
+		<table class="content_title" width="640">
+			<tr>
+				<td><br>
+				<br>
+				<b>Error 404 - Not Found</b> </td>
+			</tr>
+		</table>
+		<br>
+		<table  class="content_body" width="640">
+			<tr>
+				<td width="100%" bgcolor="#eeeeee">
+					The requested page could not be found but may be available again in the future<br></td>
+			</tr>
+		</table>
+</div>
+		</td>
+		<td width="50">&nbsp;</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

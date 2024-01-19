@@ -1,0 +1,1337 @@
+
+
+<!DOCTYPE html>
+<html lang='zxx'>
+
+<head>
+	<meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Liceul de Arte Marin Sorescu</title>
+	
+	<meta name='keywords' content='Arte, muzica,liceul de arte Marin Sorescu Craiova'>
+	<meta name='description' content='Liceul de Arte ”Marin Sorescu” are o istorie aparte. În baza unui ordin al Ministerului Învățământului și Culturii, începând cu 1 octombrie 1956 s-a înființat la Craiova Școala de Muzică și Arte Plastice. Aceasta se număra printre primele șase asemenea școli din țară, prima dată în 1957 a avut denumirea de Școala Elementară de Artă conform ordinului Ministerului Învățământului și Culturii, numărul 907 din 13 aprilie 1957, iar în anul 1958 s-a numit Școala de 7 ani de Muzică. În imaginile de mai jos sunt prezentate poze cu clădirea veche a liceului și primii elevi înscriși în liceu.'>
+	
+	<meta name='mobile-web-app-capable' content='yes'>
+	
+<meta property='og:url' content='https://liceuldeartamarinsorescucraiova.ro/'>
+<meta property='og:type' content='article'>
+<meta property='og:title' content='Liceul de Arte Marin Sorescu'>
+<meta property='og:image' content='https://liceuldeartamarinsorescucraiova.ro/uploads/slider_img/slider4.jpg'>
+<meta property='og:image:width' content='300'>
+<meta property='og:image:height' content='200'>
+
+<meta property='ia:markup_url' content='https://liceuldeartamarinsorescucraiova.ro/'>
+<meta property='ia:markup_url_dev' content='https://liceuldeartamarinsorescucraiova.ro/'>
+<meta property='ia:rules_url' content='https://liceuldeartamarinsorescucraiova.ro/'>
+<meta property='ia:rules_url_dev' content='https://liceuldeartamarinsorescucraiova.ro/'>
+<meta property='og:image:alt' content='Arte, liceul de Arte Marin Sorescu Craiova'>
+<meta property='og:description' content='Liceul de Arte ”Marin Sorescu” are o istorie aparte. În baza unui ordin al Ministerului Învățământului și Culturii, începând cu 1 octombrie 1956 s-a înființat la Craiova Școala de Muzică și Arte Plastice. Aceasta se număra printre primele șase asemenea școli din țară, prima dată în 1957 a avut denumirea de Școala Elementară de Artă conform ordinului Ministerului Învățământului și Culturii, numărul 907 din 13 aprilie 1957, iar în anul 1958 s-a numit Școala de 7 ani de Muzică. În imaginile de mai jos sunt prezentate poze cu clădirea veche a liceului și primii elevi înscriși în liceu.'>
+	
+	
+	<link rel='manifest' href='/manifest.json'>
+
+    <!-- favicon -->
+    <link rel='icon' type='image/png' sizes='16x16' href='https://www.liceuldeartamarinsorescucraiova.ro/images/favicon.ico'>
+    <!-- Bootstrap -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/bootstrap.min.css'>
+    <!-- font awesome -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/font-awesome.min.css'>
+    <!-- flaticon -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/flaticon.css'>
+    <!-- animate css -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/animate.css'>
+    <!-- owl-carousel css -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/owl.carousel.min.css'>
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/owl.theme.default.min.css'>
+    <!-- lity css -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/lity.min.css'>
+    <!-- slick css -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/slick.css'>
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/slick-theme.css'>
+    <!-- slick nav css -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/slicknav.min.css'>
+    <!-- smoothbox css -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/smoothbox.css'>
+    <!-- switcher css -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/switcher.css'>
+    <!-- style css -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/style.css'>
+    <!-- skin css -->    
+	<link class='skin' rel='stylesheet' type='text/css' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/skin/skin-1.css'>
+    <!-- responsive css -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/responsive.css'>
+	<!-- custom css -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/custom.css'>
+	<link href='https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap' rel='stylesheet'>
+	<link rel='preconnect' href='https://fonts.googleapis.com'>
+	<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+	<link href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap' rel='stylesheet'>
+	<!--icon-->
+	<link rel='apple-touch-icon' sizes='57x57' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/apple-icon-57x57.png'>
+	<link rel='apple-touch-icon' sizes='60x60' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/apple-icon-60x60.png'>
+	<link rel='apple-touch-icon' sizes='72x72' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/apple-icon-72x72.png'>
+	<link rel='apple-touch-icon' sizes='76x76' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/apple-icon-76x76.png'>
+	<link rel='apple-touch-icon' sizes='114x114' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/apple-icon-114x114.png'>
+	<link rel='apple-touch-icon' sizes='120x120' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/apple-icon-120x120.png'>
+	<link rel='apple-touch-icon' sizes='144x144' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/apple-icon-144x144.png'>
+	<link rel='apple-touch-icon' sizes='152x152' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/apple-icon-152x152.png'>
+	<link rel='apple-touch-icon' sizes='180x180' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/apple-icon-180x180.png'>
+	<link rel='icon' type='image/png' sizes='192x192'  href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/android-icon-192x192.png'>
+	<link rel='manifest' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/manifest.json'>
+	<link rel='icon' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/favicon.ico' type='image/x-icon'/>
+	<link rel='shortcut icon' href='https://www.liceuldeartamarinsorescucraiova.ro/images/icon/favicon.ico' type='image/x-icon'/>
+	
+	<!-- calendar css -->
+    <link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/calendar_rezervare.css'>
+	
+	<link href='https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap' rel='stylesheet'>
+	
+	<script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/jquery-1.12.4.min.js'></script>
+	<script src='https://www.liceuldeartamarinsorescucraiova.ro/view_js/app_config.js'></script>
+	
+	<!--site css-->
+	<link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/site-style.css'>
+</head>
+
+
+<body id="bg">
+
+    <div class="page-wraper">
+
+        <!-- ====== Go to top ====== -->
+        <a id="c-scroll" title="Go to top" href="javascript:void(0)">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+
+        <!-- ====== preloader ====== -->
+        <div id="preloader"></div>
+
+        <!--======== header=========-->
+        <header>
+            <!-- nu avem inca info
+			
+			//
+			//
+			//
+			
+			<div class="head-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <ul class="head-social">
+                                <li>
+                                    <a target='_blank' href="https://www.facebook.com//">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                               
+                                <li>
+                                    <a target='_blank' href="https://www.linkedin.com/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target='_blank' href="https://www.instagram.com//">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+								<!--
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+								 <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+								
+                            </ul>
+                            <ul class="head-locate">
+                                <li>
+                                    <i class="flat flaticon-location-pin"></i>
+                                    <p>Craiova, Strada Teilor nr. 78, jud. Dolj</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <ul class="mail-con">
+                               
+								<li>
+                                        <i class='flat flaticon-phone-call'></i>
+                                        <p><a href='tel:+40768826367' target='_blank'>+40 768 826 367</a></p>
+                                    </li>
+                                    <li>
+                                        <i class='flat flaticon-email'></i>
+                                        <p><a href='mailto:office@nunti-de-vis.ro' target='_blank'>office@nunti-de-vis.ro</a></p>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			-->
+            <div class="menu-header header-theme-1">
+                <div class="theme-header clearfix">
+                    <div class="container">
+                        <div class="row">
+                            
+							<div class="logo">
+								<a href="https://www.liceuldeartamarinsorescucraiova.ro/">
+									<img class="hasLightBox" src="https://www.liceuldeartamarinsorescucraiova.ro/images/logo.png" alt="CraiovaHub">
+								</a>
+							</div>
+                            
+                            <div class="col-md-12">
+                                <div id="menu" class="main-menu">
+                                    <ul class="menu-wrap clearfix">
+                                        
+	
+			<li class="menu-item">
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home.html" class="menu-link">Home</a>
+				<ul class="dropdown">
+				
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>   Prima pagina
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/istoric.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Despre noi
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/misiune-si-viziune.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Viziunea și Misiunea
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/oferta-educationala.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Oferta educațională
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/clasa-pregatitoare.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Înscriere preșcolar-primar
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/admitere-liceu.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Admitere liceu
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/evaluare-nationala.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Evaluare națională - II,IV,VI,VIII
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/bacalaureat.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Bacalaureat-Atestat
+							</a>
+						</li>
+						
+				</ul>
+				
+			<li class="menu-item">
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management.html" class="menu-link">Management</a>
+				<ul class="dropdown">
+				
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/conducerea-liceului.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Echipa managerială
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/ca.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Consiliul de Administrație-Hotărâri
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/curriculum.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Comisia pentru curriculum
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/comisii.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Responsabili comisii 
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/CEAC.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  CEAC
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/control-managerial-Intern.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Comisia - Control intern managerial
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/legislatie.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Protocoale - Legislație
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/buget.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Bugetul de venituri și cheltuieli
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/documente-manageriale.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Documente manageriale
+							</a>
+						</li>
+						
+				</ul>
+				
+			<li class="menu-item">
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale.html" class="menu-link">Profesori și elevi</a>
+				<ul class="dropdown">
+				
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/resurse-umane.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Resurse umane
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/diriginti.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Diriginți-Săli de clasă
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/VERDE.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  SĂPTĂMÂNA VERDE
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/ALTFEL.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  ȘCOALA ALTFEL
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/activitati.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Activități educaționale
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/concursuri.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>   Concursuri/Olimpiade 
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/platforma-e-learning.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>   E-learning - Resurse educaționale deschise
+							</a>
+						</li>
+						
+				</ul>
+				
+			<li class="menu-item">
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/acla.html" class="menu-link">A.C.L.A</a>
+				<ul class="dropdown">
+				
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/acla/DONATII.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>   DONAȚII - ACTIVITĂȚI
+							</a>
+						</li>
+						
+				</ul>
+				
+			<li class="menu-item">
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/noutati.html" class="menu-link">Informații</a>
+				<ul class="dropdown">
+				
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/noutati/documente-utile.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>   Centru acreditat - ECDL,CERTIPORT
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/noutati/burse-sociale.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Burse sociale- Program Bani de liceu-Manuale
+							</a>
+						</li>
+						
+						<li class="menu-item">
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/noutati/informatii.html" class="menu-link">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>  Informații de interes public
+							</a>
+						</li>
+						
+				</ul>
+				
+			<li class="menu-item">
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/Contact.html" class="menu-link">Contact</a>
+			</li>
+			
+		<!--
+		<li class="menu-item">
+			<a href="https://www.liceuldeartamarinsorescucraiova.ro/register" class="menu-link"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Inregistrare</a>
+		</li>
+		<li class="menu-item">
+			<a href="https://www.liceuldeartamarinsorescucraiova.ro/login" class="menu-link"><i class="fa fa-sign-in" aria-hidden="true"></i> Autentificare</a>
+		</li>
+		-->
+												<!--
+										<li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link has-drop">headers</a>
+                                            <ul class="dropdown">
+                                                <li class="menu-item">
+                                                    <a href="header1.html" class="menu-link">header style 1</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="header2.html" class="menu-link">header style 2</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="header3.html" class="menu-link">header style 3</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="header4.html" class="menu-link">header style 4</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+										-->	
+									</ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-menu" data-logo="https://www.liceuldeartamarinsorescucraiova.ro/images/logo.png">
+                </div>
+            </div>
+        </header>	
+	<section class="main-slider">
+		<div class="corp-slider theme-1 owl-carousel owl-theme">
+		
+	
+					<div class="slide-item">
+						<img src="https://www.liceuldeartamarinsorescucraiova.ro/uploads/slider_img/slider4.jpg" alt="slide">
+						<div class="slide-overlay">
+							<div class="slide-table">
+								<div class="slide-table-cell">
+									<div class="container">
+										<div class="slide-content">
+											<h2>Liceul de Arte "Marin Sorescu"</h2>
+											<p></p>
+											<!--
+											<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/rezervari.html" class="btn btn-custom active">Rezervă Acum</a>
+											<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/contact.html" class="btn btn-custom">Contactează-ne</a>
+											-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+		
+	
+					<div class="slide-item">
+						<img src="https://www.liceuldeartamarinsorescucraiova.ro/uploads/slider_img/bannersite2.jpg" alt="slide">
+						<div class="slide-overlay">
+							<div class="slide-table">
+								<div class="slide-table-cell">
+									<div class="container">
+										<div class="slide-content">
+											<h2></h2>
+											<p></p>
+											<!--
+											<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/rezervari.html" class="btn btn-custom active">Rezervă Acum</a>
+											<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/contact.html" class="btn btn-custom">Contactează-ne</a>
+											-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+		
+	
+					<div class="slide-item">
+						<img src="https://www.liceuldeartamarinsorescucraiova.ro/uploads/slider_img/slider1.jpg" alt="slide">
+						<div class="slide-overlay">
+							<div class="slide-table">
+								<div class="slide-table-cell">
+									<div class="container">
+										<div class="slide-content">
+											<h2>Liceul de Arte "Marin Sorescu"</h2>
+											<p></p>
+											<!--
+											<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/rezervari.html" class="btn btn-custom active">Rezervă Acum</a>
+											<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/contact.html" class="btn btn-custom">Contactează-ne</a>
+											-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+						
+		</div>
+		<!--
+		<div class="slider-tabs">
+			<ul class="clearfix">
+				<li class="top-tabs">
+				&nbsp;
+				
+				</li>
+				<li class="top-tabs">
+				
+				&nbsp;
+				</li>
+				<li class="top-tabs">
+				
+				&nbsp;
+				</li>
+				<li class="top-tabs">
+				
+				&nbsp;
+				</li>
+			</ul>
+		</div>
+		-->
+	</section>
+	<div class="container">
+
+	<div class="col-sm-3">
+		
+		<div class="intro-box-fp">
+			
+			<div class="icon">
+				<i class="fa fa-star"></i>
+			</div>
+			
+			<div class="header">
+				Înscriere preșcolar - primar
+			</div>
+		
+			<!--<div class="content">
+				Demo Content
+			</div>-->
+		
+			<a href="/page/home/clasa-pregatitoare.html" class="link">
+				Informații
+			</a>
+		
+		</div>
+		
+	</div>
+	
+	
+	<div class="col-sm-3">
+		
+		<div class="intro-box-fp">
+			
+			<div class="icon">
+				<i class="fa fa-star"></i>
+			</div>
+			
+			<div class="header">
+				Admitere liceu
+			</div>
+		
+			
+		
+			<a href="/page/home/admitere-liceu.html" class="link">
+				Informații
+			</a>
+		
+		</div>
+		
+	</div>
+	
+	
+	<div class="col-sm-3">
+		
+		<div class="intro-box-fp">
+			
+			<div class="icon">
+				<i class="fa fa-star"></i>
+			</div>
+			
+			
+			<div class="header">
+				Evaluare națională clasele II,IV,VI,VIII
+			</div>
+			
+		
+			<a href="/page/home/evaluare-nationala.html" class="link">
+				Informații
+			</a>
+		
+		</div>
+		
+	</div>
+	
+	
+	<div class="col-sm-3">
+		
+		<div class="intro-box-fp">
+			
+			<div class="icon">
+				<i class="fa fa-star"></i>
+			</div>
+			
+			<div class="header">
+				Bacalaureat - Atestat
+			</div>
+		
+			
+		
+			<a href="/page/home/bacalaureat.html" class="link">
+				Informații
+			</a>
+		
+		</div>
+		
+	</div>
+	
+	
+
+</div>
+	<section class="bg-w sp-100">
+	   <div class="container">
+		
+			<p><img alt="" id="Image2_img" src="//4.bp.blogspot.com/-DLNt09vO6wE/Wp0rrXUHQyI/AAAAAAAAANA/tSbXW28bQx8zejt3T5Ar5BOrb3xn1RMZQCK4BGAYYCw/s1600/new%2B%252816%2529.gif" style="visibility: visible;" class="fr-fic fr-dii" width="75" height="75"><span style="font-family: Verdana,Geneva,sans-serif;"><strong>VIZITAȚI SECȚIUNEA INFORMAȚII DE INTERES PUBLIC</strong></span>&nbsp; <a href="https://www.liceuldeartamarinsorescucraiova.ro/page/noutati/informatii.html"><span style="color: rgb(44, 130, 201);"><span style="font-family: Verdana,Geneva,sans-serif;">click</span>&nbsp; &nbsp; </span></a><span style="color: rgb(44, 130, 201);">&nbsp; &nbsp; &nbsp;</span></p><p><a href="https://www.facebook.com/lamscraiova"><img src="../uploads/content_images/images%20(1).png" style="width: 68px;" class="fr-fic fr-dib fr-fil"></a><span style="color: rgb(44, 130, 201);"><a href="https://www.isjdolj.ro/content/informare-privind-protec%C8%9Bia-datelor-cu-caracter-personal"><span style="font-family: Verdana, Geneva, sans-serif; font-size: 18px;"><strong>Informare privind protecția datelor cu caracter personal</strong></span></a></span></p><p><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><span style="color: rgb(0, 0, 0);"><span style="font-family: Verdana, Geneva, sans-serif; font-size: 18px;"><strong><strong>GRAFICUL DE DESFĂȘURARE AL PROBELOR DE DIFERENȚE </strong></strong></span></span></p><p style="text-align: center;"><span style="color: rgb(0, 0, 0);"><span style="font-family: Verdana, Geneva, sans-serif; font-size: 18px;"><strong><strong>PENTRU ANUL ȘCOLAR 2023 - 2024 - MUZICĂ ȘI ARTE VIZUALE </strong></strong></span><span style="font-family: Verdana, Geneva, sans-serif; font-size: 18px;"><strong><strong>&nbsp;-</strong></strong></span></span><span style="color: rgb(44, 130, 201);"><span style="font-family: Verdana, Geneva, sans-serif; font-size: 18px;"><strong><strong>&nbsp;</strong></strong><strong><a href="https://www.liceuldeartamarinsorescucraiova.ro/page/noutati/informatii.html">Informații</a></strong></span></span></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><span style="color: rgb(0, 0, 0);"><span style="font-family: Verdana, Geneva, sans-serif; font-size: 24px;"><strong>LICEUL DE ARTE &rdquo;MARIN SORESCU&rdquo; &Icirc;N CALITATE DE BENEFICIAR IMPLEMENTEAZĂ </strong></span></span></p><p style="text-align: center;"><span style="color: rgb(0, 0, 0);"><span style="font-family: Verdana, Geneva, sans-serif; font-size: 24px;"><strong>PROIECTUL &rdquo;</strong><strong>SMART ART LAB (SMART LAB PENTRU FIECARE &Icirc;N PARTE)&rdquo;</strong></span></span></p><p style="text-align: center;"><span style="color: rgb(0, 0, 0);"><span style="font-family: Verdana, Geneva, sans-serif; font-size: 24px;"><strong>COD PROIECT: &nbsp;F-PNRR-SmartLabs-2023-1920</strong></span></span></p><p style="text-align: center;"><br></p><p style="text-align: center;"><img src="../uploads/content_images/IMG-20240109-WA0010.jpg" style="width: 380px;" class="fr-fic fr-dib"></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><img src="../uploads/content_images/Concert%20de%20Craciun-19.12.2023.jpg" style="width: 300px;" class="fr-fic fr-dib"></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 14px;"><strong><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 18px;"><strong>&nbsp;Liceul de Arte &rdquo;Marin Sorescu&rdquo; anunță organizarea concursului </strong></span></span></strong></span></span></p><p style="text-align: center;"><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 14px;"><strong><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 18px;"><strong>pentru ocuparea &nbsp;posturilor didactice/catedre/ore vacante din unitate, </strong></span></span></strong><strong><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 18px;"><strong>profesori calificați și necalificați &nbsp;</strong></span></span></strong><span style="color: rgb(44, 130, 201);"><span style="font-size: 18px;"><a href="https://www.liceuldeartamarinsorescucraiova.ro/page/noutati/noutati.html">click</a></span></span></span></span></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 14px;"><strong><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 18px;"><strong>Festivitatea de deschidere a anului școlar 2023-2024</strong></span></span></strong></span></span></p><p style="text-align: center;"><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 14px;"><strong><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 18px;"><strong>&nbsp;va avea loc &icirc;n data de 11.09.2023, &icirc;ncep&acirc;nd cu ora 10:00 </strong></span></span></strong></span></span></p><p style="text-align: center;"><br></p><p style="text-align: center;"><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 14px;"><strong>STRUCTURA ANULUI ȘCOLAR 2023-2024 - </strong></span><span style="color: rgb(44, 130, 201);"><a class="fr-file" href="../uploads/content_files//ORDIN%20nr.%203.800%20din%209%20martie%202023.pdf">O.M.E nr.3800/9.03.2023</a><span style="font-size: 14px;">&nbsp; </span>&nbsp;</span></span></p><h5><br></h5><p style="text-align: center;"><img src="../uploads/content_images/Calendar-an-scolar-2023-2024-Dolj.jpg" style="width: 409px;" class="fr-fic fr-dib"></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><span style="font-family: Verdana, Geneva, sans-serif; font-size: 14px;"><strong>COMUNICAT DE PRESĂ&sbquo; - LANSARE PROIECT &rdquo;CREȘTEREA CAPACITĂȚII DE REZILIENȚĂ&sbquo; A SISTEMULUI EDUCAȚONAL DIN MUNICIPIUL CRAIOVA PRIN DOTAREA CU MOBILIER, MATERIALE DIDACTICE ȘI ECHIPAMENTE DIGITALE-CRAIOVA EDUCATĂ&sbquo;&rdquo; -</strong></span><span style="font-family: Verdana, Geneva, sans-serif; font-size: 18px;"><strong>&nbsp;</strong></span><span style="font-family: Verdana, Geneva, sans-serif; font-size: 14px;"><span style="color: rgb(44, 130, 201);"><a class="fr-file" href="../uploads/content_files//adresa%20comunicat_230823_113312.pdf">click</a></span></span></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><br></p><p style="text-align: center;"><span style="color: rgb(44, 130, 201);"><span style="font-family: Verdana,Geneva,sans-serif;"><strong><span style="color: rgb(0, 0, 0);"><span style="font-family: Verdana,Geneva,sans-serif;"><strong><span style="font-family: Verdana,Geneva,sans-serif;"><strong><span style="color: rgb(44, 130, 201);"><span style="font-family: Verdana,Geneva,sans-serif;"><strong><span style="color: rgb(44, 130, 201);"><span style="font-family: Verdana,Geneva,sans-serif;"><strong><span style="color: rgb(44, 130, 201); font-size: 18px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></strong></span></span></strong></span></span></strong></span></strong></span></span></strong></span></span></p><p style="text-align: center;"><span style="color: rgb(44, 130, 201);"><span style="font-family: Verdana,Geneva,sans-serif;"><strong><span style="font-family: Verdana,Geneva,sans-serif;"><strong><span style="font-size: 14px;"><span style="color: rgb(44, 130, 201);"><span style="font-family: Verdana,Geneva,sans-serif;"><strong><span style="font-family: Verdana,Geneva,sans-serif;"><strong>&nbsp; </strong></span></strong></span></span></span></strong></span></strong></span></span><span style="color: rgb(0, 0, 0);"><span style="font-size: 14px;"><span style="font-family: Verdana,Geneva,sans-serif;"><strong><span style="font-family: Verdana,Geneva,sans-serif;"><strong>&nbsp;</strong></span></strong></span></span></span></p><p><strong><span style="font-family: Verdana,Geneva,sans-serif;">Proiect cofinan&Egrave;&rsaquo;at din Fondul Social European prin Programul Opera&Egrave;&rsaquo;ional Capital Uman 2014-2020 - PROIECT POCU 146587 - PROF</span></strong></p><p><strong style="background-color: transparent;"><span style="font-family: Verdana,Geneva,sans-serif;">Liceul de Arte &rdquo;Marin Sorescu&rdquo; face parte din BPP &icirc;mpreun&Auml;&fnof; cu Colegiul Na&Egrave;&rsaquo;ional &rdquo;Fra&Egrave;&rsaquo;ii Buze&Egrave;&trade;ti&rdquo; - &Egrave;&trade;coala de aplica&Egrave;&rsaquo;ie.</span></strong></p><ul><li><span style="font-family: Verdana,Geneva,sans-serif;"><u><strong><br></strong></u></span></li><li><span style="font-family: Verdana,Geneva,sans-serif;"><strong>Titlu proiect: </strong><strong>PROFESIONALIZAREA CARIEREI DIDACTICE - PROF</strong></span></li><li dir="ltr"><span style="font-family: Verdana,Geneva,sans-serif;"><strong>Beneficiar: </strong><strong>MINISTERUL EDUCA&Egrave;&scaron;IEI</strong></span></li><li dir="ltr"><span style="font-family: Verdana,Geneva,sans-serif;"><strong>Partener: </strong></span><strong><span style="font-family: Verdana,Geneva,sans-serif;">Casa Corpului Didactic Dolj , </span><span style="color: rgb(44, 130, 201);"><a href="https://www.ccddj.ro/prof.php"><span style="font-family: Verdana,Geneva,sans-serif;">https://www.ccddj.ro/prof.php</span></a>&nbsp;</span></strong></li><li dir="ltr"><strong><span style="font-family: Verdana,Geneva,sans-serif;"><strong><em>Accesarea link-urilor proiectului:</em></strong></span></strong></li></ul><ol><li><strong><span style="font-family: Verdana,Geneva,sans-serif;">- Site-ul proiectului PROF: </span></strong><span style="color: rgb(44, 130, 201);"><span style="font-family: Verdana,Geneva,sans-serif;"><a href="https://www.google.com/url?q=https%3A%2F%2Fgrants.ulbsibiu.ro%2Fprof-mentorat%2F&sa=D&sntz=1&usg=AFQjCNGernuPYXV_RNfcpDzWCOWsdSvDzw" target="_blank"><strong>https://grants.ulbsibiu.ro/prof-mentorat/</strong></a></span></span></li><li><span style="font-family: Verdana,Geneva,sans-serif;"><strong>- Link PROF - Ministerul Educa&Egrave;&rsaquo;iei: </strong></span><span style="color: rgb(44, 130, 201);"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.edu.ro%2FPROF&sa=D&sntz=1&usg=AFQjCNEukPbRnlMY9-w1fkUhph7zwLC1vQ" target="_blank"><strong><span style="font-family: Verdana,Geneva,sans-serif;">https://www.edu.ro/PROF</span></strong></a></span></li></ol><ul><li><strong style="background-color: transparent;"><span style="font-family: Verdana,Geneva,sans-seriGrafice de pregatire pt. probele de aptituni.pdff;"><img src="../uploads/content_images/prof_logo.png" style="width: 253px;" class="fr-fic fr-dib fr-fil"></span></strong><span style="font-family: Verdana,Geneva,sans-serif;"><br></span></li><li><br></li></ul><p><br></p><p style="text-align: center;"><span style="font-size: 14px;"><em><strong><span style="font-family: Verdana,Geneva,sans-serif;">RATA DE VACCINARE &Icirc;N R&Acirc;NDUL PERSONALULUI DIN LICEUL DE ARTE &rdquo;MARIN SORESCU&rdquo; &nbsp;</span></strong></em><em><strong><span style="font-family: Verdana,Geneva,sans-serif;">VACCINAT &Icirc;MPOTRIVA COVID-19 CU CEL PU&Egrave;&scaron;IN O DOZ&Auml;&sbquo; ESTE DE <span style="font-size: 14px;"><em><strong><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 14px;"><em><strong><span style="font-family: Verdana,Geneva,sans-serif;">73,96%.</span></strong></em></span></span></strong></em></span></span></strong></em></span></p><p style="text-align: center;"><br></p><p><br></p>
+		 
+	   </div>
+	</section>
+	<script>
+$(document).ready(function(){
+	
+	$('#closeBtnID').click(function(){
+		
+		localStorage.setItem("cookieExit", "set");
+		$('#cookieAlertBoxID').hide();
+		
+	});
+
+	if(localStorage.getItem("cookieExit") == null){
+		//alert('este null');
+		$('#cookieAlertBoxID').show();
+	}else if (localStorage.getItem("cookieExit") == "set" ){
+		//alert('este setat');
+		$('#cookieAlertBoxID').hide();	
+	}
+	
+	$('.contact-us-toggle').click(function(){
+	    
+	    
+	    $('.contact-us-ct').toggle();
+	    
+	})	
+		
+});
+</script>
+
+<style>
+.cookieAlertBox {
+	background-color: #666666;
+    display: none;
+    float: left !important;
+    padding: 10px 0;
+    position: fixed !important;
+    bottom: 0;
+    width: 100% !important;
+    z-index: 100000;
+}
+.cookieAlertBox .midContent {
+	float: none;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    padding: 1rem 1rem 1rem 4.5rem;
+    text-align: justify;
+}
+.cookieAlertBox .cookie-closebtn {
+    position: absolute;
+    right: 3px;
+}
+.midContent a {
+    color: #FFFFFF !important;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin-top: 20px !important;
+}
+.icon.closeBtn {
+    background-position: 0 -300px;
+    cursor: pointer;
+    height: 35px;
+    text-indent: -9999px;
+    width: 35px;
+}
+.midContent p {
+    color: #FFFFFF;
+    text-align: justify;
+    padding-right: 45px;
+    line-height: 20px;
+}
+.icon, .btn {
+    background-repeat: no-repeat;
+    background-color: transparent;
+    display: inline-block;
+    float: left;
+}
+</style>
+<style>
+.contact-us-ct{
+    position: fixed;
+    right: 18px;
+    bottom: 160px;
+    width: 310px;
+    height: 40px;
+    z-index: 9999;
+    display: none;
+}
+.contact-us-button{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 3px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+	position:relative;
+}
+
+.contact-us-button.fb-1{
+    background: url(images/icon/messenger-logo.PNG), #b0e7ff;
+    background-size: 37px;
+}
+.contact-us-button.fb-2{
+    background: url(images/icon/messenger-logo.PNG), #b0e7ff;
+    background-size: 37px;
+}
+.contact-us-button.wa-1{
+    background: url(images/icon/whatsapp-logo.PNG), #d4ffdc;
+    background-size: 37px;
+}
+.contact-us-button.wa-2{
+    background: url(images/icon/whatsapp-logo.PNG), #d4ffdc;
+    background-size: 37px;
+}
+.contact-us-button.email{
+   background: url(images/icon/mail-logo.PNG), #baf5ff;
+    background-size: 37px; 
+}
+.contact-us-button.phone-1{
+  background: url(images/icon/phone-logo.PNG), #d1fcff;
+  background-size: 37px;  
+}
+.contact-us-button.phone-2{
+  background: url(images/icon/phone-logo.PNG), #d1fcff;
+  background-size: 37px;  
+}
+
+.contact-us-button.phone-1::before{
+	content:"1";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #ec35e8;
+	line-height: 22px;
+	color: #fff;
+	text-align: center;
+	border-radius: 100px;
+}
+.contact-us-button.phone-2::before{
+	content:"2";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #ec35e8;
+	line-height: 22px;
+	color: #fff;
+	text-align: center;
+	border-radius: 100px;
+}
+
+.contact-us-button.wa-1::before{
+	content:"1";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #ec35e8;
+	line-height: 22px;
+	color: #fff;
+	text-align: center;
+	border-radius: 100px;
+}
+
+.contact-us-button.wa-2::before{
+	content:"2";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #ec35e8;
+	line-height: 22px;
+	color: #fff;
+	text-align: center;
+	border-radius: 100px;
+}	
+
+.contact-us-button.fb-1::before{
+	content:"1";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #ec35e8;
+	line-height: 22px;
+	color: #fff;
+	text-align: center;
+	border-radius: 100px;
+}
+
+.contact-us-button.fb-2::before{
+	content:"2";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #ec35e8;
+	line-height: 22px;
+	color: #fff;
+	text-align: center;
+	border-radius: 100px;
+}	
+
+.contact-us-toggle{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    padding: 5px;
+    font-size: 28px;
+    border: 1px solid #b65eb4;
+    z-index: 9999;
+    border-radius: 4px;
+    opacity: 0.9;
+    background: rgba(144, 39, 142, 0.7);
+    color: #FFF;
+    font-family: dancing script;
+}
+</style>
+<!--<button class="contact-us-toggle">Contactează-ne !</button>-->
+
+<!--
+<div class="contact-us-ct" >
+
+<a href="tel:+40768826367" target="_blank"><div class="contact-us-button phone-1"></div></a>
+<a href="tel:+40768751381" target="_blank"><div class="contact-us-button phone-2"></div></a>
+
+<a href="mailto:office@nunti-de-vis.ro" target="_blank"><div class="contact-us-button email"></div></a><a>
+    
+</a><a href="https://api.whatsapp.com/send?phone=447459254958" target="_blank"><div class="contact-us-button wa-1"></div></a>
+</a><a href="https://api.whatsapp.com/send?phone=447908302463" target="_blank"><div class="contact-us-button wa-2"></div></a>
+
+<a href="https://m.me/ancuta.borseri" target="_blank"><div class="contact-us-button fb-1"></div></a>
+<a href="https://m.me/CosminAlin.Nisipeanu" target="_blank"><div class="contact-us-button fb-2"></div></a>
+
+</div>
+-->
+
+<div id="cookieAlertBoxID" class="cookieAlertBox" style="display: none;">
+    <div class="midContent">
+        
+        <p align="left">Cookie-urile sunt esențiale pentru ca dvs. să profitați la maximum de site-ul nostru. De fapt, aproape toate site-urile web folosesc acest tip de fișier. Cookie-urile stochează preferințele dvs. și alte informații care ne ajută să îmbunătățim site-ul web - dar nu vă faceți griji, nicio informație colectată de pe site-ul nostru nu vă identifică personal. Puteți afla mai multe despre cookie-uri și cum le puteți controla cu setările de navigare.
+		De ce sunt necesare cookie-uri?
+		</p> 
+		
+		<p>
+		De ce sunt necesare cookie-uri?<br><br>
+		Cookie-urile pot fi considerate, fără exagerare, punctul central al funcționării eficiente a internetului, asigurând o experiență de navigare prietenoasă și personalizată în funcție de preferințele și interesele fiecărui utilizator.
+		</p>
+		
+		<p align="center">
+		
+			<a id="closeBtnID" class="btn btn-custom" class="link" style='margin:0 auto;max-width: 600px;' >
+				Accept folosirea cookie-urilor
+			</a>
+        
+		</p>
+    
+	</div>
+</div>
+
+
+       <!--======== footer =========-->
+        <footer class='footer'>
+            <div class='foot-top'>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-md-3 col-sm-6 mb-30'>
+                            <div class='company-details'>
+                               
+								<h3 class='foot-title'>Pagini</h3>
+								<ul >
+                                    
+			<li >
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home.html" >Home</a>
+				<ul class="quick-link">
+				
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/index.html" >
+							  Prima pagina
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/istoric.html" >
+							 Despre noi
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/misiune-si-viziune.html" >
+							 Viziunea și Misiunea
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/oferta-educationala.html" >
+							 Oferta educațională
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/clasa-pregatitoare.html" >
+							 Înscriere preșcolar-primar
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/admitere-liceu.html" >
+							 Admitere liceu
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/evaluare-nationala.html" >
+							 Evaluare națională - II,IV,VI,VIII
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/home/bacalaureat.html" >
+							 Bacalaureat-Atestat
+							</a>
+						</li>
+						
+				</ul>
+				
+			<li >
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management.html" >Management</a>
+				<ul class="quick-link">
+				
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/conducerea-liceului.html" >
+							 Echipa managerială
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/ca.html" >
+							 Consiliul de Administrație-Hotărâri
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/curriculum.html" >
+							 Comisia pentru curriculum
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/comisii.html" >
+							 Responsabili comisii 
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/CEAC.html" >
+							 CEAC
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/control-managerial-Intern.html" >
+							 Comisia - Control intern managerial
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/legislatie.html" >
+							 Protocoale - Legislație
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/buget.html" >
+							 Bugetul de venituri și cheltuieli
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/management/documente-manageriale.html" >
+							 Documente manageriale
+							</a>
+						</li>
+						
+				</ul>
+				
+			<li >
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale.html" >Profesori și elevi</a>
+				<ul class="quick-link">
+				
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/resurse-umane.html" >
+							 Resurse umane
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/diriginti.html" >
+							 Diriginți-Săli de clasă
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/VERDE.html" >
+							 SĂPTĂMÂNA VERDE
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/ALTFEL.html" >
+							 ȘCOALA ALTFEL
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/activitati.html" >
+							 Activități educaționale
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/concursuri.html" >
+							  Concursuri/Olimpiade 
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/resurse-educationale/platforma-e-learning.html" >
+							  E-learning - Resurse educaționale deschise
+							</a>
+						</li>
+						
+				</ul>
+				
+			<li >
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/acla.html" >A.C.L.A</a>
+				<ul class="quick-link">
+				
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/acla/DONATII.html" >
+							  DONAȚII - ACTIVITĂȚI
+							</a>
+						</li>
+						
+				</ul>
+				
+			<li >
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/noutati.html" >Informații</a>
+				<ul class="quick-link">
+				
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/noutati/documente-utile.html" >
+							  Centru acreditat - ECDL,CERTIPORT
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/noutati/burse-sociale.html" >
+							 Burse sociale- Program Bani de liceu-Manuale
+							</a>
+						</li>
+						
+						<li >
+							<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/noutati/informatii.html" >
+							 Informații de interes public
+							</a>
+						</li>
+						
+				</ul>
+				
+			<li >
+				<a href="https://www.liceuldeartamarinsorescucraiova.ro/page/Contact.html" >Contact</a>
+			</li>
+			
+								</ul>
+								<!--
+								<img src='https://www.liceuldeartamarinsorescucraiova.ro/images/logo.png' class='foot-logo' alt='Liceuldeartamarinsorescu'>
+                                <ul class='address'>
+                                    <li>
+                                        <i class='flat flaticon-location-pin'></i>
+                                        <p>Adresa: Str. Tabaci Nr.4, Craiova, Dolj, Romania</p>
+                                    </li>
+                                    <li>
+                                        <i class='flat flaticon-phone-call'></i>
+                                        <p><a href='tel: 0251413351' target='_blank'> 0251 413 351</a></p>
+                                    </li>
+                                    <li>
+                                        <i class='flat flaticon-web'></i>
+                                        <p><a href='liceuldeartacv2007@yahoo.com' target='_blank'>liceuldeartacv2007@yahoo.com</a></p>
+                                        
+                                    </li>
+                                    
+                                </ul>
+								<ul class='foot-social'>
+                                    <li>
+                                        <a href='https://www.facebook.com//'>
+                                            <i class='fa fa-facebook'></i>
+                                        </a>
+                                    </li>
+                                  
+                                   
+                                    <li>
+                                        <a href='https://www.instagram.com//'>
+                                            <i class='fa fa-instagram'></i>
+                                        </a>
+                                    </li>
+                                   
+                                </ul>
+								-->
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-sm-6 mb-30'>
+                            <div class='useful-links'>
+                                <h3 class='foot-title'>Legături utile</h3>
+                                <ul >
+									<li class='news-post'>
+										<a href=' https://www.isjdolj.ro/'>ISJ Dolj</a>
+									</li>
+									
+									<li class='news-post'>
+										<a href=' https://edu.ro/'>Ministerul Educației </a>
+									</li>
+									
+									<li class='news-post'>
+										<a href=' http://www.ccddj.ro/'>CCD Dolj</a>
+									</li>
+									
+									<li class='news-post'>
+										<a href=' http://uap.ro/'>UAP - Uniunea Artiștilor Plastici din România</a>
+									</li>
+									
+										<li class='news-post'>
+										<a href=' https://uapcraiova.ro/'>UAP - Uniunea Artiștilor Plastici din România - Filiala Craiova</a>
+									</li>
+									
+									<li class='news-post'>
+										<a href=' http://www.filarmonica-oltenia.ro/'>Filarmonica Oltenia Craiova</a>
+									</li>
+									
+									<li class='news-post'>
+										<a href='https://ecdl.ro/'>ECDL Romania</a>
+									</li>
+									
+									<li class='news-post'>
+										<a href='https://eos.ro/'>Fundația EOS – CERTIPORT</a>
+									</li>
+									
+								</ul>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-sm-6 mb-30'>
+                            <div class='recent-post'>
+                                <h3 class='foot-title'>Contact</h3>
+                                <ul>
+                                  
+										<li  class='news-post'>
+											<p><i class='flat flaticon-location-pin'></i> Adresa: Str. Tabaci Nr.4, Craiova, Dolj, Romania, Cod poștal 200642</p>
+										</li>
+										<li  class='news-post'>
+											<p><i class='flat flaticon-phone-call'></i> 0251 413 351</p>
+										</li>
+										<li  class='news-post'>
+											<p><i class='flat flaticon-email'></i> liceuldeartacv2007@yahoo.com</p>
+										</li>
+										<li  class='news-post'>
+											<p> Website <a href='www.liceuldeartamarinsorescucraiova.ro'> www.liceuldeartamarinsorescucraiova.ro </a></p>
+											<p>Administrator site, Mary Petrescu </p>
+										</li>
+										<li  class='news-post'>
+										    <p>Rețele sociale </p> <p><a href='https://www.facebook.com/lamscraiova' target='_blank'><i class='fa fa-facebook'></i></a></p>
+										</li>
+										
+										
+										
+										<li class='news-post'>
+											PROGRAM AUDIENȚE DIRECTOR 
+										<br>- Marți & Joi 10.00-12.00 (public extern) - Marți & Joi  09.00-11.00 (elevi și personalul liceului) </br>			PROGRAM AUDIENȚE DIRECTOR ADJUNCT
+										<br>- Miercuri & Vineri, 09.00-11.00 (elevi și personalul liceului) </br>		
+											
+										</li>
+										
+										<li class='news-post'>
+											PROGRAM SECRETARIAT 
+										<br>- Relații cu publicul * Luni-Vineri, 11.00-13.00</br>
+										- Eliberări acte de studii              * Miercuri, 12.00-14.00
+										</li>
+										
+								   <!--
+									<li class='news-post'>
+										Liceul de Arte "Marin Sorescu" Craiova
+									 </li>
+									<li class='news-post'>
+										Adresa: Str. Tabaci Nr.4, Craiova, Dolj, Romania
+									</li>
+									<li class='news-post'>
+										Telefon/Fax:0251/413351             
+										<br>
+										E-mail: liceuldeartacv2007@yahoo.com
+										<br>
+										Website: www.liceuldeartamarinsorescucraiova.ro  
+									</li>
+									<li class='news-post'>
+										AUDIENȚE
+									</li>
+								   -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-sm-6 mb-30'>
+                            <div class='insta-feed'>
+                                <h3 class='foot-title'>Harta</h3>
+                                <div class='clearfix'>
+                                   <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11420.362289087612!2d23.79407!3d44.3080885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20ad32c611d64a6f!2sLiceul%20Artelor%20%E2%80%9EMarin%20Sorescu%E2%80%9D!5e0!3m2!1sro!2sro!4v1634306866042!5m2!1sro!2sro' width='100%' height='300' style='border:0;' allowfullscreen='' loading='lazy'></iframe>
+                                   
+                    				
+                    				
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='foot-bottom'>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-sm-12'>
+                            <p>Liceul de Arte Marin Sorescu - 2019. Site realizat și administrat de Mary Petrescu.
+                              
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- wrapper end-->
+    </div>
+
+    <!-- bootstraps js -->
+    <script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/bootstrap.min.js'></script>
+    <!--wow js -->
+    <script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/wow.js'></script>
+    <!-- owl carousel js -->
+    <script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/owl.carousel.min.js'></script>
+    <!-- waypoints js plugin -->
+    <script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/jquery.waypoints.min.js'></script>
+    <!-- counter-up js plugin -->
+    <script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/jquery.counterup.min.js'></script>
+    <!-- images-loaded js -->
+    <script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/imagesloaded.js'></script>
+    <!-- slick js -->
+    <script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/slick.min.js'></script>
+    <!-- slicknav js -->
+    <script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/jquery.slicknav.js'></script>
+    <!-- isotope js -->
+    <script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/isotope.min.js'></script>
+    <!-- lity js -->
+    <script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/lity.min.js'></script>
+    
+    <script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/custom.js'></script>
+	
+	<!-- datetimepicker -->
+	<script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/moment.js'></script>
+	<link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/css/bootstrap-datetimepicker.css'>
+	<script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/bootstrap-datetimepicker.js'></script>
+	
+	<!-- fresco -->
+	<link rel='stylesheet' href='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/fresco/css/fresco.css'>
+	<script src='https://www.liceuldeartamarinsorescucraiova.ro/assets_v1.0.12_custom/js/fresco/js/fresco.js'></script>
+	
+		<script>
+		$(document).ready(function(){
+			$('.closeAlertMsg').click(function(){
+				$('.alertMsg').hide();
+			})
+			setTimeout(function(){ 
+				$('.alertMsg').hide();
+			}, 10000);
+			
+			function generateRnd(){
+					
+					var randomNr = Math.floor((Math.random() * 2) + 1) * Math.cos( Math.PI * Math.round( Math.random() ) );
+					return randomNr;
+			}
+			
+			
+			$('.column-gal img').each(function(){
+				
+				$(this).css({
+					"transform":  "skew(1deg) rotate("+generateRnd()+"deg)"
+					
+				})
+				
+			})
+			
+		})	
+	</script>
+		
+</body>
+
+</html>
+

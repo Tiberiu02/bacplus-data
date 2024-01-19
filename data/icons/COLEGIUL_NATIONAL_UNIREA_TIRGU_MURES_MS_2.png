@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <title>Not Found 404 | Colegiul Naţional „Unirea”</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="common-files/main2015.css">
+<script src="bootstrap/jquery.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+<script>
+function csere2015(prefix, id, fajl, c) {
+	x = document.getElementById(id);
+	if (c) x.src = prefix + "newicons/" + fajl + ".png";
+	else x.src = prefix + "newicons/" + fajl + "1.png";
+}
+</script>
+<!--[if lt IE 9]>
+<script src="bootstrap/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="container chenar">
+    <!-- antet -->
+    <header>
+        <div class="row">
+            <div class="col-lg-12">
+                <a href="index.php" class="sigla"><img id="sigla" alt="sigla" width="180" height="141" src="newicons/logo.png"></a>
+<div class='wrap'>
+<span class="antet-titlu" style="color: #808080">Not Found</span><span class="antet-subtitlu" style="color: #5f5f5f"><span class="glyphicon glyphicon-star myiconblue" aria-hidden="true"></span> Colegiul Naţional „Unirea” <span class="glyphicon glyphicon-star myiconblue" aria-hidden="true"></span></span></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- breadcrumbs -->
+                <ol class="breadcrumb">
+                    <li class="active">Not Found 404</li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <!-- meniu principal -->
+
+
+    <!-- continut -->
+    <div class="row">
+
+        <!-- MAIN CONTENT -->
+        <section class="col-sm-8 col-md-8 col-lg-9 contentstyle">
+            <h1 style="padding-top: 10px;">Not Found 404</h1>
+
+            <h2>Nu puteţi vizualiza această pagină pentru că:</h2>
+            <ul class="mylist">
+                <li>Un motor de căutare are o listare expirată pentru acestă pagină</li>
+                <li>O adresă / parametru a fost introdus greşit</li>
+                <li>Resursa solicitată nu a fost găsită</li>
+            </ul>
+
+            <h2>Nem tudja megtekinteni az oldalt a következőkből adódóan:</h2>
+            <ul class="mylist">
+                <li>Egy keresőmotornak egy lejárt bejegyzése van az oldalról</li>
+                <li>Egy cím / paraméter hibásan volt beírva</li>
+                <li>A kért tartalmat nem találtuk meg</li>
+            </ul>
+
+            <h2>You can not view this page because:</h2>
+            <ul class="mylist">
+                <li>A search engine has an old listing for this page</li>
+                <li>An address / parameter was entered incorrectly</li>
+                <li>The requested resource was not found</li>
+            </ul>
+
+        </section>
+    </div>
+
+    <br>
+
+    <!-- footer MECS -->
+    <div class="footmecs">
+        <div class="row">
+            <div class="col-lg-12">
+                <p style="margin-bottom:0px; text-align: center;">
+                    <img src="newicons/logomec2.png" alt="mecsigla" style="margin-top: 0; margin-bottom: 10px; border: 0;" width="64" height="64">
+<span id="footext0">M E C</span><span id="footext3">Ministerul Educaţiei</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+
+</body>
+</html>

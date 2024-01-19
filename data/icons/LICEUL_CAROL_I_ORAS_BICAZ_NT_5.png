@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<html>
+
+<head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Liceul Carol I Bicaz">
+
+<!-- Dynamic title tag -->
+<title>Pagina nu a fost găsită | Liceul Carol I Bicaz</title>
+
+<!-- Dynamic description tag -->
+<meta name="description" content="! Se pare că această pagină nu exist">
+
+<!-- Favicon -->
+<link rel="icon" href="https://liceulcarolbicaz.ro/bl-themes/kiss/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://liceulcarolbicaz.ro/bl-content/uploads/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://liceulcarolbicaz.ro/bl-content/uploads/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://liceulcarolbicaz.ro/bl-content/uploads/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://liceulcarolbicaz.ro/bl-content/uploads/favicon/site.webmanifest">
+<link rel="mask-icon" href="https://liceulcarolbicaz.ro/bl-content/uploads/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="https://liceulcarolbicaz.ro/bl-content/uploads/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="https://liceulcarolbicaz.ro/bl-content/uploads/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<!-- CSS: Styles for this theme -->
+<link rel="stylesheet" type="text/css" href="https://liceulcarolbicaz.ro/bl-themes/kiss/css/style.css?version=3.13.1">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet", defer>
+
+<!-- Load Bludit Plugins: Site head -->
+<link rel="canonical" href="https://liceulcarolbicaz.ro/"/>
+
+<!-- Open Graph -->
+<meta property="og:locale" content="ro, ro_RO">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Pagina nu a fost găsită">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://liceulcarolbicaz.ro/">
+<meta property="og:site_name" content="Liceul Carol I Bicaz">
+<meta property="og:image" content="https://liceulcarolbicaz.ro/bl-content/uploads/liceul-carol-bicaz-fb-share.png">
+
+<!-- Robots plugin -->
+<link rel="alternate" type="application/rss+xml" href="https://liceulcarolbicaz.ro/rss.xml" title="RSS Feed">
+</head>
+
+<body>
+
+	<!-- Load Bludit Plugins: Site Body Begin -->
+	
+	<!-- Navbar -->
+	<body>
+
+	<header id="top">
+
+		<div class="text-center">
+
+			<div class="header-content twelve columns">
+				<h1 id="logo-text"><a title="Liceul Carol I Bicaz" href="https://liceulcarolbicaz.ro/"><img height="150" width="125" src="https://liceulcarolbicaz.ro/bl-content/uploads/logo-liceul-carol-bicaz.svg" alt="Logo Liceul Carol I Bicaz"></a></h1>
+				<p id="intro">Tradiție și personalitate în educația nemțeană</p>
+			</div>
+
+		</div>
+
+		<nav id="nav-wrap">
+			<div id="menu-mobile">
+				<ul>
+					<li><a href="https://liceulcarolbicaz.ro/">Home</a></li>
+					<li><a href="https://liceulcarolbicaz.ro/despre">Despre liceu</a></li>
+					<li><a href="https://liceulcarolbicaz.ro/elevi">Elevi</a></li>
+					<li><a href="https://liceulcarolbicaz.ro/cat/proiecte">Proiecte</a></li>
+					<li><a href="https://liceulcarolbicaz.ro/cat/noutati">Noutăți</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="hamburger-icon" id="icon">
+				<div class="icon-1" id="a"></div>
+				<div class="icon-2" id="b"></div>
+				<div class="icon-3" id="c"></div>
+				<div class="nav-subtext">menu</div>
+			</div>
+
+
+			<div class="dark-blue" id="blue"></div>
+
+
+
+
+		</nav> <!-- end #nav-wrap -->
+		<div id="menu-desktop">
+			<ul>
+				<li><a href="https://liceulcarolbicaz.ro/despre">Despre liceu</a></li>
+				<li><a href="https://liceulcarolbicaz.ro/elevi">Elevi</a></li>
+				<li><a href="https://liceulcarolbicaz.ro/cat/proiecte">Proiecte</a></li>
+				<li><a href="https://liceulcarolbicaz.ro/cat/noutati">Noutăți</a></li>
+			</ul>
+		</div>
+
+		<div class="plugin search-box"><div class="search-icon"><i class="icon-search"></i></div><div class="plugin-content"><input type="text" id="jspluginSearchText" /> <label for="jspluginSearchText" style="font-size:0.01px;">Scrie în căsuța de căutare </label><svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;"
+		xml:space="preserve">
+	 <path class="border" d="M335.5,108.5h-280c-18.7,0-53.3,0-53.3,0"/>
+	 <path class="border" d="M335.5,108.5h280c14.4,0,53,0,53,0"/>
+   </svg><div class="go-icon"  onClick="pluginSearch()"><i class="icon-arrow-right"></i></div></div></div><script>
+	function pluginSearch() {
+		var text = document.getElementById("jspluginSearchText").value;
+		window.open('https://liceulcarolbicaz.ro/'+'search/'+text, '_self');
+		return false;
+	}
+
+	document.getElementById("jspluginSearchText").onkeypress = function(e) {
+		if (!e) e = window.event;
+		var keyCode = e.keyCode || e.which;
+		if (keyCode == '13'){
+			pluginSearch();
+			return false;
+		}
+	}
+</script>	</header> <!-- Header End -->
+	<div id="content-wrap">
+		<div id="main" class="container">
+
+			<!-- Content -->
+			<!-- Post -->
+
+<!-- Load Bludit Plugins: Page Begin -->
+
+
+
+<article class="entry page-single">
+
+	<header class="entry-header">
+		
+		<h2 class="entry-title color1">
+			Pagina nu a fost găsită		</h2>
+		<!-- Page description -->
+		
+		<div class="entry-meta"><ul><li></li></ul>		</div>
+
+	</header>
+
+	<!-- Cover image -->
+	
+	<div class="entry-content">
+		Hey! Se pare că această pagină nu există.	</div>
+
+	
+</article>
+
+<!-- Load Bludit Plugins: Page End -->
+		</div>
+		<!-- <div id="sidebar" class="container" style="margin-top:20rem;">
+			<div class="plugin search-box"><div class="search-icon"><i class="icon-search"></i></div><div class="plugin-content"><input type="text" id="jspluginSearchText" /> <label for="jspluginSearchText" style="font-size:0.01px;">Scrie în căsuța de căutare </label><svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;"
+		xml:space="preserve">
+	 <path class="border" d="M335.5,108.5h-280c-18.7,0-53.3,0-53.3,0"/>
+	 <path class="border" d="M335.5,108.5h280c14.4,0,53,0,53,0"/>
+   </svg><div class="go-icon"  onClick="pluginSearch()"><i class="icon-arrow-right"></i></div></div></div><script>
+	function pluginSearch() {
+		var text = document.getElementById("jspluginSearchText").value;
+		window.open('https://liceulcarolbicaz.ro/'+'search/'+text, '_self');
+		return false;
+	}
+
+	document.getElementById("jspluginSearchText").onkeypress = function(e) {
+		if (!e) e = window.event;
+		var keyCode = e.keyCode || e.which;
+		if (keyCode == '13'){
+			pluginSearch();
+			return false;
+		}
+	}
+</script><div class="plugin plugin-pages"><h2 class="plugin-label">Links</h2><div class="plugin-content"><ul><li><a href="https://www.bludit.com">Bludit</a></li><li><a href="https://pro.bludit.com">Bludit PRO</a></li></ul></div></div>		</div> -->
+	</div>
+
+
+		</div> <!-- end content-wrap -->
+
+
+
+	<!-- Footer -->
+	<footer>
+  <div class="container">
+    <div class="row menu-bottom text-center" style="line-height:2rem;  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: normal;">
+    <div class="column">
+      <a href="/despre">DESPRE LICEU</a>
+    </div>
+    <div class="column">
+      <a href="/elevi">ELEVI</a>
+    </div>
+    <div class="column">
+      <a href="/cat/proiecte">PROIECTE</a>
+    </div>
+    <div class="column">
+      <a href="/cat/noutati">NOUTĂȚI</a>
+    </div>
+    </div>
+    <div class="row">
+
+      <div class="column text-center">
+        <h3 id="contact">CONTACT</h4>
+          <p class="contact-text" style="line-height:1.7;"><a href="https://goo.gl/maps/hBAcvkbupvnNJqQ46">Str. Republicii nr. 21, Bicaz, județ Neamț</a><br />
+            secretariat: <a href="tel:0040233253541">0233 253 541</a><br />
+            email: <a href="mailto:lbicaz@isjneamt.ro">lbicaz@isjneamt.ro</a><br />
+            fax: 0233 253 036<br />
+            facebook: <a href="https://facebook.com/liceul.bicaz" target="_blank">liceul.bicaz</a>
+ 
+          <p>Acest site este dezvoltat și menținut cu ajutorul și pentru folosul elevilor și comunității. Toate materialele publicate aparțin Liceului Carol I Bicaz sau autorilor articolelor.
+            Folosirea acestui site implică acceptarea <a href="https://liceulcarolbicaz.ro/termeni-conditii">Termenilor și Condițiilor de utilizare</a> a site-ului.
+            Fii la curent cu noutățile Liceului Carol I Bicaz și abonează-te la <a href="https://liceulcarolbicaz.ro/rss.xml" target="_blank">fluxul rss de știri</a>.
+
+          </p>
+          <p class="copyright"></p>
+          <p class="copyright">Copyright © 2022 &nbsp; Design by <a title="Daniel Chindea" href="https://shmo.photos">shmo.photos</a></p>
+
+      </div>
+
+    </div>
+
+    <div id="go-top"><a class="smoothscroll " title="Back to Top" href="#top"><i class="icon-arrow-up-circle"></i></a></div>
+
+
+    <div id="overlaycookieconsent">
+      <div class="cookieconsent"> <img width="100" src="https://liceulcarolbicaz.ro/bl-content/uploads/logo-liceul-carol-bicaz.svg" alt="Logo Liceul Carol I Bicaz"><br>
+        <p>
+          Acest site folosește folosește doar cookies setate de serviciul Google de furnizare de fonturi și Google Analytics. Pentru a continua să folosești site-ul Liceul Carol I Bicaz, trebuie să fii de acord cu acest lucru</a>. Nu stocăm niciun fel de date personale. Poți opta să navighezi în continuare în completă anonimitate dacă folosești plugin-uri specializate de browser.</p>
+        <input id="agreecheckbox" type="checkbox" name="agreecookie"><span class="agreecookietext">Sunt de acord cu <a href="https://liceulcarolbicaz.ro/termeni-conditii">termenii și condițiile de utilizare</a> ale acestui site</span><br><br>
+        <button class="button" id="agreecookiebutton">Salvează</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Script -->
+<script  src="https://liceulcarolbicaz.ro/bl-themes/kiss/js/modernizr.js?version=3.13.1"></script>
+<script  src="https://liceulcarolbicaz.ro/bl-themes/kiss/js/jquery.cookie.js?version=3.13.1"></script>
+
+	<!-- Javascript -->
+	<script src="https://liceulcarolbicaz.ro/bl-kernel/js/jquery.min.js?version=3.13.1"></script>
+<script  src="https://liceulcarolbicaz.ro/bl-themes/kiss/js/main.js?version=3.13.1"></script>
+
+	<!-- Load Bludit Plugins: Site Body End -->
+	
+</body>
+
+</html>

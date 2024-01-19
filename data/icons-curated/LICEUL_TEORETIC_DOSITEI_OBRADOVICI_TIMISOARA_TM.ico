@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ro">
+	<head>
+		<title>Eroare &bull; Liceul Teoretic Dositei Obradovici</title>
+		<meta name="description" content="Liceul Teoretic &quot;Dositei Obradovici&quot; Timisoara Eroare" />
+		<meta name="keywords" content="dositei,obradovici,dositei obradovici,timisoara,liceu,liceu sarbesc, limba sarba,Matematica - Informatica,Filologie,Teoretica,Real,Uman," />
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content="ro" />
+		<meta content="VYIyUmA6Qc-2SdtxdudY7oFwI8g"/>
+		<meta name="y_key" content="a8067200839215ee" />
+		<meta name="verify-v1" content="5gcsbVlHyMc6bVxekVbxq1IowhfK01l8SN8G7t8dmCY=" />
+		<link rel="stylesheet" type="text/css" href="/themes/default/css/style.css.php" title="Default (ecran)" media="screen"/>
+		<script type="text/javascript" src="/js/load.js.php"></script>
+		<script type="text/javascript">
+				//<![CDATA[
+					jLoad();
+				///]]>
+				</script>
+			<script type="text/javascript">
+			//<![CDATA[
+
+				$(document).ready(function(){
+							
+					$('input[type="text"]').addClass("idleField");
+       					$('input[type="text"]').focus(function() {
+       						$(this).removeClass("idleField").addClass("focusField");
+    		    			if (this.value == this.defaultValue){ 
+    		    				this.value = '';
+							}
+							if(this.value != this.defaultValue){
+	    						this.select();
+	    					}
+    					});
+    					$('input[type="text"]').blur(function() {
+    						$(this).removeClass("focusField").addClass("idleField");
+    		    			if ($.trim(this.value) == ''){
+			    				this.value = (this.defaultValue ? this.defaultValue : '');
+							}
+    					});
+    					
+    					$('input[type="password"]').addClass("idleField");
+       					$('input[type="password"]').focus(function() {
+       						$(this).removeClass("idleField").addClass("focusField");
+    		    			if (this.value == this.defaultValue){ 
+    		    				this.value = '';
+							}
+							if(this.value != this.defaultValue){
+	    						this.select();
+	    					}
+    					});
+    					$('input[type="password"]').blur(function() {
+    						$(this).removeClass("focusField").addClass("idleField");
+    		    			if ($.trim(this.value) == ''){
+			    				this.value = (this.defaultValue ? this.defaultValue : '');
+							}
+    					});
+									
+				});
+				
+			//]]>
+			</script>
+	</head>
+	<body>
+	<div id="container">
+			<div id="header"></div>
+			<div id="topbody"></div>
+			<div id="main">
+			<div id="menu">
+				<ul>
+					<li><a href="/" title="Acas�" rel="home">home</a></li>
+					<li><a href="/stiri/" title="Stiri" rel="Stiri">stiri</a></li>
+					<li><a href="/clasa/" title="Clase" rel="clasa">clase</a></li>			<li><a href="/profesori/" title="Profesori" rel="profesori">cadre didactice</a></li>											
+					<li><a href="/links/" title="Link-uri" rel="links">link-uri</a></li>
+					<li><a href="/galerie/" title="Galerie" rel="gallery">galerie foto</a></li>
+					<li><a href="/contact/" title="Contact" rel="contact">contact</a></li>
+				</ul>
+				<script type="text/javascript">
+			//<![CDATA[
+				jLoad();
+				jLoad("jquery.validate");
+			///]]>
+			</script>
+			<script type="text/javascript">
+			//<![CDATA[
+
+				$(document).ready(function(){
+					$("#login").validate({
+						rules : {
+							username:"required",
+							password:"required"
+						},
+						messages :{
+							username: "Trebuie sa specificati un username!",
+							password: "Trebuie sa introduceti o parola!"
+						},
+						errorLabelContainer: "#erori",
+						wrapper:"li"
+					});
+					
+					$('input[type="text"]').addClass("idleField");
+       					$('input[type="text"]').focus(function() {
+       						$(this).removeClass("idleField").addClass("focusField");
+    		    			if (this.value == this.defaultValue){ 
+    		    				this.value = '';
+							}
+							if(this.value != this.defaultValue){
+	    						this.select();
+	    					}
+    					});
+    					$('input[type="text"]').blur(function() {
+    						$(this).removeClass("focusField").addClass("idleField");
+    		    			if ($.trim(this.value) == ''){
+			    				this.value = (this.defaultValue ? this.defaultValue : '');
+							}
+    					});
+    					
+    					$('input[type="password"]').addClass("idleField");
+       					$('input[type="password"]').focus(function() {
+       						$(this).removeClass("idleField").addClass("focusField");
+    		    			if (this.value == this.defaultValue){ 
+    		    				this.value = '';
+							}
+							if(this.value != this.defaultValue){
+	    						this.select();
+	    					}
+    					});
+    					$('input[type="password"]').blur(function() {
+    						$(this).removeClass("focusField").addClass("idleField");
+    		    			if ($.trim(this.value) == ''){
+			    				this.value = (this.defaultValue ? this.defaultValue : '');
+							}
+    					});
+									
+				});
+				
+			//]]>
+			</script>
+			<h1>Autentificare</h1>
+					<form action="/login/" method="post" id="login">
+						<div id="loginform">
+							<label for="username">Utilizator:</label><br />
+							<input type="text" name="username" id="username" /><br /><br />
+							<label for="password">Parola:</label><br />
+							<input type="password" name="password" id="password" /><br />
+							<label for="remeber">ţine-mã minte</label> <input type="checkbox" name="remember" id="remeber" /><br /><br />
+							<input type="submit" name="login" value="login" />
+						</div>
+						<div id="erori" style="width:auto;"></div>
+					</form>
+					
+			</div>
+			<div id="content">
+				<h1>Eroare</h1>Modulul cerut de dvs. &quot;<span style="font-style:italic; font-weight:bold">favicon.ico</span> &quot; nu existã sau nu a fost instalat.<br /> Ne pare rãu pentru aceastã inconvenienţã.
+			</div>
+			</div>
+			<div id="bottombody"></div>
+			<div id="footer">&copy; 2024  Liceul Teoretic Dositei Obradovici<br />
+				Web Design by <a href="http://vukomir.info">Ianculov Vucomir</a><br /><a href="http://penguin-host.com"><img src="http://vukomir.info/penguin.jpg" border="0" alt="" /></a></div>
+		</div>
+		<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9331044-5");
+pageTracker._trackPageview();
+} catch(err) {}</script>	</body>
+</html>

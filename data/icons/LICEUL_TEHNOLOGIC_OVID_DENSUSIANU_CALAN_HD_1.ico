@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-US">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Liceul Tehnologic Ovid Densusianu Calan</title>
+	<link rel="shortcut icon" href="http://ltodcalan.ro/favicon.ico" type="image/x-icon"/>
+	<meta name="keywords" content="calan, liceu, ovid densusianu, liceul tehologic, hunedoara, orasul calan, calan orasul nou">
+	<meta name="description" content="Liceul tehnologic Ovid Densusianu Calan. Scoala din Calan cu istoria, activitatii si poze. Acesta este paginia oficiala a liceul tehnologic Ovid Densusianu.">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/css/screen_prod.css" media="all" />
+	<!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <![endif]-->
+</head>
+<body>
+<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/ro_RO/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+	<header>
+		<div class="wrap">
+			<h1>Liceul Tehnologic <span>Ovid Densusianu</span>Calan</h1>
+			<nav>
+				<ul>
+					<li><a href="/index.php">Acasa</a></li>
+					<li><a href="/istoric.php">Istoric</a></li>
+					<li><a href="/prezentare.php">Prezentare</a></li>
+					<li><a href="/organigrama.php">Organigrama</a></li>
+					<li><a href="/oferta.php">Oferta scolara - Documente Unitate</a></li>
+					<li><a href="/examene.php">Examene</a></li>
+					<li><a href="/inscriere.php">Inscriere</a></li>
+					<li><a href="/galerie.php">Galerie</a></li>
+					<li><a href="/activitati.php">Activitati</a></li>
+					<li><a href="/contact.php">Contact</a></li>
+					<li><a href="/anunturi.php">Anunturi</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header><section id="main" class="contact">
+	<h2>Pagina nu a fost gasita.</h2>
+	<h4>Eroare. Acesta pagina fie a fost stearsa fie nu exista. Ne puteti contacta pentru a va ajuta sau va puteti intoarce la pagina prinicipala</h4>
+	<div class="hr"></div>
+	<div class="link icon-pad-right">
+		<a class="block pad" href="/index.php"><span class="glyphicon glyphicon-home"></span>Pagina principala</a>
+		<a class="block pad" href="/contact.php"><span class="glyphicon glyphicon-envelope"></span>Pagina de contact</a>
+	</div>
+</section>
+	<div class="pre-footer">
+		<div class="wrap">
+			<div>
+				<h3>Unde ne gasiti?</h3>
+				<p>
+				   LICEUL TEHNOLOGIC "OVID DENSUSIANU" CALAN<br>
+				   Str. Ovid Densusianu, nr. 5,<br>
+				   Calan, Hunedoara
+				</p>
+				<p>
+				   Cod poştal: 335300 <br>
+				   Telefon: 0254-730610, 0254-731002 <br>
+				   Fax: 0254-730610, 0254-731002 <br>
+				   E-mail: liceucalan2000@yahoo.com
+				</p>
+				<div class="fb-like fb-box" data-href="https://www.facebook.com/ltodcalan" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+			</div>
+			<div>
+				<h3>Despre noi</h3>
+				<p>
+				   Acesta este paginia oficiala a liceul tehnologic Ovid Densusianu.
+				   Aici puteti gasii informatii despre inscrieri, admiteri, examene, activitatii si multe altele.
+				</p>
+				<p>
+				   Puteti viziona galeria foto unde veti gasi diferite poze cu scoala si activitatile desfasurate in cadrul scolii
+				   De asemenea ne puteti contact pentru orice intrebari.
+				</p>
+			</div>
+			<div class="partners">
+				<h3>Linkuri utile</h3>
+				<a href="http://www.edu.ro/index.php" target="_blank">Ministerul Educatiei</a>
+				<a href="http://www.isj.hd.edu.ro/" target="_blank">Inspectoratul Scolar Judetean Hunedoara</a>
+				<a href="http://www.siphd.ro/" target="_blank">Sindicatul Învăţământ Preuniversitar Judeţul Hunedoara</a>
+				<a href="http://www.didactic.ro/" target="_blank">Didactic</a>
+				<a href="http://dexonline.ro/" target="_blank">DEX Online</a>
+				<a href="http://ro.wikipedia.org/wiki/Pagina_principal%C4%83" target="_blank">Wikipedia</a>
+				<a href="https://vaccinare-covid.gov.ro/" target="_blank">#rovaccinare</a>
+				<a href="http://www.primariacalan.ro" target="_blank">Primaria Calan</a>
+			</div>
+			<div>
+				<h3>Newsletter</h3>
+				<p>
+				   Abonati-va la newsletter pentru a putea fii informat de noutati si schimbari.
+				</p>
+				<form action="email/mail.php" method="post">
+					<input type="text" class="email" name="email" id="email" placeholder="Email" />
+					<input type="submit" class="submit" name="newsletter" id="newsletter" value="Aboneazate" />
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p> Liceul Tehnic Ovid Densusianu © Copyright 2024. </p>
+	</footer>
+	<script type="text/javascript" src="/js/all_prod.js"></script>
+</body>
+</html>

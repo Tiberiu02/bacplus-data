@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Anastasia Popescu</title>
+		<link rel="stylesheet" type="text/css" href="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/style.css">
+		<link rel="stylesheet" href="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/css/bootstrap.min.css">
+		<script src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/js/jquery-3.3.1.min.js"></script>
+		<script src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/js/bootstrap.min.js"></script>
+		<script src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/js/shine.min.js"></script>
+		<link rel="shortcut icon" href="/favicon/favicon.ico">
+	</head>
+</html>	
+	
+
+<div class="container-fluid">
+  <div class="row frontbluebg">
+    <div class="col-md-3">
+        <div class="space-top-10 d-none d-lg-block"></div>
+    <img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/logo-lpgap.png" width="160" height="160" class="img-fluid mx-auto d-block" alt="Liceul Pedagogic Ortodox Anastasia Popescu">
+    <div class="space-bottom-10 d-none d-lg-block"></div>
+    </div>
+	
+    <div class="col-md-6 align-self-center space-top-2">
+        <div class="d-none d-lg-block"></div>
+    <div class="d-none d-lg-block">
+    <h1 id="shine-thin" class="shine-header-thin">LICEUL PEDAGOGIC ORTODOX</h1>
+    <h1 id="shine-thick" class="shine-header">ANASTASIA POPESCU</h1>
+    </div>
+    <div class="d-lg-none">
+    <h1 class="shine-header-thin-s">LICEUL PEDAGOGIC ORTODOX</h1>
+    <h1 class="shine-header-s">ANASTASIA POPESCU</h1>
+    </div>
+    </div>
+	
+    <div class="col-md-3">
+        <div class="space-top-10 d-none d-lg-block"></div>
+    <img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/logo-sfmaria.png" width="160" height="160" class="img-fluid mx-auto d-block" alt="Fundația Preasfânta Fecioară Maria">
+    <div class="space-bottom-5 d-none d-lg-block"></div>
+    </div>
+    
+    <div class="accordion d-none d-xl-block">
+      <ul>
+      <li>
+      <div>
+      <a href="https://www.anastasiapopescu.ro/liceu" target="_self" class="sliderLink">
+      <h2>&#8197; CLASE LICEALE</h2></a>
+      </div>
+      </li>
+      <li>
+      <div>
+      <a href="https://www.anastasiapopescu.ro/scoala" class="sliderLink">
+      <h2>&#8197; CLASE PRIMARE ȘI GIMNAZIALE</h2></a>
+      </div>
+      </li>
+      <li>
+      <div>
+      <a href="https://www.anastasiapopescu.ro/gradinite" class="sliderLink">
+      <h2>&#8197; GRĂDINIȚELE ARC-EN-CIEL</h2>
+      </a>
+      </div>
+      </li>
+      </ul>
+    </div>
+    
+    <div class="col-lg-4 space-top-2 text-center">
+      <a href="https://www.anastasiapopescu.ro/liceu/" class="btn btn-light" target="_self"><h4 class="royalblue"><strong>CLASE LICEALE</strong></h4></a><br>
+      <a href="https://www.anastasiapopescu.ro/liceu/asigurarea-calitatii/" class="btn btn-outline-light" target="_self"><h6><strong>Asigurarea Calității</strong></h6><span class="btn-text">Mediului Educațional</span></a>
+      <a href="https://www.anastasiapopescu.ro/liceu/category/blog-appo/" class="btn btn-outline-light" target="_self"><h6><strong>AP(P)O</strong></h6><span class="btn-text">Academia Părinților (Pre)Ocupați</span></a>
+    </div>
+    <div class="col-lg-4 space-top-2 text-center">
+      <a href="https://www.anastasiapopescu.ro/scoala/" class="btn btn-light" target="_self"><h4 class="seagreen"><strong>CLASE PRIMARE<br class="d-none d-lg-block d-xl-none"> ȘI GIMNAZIALE</strong></h4></a><br>
+      <a href="https://www.anastasiapopescu.ro/scoala/erasmus-plus/" class="btn btn-outline-light" target="_self"><h6><strong>Erasmus +</strong></h6><span class="btn-text">Proiecte europene</span></a>
+    </div>
+	
+    <div class="col-lg-4 space-top-2 text-center">
+        <a href="https://www.anastasiapopescu.ro/gradinite/" class="btn btn-light" target="_self"><h4 class="darkorange"><strong>GRĂDINIȚELE<br class="d-none d-lg-block d-xl-none"> ARC-EN-CIEL</strong></h4></a><br>
+      <a href="https://www.anastasiapopescu.ro/gradinite" class="btn btn-outline-light" target="_self"><h6><strong>Art(h)é</strong></h6><span class="btn-text">Clubul de Arte Plastice</span></a>
+      <a href="https://www.anastasiapopescu.ro/gradinite" class="btn btn-outline-light" target="_self"><h6><strong>Arc-en-Ciel Estival</strong></h6><span class="btn-text">Grădinița și Scoala de Vară</span></a>
+    </div>
+	
+    <div class="btn mx-auto d-block">
+    <a href="#sectiunea-2" class="smooth-scroll">
+        <img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/scroll-down.svg" width="60" height="60" alt="Află mai mult ...">
+        </a>
+    </div>
+  </div>
+  <div class="row bluebg bluedivider-down space-top-5"></div>
+</div>
+
+<div id="sectiunea-2" class="container">
+  <div class="row">
+    <div class="col-lg-5 d-none d-lg-block space-top-10 space-bottom-5">
+      <p class="space-top-5"><img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/book-fly-butterfly.png" alt="Prof. Mona Șerbănescu"></p>
+    </div>
+    <div class="col-lg-7 space-top-10 space-bottom-5 paper front-speech">
+      <p class="text-center"><strong>O școală pentru viitor, o școală pentru viață</strong></p>
+	  <p class="text-justify">Poveștile au farmec și le căutăm la orice vârstă. De aceea am să încep prin a vă depăna povestea noastră, care a pornit cu aproape 30 de ani în urmă, atunci când am inițiat prima formă de învățământ „altfel”; am pornit-o, cuminți, cu grădinița. Așa au luat ființă Grădinițele „Arc-en-Ciel”. Am crescut odată cu copiii noștri, am trecut de la preșcolari la școala primară, apoi la gimnaziu și, din 2016, am făcut pasul spre acest Palat al Învățării, numit „LICEU”.</p>
+      <p class="text-justify">Când se vorbește de învățământ superior, lumea se referă automat la cel universitar. Ca și când liceul ar fi doar o treaptă spre atingerea unui deziderat, care înseamnă facultatea. De fapt, liceul este exact acea perioadă care te împlinește din toate punctele de vedere, intelectual, sufletește, emoțional, pentru toată viața. Este o etapă foarte importantă pentru fiecare adolescent, deci și pentru viitorul adult.</p>
+      <p class="text-justify">La terminarea liceului nostru, fiecare elevă sau elev are nu doar o diplomă care să-i permită să acceadă la facultate, ci o profesie minunată, cea de educatoare sau de învățător / învățătoare, o profesie care îi poate sluji toată viața, ca apoi, la rândul său, să formeze generațiile de mâine ale României. Mai mult decât atât, la finalizarea examenului de Bacalaureat, elevele și elevii noștri pot deveni colegii foștilor lor profesori.</p>
+	  <p class="text-justify">Liceul Pedagogic „Anastasia Popescu” oferă cunoștințe de bază temeinice, la fel -  chiar mai mult - ca orice alt liceu de elită din București sau din țară, iar, în plus, orarul se îmbogățește cu orele în care vorbim despre pedagogie – Metode și tehnici de învățare, Istoria pedagogiei, Alternative educaționale, Psihopedagogie specială, Didactici inovative în viziune transdisciplinară, Psihologia educației – precum și multe ore de cultură vizuală, artă teatrală și muzicală, iar, din acest an, Mind Lab – complexul de jocuri la care noi am fost mereu campioni - pe care îl aducem acum și la liceu. Am mai adăuga la beneficii trei limbi străine și o română vorbită corect gramatical și depășind cu mult vocabularul de bază în ceea ce privește bogăția lexicală.</p>
+	  <p class="text-justify">Nu trebuie ignorat faptul că toate aceste acumulări, mediul deosebit de prietenos, starea de bine, care reprezintă o țintă permanentă a colectivului de profesori, valorile culturale și spirituale pe care este clădită viața școlii sunt tot atâtea premise pentru cariere din cele mai diverse - nu doar cea didactică - de la drept, la arhitectură și medicină, fiindcă posibilitatea  transferului de cunoștințe se recomandă ca fiind o constantă a demersului didactic și miezul însuși al acestui tip de învățare.</p>
+	  <p class="text-justify">Nu în ultimul rând, deși poate fi o concluzie, toate principiile pedagogice acumulate în liceu vor prinde bine mai târziu, fie că vor fi puse în practică față de viitorii colegi, în orice domeniu de activitate ulterioară, fie că se vor dovedi valoroase pentru copiii-elevi, din postura de cadru didactic, fie că vor fi aplicate pentru propriii copii, ca părinți.</p>
+      <p class="text-justify">Așadar, drum frumos în viață, întru Bine, Adevăr și Iubire!</p>
+	  <p class="text-right space-top-5">Prof. Dr. <strong>Monica Șerbănescu</strong></p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row bluedivider-up"></div>
+  <div class="row bluebg ">
+    <div class="col-12 text-center almostwhite space-top-5 space-bottom-5">
+      <p class="front-quote">“J’ai toujours pensé que l’école, c’était d’abord les professeurs”</p>
+      <div class="col-md-4 offset-md-5 white"><em><b>Daniel Pennac</b>, Chagrin d’école</em></div>
+    </div>
+  </div>
+  <div class="row bluebg bluedivider-down"></div>
+</div>
+
+<div class="container">
+  <div class="row space-top-5">
+    <div class="col-lg-7 space-bottom-5">
+      <h3 style="font-weight:400; margin-top:10vh;font-style: italic">Cine a fost Anastasia Popescu</h3>
+      <p class="text-justify space-top-5"><em>Anastasia Popescu (1911-1995) a fost o profesoară  de religie, autoarea cărții „Cum să-i învățăm pe copii religia?”, neobosită misionară crestină ce şi-a câştigat un loc onorabil în confesiunea creştină ortodoxă, în patrimoniul culturii neamului, militând pentru și reușind introducerea studiului religiei în şcolile româneşti după 1990. Avea pe atunci venerabila varstă de 79 de ani.</em></p>
+      <p class="text-justify"><em>Amintirea sa va dăinui luminoasă în mintea şi inima tuturor celor care au cunoscut-o și i-au spus simplu, Mama Sica.</em></p>
+    </div>
+    <div class="col-lg-5 space-bottom-5">
+      <img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/AnastasiaPopescu-400.jpg" class="img-fluid float-right" alt="Prof. Anastasia Popescu">
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+ <div class="row footerdivider"></div>
+ <div id="footer" class="row justify-content-center">
+  <div class="col-lg-3 footer-links">
+    <ul>
+    <li><p><a href="https://www.anastasiapopescu.ro/liceu/" target="_self">Liceul Pedagogic Ortodox "Anastasia Popescu"</a><br>
+    - <a href="https://www.anastasiapopescu.ro/liceu/academia-parintilor-preocupati/" target="_self">Academia Părinților (Pre)Ocupați</a></p>
+    </li>
+    <li><p><a href="https://www.anastasiapopescu.ro/scoala/" target="_self">Clase Primare și Gimnaziale</a><br>
+    - <a href="https://www.anastasiapopescu.ro/scoala/erasmus-plus/" target="_self">Proiecte europene, Erasmus Plus</a></p></li>
+    <li><p><a href="https://www.anastasiapopescu.ro/gradinite/" target="_self">Grădinițele "Arc-en-Ciel"</a><br>
+    - <a href="https://www.anastasiapopescu.ro/gradinite/category/arthe/" target="_self">Art(h)é - Clubul de Arte Plastice</a><br>
+    - <a href="https://www.anastasiapopescu.ro/gradinite/category/arc-en-ciel-estival/" target="_self">Arc-en-Ciel Estival, Grădinița și Scoala de Vară</a></p></li>
+    </ul>
+    <ul class="space-top-2">
+    <li><a href="https://www.anastasiapopescu.ro/liceu/politica-de-confidentialitate/" target="_self">GDPR, Politică de confidențialitate</a>
+    </li>
+    </ul>
+  </div>
+  
+  <div class="col-lg-3 footer-links">
+  <table class="table table-borderless">
+    <tr id="address">
+    <td><img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/address-32.png" alt=""></td>
+    <td>Str. Ion Heliade Radulescu nr. 18, Sector 2, 021585 – București</td>
+    </tr>
+    <tr id="phone">
+    <td><img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/telephone-32.png" alt=""></td>
+    <td>(+4) 021 252 2387</td>
+    </tr>
+    <tr id="fax">
+    <td><img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/fax-32.png" alt=""></td>
+      <td>(+4) 021 252 7082</td>
+    </tr>
+    <tr id="mobile">
+    <td><img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/mobile-32.png" alt=""></td>
+    <td>(+4) 0726 126 808</td>
+    </tr>
+    <tr id="email">
+    <td><img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/email-32.png" alt=""></td>
+    <td>secretariat@anastasiapopescu.ro</td>
+    </tr>
+  </table>
+    <hr class="hr-fade" />
+  <div class="float-left"> &#160; <a href="https://www.youtube.com/channel/UCkPLrTup1ASM9mopX95jZ3Q" target="_blank"><img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/youtube-48.png" alt=""> &#160; </a></div>
+  <div class="float-left">&#160; <a href="https://www.facebook.com/liceulanastasiapopescu/" target="_blank"><img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/facebook-48.png" alt=""></a> &#160; </div>
+  </div>
+
+  <div class="col-lg-3">
+   <div class="text-center"><img src="https://www.anastasiapopescu.ro/wp-content/themes/my-theme/images/logo-footer.png" class="img-fluid" alt="Anastasia Popescu"></div>
+  </div>
+</div>
+</div>
+<div class="container-fluid">
+<div id="lastrow" class="row justify-content-center">
+  <div class="col-sm-10 col-md-8">
+    <p>Copyright © 1994 - 2032 &#160; &#160; Liceul Pedagogic "Anastasia Popescu", Grădinițele Arc-en-Ciel</p>
+  </div>
+</div>
+</div>
+<script>
+//shine
+var shineA = new Shine(document.getElementById('shine-thin'))
+var shineB = new Shine(document.getElementById('shine-thick'));
+function handleMouseMove(event) {shineA.light.position.x = event.clientX;shineA.light.position.y = event.clientY;shineA.draw();shineB.light.position.x = event.clientX;shineB.light.position.y = event.clientY;shineB.draw();}
+    window.addEventListener('mousemove', handleMouseMove, true);
+//scroll to anchor
+$('a.smooth-scroll[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+</script>
