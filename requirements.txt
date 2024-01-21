@@ -10,3 +10,4 @@ termcolor
 openai
 requests
 favicon
+Pillow
