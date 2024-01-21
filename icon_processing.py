@@ -11,7 +11,7 @@ from PIL import Image
 load_dotenv()
 
 input_path = "data/icons-curated"
-output_path = "data/icons-curated-processed"
+output_path = "data/output-icons"
 
 icons = os.listdir(input_path)
 
@@ -30,14 +30,10 @@ def process_and_save_image(input_path, output_path):
 
         # Resize if larger than 32x32
         if img.size[0] > 32 or img.size[1] > 32:
-            img = img.resize((32, 32), Image.ANTIALIAS)
+            img = img.resize((32, 32))
 
         # Save the image
-        img.convert("RGB").save(output_path, format="PNG")
-
-
-# Example usage
-process_and_save_image("path/to/input/image.jpg", "path/to/output/image.png")
+        img.save(output_path, format="PNG")
 
 
 conn = sqlite3.connect(os.getenv("DB_FILE"))
