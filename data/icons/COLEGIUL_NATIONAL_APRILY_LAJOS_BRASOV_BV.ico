@@ -1,519 +1,0 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ro-ro" lang="ro-ro" dir="ltr">
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-                                <!-- head -->
-                	<base href="https://www.aprilyfogimnazium.ro/ro/" />
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Áprily Lajos Főgimnázium - Brassó</title>
-	<link href="/images/fav.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-	<link href="/components/com_sppagebuilder/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<link href="/components/com_sppagebuilder/assets/css/animate.min.css" rel="stylesheet" type="text/css" />
-	<link href="/components/com_sppagebuilder/assets/css/sppagebuilder.css" rel="stylesheet" type="text/css" />
-	<link href="/components/com_sppagebuilder/assets/css/magnific-popup.css" rel="stylesheet" type="text/css" />
-	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&amp;subset=latin" rel="stylesheet" type="text/css" />
-	<link href="//fonts.googleapis.com/css?family=Montserrat:regular,700&amp;subset=latin" rel="stylesheet" type="text/css" />
-	<link href="/templates/flex/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="/templates/flex/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<link href="/templates/flex/css/legacy.css" rel="stylesheet" type="text/css" />
-	<link href="/templates/flex/css/template.css" rel="stylesheet" type="text/css" />
-	<link href="/templates/flex/css/presets/preset1.css" rel="stylesheet" type="text/css" class="preset" />
-	<link href="/plugins/system/helix3/assets/css/pagebuilder.css" rel="stylesheet" type="text/css" />
-	<link href="/media/mod_pwebbox/css/bootstrap-custom.css" rel="stylesheet" type="text/css" />
-	<link href="/media/mod_pwebbox/css/layout.css" rel="stylesheet" type="text/css" />
-	<link href="/media/mod_pwebbox/css/animations.css" rel="stylesheet" type="text/css" />
-	<link href="/media/mod_pwebbox/css/themes/fbnavy.css" rel="stylesheet" type="text/css" />
-	<link href="/media/mod_pwebbox/cache/c8df2c60e8a706f340d9b09737b1d4dd-134.css" rel="stylesheet" type="text/css" />
-	<link href="/media/mod_pwebbox/css/ie8.css" rel="stylesheet" type="text/css" />
-	<link href="https://www.aprilyfogimnazium.ro/media/com_uniterevolution2/assets/rs-plugin/css/settings.css" rel="stylesheet" type="text/css" />
-	<link href="https://www.aprilyfogimnazium.ro/media/com_uniterevolution2/assets/rs-plugin/css/dynamic-captions.css" rel="stylesheet" type="text/css" />
-	<link href="https://www.aprilyfogimnazium.ro/media/com_uniterevolution2/assets/rs-plugin/css/static-captions.css" rel="stylesheet" type="text/css" />
-	<link href="/media/mod_falang/css/template.css" rel="stylesheet" type="text/css" />
-	<style type="text/css">
-.sp-page-builder .page-content #section-id-1680861179987{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1671806443263{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1635950700286{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1504188114548{margin:0px 0px 0px 0px;padding:0px 0px 80px 0px;}.sp-page-builder .page-content #section-id-1504187696645{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1504187696645 .sppb-section-title .sppb-title-heading {}#sppb-addon-1504189200281 {
-margin: 15px 0px 0px 0px;
-}
-.sp-page-builder .page-content #section-id-1505215140595{margin:0px 0px 0px 0px;padding:100px 0px 100px 0px;background-image:url(/images/2017/09/12/parallax-01.jpg);background-repeat:no-repeat;background-size:cover;background-attachment:scroll;background-position:50% 50%;}#sppb-addon-1504881372338 {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 a {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 a:hover,
-#sppb-addon-1504881372338 a:focus,
-#sppb-addon-1504881372338 a:active {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 .sppb-addon-title {
-font-size:36px;line-height:36px;}
-#sppb-addon-1504881372338 h2.sppb-addon-title {margin: 0 0px 30px 0px; padding: 0px 0px 0px 0px; }#sppb-addon-1504881372341 {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372341 a {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372341 a:hover,
-#sppb-addon-1504881372341 a:focus,
-#sppb-addon-1504881372341 a:active {
-	color: rgba(255, 255, 255, 1);
-}
-.sp-page-builder .page-content #section-id-1526977954781{margin:0px 0px 0px 0px;padding:50px 0px 0 0px;background-color:rgba(243, 243, 243, 1);}.sp-page-builder .page-content #section-id-1526977954781 .sppb-section-title .sppb-title-heading {}@media screen and (min-width: 992px) and (max-width: 1199px){.columns-3{width:33.3333%;}}@media screen and (min-width: 768px) and (max-width: 991px){.columns-3{width:50%}}.sp-page-builder .page-content #section-id-1504623379921{margin:0px 0px 0px 0px;padding:80px 0px 50px 0px;background-image:url(/images/2017/09/05/background.svg);background-repeat:repeat-y;background-size:cover;background-attachment:scroll;background-position:50% 100%;}#sppb-addon-1507645255205 h2.sppb-addon-title {margin: 50px 0px 30px 0px; padding: 0px 0px 0px 0px; }body{font-family:Open Sans, sans-serif; font-size:16px; font-weight:normal; }h1{font-family:Montserrat, sans-serif; font-size:40px; font-weight:normal; }h2{font-family:Montserrat, sans-serif; font-size:33px; font-weight:normal; }h3{font-family:Montserrat, sans-serif; font-size:27px; font-weight:normal; }h4{font-family:Montserrat, sans-serif; font-size:23px; font-weight:normal; }h5{font-family:Montserrat, sans-serif; font-size:20px; font-weight:normal; }h6{font-family:Montserrat, sans-serif; font-size:17px; font-weight:normal; }.sp-megamenu-parent{font-family:Montserrat, sans-serif; font-size:15px; font-weight:normal; }#sp-top-bar{ background-color:#f3f3f3;color:#333333; }#sp-top-bar a{color:#333333;}#sp-top-bar a:hover{color:#777777;}#sp-header{ color:#f0f0f0; }#sp-header a{color:#ededed;}#sp-header a:hover{color:#ffffff;}#sp-bottom{ background-color:#621228;color:#ffffff;padding:30px 0px 0 0; }#sp-footer{ background-color:#f3f3f3;color:#333333; }#sp-footer a{color:#000000;}#sp-footer a:hover{color:#232323;}.sp-page-builder .page-content #section-id-1680861179987{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1671806443263{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1635950700286{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1504188114548{margin:0px 0px 0px 0px;padding:0px 0px 80px 0px;}.sp-page-builder .page-content #section-id-1504187696645{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1504187696645 .sppb-section-title .sppb-title-heading {}#sppb-addon-1504189200281 {
-margin: 15px 0px 0px 0px;
-}
-.sp-page-builder .page-content #section-id-1505215140595{margin:0px 0px 0px 0px;padding:100px 0px 100px 0px;background-image:url(/images/2017/09/12/parallax-01.jpg);background-repeat:no-repeat;background-size:cover;background-attachment:scroll;background-position:50% 50%;}#sppb-addon-1504881372338 {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 a {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 a:hover,
-#sppb-addon-1504881372338 a:focus,
-#sppb-addon-1504881372338 a:active {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 .sppb-addon-title {
-font-size:36px;line-height:36px;}
-#sppb-addon-1504881372338 h2.sppb-addon-title {margin: 0 0px 30px 0px; padding: 0px 0px 0px 0px; }#sppb-addon-1504881372341 {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372341 a {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372341 a:hover,
-#sppb-addon-1504881372341 a:focus,
-#sppb-addon-1504881372341 a:active {
-	color: rgba(255, 255, 255, 1);
-}
-.sp-page-builder .page-content #section-id-1526977954781{margin:0px 0px 0px 0px;padding:50px 0px 0 0px;background-color:rgba(243, 243, 243, 1);}.sp-page-builder .page-content #section-id-1526977954781 .sppb-section-title .sppb-title-heading {}@media screen and (min-width: 992px) and (max-width: 1199px){.columns-3{width:33.3333%;}}@media screen and (min-width: 768px) and (max-width: 991px){.columns-3{width:50%}}.sp-page-builder .page-content #section-id-1504623379921{margin:0px 0px 0px 0px;padding:80px 0px 50px 0px;background-image:url(/images/2017/09/05/background.svg);background-repeat:repeat-y;background-size:cover;background-attachment:scroll;background-position:50% 100%;}#sppb-addon-1507645255205 h2.sppb-addon-title {margin: 50px 0px 30px 0px; padding: 0px 0px 0px 0px; }body{font-family:Open Sans, sans-serif; font-size:16px; font-weight:normal; }h1{font-family:Montserrat, sans-serif; font-size:40px; font-weight:normal; }h2{font-family:Montserrat, sans-serif; font-size:33px; font-weight:normal; }h3{font-family:Montserrat, sans-serif; font-size:27px; font-weight:normal; }h4{font-family:Montserrat, sans-serif; font-size:23px; font-weight:normal; }h5{font-family:Montserrat, sans-serif; font-size:20px; font-weight:normal; }h6{font-family:Montserrat, sans-serif; font-size:17px; font-weight:normal; }.sp-megamenu-parent{font-family:Montserrat, sans-serif; font-size:15px; font-weight:normal; }#sp-top-bar{ background-color:#f3f3f3;color:#333333; }#sp-top-bar a{color:#333333;}#sp-top-bar a:hover{color:#777777;}#sp-header{ color:#f0f0f0; }#sp-header a{color:#ededed;}#sp-header a:hover{color:#ffffff;}#sp-bottom{ background-color:#621228;color:#ffffff;padding:30px 0px 0 0; }#sp-footer{ background-color:#f3f3f3;color:#333333; }#sp-footer a{color:#000000;}#sp-footer a:hover{color:#232323;}.sp-page-builder .page-content #section-id-1504600725419{margin:0px 0px 0px 0px;padding:20px 0px 0 0px;background-color:rgba(243, 243, 243, 1);}#sppb-addon-1504600725423 {
-	color: rgba(122, 22, 50, 1);
-}
-#sppb-addon-1504600725423 a {
-	color: rgba(122, 22, 50, 1);
-}
-#sppb-addon-1504600725423 a:hover,
-#sppb-addon-1504600725423 a:focus,
-#sppb-addon-1504600725423 a:active {
-	color: rgba(122, 22, 50, 1);
-}
-.sp-page-builder .page-content #section-id-1680861179987{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1671806443263{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1635950700286{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1504188114548{margin:0px 0px 0px 0px;padding:0px 0px 80px 0px;}.sp-page-builder .page-content #section-id-1504187696645{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1504187696645 .sppb-section-title .sppb-title-heading {}#sppb-addon-1504189200281 {
-margin: 15px 0px 0px 0px;
-}
-.sp-page-builder .page-content #section-id-1505215140595{margin:0px 0px 0px 0px;padding:100px 0px 100px 0px;background-image:url(/images/2017/09/12/parallax-01.jpg);background-repeat:no-repeat;background-size:cover;background-attachment:scroll;background-position:50% 50%;}#sppb-addon-1504881372338 {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 a {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 a:hover,
-#sppb-addon-1504881372338 a:focus,
-#sppb-addon-1504881372338 a:active {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 .sppb-addon-title {
-font-size:36px;line-height:36px;}
-#sppb-addon-1504881372338 h2.sppb-addon-title {margin: 0 0px 30px 0px; padding: 0px 0px 0px 0px; }#sppb-addon-1504881372341 {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372341 a {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372341 a:hover,
-#sppb-addon-1504881372341 a:focus,
-#sppb-addon-1504881372341 a:active {
-	color: rgba(255, 255, 255, 1);
-}
-.sp-page-builder .page-content #section-id-1526977954781{margin:0px 0px 0px 0px;padding:50px 0px 0 0px;background-color:rgba(243, 243, 243, 1);}.sp-page-builder .page-content #section-id-1526977954781 .sppb-section-title .sppb-title-heading {}@media screen and (min-width: 992px) and (max-width: 1199px){.columns-3{width:33.3333%;}}@media screen and (min-width: 768px) and (max-width: 991px){.columns-3{width:50%}}.sp-page-builder .page-content #section-id-1504623379921{margin:0px 0px 0px 0px;padding:80px 0px 50px 0px;background-image:url(/images/2017/09/05/background.svg);background-repeat:repeat-y;background-size:cover;background-attachment:scroll;background-position:50% 100%;}#sppb-addon-1507645255205 h2.sppb-addon-title {margin: 50px 0px 30px 0px; padding: 0px 0px 0px 0px; }body{font-family:Open Sans, sans-serif; font-size:16px; font-weight:normal; }h1{font-family:Montserrat, sans-serif; font-size:40px; font-weight:normal; }h2{font-family:Montserrat, sans-serif; font-size:33px; font-weight:normal; }h3{font-family:Montserrat, sans-serif; font-size:27px; font-weight:normal; }h4{font-family:Montserrat, sans-serif; font-size:23px; font-weight:normal; }h5{font-family:Montserrat, sans-serif; font-size:20px; font-weight:normal; }h6{font-family:Montserrat, sans-serif; font-size:17px; font-weight:normal; }.sp-megamenu-parent{font-family:Montserrat, sans-serif; font-size:15px; font-weight:normal; }#sp-top-bar{ background-color:#f3f3f3;color:#333333; }#sp-top-bar a{color:#333333;}#sp-top-bar a:hover{color:#777777;}#sp-header{ color:#f0f0f0; }#sp-header a{color:#ededed;}#sp-header a:hover{color:#ffffff;}#sp-bottom{ background-color:#621228;color:#ffffff;padding:30px 0px 0 0; }#sp-footer{ background-color:#f3f3f3;color:#333333; }#sp-footer a{color:#000000;}#sp-footer a:hover{color:#232323;}.sp-page-builder .page-content #section-id-1680861179987{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1671806443263{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1635950700286{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1504188114548{margin:0px 0px 0px 0px;padding:0px 0px 80px 0px;}.sp-page-builder .page-content #section-id-1504187696645{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}.sp-page-builder .page-content #section-id-1504187696645 .sppb-section-title .sppb-title-heading {}#sppb-addon-1504189200281 {
-margin: 15px 0px 0px 0px;
-}
-.sp-page-builder .page-content #section-id-1505215140595{margin:0px 0px 0px 0px;padding:100px 0px 100px 0px;background-image:url(/images/2017/09/12/parallax-01.jpg);background-repeat:no-repeat;background-size:cover;background-attachment:scroll;background-position:50% 50%;}#sppb-addon-1504881372338 {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 a {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 a:hover,
-#sppb-addon-1504881372338 a:focus,
-#sppb-addon-1504881372338 a:active {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372338 .sppb-addon-title {
-font-size:36px;line-height:36px;}
-#sppb-addon-1504881372338 h2.sppb-addon-title {margin: 0 0px 30px 0px; padding: 0px 0px 0px 0px; }#sppb-addon-1504881372341 {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372341 a {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504881372341 a:hover,
-#sppb-addon-1504881372341 a:focus,
-#sppb-addon-1504881372341 a:active {
-	color: rgba(255, 255, 255, 1);
-}
-.sp-page-builder .page-content #section-id-1526977954781{margin:0px 0px 0px 0px;padding:50px 0px 0 0px;background-color:rgba(243, 243, 243, 1);}.sp-page-builder .page-content #section-id-1526977954781 .sppb-section-title .sppb-title-heading {}@media screen and (min-width: 992px) and (max-width: 1199px){.columns-3{width:33.3333%;}}@media screen and (min-width: 768px) and (max-width: 991px){.columns-3{width:50%}}.sp-page-builder .page-content #section-id-1504623379921{margin:0px 0px 0px 0px;padding:80px 0px 50px 0px;background-image:url(/images/2017/09/05/background.svg);background-repeat:repeat-y;background-size:cover;background-attachment:scroll;background-position:50% 100%;}#sppb-addon-1507645255205 h2.sppb-addon-title {margin: 50px 0px 30px 0px; padding: 0px 0px 0px 0px; }body{font-family:Open Sans, sans-serif; font-size:16px; font-weight:normal; }h1{font-family:Montserrat, sans-serif; font-size:40px; font-weight:normal; }h2{font-family:Montserrat, sans-serif; font-size:33px; font-weight:normal; }h3{font-family:Montserrat, sans-serif; font-size:27px; font-weight:normal; }h4{font-family:Montserrat, sans-serif; font-size:23px; font-weight:normal; }h5{font-family:Montserrat, sans-serif; font-size:20px; font-weight:normal; }h6{font-family:Montserrat, sans-serif; font-size:17px; font-weight:normal; }.sp-megamenu-parent{font-family:Montserrat, sans-serif; font-size:15px; font-weight:normal; }#sp-top-bar{ background-color:#f3f3f3;color:#333333; }#sp-top-bar a{color:#333333;}#sp-top-bar a:hover{color:#777777;}#sp-header{ color:#f0f0f0; }#sp-header a{color:#ededed;}#sp-header a:hover{color:#ffffff;}#sp-bottom{ background-color:#621228;color:#ffffff;padding:30px 0px 0 0; }#sp-footer{ background-color:#f3f3f3;color:#333333; }#sp-footer a{color:#000000;}#sp-footer a:hover{color:#232323;}.sp-page-builder .page-content #section-id-1504600725419{margin:0px 0px 0px 0px;padding:20px 0px 0 0px;background-color:rgba(243, 243, 243, 1);}#sppb-addon-1504600725423 {
-	color: rgba(122, 22, 50, 1);
-}
-#sppb-addon-1504600725423 a {
-	color: rgba(122, 22, 50, 1);
-}
-#sppb-addon-1504600725423 a:hover,
-#sppb-addon-1504600725423 a:focus,
-#sppb-addon-1504600725423 a:active {
-	color: rgba(122, 22, 50, 1);
-}
-.sp-page-builder .page-content #section-id-1504185995857{margin:0px 0px 0px 0px;padding:20px 0px 0 0px;}#sppb-addon-1504532634951 {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504532634951 a {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504532634951 h3.sppb-addon-title {margin: 0px 0px 30px 0px; padding: 0px 0px 0px 0px; }#sppb-addon-1504532634954 {
-	color: rgba(255, 255, 255, 1);
-}
-#sppb-addon-1504185995863 {
-margin: 50px 0 0 0;
-}
-.pwebbox-facebook-pageplugin-container, .pwebbox-facebook-pageplugin-container-in, .pwebbox-facebook-pageplugin-container-in .fb-page {max-width: 100%;}
-                     #pwebbox_facebook_pageplugin_134 {width: 400px;}
-                     .pwebbox-facebook-pageplugin-container .fb_iframe_widget, .pwebbox-facebook-pageplugin-container .fb_iframe_widget span, .pwebbox-facebook-pageplugin-container .fb_iframe_widget span iframe[style] {width: 100% !important; min-width: 180px}
-                     .pwebbox-facebook-pageplugin-pretext {margin-bottom:5px;}
-	</style>
-	<script src="/media/system/js/core.js" type="text/javascript"></script>
-	<script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
-	<script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
-	<script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
-	<script src="/components/com_sppagebuilder/assets/js/sppagebuilder.js" type="text/javascript"></script>
-	<script src="/components/com_sppagebuilder/assets/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
-	<script src="/templates/flex/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="/templates/flex/js/modernizr.js" type="text/javascript"></script>
-	<script src="/templates/flex/js/SmoothScroll.js" type="text/javascript"></script>
-	<script src="/templates/flex/js/matchheight.js" type="text/javascript"></script>
-	<script src="/templates/flex/js/jquery.easing.min.js" type="text/javascript"></script>
-	<script src="/templates/flex/js/jquery.nav.js" type="text/javascript"></script>
-	<script src="/templates/flex/js/vm-cart.js" type="text/javascript"></script>
-	<script src="/templates/flex/js/main.js" type="text/javascript"></script>
-	<script src="/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="/media/mod_pwebbox/js/jquery.pwebbox.min.js" type="text/javascript"></script>
-	<script src="https://www.aprilyfogimnazium.ro/media/com_uniterevolution2/assets/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-	<script src="https://www.aprilyfogimnazium.ro/media/com_uniterevolution2/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
-	<script type="text/javascript">
-
-var sp_preloader = '0';
-
-var sp_offanimation = 'default';
-
-var sp_preloader = '0';
-
-var sp_offanimation = 'default';
-jQuery(document).ready(function($){$("#pwebbox134").on("onOpen",function(e){FB.XFBML.parse(document.getElementById("pwebbox_facebook_pageplugin_134"));if(typeof ga!='undefined')ga('send','trackSocial','facebook','visit')})});(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/ro_RO/sdk.js#xfbml=1&appId=497672883745150&version=v2.6";fjs.parentNode.insertBefore(js,fjs);}(document,"script","facebook-jssdk"));
-	</script>
-	<script type="text/javascript">
-		(function() {
-			Joomla.JText.load({"COM_SPPAGEBUILDER_FRONTEND_EDITOR":"Frontend Editor","COM_SPPAGEBUILDER_PREVIEW":"Preview","COM_SPPAGEBUILDER_APPLY":"Apply","COM_SPPAGEBUILDER_CANCEL":"Cancel","COM_SPPAGEBUILDER_MEDIA_MANAGER":"Media Manager","COM_SPPAGEBUILDER_MEDIA_MANAGER_UPLOAD_FILES":"Upload Files","COM_SPPAGEBUILDER_MEDIA_MANAGER_CLOSE":"Close Modal","COM_SPPAGEBUILDER_MEDIA_MANAGER_INSERT":"Insert","COM_SPPAGEBUILDER_MEDIA_MANAGER_SEARCH":"Search","COM_SPPAGEBUILDER_MEDIA_MANAGER_CANCEL":"Cancel","COM_SPPAGEBUILDER_MEDIA_MANAGER_DELETE":"Delete","COM_SPPAGEBUILDER_MEDIA_MANAGER_CONFIRM_DELETE":"You are about to permanently delete this item. 'Cancel' to stop, 'OK' to delete.","COM_SPPAGEBUILDER_MEDIA_MANAGER_LOAD_MORE":"Load More","COM_SPPAGEBUILDER_MEDIA_MANAGER_UNSUPPORTED_FORMAT":"File format not supported.","COM_SPPAGEBUILDER_MEDIA_MANAGER_BROWSE_MEDIA":"Browse Media","COM_SPPAGEBUILDER_MEDIA_MANAGER_BROWSE_FOLDERS":"Browse Folders","COM_SPPAGEBUILDER_MEDIA_MANAGER_CREATE_FOLDER":"New Folder","COM_SPPAGEBUILDER_ADDON_ICON_SELECT":"Select Icon","COM_SPPAGEBUILDER_MEDIA_MANAGER_ENTER_DIRECTORY_NAME":"Please enter the name of the directory which should be created.","COM_SPPAGEBUILDER_MEDIA_MANAGER_MEDIA_UPLOADING":"Uploading","COM_SPPAGEBUILDER_MEDIA_MANAGER_UPLOAD_FAILED":"Upload Failed","COM_SPPAGEBUILDER_MEDIA_MANAGER_MEDIA_LARGE":"This file is too large to upload.","COM_SPPAGEBUILDER_MEDIA_MANAGER_FILE_NOT_SUPPORTED":"File not supported","COM_SPPAGEBUILDER_ROW_OPTIONS":"Row Options","COM_SPPAGEBUILDER_ADD_NEW_ROW":"Add New Row","COM_SPPAGEBUILDER_DUPLICATE_ROW":"Duplicate row","COM_SPPAGEBUILDER_DISABLE_ROW":"Disable Row","COM_SPPAGEBUILDER_ENABLE_ROW":"Enable Row","COM_SPPAGEBUILDER_COPY_ROW":"Copy Row","COM_SPPAGEBUILDER_ROW_COPIED":"Copied","COM_SPPAGEBUILDER_PASTE_ROW":"Paste Row","COM_SPPAGEBUILDER_DELETE_ROW":"Delete Row","COM_SPPAGEBUILDER_ROW_TOGGLE":"Toggle Row","COM_SPPAGEBUILDER_DELETE_ROW_CONFIRMATION":"Do you really want to delete this row?","COM_SPPAGEBUILDER_ROW_COLUMNS_MANAGEMENT":"Add\/Manage Columns","COM_SPPAGEBUILDER_ROW_COLUMNS_CUSTOM":"Custom","COM_SPPAGEBUILDER_ROW_COLUMNS_GENERATE":"Generate","COM_SPPAGEBUILDER_IMPORT_PAGE":"Import","COM_SPPAGEBUILDER_IMPORT_PAGE_ALT":"Import","COM_SPPAGEBUILDER_EXPORT_PAGE":"Export","COM_SPPAGEBUILDER_PAGE_TEMPLATES":"Page Templates","COM_SPPAGEBUILDER_UNDO":"Undo","COM_SPPAGEBUILDER_REDO":"Redo","COM_SPPAGEBUILDER_SAVE":"Save","COM_SPPAGEBUILDER_ROW_COLUMNS_OPTIONS":"Column Options","COM_SPPAGEBUILDER_DELETE_COLUMN":"Delete Column","COM_SPPAGEBUILDER_ADD_NEW_ADDON":"Add New Addon","COM_SPPAGEBUILDER_ADDON":"Addon","COM_SPPAGEBUILDER_DELETE_ADDON":"Delete Addon","COM_SPPAGEBUILDER_DUPLICATE_ADDON":"Clone Addon","COM_SPPAGEBUILDER_EDIT_ADDON":"Edit Addon","COM_SPPAGEBUILDER_ADDONS_LIST":"Addons List","COM_SPPAGEBUILDER_ALL":"All","COM_SPPAGEBUILDER_MODAL_CLOSE":"Close Modal","COM_SPPAGEBUILDER_DISABLE_COLUMN":"Disable Column","COM_SPPAGEBUILDER_ENABLE_COLUMN":"Enable Column","COM_SPPAGEBUILDER_YES":"Yes","COM_SPPAGEBUILDER_NO":"No","COM_SPPAGEBUILDER_PAGE_TEMPLATES_LIST":"Templates List","COM_SPPAGEBUILDER_PAGE_TEMPLATE_LOAD":"Load","COM_SPPAGEBUILDER_ENABLE_ADDON":"Enable Addon","COM_SPPAGEBUILDER_DISABLE_ADDON":"Disable Addon","COM_SPPAGEBUILDER_ADDON_PARENT_COLUMN":"Parent Column","COM_SPPAGEBUILDER_ADD_NEW_INNER_ROW":"Add Inner Row","COM_SPPAGEBUILDER_MOVE_COLUMN":"Move Column"});
-		})();
-	</script>
-	<meta content="website" property="og:type"/>
-	<meta content="https://www.aprilyfogimnazium.ro/ro/" property="og:url" />
-	<meta content="Áprily Lajos Főgimnázium - Brassó" property="og:title" />
-	<link rel="alternate" href="https://www.aprilyfogimnazium.ro/ro/" hreflang="ro" />
-	<link rel="alternate" href="https://www.aprilyfogimnazium.ro/hu/" hreflang="hu" />
-	<link rel="alternate" href="https://www.aprilyfogimnazium.ro/hu/"  hreflang="x-default" />
-
-                    </head>
-    <body class="site com-sppagebuilder view-page no-layout no-task itemid-101 ro-ro ltr  sticky-header layout-fluid off-canvas-menu-init">
-    
-        <div class="off-canvas-menu-wrap">
-            <div class="body-innerwrapper">
-    <section id="sp-top-bar"><div class="container"><div class="row"><div id="sp-top1" class="col-xs-6 col-sm-6 col-md-4 hidden-sm hidden-xs"><div class="sp-column "><ul class="social-icons"><li><a target="_blank" href="https://www.facebook.com/%C3%81prily-Lajos-F%C5%91gimn%C3%A1zium-Brass%C3%B3-164132283633278/"><i class="fa fa-facebook"></i></a></li><li ><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li></ul></div></div><div id="sp-top2" class="col-xs-8 col-sm-6 col-md-6"><div class="sp-column pull-right"><ul class="sp-contact-info"><li class="sp-contact-phone"><i class="pe pe-7s-headphones"></i> <a href="tel:0040-268-415355">0040-268-415355</a></li></ul></div></div><div id="sp-falang" class="col-xs-4 col-sm-6 col-md-2"><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
-<!-- Support of language domain from yireo  -->
-
-
-<div class="mod-languages ">
-
-    
-
-
-<ul class="lang-inline">
-    
-        <!-- >>> [PAID] >>> -->
-                    <li class="lang-active" dir="ltr">
-                                    <a href="/ro/">
-                                                    <img src="/media/mod_falang/images/ro.gif" alt="Romana" title="Romana" />                                                                    </a>
-                            </li>
-                <!-- <<< [PAID] <<< -->
-        
-    
-        <!-- >>> [PAID] >>> -->
-                    <li class="" dir="ltr">
-                                    <a href="/hu/">
-                                                    <img src="/media/mod_falang/images/hu.gif" alt="Magyar" title="Magyar" />                                                                    </a>
-                            </li>
-                <!-- <<< [PAID] <<< -->
-        
-    </ul>
-
-</div>
-</div></div></div></div></div></div></section><header id="sp-header" class="flex"><div class="container"><div class="row"><div id="sp-logo" class="col-xs-5 col-sm-4 col-md-2"><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
-
-<div class="custom"  >
-	<p><a href="/../../"><img class="logo" src="/images/alflogo-RO-2.png" alt="" /></a></p></div>
-</div></div></div></div><div id="sp-menu" class="col-xs-7 col-sm-8 col-md-10"><div class="sp-column ">			<div class="sp-megamenu-wrapper">
-				<a id="offcanvas-toggler" href="#"><i class="fa fa-bars"></i></a>
-				<ul class="sp-megamenu-parent menu-fade-down-fade-up hidden-sm hidden-xs"><li class="sp-menu-item current-item active"><a class="fo-menu" href="/ro/" >Acasă</a></li><li class="sp-menu-item sp-has-child"><a  href="http://aprilyfogimnazium.ro/ro/" >Despre noi</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/ro/despre-noi/informatii-curente" >Informații curente</a></li><li class="sp-menu-item"><a  href="/ro/rolunk/viziune-misiune-si-valori" >Viziune, misiune și valori</a></li><li class="sp-menu-item"><a  href="/ro/rolunk/regulament-de-organizare-si-functionare" >Regulament de organizare șI funcționare</a></li><li class="sp-menu-item"><a  href="/ro/rolunk/regulament-intern" >Regulament intern</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/ro/stiri" >Știri</a></li><li class="sp-menu-item"><a  href="/ro/personal" >Personal</a></li><li class="sp-menu-item"><a  href="/ro/documente" >Documente și informații utile</a></li><li class="sp-menu-item sp-has-child"><a  href="#" >Proiecte</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/ro/proiecte/erasmus" >ERASMUS +</a></li><li class="sp-menu-item"><a  href="/ro/proiecte/e-twinning" >e Twinning</a></li><li class="sp-menu-item"><a  href="/ro/proiecte/hatartalanul" >Határtalanul</a></li><li class="sp-menu-item"><a  href="/ro/proiecte/bethlen-gabor-alap" >Bethlen Gábor Alap</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/ro/contact" >Contact</a></li></ul>			</div>
-		</div></div></div></div></header><section id="sp-slider"><div class="row"><div id="sp-slider" class="col-sm-12 col-md-12"><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><!-- START REVOLUTION SLIDER 4.8.1 fullwidth mode -->
-
-<div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:550px;position:relative;z-index:0;">
-	<div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;max-height:550px;height:550px;">
-<ul>	<!-- SLIDE  1-->
-	<li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-thumb="http://net-siter.ro/inlucru/aprily/images/aprily-s.png"  data-saveperformance="off"  data-title="Slide">
-		<!-- MAIN IMAGE -->
-		<img src="https://www.aprilyfogimnazium.ro/images/aprily-fin-RObg.png"  alt=""  data-bgposition="50% 10%" data-bgfit="cover" data-bgrepeat="no-repeat">
-		<!-- LAYERS -->
-
-		<!-- LAYER NR. 1 -->
-		<div class="tp-caption tp-fade"
-			data-x="8"
-			data-y="bottom" data-voffset="-60"
-			data-speed="300"
-			data-start="500"
-			data-easing="Power3.easeInOut"
-			data-elementdelay="0.1"
-			data-endelementdelay="0.1"
-			 data-endspeed="300"
-
-			style="z-index: 5;"><img src="https://www.aprilyfogimnazium.ro/images/aprily-fintext-ro.png" alt="">
-		</div>
-	</li>
-	<!-- SLIDE  2-->
-	<li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-thumb="http://net-siter.ro/inlucru/aprily/images/aprily-s.png"  data-saveperformance="off"  data-title="Slide">
-		<!-- MAIN IMAGE -->
-		<img src="https://www.aprilyfogimnazium.ro/images/aprily-fin-RObg.png"  alt=""  data-bgposition="50% 10%" data-bgfit="cover" data-bgrepeat="no-repeat">
-		<!-- LAYERS -->
-
-		<!-- LAYER NR. 1 -->
-		<div class="tp-caption tp-fade"
-			data-x="8"
-			data-y="bottom" data-voffset="-60"
-			data-speed="300"
-			data-start="500"
-			data-easing="Power3.easeInOut"
-			data-elementdelay="0.1"
-			data-endelementdelay="0.1"
-			 data-endspeed="300"
-
-			style="z-index: 5;"><img src="https://www.aprilyfogimnazium.ro/images/aprily-fintext-ro.png" alt="">
-		</div>
-	</li>
-</ul>
-<div class="tp-bannertimer tp-bottom" style="display:none; visibility: hidden !important;"></div>	</div>
-			
-			<script type="text/javascript">
-
-					
-				/******************************************
-					-	PREPARE PLACEHOLDER FOR SLIDER	-
-				******************************************/
-								
-				 
-						var setREVStartSize = function() {
-							var	tpopt = new Object(); 
-								tpopt.startwidth = 1170;
-								tpopt.startheight = 550;
-								tpopt.container = jQuery('#rev_slider_2_1');
-								tpopt.fullScreen = "off";
-								tpopt.forceFullWidth="on";
-
-							tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
-						};
-						
-						/* CALL PLACEHOLDER */
-						setREVStartSize();
-								
-				
-				var tpj=jQuery;				
-				tpj.noConflict();				
-				var revapi2;
-				
-				
-				
-				tpj(document).ready(function() {
-				
-					
-								
-				if(tpj('#rev_slider_2_1').revolution == undefined){
-					revslider_showDoubleJqueryError('#rev_slider_2_1');
-				}else{
-				   revapi2 = tpj('#rev_slider_2_1').show().revolution(
-					{
-											
-						dottedOverlay:"none",
-						delay:9000,
-						startwidth:1170,
-						startheight:550,
-						hideThumbs:200,
-						
-						thumbWidth:100,
-						thumbHeight:50,
-						thumbAmount:1,
-													
-						simplifyAll:"off",						
-						navigationType:"none",
-						navigationArrows:"none",
-						navigationStyle:"preview1",						
-						touchenabled:"on",
-						onHoverStop:"on",						
-						nextSlideOnWindowFocus:"off",
-						
-						swipe_threshold: 75,
-						swipe_min_touches: 1,
-						drag_block_vertical: false,
-																		
-																		
-						keyboardNavigation:"off",
-						
-						navigationHAlign:"center",
-						navigationVAlign:"bottom",
-						navigationHOffset:0,
-						navigationVOffset:20,
-
-						soloArrowLeftHalign:"left",
-						soloArrowLeftValign:"center",
-						soloArrowLeftHOffset:20,
-						soloArrowLeftVOffset:0,
-
-						soloArrowRightHalign:"right",
-						soloArrowRightValign:"center",
-						soloArrowRightHOffset:20,
-						soloArrowRightVOffset:0,
-								
-						shadow:0,
-						fullWidth:"on",
-						fullScreen:"off",
-
-												spinner:"off",
-																		
-						stopLoop:"off",
-						stopAfterLoops:0,
-						stopAtSlide:1,
-
-						shuffle:"off",
-						
-						autoHeight:"off",						
-						forceFullWidth:"on",						
-												
-												
-						hideTimerBar:"on",						
-						hideThumbsOnMobile:"off",
-						hideNavDelayOnMobile:1500,
-						hideBulletsOnMobile:"off",
-						hideArrowsOnMobile:"off",
-						hideThumbsUnderResolution:0,
-						
-												hideSliderAtLimit:0,
-						hideCaptionAtLimit:0,
-						hideAllCaptionAtLilmit:0,
-						startWithSlide:0,
-						isJoomla: true
-					});
-					
-					
-					
-									}					
-				});	/*ready*/
-									
-			</script>
-			</div>
-<!-- END REVOLUTION SLIDER -->	</div></div></div></div></div></section><section id="sp-page-title"><div class="row"><div id="sp-title" class="col-sm-12 col-md-12"><div class="sp-column "></div></div></div></section><section id="sp-main-body"><div class="row"><div id="sp-component" class="col-sm-12 col-md-12"><div class="sp-column "><div id="system-message-container">
-	</div>
-<div class="above-component"></div>
-<div id="sp-page-builder" class="sp-page-builder  page-118">
-
-	
-	<div class="page-content">
-		<section id="section-id-1680861179987" class="sppb-section "  ><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-12"><div id="column-id-1680861179988" class="sppb-column" ><div class="sppb-column-addons"></div></div></div></div></div></section><section id="section-id-1671806443263" class="sppb-section "  ><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-12"><div id="column-id-1671806443264" class="sppb-column" ><div class="sppb-column-addons"></div></div></div></div></div></section><section id="section-id-1635950700286" class="sppb-section "  ><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-12"><div id="column-id-1635950700287" class="sppb-column" ><div class="sppb-column-addons"></div></div></div></div></div></section><section id="section-id-1504188114548" class="sppb-section "  ><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-12"><div id="column-id-1504188114549" class="sppb-column" ><div class="sppb-column-addons"></div></div></div></div></div></section><section id="section-id-1504187696645" class="sppb-section  intro-sor"  ><div class="sppb-row-container"><div class="sppb-section-title sppb-text-center"><h2 class="sppb-title-heading">Colegiul Național "Áprily Lajos"</h2></div><div class="sppb-row"><div class="sppb-col-md-6"><div id="column-id-1504187696646" class="sppb-column  sppb-wow fadeInLeft"  data-sppb-wow-duration="500ms"><div class="sppb-column-addons"><div id="sppb-addon-1504189200278" class="clearfix" ><div class="sppb-addon sppb-addon-text-block sppb-text-left "><div class="sppb-addon-content"><div style="text-align: justify;">
-<p>Colegiul Național &bdquo;&Aacute;prily Lajos&rdquo; este unicul colegiu cu predare &icirc;n limba maghiară din județul Brașov și din Țara B&acirc;rsei.</p>
-<p>&Icirc;n anul școlar 2022/2023 &icirc;nvăță aici un total de 680 de elevi. Cele 32 de clase acoperă cele 3 cicluri școlare. Din 2006 fosta Grădiniță cu program normal numărul &nbsp;67 (str.Uranus nr. 3)face parte din Colegiu, &nbsp;grădiniță cu trei grupe, adică 40 de copii.</p>
-<p>&Icirc;n ciclul primar, anual pornesc două clase cu un cuantum de 139 de elevi, &icirc;n gimnaziu anual sunt asemeni ciclului primar c&acirc;te două clase rezult&acirc;nd 131 de elevi; &nbsp;&icirc;n liceu &icirc;nvață 369 de elevi. Astfel rezultă o medie de 15 elevi/ clasă &icirc;n ciclul primar, 21 de elevi/clasă &icirc;n gimnaziu și 24 de elevi/clasă &nbsp;&icirc;n ciclul liceal .</p>
-<p>Cele 4 clase, din ciclul liceal, este &icirc;mpărțit &icirc;n patru profiluri:&nbsp; Matematică-Informatică (informatică intensiv), Științe ale Naturii(Biologie-Chimie), Economie (Comerț) și Filologie-(Maghiară &ndash; Engleză intensiv).</p>
-</div></div></div></div></div></div></div><div class="sppb-col-md-6"><div id="column-id-1504189200273" class="sppb-column  sppb-wow fadeInRight"  data-sppb-wow-duration="500ms"><div class="sppb-column-addons"><div id="sppb-addon-1504189200281" class="clearfix" ><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><img class="sppb-img-responsive " src="/images/2017/09/14/iskola.jpg" alt=""></div></div></div></div></div></div></div></div></div></section><section id="section-id-1505215140595" class="sppb-section "  ><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-12"><div id="column-id-1505215140596" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-1504881372338" class="clearfix" ><div class="sppb-addon sppb-addon-header sppb-text-center"><a href="/oktatas"><h2 class="sppb-addon-title">Despre Noi</h2></a></div></div><div id="sppb-addon-1504881372341" class="clearfix" ><div class="sppb-addon sppb-addon-text-block sppb-text-center "><div class="sppb-addon-content"><div style="text-align: center; font-size: 21px !important; line-height: 40px !important;">Școala și-a &icirc;nceput activitatea &icirc;n 1837 cu scopul de a oferi posibilitatea de &icirc;nvățare și formare pentru comunitatea maghiară din Brașov.</div></div></div></div></div></div></div></div></div></section><section id="section-id-1526977954781" class="sppb-section "  ><div class="sppb-row-container"><div class="sppb-section-title sppb-text-center"><h2 class="sppb-title-heading">Știri</h2></div><div class="sppb-row"><div class="sppb-col-md-12"><div id="column-id-1504189200271" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-1504604332133" class="clearfix" ><div class="sppb-addon sppb-addon-latest-posts blog sppb-row "><div class="sppb-addon-content"><div class="latest-posts clearfix"><div><div class="latest-post sppb-col-sm-4 columns-3"><div class="latest-post-inner match-height"><div class="img-wrapper"><a href="/ro/stiri/669-concurs-laborant-2024"><img class="post-img" src="/images/fav.png" alt="Anunț concurs- post laborant" /></a></div><div class="entry-meta"><span class="entry-date"> Joi, 14 Decembrie 2023</span></div><h2 class="entry-title"><a href="/ro/stiri/669-concurs-laborant-2024">Anunț concurs- post laborant</a></h2><p class="intro-text" > 
-</p></div></div><div class="latest-post sppb-col-sm-4 columns-3"><div class="latest-post-inner match-height"><div class="img-wrapper"><a href="/ro/stiri/664-karacsonyi-koncert-ro-2023"><img class="post-img" src="/images/WhatsApp-Image-2023-12-11-at-10.55.06-AM.jpeg" alt="Concertul de Crăciun al elevilor " /></a></div><div class="entry-meta"><span class="entry-date"> Vineri, 08 Decembrie 2023</span></div><h2 class="entry-title"><a href="/ro/stiri/664-karacsonyi-koncert-ro-2023">Concertul de Crăciun al elevilor </a></h2><p class="intro-text" > 
-</p></div></div><div class="latest-post sppb-col-sm-4 columns-3"><div class="latest-post-inner match-height"><div class="img-wrapper"><a href="/ro/stiri/653-chiosc-scolar-2023"><img class="post-img" src="/images/fav.png" alt="Anunț închiriere chioșc școlar " /></a></div><div class="entry-meta"><span class="entry-date"> Luni, 06 Noiembrie 2023</span></div><h2 class="entry-title"><a href="/ro/stiri/653-chiosc-scolar-2023">Anunț închiriere chioșc școlar </a></h2><p class="intro-text" > 
-</p></div></div></div></div></div></div></div></div></div></div></div></div></section><section id="section-id-1504623379921" class="sppb-section  diakelet"  ><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-3"><div id="column-id-1504623379922" class="sppb-column  sppb-wow zoomIn"  data-sppb-wow-duration="300ms"><div class="sppb-column-addons"><div id="sppb-addon-1507645255196" class="clearfix" ><div class="sppb-addon sppb-addon-single-image sppb-text-center doc-imag"><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><a href="/documente"><div class="overlay"><i class="pe pe-7s-link"></i><img class="sppb-img-responsive doc-imag" src="/images/2017/10/06/acrobat-file-adobe-document-pdf-pdf-reader-icon.png" alt=""></div></a></div></div></div></div></div></div></div><div class="sppb-col-md-9"><div id="column-id-1507645255197" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-1507645255205" class="clearfix" ><div class="sppb-addon sppb-addon-header sppb-text-left"><a href="/documente"><h2 class="sppb-addon-title">Documente, informații utile, organigramă</h2></a></div></div></div></div></div></div></div></section>			</div>
-</div>
-<div class="below-component"></div></div></div></div></section><section id="sp-bottom"><div class="container"><div class="row"><div id="sp-bottom1" class="col-sm-6 col-md-12"><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><div class="mod-sppagebuilder  sp-page-builder" >
-	<div class="page-content">
-		<div id="section-id-1504185995857" class="sppb-section "  ><div class="sppb-container-inner"><div class="sppb-row"><div class="sppb-col-md-4"><div id="column-id-1504185995858" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-1504532634951" class="clearfix" ><div class="sppb-addon sppb-addon-header sppb-text-left"><h3 class="sppb-addon-title">Despre noi</h3></div></div><div id="sppb-addon-1504532634954" class="clearfix" ><div class="sppb-addon sppb-addon-text-block sppb-text-left "><div class="sppb-addon-content"><div style="text-align: justify;">Colegiul Național &ldquo;&Aacute;prily Lajos&rdquo; este cea mai mare instituție cu predare &icirc;n limba maghiară din județul Brașov și Țara B&acirc;rsei. Colegiul se află &icirc;n partea nordică a centrului istoric Brașov.</div></div></div></div></div></div></div><div class="sppb-col-md-4"><div id="column-id-1504185995859" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-1504185995863" class="clearfix" ><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><a href="/contact"><div class="overlay"><i class="pe pe-7s-link"></i><img class="sppb-img-responsive " src="/images/alflogo-RO-2.png" alt=""></div></a></div></div></div></div></div></div></div><div class="sppb-col-md-4"><div id="column-id-1504185995860" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-1504531979003" class="clearfix" ><div class="sppb-addon sppb-addon-module "><div class="sppb-addon-content"><!-- PWebBox -->
-
-    
-    <div id="pwebbox134" class="pwebbox  pweb-static pwebbox-plugin-facebook_page_plugin pweb-theme-fbnavy" dir="ltr">
-
-        
-                
-        <div id="pwebbox134_box" class="pwebbox-box pweb-static pwebbox-plugin-facebook_page_plugin pweb-theme-fbnavy " dir="ltr">
-
-            <div class="pwebbox-container-outset">
-                <div id="pwebbox134_container" class="pwebbox-container">
-                    <div class="pwebbox-container-inset">
-
-                        
-                        
-                        
-                        <div class="pwebbox-content" id="pwebbox134_content">
-                                <!-- PWebBox Facebook Likebox plugin -->
-<div class="pwebbox-facebook-pageplugin-container" style="width:400px; height: 400px;">
-    <div id="pwebbox_facebook_pageplugin_134" class="pwebbox-facebook-pageplugin-container-in">
-                <div class="pwebbox-facebook-pageplugin-content">
-            <div id="fb-root"></div><div class="fb-page" id="pwebbox_fbpageplugin134_html5" data-href="https://www.facebook.com/%C3%81prily-Lajos-F%C5%91gimn%C3%A1zium-Brass%C3%B3-164132283633278/" data-width="400" data-height="400" data-show-posts="true"></div>        </div>
-    </div>
-</div>
-    <script type="text/javascript">
-        if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncInit;window.fbAsyncInit=function(){FB.Event.subscribe("edge.create",function(u){if(typeof ga!="undefined")ga("send","social","facebook","like",u)});FB.Event.subscribe("edge.remove",function(u){if(typeof ga!="undefined")ga("send","social","facebook","unlike",u)});if(typeof window.fbAsyncInitPweb=="function")window.fbAsyncInitPweb.apply(this,arguments)};    </script>
-<!-- PWebBox Facebook Likebox plugin end -->
-                        </div>                    
-
-                    </div>
-                    
-                                    </div>
-            </div>
-
-        </div>
-                
-            </div>
-
-<script type="text/javascript">
-jQuery(document).ready(function($){pwebBox134=new pwebBox({id:134,theme:"fbnavy",layout:"static",position:"left",offsetPosition:"top",togglerNameClose:" CLOSE",closeOther:0})});</script>
-<!-- PWebBox end -->
-</div></div></div></div></div></div></div></div></div>	</div>
-</div>
-</div></div></div></div></div></div></section><section id="sp-section-8"><div class="row"><div id="sp-bottom2" class="col-xs-12 col-sm-12 col-md-12"><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><div class="mod-sppagebuilder  sp-page-builder" >
-	<div class="page-content">
-		<div id="section-id-1504600725419" class="sppb-section "  ><div class="sppb-container-inner"><div class="sppb-row sppb-no-gutter"><div class="sppb-col-md-12"><div id="column-id-1504600725420" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-1504600725423" class="clearfix" ><div class="sppb-addon sppb-addon-icons  sppb-text-center"><div class="flex-icons sppb-text-center"><div title="" data-toggle="tooltip" style="" class="flex-icon-wrap"><a target="_blank" href="https://www.facebook.com/%C3%81prily-Lajos-F%C5%91gimn%C3%A1zium-Brass%C3%B3-164132283633278/"><span style=""><i class="fa fa-facebook-f" style="font-size:24px;width:24px;height:24px;line-height:24px;"></i></span></a></div><div title="" data-toggle="tooltip" style="" class="flex-icon-wrap"><a target="_blank" href="#"><span style=""><i class="fa fa-instagram" style="font-size:24px;width:24px;height:24px;line-height:24px;"></i></span></a></div><div title="" data-toggle="tooltip" style="" class="flex-icon-wrap"><a target="_blank" href="#"><span style=""><i class="fa fa-google-plus" style="font-size:24px;width:24px;height:24px;line-height:24px;"></i></span></a></div></div></div></div></div></div></div></div></div></div>	</div>
-</div>
-</div></div></div></div></div></section><footer id="sp-footer"><div class="container"><div class="row"><div id="sp-footer1" class="col-sm-12 col-md-12"><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
-
-<div class="custom"  >
-	<div class="copyright">
-<div style="text-align: center;">© 2017 - 2022 Colegiul Național "Áprily Lajos" - Brașov | Toate drepturile rezervate!</div>
-<div style="text-align: center;">
-<p>Powered by:</p>
-<a title="Soluții Web Profesionale" href="http://netsiter.ro" target="_blank"><img class="footer-logo" style="display: block; margin-left: auto; margin-right: auto;" src="/images/netsiter-logo.png" /></a></div>
-</div></div>
-</div></div></div></div></div></div></footer>            </div> <!-- /.body-innerwrapper -->
-        </div> <!-- /.off-canvas-menu-wrap -->
-        <!-- Off Canvas Menu -->
-        <div class="offcanvas-menu">
-            <a href="#" class="close-offcanvas"><i class="fa fa-remove"></i></a>
-            <div class="offcanvas-inner">
-                                    <div class="sp-module "><div class="sp-module-content"><ul class="accordion-menu ">
-<li class="item-101 current active"><a class="fo-menu" href="/ro/" > Acasă</a></li><li class="item-378 deeper parent"><a href="http://aprilyfogimnazium.ro/ro/" > Despre noi</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-378"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><span></span><ul class="collapse" id="collapse-menu-378"><li class="item-389"><a href="/ro/despre-noi/informatii-curente" > Informații curente</a></li><li class="item-433"><a href="/ro/rolunk/viziune-misiune-si-valori" > Viziune, misiune și valori</a></li><li class="item-434"><a href="/ro/rolunk/regulament-de-organizare-si-functionare" > Regulament de organizare șI funcționare</a></li><li class="item-435"><a href="/ro/rolunk/regulament-intern" > Regulament intern</a></li></ul></li><li class="item-436"><a href="/ro/stiri" > Știri</a></li><li class="item-381 deeper"><a href="/ro/personal" > Personal</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-381"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><span></span><ul class="collapse" id="collapse-menu-381"><li class="item-449"><a href="/ro/oktatas/vizsgak/kepessegvizsga-viii-osztaly" target="_blank" > Képességvizsga, VIII. osztály</a></li></ul></li></ul></li><li class="item-385"><a href="/ro/documente" > Documente și informații utile</a></li><li class="item-443 deeper parent"><a href="#" > Proiecte</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-443"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><span></span><ul class="collapse" id="collapse-menu-443"><li class="item-445"><a href="/ro/proiecte/erasmus" > ERASMUS +</a></li><li class="item-446"><a href="/ro/proiecte/e-twinning" > e Twinning</a></li><li class="item-447"><a href="/ro/proiecte/hatartalanul" > Határtalanul</a></li><li class="item-448"><a href="/ro/proiecte/bethlen-gabor-alap" > Bethlen Gábor Alap</a></li></ul></li><li class="item-415"><a href="/ro/contact" > Contact</a></li></ul>
-</div></div>
-                                </div> <!-- /.offcanvas-inner -->
-        </div> <!-- /.offcanvas-menu -->
-    
-            
-        
-        <!-- Preloader -->
-        
-        <div id="fading-header" style="display:none"></div>
-    </body>
-</html>
