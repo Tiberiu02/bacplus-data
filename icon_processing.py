@@ -49,7 +49,9 @@ for i, (id_liceu, website, rank) in list(enumerate(licee)):
     icons_liceu = [
         icon
         for icon in icons
-        if re.match(r"{}(_\d+)?\.(png|ico|jpg|jpeg|gif)".format(id_liceu), icon)
+        if re.match(
+            r"{}(_\d+)?\.(png|ico|jpg|jpeg|gif|webp|svg)".format(id_liceu), icon
+        )
     ]
 
     if len(icons_liceu) > 1:
@@ -61,11 +63,18 @@ for i, (id_liceu, website, rank) in list(enumerate(licee)):
 if duplicates_found:
     exit(1)
 
+# Remove and recreate output directory
+if os.path.exists(output_path):
+    os.system("rm -rf {}".format(output_path))
+os.mkdir(output_path)
+
 for i, (id_liceu, website, rank) in tqdm(list(enumerate(licee))):
     icons_liceu = [
         icon
         for icon in icons
-        if re.match(r"{}(_\d+)?\.(png|ico|jpg|jpeg|gif)".format(id_liceu), icon)
+        if re.match(
+            r"{}(_\d+)?\.(png|ico|jpg|jpeg|gif|webp|svg)".format(id_liceu), icon
+        )
     ]
 
     if len(icons_liceu) == 0:
