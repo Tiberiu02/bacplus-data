@@ -55,10 +55,11 @@ cur = conn.cursor()
 licee = cur.execute(
     "SELECT id_liceu, website, rank FROM licee WHERE website is not null ORDER BY id_liceu ASC"
 ).fetchall()
+scoli = cur.execute("SELECT id_scoala FROM scoli").fetchall()
 
 duplicates_found = False
 
-for i, (id_liceu, website, rank) in list(enumerate(licee)):
+for id_liceu in set([liceu[0] for liceu in licee] + [scoala[0] for scoala in scoli]):
     icons_liceu = [
         icon
         for icon in icons
@@ -85,7 +86,9 @@ if os.path.exists(output_path_lg):
     shutil.rmtree(output_path_lg)
 os.mkdir(output_path_lg)
 
-for i, (id_liceu, website, rank) in tqdm(list(enumerate(licee))):
+for id_liceu in tqdm(
+    set([liceu[0] for liceu in licee] + [scoala[0] for scoala in scoli])
+):
     icons_liceu = [
         icon
         for icon in icons
