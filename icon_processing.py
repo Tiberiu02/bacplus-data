@@ -15,7 +15,7 @@ input_path = "data/icons"
 output_path_xs = "../bacplus/public/icons-xs"
 output_path_lg = "../bacplus/public/icons-lg"
 
-icons = os.listdir(input_path)
+icon_files = os.listdir(input_path)
 
 
 def process_and_save_image(input_path, output_path, max_size, min_size=None):
@@ -52,26 +52,29 @@ def process_and_save_image(input_path, output_path, max_size, min_size=None):
 conn = sqlite3.connect(os.getenv("DB_FILE"))
 cur = conn.cursor()
 
-licee = cur.execute(
-    "SELECT id_liceu, website, rank FROM licee WHERE website is not null ORDER BY id_liceu ASC"
-).fetchall()
+institutii = cur.execute("SELECT id FROM institutii").fetchall()
+
+# print(institutii)
 
 duplicates_found = False
 
-for i, (id_liceu, website, rank) in list(enumerate(licee)):
-    icons_liceu = [
+for (id,) in institutii:
+    icons = [
         icon
-        for icon in icons
-        if re.match(
-            r"{}(_\d+)?\.(png|ico|jpg|jpeg|gif|webp|svg)".format(id_liceu), icon
-        )
+        for icon in icon_files
+        if re.match(r"{}(_\d+)?\.(png|ico|jpg|jpeg|gif|webp|svg)".format(id), icon)
     ]
 
-    if len(icons_liceu) > 1:
+    if len(icons) > 1:
         if not duplicates_found:
             duplicates_found = True
             print("Please remove duplicates:")
-        print(id_liceu)
+        print(id)
+
+    if len(icons) == 1 and icons[0].endswith(".svg"):
+        print("SVG not supported:", id)
+        print("Please convert to PNG and remove the SVG file")
+        exit(1)
 
 if duplicates_found:
     exit(1)
@@ -85,29 +88,29 @@ if os.path.exists(output_path_lg):
     shutil.rmtree(output_path_lg)
 os.mkdir(output_path_lg)
 
-for i, (id_liceu, website, rank) in tqdm(list(enumerate(licee))):
-    icons_liceu = [
+for (id,) in institutii:
+
+    # print("Processing icon for", id)
+    icons = [
         icon
-        for icon in icons
-        if re.match(
-            r"{}(_\d+)?\.(png|ico|jpg|jpeg|gif|webp|svg)".format(id_liceu), icon
-        )
+        for icon in icon_files
+        if re.match(r"{}(_\d+)?\.(png|ico|jpg|jpeg|gif|webp|svg)".format(id), icon)
     ]
 
-    if len(icons_liceu) == 0:
+    if len(icons) == 0:
         continue
 
-    icon = icons_liceu[0]
+    icon = icons[0]
 
     process_and_save_image(
         os.path.join(input_path, icon),
-        os.path.join(output_path_xs, "{}.webp".format(id_liceu)),
+        os.path.join(output_path_xs, "{}.webp".format(id)),
         max_size=32,
     )
 
     process_and_save_image(
         os.path.join(input_path, icon),
-        os.path.join(output_path_lg, "{}.webp".format(id_liceu)),
+        os.path.join(output_path_lg, "{}.webp".format(id)),
         max_size=320,
         min_size=96,
     )
