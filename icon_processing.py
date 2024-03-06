@@ -4,7 +4,6 @@ import sqlite3
 import os
 from dotenv import load_dotenv
 from tqdm import tqdm
-from tqdm import tqdm
 import re
 from PIL import Image
 import shutil
@@ -58,7 +57,7 @@ institutii = cur.execute("SELECT id FROM institutii").fetchall()
 
 duplicates_found = False
 
-for (id,) in institutii:
+for (id,) in tqdm(institutii):
     icons = [
         icon
         for icon in icon_files
@@ -88,7 +87,7 @@ if os.path.exists(output_path_lg):
     shutil.rmtree(output_path_lg)
 os.mkdir(output_path_lg)
 
-for (id,) in institutii:
+for (id,) in tqdm(institutii):
 
     # print("Processing icon for", id)
     icons = [
