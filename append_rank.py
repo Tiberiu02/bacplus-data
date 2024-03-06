@@ -22,7 +22,7 @@ for i, (id_scoala, medie) in enumerate(scoli):
 print(f"Updated {len(scoli)} scoli.")
 
 licee = cur.execute(
-    "SELECT id_liceu, AVG(medie) FROM bac WHERE an = 2023 AND medie is not null GROUP BY id_liceu ORDER BY AVG(medie) DESC"
+    "SELECT id_liceu, AVG(my_medie) FROM bac WHERE an = 2023 AND my_medie is not null GROUP BY id_liceu ORDER BY AVG(my_medie) DESC"
 ).fetchall()
 
 for i, (id_liceu, medie) in enumerate(licee):
