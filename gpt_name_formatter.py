@@ -13,9 +13,6 @@ from openai import OpenAI
 
 client = OpenAI()
 
-conn = sqlite3.connect(os.getenv("DB_FILE"))
-cur = conn.cursor()
-
 
 def gpt_liceu(name, gpt4=False):
     response = client.chat.completions.create(
@@ -173,6 +170,9 @@ def format_nume_advanced(nume, id, liceu=True):
 
 
 def format_scoli_all():
+    conn = sqlite3.connect(os.getenv("DB_FILE"))
+    cur = conn.cursor()
+
     scoli = cur.execute(
         "SELECT id_scoala, nume_scoala, nume_afisat FROM SCOLI"
     ).fetchall()

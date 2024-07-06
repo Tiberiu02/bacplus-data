@@ -11,3 +11,5 @@ openai
 requests
 favicon
 Pillow
+psycopg2
+lxml
