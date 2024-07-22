@@ -13,3 +13,5 @@ favicon
 Pillow
 psycopg2
 lxml
+bs4
+tqdm
