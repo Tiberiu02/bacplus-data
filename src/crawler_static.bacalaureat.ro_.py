@@ -5,6 +5,7 @@ import time
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from tqdm import tqdm
+from py_mini_racer import MiniRacer
 
 
 def parse_args():
@@ -19,6 +20,7 @@ def parse_args():
 URL = "http://static.bacalaureat.edu.ro/%d/rapoarte/rezultate/alfabetic/page_%d.html"
 
 args = parse_args()
+ctx = MiniRacer()
 
 
 def fetch_page(url):
@@ -40,25 +42,58 @@ def fetch_num_pages(url):
     return num_pages
 
 
-def parse_results_page(page):
+def parse_results_page(page, url):
     soup = BeautifulSoup(page, "html.parser")
     rows = soup.find_all("tr", class_=["tr1", "tr2"])
+
+    # Initialize helper functions and page variables
+    ctx.eval(
+        """
+        var LuatDePeBacalaureatEduRo = new Array();
+        var LuatDePe_BacalaureatEduRo = new Array();
+        var Luat_DePe_BacalaureatEduRo = new Array();
+             
+        var document = {};
+        document.write = function(s) {
+            document.output += s;
+        }; 
+        
+        var window = {};
+        window.location = {};
+        window.location.href = """
+        + f'"{url}"'
+    )
 
     # Prepare a list to hold the data
     data = []
 
     # Extract data from each row
     for row in rows:
-        cells = row.find_all("td")
-        row_data = [cell.get_text(strip=True) for cell in cells]
+        row_data = []
+
+        # This script sets the candidate data
+        for script in row.findChildren("script", recursive=False):
+            ctx.eval(script.get_text())
+
+        for cell in row.find_all("td"):
+            cell_text = cell.get_text(strip=True)
+            # These scripts print the candidate data
+            for script in cell.find_all("script"):
+                ctx.eval("document.output = '';")
+                ctx.eval(script.get_text())
+                cell_text += ctx.eval("document.output")
+            row_data.append(cell_text.replace("<br>", "").strip())
+
         data.append(row_data)
+
+    data = [data[i] + data[i + 1] for i in range(0, len(data), 2)]
 
     return data
 
 
 def fetch_and_parse_page(url, page_id):
     page = fetch_page(url)
-    data = parse_results_page(page)
+    data = parse_results_page(page, url)
 
     if int(data[0][0]) != (page_id - 1) * 10 + 1:
         print(f"Error fetching page {page_id} from {url}. Retrying...")

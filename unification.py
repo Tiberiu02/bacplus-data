@@ -7,9 +7,16 @@ def cannonicalize_name(liceu, cod_judet, id=False) -> str:
         return None
 
     # Fix encoding issues
-    liceu = liceu.replace("Ăˇ", "Á")
-    liceu = liceu.replace("Ă©", "É")
-    liceu = liceu.replace("Ĺ‘", "Ő").replace("Ă¶", "Ö").replace("Ăł", "Ó")
+    liceu = liceu.replace("Ăˇ", "Á").replace("Ã¡", "Á")
+    liceu = liceu.replace("Ă©", "É").replace("Ã©", "É")
+    liceu = (
+        liceu.replace("Ĺ‘", "Ő")
+        .replace("Å‘", "Ő")
+        .replace("Ã¶", "Ö")
+        .replace("Ă¶", "Ö")
+        .replace("Ăł", "Ó")
+        .replace("Ã³", "Ó")
+    )
     liceu = liceu.replace("â€™", "'").replace("Â€™", "'")
 
     # Unify quotes
