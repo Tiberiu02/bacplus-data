@@ -66,7 +66,7 @@ def fetch_page(url, payload=None):
         return fetch_page(url)
 
 
-def fetch_and_parse_page(j, i, payload):
+def fetch_and_parse_page(j, i, payload, is_last_page):
     try:
         payload[PAYLOAD_PAGE_ATTRIBUTE] = i
         page = fetch_page(URL % j, payload)
@@ -74,7 +74,11 @@ def fetch_and_parse_page(j, i, payload):
         rows = extract_rows(soup)
         payload = extract_payload(soup)
 
-        if int(rows[0][0]) != (i - 1) * 20 + 1 or len(rows) != 20:
+        if (
+            int(rows[0][0]) != (i - 1) * 20 + 1
+            or len(rows) == 0
+            or (len(rows) < 20 and not is_last_page)
+        ):
             raise ValueError(
                 f"Expected first row id {i - 1} * 20 + 1 = {(i - 1) * 20 + 1}, got {rows[0][0]}"
             )
@@ -95,60 +99,16 @@ def fetch_and_parse_page(j, i, payload):
         )
         # Sleep for a bit to avoid getting blocked
         time.sleep(5)
-        return fetch_and_parse_page(j, i, payload)
+        return fetch_and_parse_page(j, i, payload, is_last_page)
 
 
 args = parse_args()
 
 num_pages = []
-# for j in tqdm(range(1, NUM_JUDETE + 1), desc="Fetching num. pages"):
-#     page = fetch_page(URL % j)
-#     soup = BeautifulSoup(page, "html.parser")
-#     num_pages.append(extract_num_pages(soup))
-num_pages = [
-    78,
-    175,
-    127,
-    748,
-    174,
-    150,
-    90,
-    67,
-    125,
-    155,
-    110,
-    187,
-    62,
-    63,
-    209,
-    44,
-    129,
-    171,
-    100,
-    150,
-    47,
-    98,
-    83,
-    54,
-    66,
-    251,
-    62,
-    132,
-    144,
-    130,
-    104,
-    238,
-    115,
-    64,
-    82,
-    240,
-    49,
-    213,
-    84,
-    103,
-    100,
-    122,
-]
+for j in tqdm(range(1, NUM_JUDETE + 1), desc="Fetching num. pages"):
+    page = fetch_page(URL % j)
+    soup = BeautifulSoup(page, "html.parser")
+    num_pages.append(extract_num_pages(soup))
 
 # print(num_pages)
 bar = tqdm(total=sum(num_pages), desc="Downloading pages")
@@ -164,9 +124,9 @@ for j in range(1, NUM_JUDETE + 1):
     payload = extract_payload(soup)
     rows = extract_rows(soup)
     writer.writerows(rows)
+    bar.update(1)
 
-    for i in range(2, num_pages):
-        rows, payload = fetch_and_parse_page(j, i, payload)
+    for i in range(2, num_pages + 1):
+        rows, payload = fetch_and_parse_page(j, i, payload, i == num_pages)
         writer.writerows(rows)
-
         bar.update(1)
