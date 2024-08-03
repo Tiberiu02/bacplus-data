@@ -1,0 +1,36 @@
+{
+    "cod_candidat": "Nume coloană",
+    "specializare": "Nume coloană",
+    
+    "promotie": "Nume coloană (conține promoția, ex. 2012-2013)",
+    // SAU
+    "promotie_anterioara": "Nume coloană (conține doar 'da' sau 'nu')",
+    
+    "unitate_siiir": "Nume coloană",
+    // SAU
+    "unitate_nume": "Nume coloană",
+    "unitate_cod_judet": "Nume coloană",
+    
+    "sex": "Nume coloană (opțional)",
+    "clasa": "Nume coloană (opțional)",
+
+    "lr_init": "Nume coloană",
+    "lr_cont": "Nume coloană",
+
+    "limba_materna": "Nume coloană",
+    "lm_init": "Nume coloană",
+    "lm_cont": "Nume coloană",
+
+    "disciplina_obligatorie": "Nume coloană",
+    "do_init": "Nume coloană",
+    "do_cont": "Nume coloană",
+
+    "disciplina_alegere": "Nume coloană",
+    "da_init": "Nume coloană",
+    "da_cont": "Nume coloană",
+
+    "limba_moderna": "Nume coloană",
+
+    "medie": "Nume coloană",
+    "rezultat": "Nume coloană"
+}

@@ -1,0 +1,28 @@
+{
+    "cod_candidat": "Cod",
+    "sex": "SEX",
+    "specializare": "SPECIALIZARE",
+    "promotie": "PROMOTIA",
+    "unitate_siiir": "Cod SIIIR",
+    "clasa": "CLASA",
+
+    "lr_init": "NOTA_EA",
+    "lr_cont": "NOTA_CONTESTATIE_EA",
+
+    "limba_materna": "SUBIECT_MATERNA",
+    "lm_init": "NOTA_EB",
+    "lm_cont": "NOTA_CONTESTATIE_EB",
+
+    "disciplina_obligatorie": "SUBIEC_EC",
+    "do_init": "NOTA_EC",
+    "do_cont": "NOTA_CONTESTATIE_EC",
+
+    "disciplina_alegere": "SUBIEC_ED",
+    "da_init": "NOTA_ED",
+    "da_cont": "NOTA_CONTESTATIE_ED",
+
+    "limba_moderna": "SUBIECT_MODERNA",
+
+    "medie": "MEDIA_FINALA",
+    "rezultat": "STATUS_FINAL"
+}

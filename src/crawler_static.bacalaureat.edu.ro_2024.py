@@ -114,6 +114,43 @@ if __name__ == "__main__":
     fout = open(args.output_path, "w", newline="", encoding="utf-8")
     writer = csv.writer(fout)
 
+    # Write header
+    writer.writerow(
+        [
+            "id",
+            "cod_candidat",
+            "ierarhie_judet",
+            "ierarhie_national",
+            "nume_unitate",
+            "cod_judet",
+            "promotie_anterioara",
+            "forma_invatamant",
+            "specializare",
+            "lr_competente",
+            "lr_init",
+            "lr_cont",
+            "lr_final",
+            "limba_materna",
+            "limba_moderna",
+            "nota_limba_moderna",
+            "disciplina_obligatorie",
+            "disciplina_alegere",
+            "competente_digitale",
+            "medie",
+            "rezultat",
+            "lm_competente",
+            "lm_init",
+            "lm_cont",
+            "lm_final",
+            "do_init",
+            "do_cont",
+            "do_final",
+            "da_init",
+            "da_cont",
+            "da_final",
+        ]
+    )
+
     progress = tqdm(total=num_pages, unit="page", desc="Downloading pages")
 
     for page_id in range(1, num_pages + 1):

@@ -52,3 +52,18 @@ De exemplu:
 - `python db_insert_en.py 2022 data\en\2022.json --repartizare`
 
 Pentru o lista mai completa de comenzi, vezi scripturile `insert_all_bac.bat` și `insert_all_en.bat`
+
+# Inserare date in baza de date PostgreSQL
+
+Pentru a insera datele descărcate în baza de date, asigură-te că ai creat un fișier `.env` care conține variabila `DATABASE_URL`. Apoi folosește programul `src/db_insert/bac.py`, astfel:
+
+- `python src/db_insert/bac.py [an] [fișier_rezultate.xlsx] [fișier_schema.json]`
+
+De exemplu:
+
+- `python src/db_insert/bac.py 2023 data/bac/data.gov.ro/2023.xlsx src/db_insert/schema/bac/data.gov.ro.json`
+- `python src/db_insert/bac.py 2022 data/bac/data.gov.ro/2022.xlsx src/db_insert/schema/bac/data.gov.ro.2.json`
+- `python src/db_insert/bac.py 2021 data/bac/data.gov.ro/2021.xlsx src/db_insert/schema/bac/data.gov.ro.json`
+- `python src/db_insert/bac.py 2020 data/bac/data.gov.ro/2020.xlsx src/db_insert/schema/bac/data.gov.ro.json`
+- `python src/db_insert/bac.py 2019 data/bac/data.gov.ro/2019.xlsx src/db_insert/schema/bac/data.gov.ro.json`
+- `python src/db_insert/bac.py 2018 data/bac/data.gov.ro/2018.xlsx src/db_insert/schema/bac/data.gov.ro.json`
