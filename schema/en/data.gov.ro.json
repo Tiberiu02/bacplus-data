@@ -1,0 +1,18 @@
+{
+    "cod_candidat": "COD UNIC CANDIDAT",
+
+    "unitate_siiir": " COD SIIIR",
+    "sex": "SEX",
+
+    "lr_init": "NOTA ROMANA",
+    "lr_cont": "NOTA CONTESTATIE ROMANA",
+
+    "lm_init": "NOTA LIMBA MATERNA",
+    "lm_cont": "NOTA CONTESTATIE LB MATERNA",
+
+    "ma_init": "NOTA MATEMATICA",
+    "ma_cont": "NOTA CONTESTATIE MATEMATICA",
+
+    "medie_en": "MEDIA",
+    "medie_abs": "MEDIA V-VIII"
+}

@@ -1,0 +1,19 @@
+{
+    "cod_candidat": "name",
+
+    "unitate_siiir": "schoolCode",
+    "unitate_nume": "school",
+    "unitate_cod_judet": "county",
+
+    "lr_init": "ri",
+    "lr_cont": "ra",
+
+    "limba_materna": "lmp",
+    "lm_init": "lmi",
+    "lm_cont": "lma",
+
+    "ma_init": "mi",
+    "ma_cont": "ma",
+
+    "medie_en": "mev"
+}
