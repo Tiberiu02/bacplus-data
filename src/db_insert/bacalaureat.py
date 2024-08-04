@@ -3,7 +3,8 @@ import json
 from dotenv import load_dotenv
 import os
 from connectors.postgresql import pg_insert
-from utils.parsing import parse_cod_candidat, parse_grade, parse_sex
+from utils.siiir_codes import compute_siiir_matching, get_siiir_by_name
+from utils.parsing import fix_name_encoding, parse_cod_candidat, parse_grade, parse_sex
 from utils.dataloader import load_data_file
 
 load_dotenv()
@@ -76,6 +77,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("year", type=int)
 parser.add_argument("data_file", type=str)
 parser.add_argument("schema_file", type=str)
+parser.add_argument("--detect-siiir", action="store_true")
 args = parser.parse_args()
 
 schema = load_schema(args.schema_file)
@@ -97,11 +99,16 @@ def parse_row_bac(row, schema, an):
     else:
         promotie_anterioara = row[schema["promotie_anterioara"]].upper() == "DA"
 
-    unitate_siiir = row[schema["unitate_siiir"]] if "unitate_siiir" in schema else None
-    unitate_nume = row[schema["unitate_nume"]] if "unitate_nume" in schema else None
+    unitate_nume = (
+        fix_name_encoding(row[schema["unitate_nume"]])
+        if "unitate_nume" in schema
+        else None
+    )
     unitate_cod_judet = (
         row[schema["unitate_cod_judet"]] if "unitate_cod_judet" in schema else None
     )
+
+    unitate_siiir = row[schema["unitate_siiir"]] if "unitate_siiir" in schema else None
 
     lr_init = parse_grade(row[schema["lr_init"]])
     lr_cont = parse_grade(row[schema["lr_cont"]])
@@ -188,6 +195,19 @@ def parse_row_bac(row, schema, an):
 
 
 data = [parse_row_bac(row, schema, args.year) for row in rows]
+
+if args.detect_siiir:
+    schools = set((row["unitate_nume"], row["unitate_cod_judet"]) for row in data)
+    compute_siiir_matching(schools, os.getenv("DATABASE_URL"))
+    for row in data:
+        if (
+            row["unitate_nume"] is not None
+            and row["unitate_cod_judet"] is not None
+            and row["unitate_siiir"] is None
+        ):
+            row["unitate_siiir"] = get_siiir_by_name(
+                row["unitate_nume"], row["unitate_cod_judet"]
+            )
 
 # Insert data into database
 
