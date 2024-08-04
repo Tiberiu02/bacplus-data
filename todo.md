@@ -15,6 +15,7 @@ Completed:
    - Change text fields "da"/"nu" to boolean in institutii table and update web app accordingly
    - Create script to update institution table with missing SIIIR codes from previous years (except current year where codes are guessed). Add name from results table and other info from siiir table (website, address, etc)
    - Change siiir detection to use institutions table instead of SIIIR
+   - Add siiir detection for repartizare
    - Change webapp so that SIIIR codes are used as IDs instead of name based ids. Will require moving logos around on the file storage
    - Remove institutions without SIIIR code from institutii
 3. Improve build time / ISR
