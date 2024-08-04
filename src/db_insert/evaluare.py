@@ -3,6 +3,8 @@ import json
 import re
 from dotenv import load_dotenv
 import os
+
+from unidecode import unidecode
 from connectors.postgresql import pg_insert
 from utils.siiir_codes import compute_siiir_matching, get_siiir_by_name
 from utils.parsing import parse_cod_candidat, parse_cod_judet, parse_grade, parse_sex
@@ -141,8 +143,11 @@ def parse_row(row, schema, an):
         specializare = specializare.replace("<b>", "").replace("</b>", "")
         id_specializare = re.search(r"(\(\d+\))", specializare).group(1)
         specializare = specializare.replace(id_specializare, "")
-        specializare = specializare.split("<br/>")[0].strip()
-        specializare = specializare + " " + id_specializare
+        specializare, limba = specializare.split("<br/>")
+        specializare = specializare.strip()
+        if limba.count("/") > 0:
+            specializare = specializare + ", " + limba.split("/")[-1].strip()
+        specializare = id_specializare + " " + specializare
 
     return {
         "an": an,
