@@ -5,6 +5,8 @@ from Levenshtein import ratio, distance
 
 from utils.parsing import fix_name_encoding
 
+table_name = "public.siiir_new"
+
 
 def cannonical_id_from_name(name, cod_judet):
     name = fix_name_encoding(name)
@@ -52,18 +54,24 @@ def compute_siiir_matching(source_schools, db_url, gimnaziu=False):
 
     # Load target schools from database
     cur.execute(
-        f"SELECT denumire_lunga_unitate, judet_pj, cod_siiir_unitate FROM bacplus.siiir {"WHERE stare_liceal is not null" if not gimnaziu else ""}"
+        f"SELECT denumire_lunga_unitate, judet_pj, cod_siiir_unitate FROM {table_name} {"WHERE stare_liceal is not null" if not gimnaziu else ""}"
     )
     for name, cod_judet, cod_siiir in cur.fetchall():
         if cod_judet not in unmatched_targets:
             unmatched_targets[cod_judet] = {}
+        if name == 'ȘCOALA GIMNAZIALĂ NR. 1 MICEȘTI':
+            print("Adding", name, cod_judet, cannonical_id_from_name(name, cod_judet))
         name = cannonical_id_from_name(name, cod_judet)
         unmatched_targets[cod_judet][name] = cod_siiir
 
     # Exact matches
     for name, cod_judet in source_schools:
+        if name == 'Școala Gimnazială Nr. 1, Micești':
+            print("Matching", name, cod_judet, cannonical_id_from_name(name, cod_judet))
         name = cannonical_id_from_name(name, cod_judet)
         code = unmatched_targets.get(cod_judet, {}).get(name, None)
+        if name == 'AG_SCOALA_GIMNAZIALA_NR_1_MICESTI':
+            print('code', code)
         if code is not None:
             matching[name] = code
             unmatched_targets[cod_judet].pop(name)

@@ -7,7 +7,13 @@ import os
 from unidecode import unidecode
 from connectors.postgresql import pg_insert
 from utils.siiir_codes import compute_siiir_matching, get_siiir_by_name
-from utils.parsing import parse_cod_candidat, parse_cod_judet, parse_grade, parse_sex
+from utils.parsing import (
+    parse_cod_candidat,
+    parse_cod_judet,
+    parse_grade,
+    parse_sex,
+    parse_siiir_code,
+)
 from utils.dataloader import load_data_file
 
 load_dotenv()
@@ -37,6 +43,7 @@ def load_schema(filename):
         "unitate_cod_judet",
         "repartizat_liceu_nume",
         "repartizat_specializare",
+        "repartizat_cod_judet",
     ]
 
     # Check required keys
@@ -66,6 +73,7 @@ parser.add_argument("data_file", type=str)
 parser.add_argument("schema_file", type=str)
 parser.add_argument("--update-existing", action="store_true")
 parser.add_argument("--detect-siiir", action="store_true")
+parser.add_argument("--detect-siiir-repartizare", action="store_true")
 args = parser.parse_args()
 
 schema = load_schema(args.schema_file)
@@ -77,7 +85,11 @@ def parse_row(row, schema, an):
 
     sex = parse_sex(row[schema["sex"]]) if "sex" in schema else None
 
-    unitate_siiir = row[schema["unitate_siiir"]] if "unitate_siiir" in schema else None
+    unitate_siiir = (
+        parse_siiir_code(row[schema["unitate_siiir"]])
+        if "unitate_siiir" in schema
+        else None
+    )
     unitate_nume = row[schema["unitate_nume"]] if "unitate_nume" in schema else None
     unitate_cod_judet = (
         parse_cod_judet(row[schema["unitate_cod_judet"]])
@@ -137,6 +149,12 @@ def parse_row(row, schema, an):
         if "repartizat_specializare" in schema
         else None
     )
+    repartizat_cod_judet = (
+        row[schema["repartizat_cod_judet"]]
+        if "repartizat_cod_judet" in schema
+        else None
+    )
+
     if specializare is not None and specializare.lower() == "nerepartizat":
         specializare = None
     if specializare is not None:
@@ -171,12 +189,14 @@ def parse_row(row, schema, an):
         "medie_adm": medie_adm,
         "repartizat_liceu_nume": repartizat_liceu_nume,
         "repartizat_specializare": specializare,
+        "repartizat_cod_judet": repartizat_cod_judet,
     }
 
 
 data = [parse_row(row, schema, args.year) for row in rows]
 
 if args.detect_siiir:
+    print("Detecting SIIIRs for provenence school")
     schools = set((row["unitate_nume"], row["unitate_cod_judet"]) for row in data)
     compute_siiir_matching(schools, os.getenv("DATABASE_URL"), True)
     for row in data:
@@ -189,12 +209,30 @@ if args.detect_siiir:
                 row["unitate_nume"], row["unitate_cod_judet"]
             )
 
+if args.detect_siiir_repartizare:
+    print("Detecting SIIIRs for repartizare school")
+    schools = set(
+        (row["repartizat_liceu_nume"], row["repartizat_cod_judet"])
+        for row in data
+        if row["repartizat_liceu_nume"] is not None
+        and row["repartizat_cod_judet"] is not None
+    )
+    compute_siiir_matching(schools, os.getenv("DATABASE_URL"), True)
+    for row in data:
+        if (
+            row["repartizat_liceu_nume"] is not None
+            and row["repartizat_cod_judet"] is not None
+        ):
+            row["repartizat_liceu_siiir"] = get_siiir_by_name(
+                row["repartizat_liceu_nume"], row["repartizat_cod_judet"]
+            )
+
 # Insert data into database
 
 pg_insert(
     data,
-    "bacplus.evaluare",
+    "en_new",
     os.getenv("DATABASE_URL"),
-    f"bacplus.evaluare.an = {args.year}",
+    f"en_new.an = {args.year}",
     "cod_candidat" if args.update_existing else None,
 )

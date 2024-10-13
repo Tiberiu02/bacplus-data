@@ -4,7 +4,13 @@ from dotenv import load_dotenv
 import os
 from connectors.postgresql import pg_insert
 from utils.siiir_codes import compute_siiir_matching, get_siiir_by_name
-from utils.parsing import fix_name_encoding, parse_cod_candidat, parse_grade, parse_sex
+from utils.parsing import (
+    fix_name_encoding,
+    parse_cod_candidat,
+    parse_grade,
+    parse_sex,
+    parse_siiir_code,
+)
 from utils.dataloader import load_data_file
 
 load_dotenv()
@@ -108,13 +114,19 @@ def parse_row_bac(row, schema, an):
         row[schema["unitate_cod_judet"]] if "unitate_cod_judet" in schema else None
     )
 
-    unitate_siiir = row[schema["unitate_siiir"]] if "unitate_siiir" in schema else None
+    unitate_siiir = (
+        parse_siiir_code(row[schema["unitate_siiir"]])
+        if "unitate_siiir" in schema
+        else None
+    )
 
     lr_init = parse_grade(row[schema["lr_init"]])
     lr_cont = parse_grade(row[schema["lr_cont"]])
     lr_final = lr_cont if lr_cont is not None else lr_init
 
-    limba_materna = row[schema["limba_materna"]]
+    limba_materna = (
+        row[schema["limba_materna"]] if row[schema["limba_materna"]] != "" else None
+    )
     lm_init = parse_grade(row[schema["lm_init"]])
     lm_cont = parse_grade(row[schema["lm_cont"]])
     lm_final = lm_cont if lm_cont is not None else lm_init
@@ -213,7 +225,7 @@ if args.detect_siiir:
 
 pg_insert(
     data,
-    "bacplus.bacalaureat",
+    "public.bac_new",
     os.getenv("DATABASE_URL"),
     f"an = {args.year}",
 )

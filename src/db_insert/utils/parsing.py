@@ -72,3 +72,9 @@ def fix_name_encoding(nume):
         nume = nume.replace(a.lower(), b.lower())
 
     return nume
+
+
+def parse_siiir_code(code):
+    if code is not None and len(code) >= 4:
+        code = code[:3] + "1" + code[4:]
+    return code
