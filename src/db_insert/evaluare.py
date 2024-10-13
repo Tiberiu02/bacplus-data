@@ -231,8 +231,8 @@ if args.detect_siiir_repartizare:
 
 pg_insert(
     data,
-    "en_new",
+    "en",
     os.getenv("DATABASE_URL"),
-    f"en_new.an = {args.year}",
+    f"en.an = {args.year}",
     "cod_candidat" if args.update_existing else None,
 )

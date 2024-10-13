@@ -225,7 +225,7 @@ if args.detect_siiir:
 
 pg_insert(
     data,
-    "public.bac_new",
+    "public.bac",
     os.getenv("DATABASE_URL"),
     f"an = {args.year}",
 )

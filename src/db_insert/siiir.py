@@ -23,6 +23,9 @@ while start_row <= num_rows and sheet.cell(row=start_row, column=2).value == Non
 header = [sheet.cell(row=start_row, column=i).value for i in range(1, num_cols + 1)]
 column_names = [h.replace(".", "").replace(" ", "_").lower() for h in header]
 
+siiir_columns = [i for i, h in enumerate(header) if "siiir" in str(h).lower()]
+print(f"SIIIR columns: {siiir_columns}")
+
 data = []
 for i in range(start_row + 1, num_rows + 1):
     row = []
@@ -34,6 +37,9 @@ for i in range(start_row + 1, num_rows + 1):
         if re.match(r"\d{2}/\d{2}/\d{4}", str(cell)):
             cell = re.sub(r"(\d{2})/(\d{2})/(\d{4})", r"\3-\2-\1", str(cell))
         row.append(cell)
+    for j in siiir_columns:
+        if row[j] is not None and len(row[j]) > 3:
+            row[j] = row[j][:3] + "1" + row[j][4:]
     data.append(row)
 
 # Insert data into database
