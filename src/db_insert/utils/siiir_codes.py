@@ -105,14 +105,15 @@ def compute_siiir_matching(source_schools, db_url, gimnaziu=False):
 
             if ratio <= max_ratio:
                 print(
-                    f"Found similar school '{best_match}' for '{s_name}' with ratio {ratio:.2f}"  # , name: {unmatched_targets[s_judet][best_match]}"
+                    f"Found similar school '{best_match}' for '{s_name}' with ratio {ratio:.2f} - {unmatched_targets[s_judet][best_match][0]}"
                 )
-                matching[s_name] = unmatched_targets[s_judet][best_match]
+                matching[s_name] = best_match
                 unmatched_targets[s_judet].pop(best_match)
                 unmatched_sources.remove((s_name, s_judet))
 
     print("Matched schools:" + str(len(matching)))
     print("Unmatched schools:" + str(len(unmatched_sources)))
+    print(str([x[0] for x in unmatched_sources]))
 
 
 def get_siiir_by_name(name, cod_judet):
