@@ -5,7 +5,8 @@ from Levenshtein import ratio, distance
 
 from utils.parsing import fix_name_encoding
 
-table_name = "public.siiir"
+institutions_table_name = "public.institutii"
+siiir_table_name = "public.siiir"
 
 
 def cannonical_id_from_name(name, cod_judet):
@@ -50,25 +51,36 @@ def compute_siiir_matching(source_schools, db_url, gimnaziu=False):
     matching = {}  # {name: code}
 
     unmatched_sources = []  # [(name, cod_judet)]
-    unmatched_targets = {}  # {cod_judet: {name: code}}
+    unmatched_targets = {}  # {cod_judet: {code: [names]}}
+
+    unmatched_targets_by_name = {}  # {cod_judet: {name: code}}
+
+    cur.execute(f"SELECT cod_judet, cod_siiir, nume FROM {institutions_table_name}")
+    for cod_judet, cod_siiir, name in cur.fetchall():
+        if cod_judet not in unmatched_targets:
+            unmatched_targets[cod_judet] = {}
+            unmatched_targets_by_name[cod_judet] = {}
+        name = cannonical_id_from_name(name, cod_judet)
+        unmatched_targets[cod_judet][cod_siiir] = [name]
+        unmatched_targets_by_name[cod_judet][name] = cod_siiir
 
     # Load target schools from database
     cur.execute(
-        f"SELECT denumire_lunga_unitate, judet_pj, cod_siiir_unitate FROM {table_name} {"WHERE stare_liceal is not null" if not gimnaziu else ""}"
+        f"SELECT denumire_lunga_unitate, judet_pj, cod_siiir_unitate FROM {siiir_table_name} {"WHERE stare_liceal is not null" if not gimnaziu else ""}"
     )
     for name, cod_judet, cod_siiir in cur.fetchall():
-        if cod_judet not in unmatched_targets:
-            unmatched_targets[cod_judet] = {}
-        name = cannonical_id_from_name(name, cod_judet)
-        unmatched_targets[cod_judet][name] = cod_siiir
+        if cod_judet in unmatched_targets and cod_siiir in unmatched_targets[cod_judet]:
+            name = cannonical_id_from_name(name, cod_judet)
+            unmatched_targets[cod_judet][cod_siiir].append(name)
 
     # Exact matches
     for name, cod_judet in source_schools:
         name = cannonical_id_from_name(name, cod_judet)
-        code = unmatched_targets.get(cod_judet, {}).get(name, None)
-        if code is not None:
+        # code = unmatched_targets.get(cod_judet, {}).get(name, None)
+        code = unmatched_targets_by_name.get(cod_judet, {}).get(name, None)
+        if code is not None and code in unmatched_targets[cod_judet]:
             matching[name] = code
-            unmatched_targets[cod_judet].pop(name)
+            unmatched_targets[cod_judet].pop(code)
         else:
             unmatched_sources.append((name, cod_judet))
 
@@ -78,18 +90,26 @@ def compute_siiir_matching(source_schools, db_url, gimnaziu=False):
         for s_name, s_judet in unmatched_sources[:]:
             if len(unmatched_targets[s_judet]) == 0:
                 continue
+
             best_match = min(
-                unmatched_targets[s_judet].keys(),
-                key=lambda x: distance(s_name, x),
+                unmatched_targets[s_judet],
+                key=lambda x: min(
+                    distance(s_name, y) for y in unmatched_targets[s_judet][x]
+                ),
             )
-            ratio = distance(s_name, best_match) / len(s_name)
+            best_distance = min(
+                distance(s_name, y) for y in unmatched_targets[s_judet][best_match]
+            )
+
+            ratio = best_distance / len(s_name)
+
             if ratio <= max_ratio:
+                print(
+                    f"Found similar school '{best_match}' for '{s_name}' with ratio {ratio:.2f}"  # , name: {unmatched_targets[s_judet][best_match]}"
+                )
                 matching[s_name] = unmatched_targets[s_judet][best_match]
                 unmatched_targets[s_judet].pop(best_match)
                 unmatched_sources.remove((s_name, s_judet))
-                print(
-                    f"Found similar school '{best_match}' for '{s_name}' with ratio {ratio:.2f}"
-                )
 
     print("Matched schools:" + str(len(matching)))
     print("Unmatched schools:" + str(len(unmatched_sources)))
