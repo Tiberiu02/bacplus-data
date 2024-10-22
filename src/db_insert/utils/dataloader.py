@@ -10,7 +10,10 @@ def load_data_file(filename):
     elif filename.endswith(".xlsx"):
         workbook = load_workbook(filename=filename)
         sheet = workbook.active
-        raw_data = [[str(cell.value) for cell in row] for row in sheet.iter_rows()]
+        raw_data = [
+            [str(cell.value) if cell.value is not None else None for cell in row]
+            for row in sheet.iter_rows()
+        ]
         workbook.close()
     elif filename.endswith(".csv"):
         with open(filename, newline="", encoding="utf-8") as f:
