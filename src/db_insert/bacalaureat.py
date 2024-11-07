@@ -84,6 +84,7 @@ parser.add_argument("year", type=int)
 parser.add_argument("data_file", type=str)
 parser.add_argument("schema_file", type=str)
 parser.add_argument("--detect-siiir", action="store_true")
+parser.add_argument("--update-existing", action="store_true")
 args = parser.parse_args()
 
 schema = load_schema(args.schema_file)
@@ -172,7 +173,7 @@ def parse_row_bac(row, schema, an):
         rezultat = "absent"
     elif rezultat == "eliminat din examen":
         rezultat = "eliminat"
-    if rezultat not in ["promovat", "nepromovat", "absent", "eliminat"]:
+    if rezultat not in ["promovat", "nepromovat", "absent", "eliminat", "neevaluat"]:
         raise ValueError(f"Invalid result '{rezultat}' for candidate {cod_candidat}")
 
     return {
@@ -227,5 +228,6 @@ pg_insert(
     data,
     "public.bac",
     os.getenv("DATABASE_URL"),
-    f"an = {args.year}",
+    f"bac.an = {args.year}",
+    "cod_candidat" if args.update_existing else None,
 )
