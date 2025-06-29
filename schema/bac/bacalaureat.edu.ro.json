@@ -1,0 +1,29 @@
+{
+    "cod_candidat": "cod_candidat",
+    "specializare": "specializare",
+    
+    "promotie_anterioara": "promotie_anterioara",
+    
+    "unitate_nume": "nume_unitate",
+    "unitate_cod_judet": "cod_judet",
+
+    "lr_init": "lr_init",
+    "lr_cont": "lr_cont",
+
+    "limba_materna": "limba_materna",
+    "lm_init": "lm_init",
+    "lm_cont": "lm_cont",
+
+    "disciplina_obligatorie": "disciplina_obligatorie",
+    "do_init": "do_init",
+    "do_cont": "do_cont",
+
+    "disciplina_alegere": "disciplina_alegere",
+    "da_init": "da_init",
+    "da_cont": "da_cont",
+
+    "limba_moderna": "limba_moderna",
+
+    "medie": "medie",
+    "rezultat": "rezultat"
+}

@@ -17,3 +17,5 @@ test.json
 data.sqlite
 .env
 .google-cookie
+
+proxies.txt
