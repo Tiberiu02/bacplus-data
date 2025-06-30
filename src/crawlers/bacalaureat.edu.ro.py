@@ -234,7 +234,6 @@ def main():
             p.join()
 
     fout.close()
-    print("\nScraping complete.")
 
 if __name__ == "__main__":
     main()
