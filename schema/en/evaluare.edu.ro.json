@@ -1,0 +1,18 @@
+{
+    "cod_candidat": "cod_candidat",
+
+    "unitate_nume": "scoala",
+    "unitate_cod_judet": "cod_candidat",
+
+    "lr_init": "lri",
+    "lr_cont": "lrc",
+
+    "limba_materna": "limba_materna",
+    "lm_init": "lmi",
+    "lm_cont": "lmc",
+
+    "ma_init": "mi",
+    "ma_cont": "mc",
+
+    "medie_en": "medie"
+}

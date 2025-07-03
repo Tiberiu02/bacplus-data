@@ -17,8 +17,8 @@ URL = "http://evaluare.edu.ro/Evaluare/CandFromJudAlfa.aspx?Jud=%d&PageN=%d"
 def parse_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("year", type=int)
     parser.add_argument("output_path")
+    parser.add_argument("--num_workers", type=int, default=10)
 
     return parser.parse_args()
 
@@ -85,10 +85,13 @@ if __name__ == "__main__":
     fout = open(args.output_path, "w", newline="", encoding="utf-8")
     writer = csv.writer(fout)
 
+    # Write header
+    writer.writerow(["crt", "cod_candidat", "pozitie_ierarhie", "scoala", "lri", "lrc", "lrf", "mi", "mc", "mf", "limba_materna", "lmi", "lmc", "lmf", "medie"])
+
     progress = tqdm(total=sum(num_pages), unit="page", desc="Downloading pages")
 
     tasks = []
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=args.num_workers) as executor:
         for j_id in range(1, 43):
             for page_id in range(1, num_pages[j_id - 1] + 1):
                 tasks.append(executor.submit(fetch_and_parse_page, j_id, page_id))

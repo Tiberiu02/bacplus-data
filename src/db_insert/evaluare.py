@@ -132,7 +132,7 @@ def parse_row(row, schema, an):
             medie_en = my_medie
 
     medie_abs = parse_grade(row[schema["medie_abs"]]) if "medie_abs" in schema else None
-    medie_adm = parse_grade(row[schema["medie_adm"]]) if "medie_adm" in schema else None
+    medie_adm = parse_grade(row[schema["medie_adm"]]) if "medie_adm" in schema else medie_en
 
     repartizat_liceu_nume = (
         (
