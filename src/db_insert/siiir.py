@@ -8,7 +8,7 @@ load_dotenv()
 
 # Load XLSX file
 
-workbook = load_workbook(filename="data/siiir/2022_2023_retea_scolara.xlsx")
+workbook = load_workbook(filename="data/siiir/2024_2025_retea_scolara.xlsx")
 sheet = workbook.active
 
 num_rows = sheet.max_row
@@ -53,17 +53,17 @@ print(f"Connecting to database...")
 conn = psycopg2.connect(os.getenv("DATABASE_URL"))
 cur = conn.cursor()
 
-cur.execute("SELECT COUNT(*) FROM bacplus.siiir")
+cur.execute("SELECT COUNT(*) FROM public.siiir")
 cnt = cur.fetchone()[0]
 
 print(f"Deleting {cnt} entries from database...")
 
-cur.execute("DELETE FROM bacplus.siiir")
+cur.execute("DELETE FROM public.siiir")
 
 print(f"Inserting {len(data)} entries into database...")
 
 cur.execute(
-    f"INSERT INTO bacplus.siiir({','.join(column_names)}) VALUES "
+    f"INSERT INTO public.siiir({','.join(column_names)}) VALUES "
     + ",".join(
         cur.mogrify(
             "(" + ",".join(["%s"] * len(x)) + ")",

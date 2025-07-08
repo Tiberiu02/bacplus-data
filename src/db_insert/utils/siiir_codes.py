@@ -32,6 +32,10 @@ def cannonical_id_from_name(name, cod_judet):
     # Replace spaces with underscores
     name = name.replace(" ", "_")
 
+    # Increase digit importance
+    for i in range(10):
+        name = name.replace(str(i), str(i) * 10)
+
     return name
 
 
@@ -105,7 +109,7 @@ def compute_siiir_matching(source_schools, db_url, gimnaziu=False):
 
             if ratio <= max_ratio:
                 print(
-                    f"Found similar school '{best_match}' for '{s_name}' with ratio {ratio:.2f} - {unmatched_targets[s_judet][best_match][0]}"
+                    f"Found similar school '{best_match}' for '{s_name}' with ratio {ratio:.2f} - {unmatched_targets[s_judet][best_match]}"
                 )
                 matching[s_name] = best_match
                 unmatched_targets[s_judet].pop(best_match)

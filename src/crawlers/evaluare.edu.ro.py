@@ -13,6 +13,7 @@ load_dotenv()
 
 URL = "http://evaluare.edu.ro/Evaluare/CandFromJudAlfa.aspx?Jud=%d&PageN=%d"
 
+ENTRIES_PER_PAGE = 20
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -58,16 +59,16 @@ def parse_results_page(page):
     return data
 
 
-def fetch_and_parse_page(j_id, page_id):
+def fetch_and_parse_page(j_id, page_id, is_last_page):
     url = URL % (j_id, page_id)
     page = fetch_page(url)
     data = parse_results_page(page)
 
-    if int(data[0][0]) != (page_id - 1) * 20 + 1:
+    if len(data) == 0 or (not is_last_page and len(data) < ENTRIES_PER_PAGE) or int(data[0][0]) != (page_id - 1) * 20 + 1:
         print(f"Error fetching page {page_id} for judet {j_id}. Retrying...")
         # Sleep for a bit to avoid getting blocked
         time.sleep(1)
-        return fetch_and_parse_page(j_id, page_id)
+        return fetch_and_parse_page(j_id, page_id, is_last_page)
 
     return data
 
@@ -94,7 +95,7 @@ if __name__ == "__main__":
     with ThreadPoolExecutor(max_workers=args.num_workers) as executor:
         for j_id in range(1, 43):
             for page_id in range(1, num_pages[j_id - 1] + 1):
-                tasks.append(executor.submit(fetch_and_parse_page, j_id, page_id))
+                tasks.append(executor.submit(fetch_and_parse_page, j_id, page_id, page_id == num_pages[j_id - 1]))
 
         for future in as_completed(tasks):
             data = future.result()

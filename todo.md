@@ -5,7 +5,11 @@ Completed:
   - clean data and schema organization based on data source
 - automatic siiir detection based using Levenstein distance
 
-## To do next:
+## To do:
+
+- script to update school names, new schools (from siiir to institutii table)
+
+## Old to do:
 
 1. Unfork PG schema: current scripts upload to bacplus (not public) schema.
    - Add necessary columns to public tables (bac, en)
