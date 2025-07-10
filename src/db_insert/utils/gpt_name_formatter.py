@@ -64,6 +64,12 @@ def cannonicalize_name(liceu, cod_judet, id=False) -> str:
     # Convert to uppercase
     liceu = liceu.upper()
 
+    # Cannonicalize specific names
+    liceu = liceu.replace("MUNICIPIUL", "MUN")
+    liceu = liceu.replace("RAMNICU", "RM")
+    liceu = liceu.replace("COMUNA", "COM")
+    liceu = liceu.replace("LOCALITATEA GALATI", "MUN GALATI")
+
     # Fix whitespaces
     liceu = re.sub(r" +", " ", liceu)
     liceu = liceu.strip()
@@ -216,6 +222,7 @@ def format_name_basic(name):
     name = name.upper()
     name = name.replace("RIMNICU", "RÂMNICU").replace("RÎMNICU", "RÂMNICU")
     name = name.replace("TIRGU", "TÂRGU").replace("TÎRGU", "TÂRGU")
+    name = name.replace("MUNICIPIUL", "MUN.")
 
     # Fix encoding issues
     name = cannonicalize_name(name, "", id=False)
@@ -235,6 +242,7 @@ def format_name_basic(name):
         "II",
         "III",
         "IV",
+        "UCECOM",
     ]
 
     # Function to capitalize a word if it's not in the blacklist
@@ -256,6 +264,10 @@ def format_name_basic(name):
     if name.count('"') == 2:
         name = name.replace('"', "„", 1)
         name = name.replace('"', "”", 1)
+
+    if name.count('”') > 0 and name[-1] != '”':
+        name = name.replace('”', '”,')
+        name = name.replace(',,', ',')
 
     return name
 

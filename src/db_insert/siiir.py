@@ -3,6 +3,7 @@ import re
 from dotenv import load_dotenv
 import os
 import psycopg2
+from utils.parsing import parse_siiir_code
 
 load_dotenv()
 
@@ -39,7 +40,7 @@ for i in range(start_row + 1, num_rows + 1):
         row.append(cell)
     for j in siiir_columns:
         if row[j] is not None and len(row[j]) > 3:
-            row[j] = row[j][:3] + "1" + row[j][4:]
+            row[j] = parse_siiir_code(row[j])
     data.append(row)
 
 # Insert data into database
