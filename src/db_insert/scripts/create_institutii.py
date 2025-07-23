@@ -32,7 +32,7 @@ siiir = cur.fetchall()
 siiir_dict = {row[0]: row for row in siiir}
 
 cur.execute(
-    "SELECT unitate_siiir, unitate_nume, unitate_cod_judet FROM en_new WHERE unitate_siiir IS NOT NULL AND unitate_nume IS NOT NULL AND unitate_cod_judet IS NOT NULL GROUP BY unitate_siiir, unitate_nume, unitate_cod_judet"
+    "SELECT unitate_siiir, unitate_nume, unitate_cod_judet FROM en WHERE unitate_siiir IS NOT NULL AND unitate_nume IS NOT NULL AND unitate_cod_judet IS NOT NULL GROUP BY unitate_siiir, unitate_nume, unitate_cod_judet"
 )
 institutii_en = cur.fetchall()
 

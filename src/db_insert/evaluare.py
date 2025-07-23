@@ -81,6 +81,8 @@ rows = load_data_file(args.data_file)
 
 
 def parse_row(row, schema, an):
+    # print(row)
+
     cod_candidat = parse_cod_candidat(row[schema["cod_candidat"]])
 
     sex = parse_sex(row[schema["sex"]]) if "sex" in schema else None
@@ -155,6 +157,10 @@ def parse_row(row, schema, an):
         else None
     )
 
+    if repartizat_liceu_nume == '' or specializare == '':
+        repartizat_liceu_nume = None
+        specializare = None
+        repartizat_cod_judet = None
     if specializare is not None and specializare.lower() == "nerepartizat":
         specializare = None
     if specializare is not None:
@@ -226,6 +232,8 @@ if args.detect_siiir_repartizare:
             row["repartizat_liceu_siiir"] = get_siiir_by_name(
                 row["repartizat_liceu_nume"], row["repartizat_cod_judet"]
             )
+        else:
+            row["repartizat_liceu_siiir"] = None
 
 # Insert data into database
 

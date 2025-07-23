@@ -3,6 +3,7 @@ import psycopg2
 import unidecode
 from Levenshtein import ratio, distance
 
+from utils.gpt_name_formatter import cannonicalize_name
 from utils.parsing import fix_name_encoding
 
 institutions_table_name = "public.institutii"
@@ -10,7 +11,14 @@ siiir_table_name = "public.siiir"
 
 
 def cannonical_id_from_name(name, cod_judet):
-    name = fix_name_encoding(name)
+    cname = cannonicalize_name(name, cod_judet, id=True)
+    cname = cname[:-1-len(cod_judet)]  # Remove county code
+    cname = cod_judet + '_' + cname  # Add county code at the beginning
+    # Increase digit importance
+    for i in range(10):
+        cname = cname.replace(str(i), str(i) * 10)
+    cname = fix_name_encoding(cname)
+    return cname
 
     # Remove underscores
     name = name.replace("_", " ")
@@ -89,7 +97,7 @@ def compute_siiir_matching(source_schools, db_url, gimnaziu=False):
             unmatched_sources.append((name, cod_judet))
 
     # Levenshtein matches
-    max_ratios = [0.1, 0.2, 0.3, 0.4] if not gimnaziu else [0.1, 0.2]
+    max_ratios = [0.1, 0.2, 0.3, 0.4] if not gimnaziu else [0.0]
     for max_ratio in max_ratios:
         for s_name, s_judet in unmatched_sources[:]:
             if len(unmatched_targets[s_judet]) == 0:

@@ -1,0 +1,14 @@
+{
+    "cod_candidat": "cod_candidat",
+
+    "unitate_nume": "scoala",
+    "unitate_cod_judet": "cod_candidat",
+
+    "medie_en": "mev",
+    "medie_abs": "mabs",
+    "medie_adm": "madm",
+
+    "repartizat_liceu_nume": "repartizat_liceu_nume",
+    "repartizat_specializare": "repartizat_specializare",
+    "repartizat_cod_judet": "repartizat_cod_judet"
+}

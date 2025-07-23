@@ -69,6 +69,7 @@ def cannonicalize_name(liceu, cod_judet, id=False) -> str:
     liceu = liceu.replace("RAMNICU", "RM")
     liceu = liceu.replace("COMUNA", "COM")
     liceu = liceu.replace("LOCALITATEA GALATI", "MUN GALATI")
+    liceu = liceu.replace("LOCALITATEA TECUCI", "MUN TECUCI")
 
     # Fix whitespaces
     liceu = re.sub(r" +", " ", liceu)

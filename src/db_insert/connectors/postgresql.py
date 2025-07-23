@@ -49,7 +49,7 @@ def pg_insert(data, table_name, db_url, filter, replacement_key=None):
         print(f"Updating {len(data)} entries into database...")
         for chunk in tqdm(chunks):
             data_cols_chunk = [
-                col for col in data_cols if any(x[col] is not None for x in chunk)
+                col for col in data_cols if any(col in x and x[col] is not None for x in chunk)
             ]
 
             for x in chunk:
@@ -63,7 +63,7 @@ def pg_insert(data, table_name, db_url, filter, replacement_key=None):
                 + ",".join(
                     cur.mogrify(
                         "(" + ",".join(["%s"] * len(data_cols_chunk)) + ")",
-                        [x[col] for col in data_cols_chunk],
+                        [x[col] if col in x else None for col in data_cols_chunk],
                     ).decode("utf-8")
                     for x in chunk
                 )
