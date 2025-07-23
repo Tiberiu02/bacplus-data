@@ -171,7 +171,8 @@ def parse_row(row, schema, an):
         specializare = specializare.strip()
         if limba.count("/") > 0:
             specializare = specializare + ", " + limba.split("/")[-1].strip()
-        specializare = id_specializare + " " + specializare
+        # Id is pointless (might change from year to year, it's just for the aplication form)
+        # specializare = id_specializare + " " + specializare
 
     return {
         "an": an,
