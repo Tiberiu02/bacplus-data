@@ -1,13 +1,6 @@
-Completed:
-
-- refactored codebase and data:
-  - clean organization of code with full postgres support
-  - clean data and schema organization based on data source
-- automatic siiir detection based using Levenstein distance
-
 ## To do:
 
-- script to update school names, new schools (from siiir to institutii table)
+Please use GDrive / Bacplus / Bacplus planning
 
 ## Old to do:
 
