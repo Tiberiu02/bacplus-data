@@ -93,13 +93,13 @@ def fetch_and_parse_page(id_judet, target_page, prev_page, payload, is_last_page
         rows = extract_rows(soup)
         payload = extract_payload(soup)
 
-        if (
-            len(rows) == 0
-            or (len(rows) < 20 and not is_last_page)
-            or int(rows[0][0]) != (target_page - 1) * 20 + 1
-        ):
+        if (int(rows[0][0]) != (target_page - 1) * 20 + 1):
             raise ValueError(
                 f"Expected first row id {target_page - 1} * 20 + 1 = {(target_page - 1) * 20 + 1}, got {rows}"
+            )
+        elif (len(rows) == 0 or (len(rows) < 20 and not is_last_page)):
+            raise ValueError(
+                f"Expected 20 rows, got {len(rows)} rows for page {target_page} of judet {id_judet}"
             )
 
         for param in [
@@ -127,12 +127,13 @@ def fetch_and_parse_page(id_judet, target_page, prev_page, payload, is_last_page
 
 args = parse_args()
 
-num_pages = [81, 184, 119, 791, 174, 158, 91, 70, 121, 172, 112, 205, 63, 65, 218, 47, 135, 178, 100, 152, 46, 96, 87, 54, 71, 246, 61, 133, 133, 135, 105, 227, 121, 64, 81, 250, 50, 214, 80, 103, 97, 111]
-# for j in tqdm(range(1, NUM_JUDETE + 1), desc="Fetching num. pages"):
-#     page = fetch_page(URL % j)
-#     soup = BeautifulSoup(page, "html.parser")
-#     payload = extract_payload(soup)
-#     num_pages.append(extract_num_pages(soup))
+num_pages = []
+
+for j in tqdm(range(1, NUM_JUDETE + 1), desc="Fetching num. pages"):
+    page = fetch_page(URL % j)
+    soup = BeautifulSoup(page, "html.parser")
+    payload = extract_payload(soup)
+    num_pages.append(extract_num_pages(soup))
 
 print(num_pages)
 bar = tqdm(total=sum(num_pages), desc="Downloading pages")

@@ -74,6 +74,7 @@ parser.add_argument("schema_file", type=str)
 parser.add_argument("--update-existing", action="store_true")
 parser.add_argument("--detect-siiir", action="store_true")
 parser.add_argument("--detect-siiir-repartizare", action="store_true")
+parser.add_argument("--ignore-duplicates", action="store_true")
 args = parser.parse_args()
 
 schema = load_schema(args.schema_file)
@@ -237,6 +238,19 @@ if args.detect_siiir_repartizare:
             row["repartizat_liceu_siiir"] = None
 
 # Insert data into database
+
+if args.ignore_duplicates:
+    new_data = []
+    seen = set()
+
+    for row in data:
+        key = row["cod_candidat"]
+        if key not in seen:
+            seen.add(key)
+            new_data.append(row)
+
+    data = new_data
+
 
 pg_insert(
     data,

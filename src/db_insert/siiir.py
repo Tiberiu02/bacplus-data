@@ -1,3 +1,4 @@
+import argparse
 from openpyxl import load_workbook
 import re
 from dotenv import load_dotenv
@@ -7,9 +8,13 @@ from utils.parsing import parse_siiir_code
 
 load_dotenv()
 
+parser = argparse.ArgumentParser()
+parser.add_argument("data_file", type=str)
+args = parser.parse_args()
+
 # Load XLSX file
 
-workbook = load_workbook(filename="data/siiir/2024_2025_retea_scolara.xlsx")
+workbook = load_workbook(filename=args.data_file)
 sheet = workbook.active
 
 num_rows = sheet.max_row
